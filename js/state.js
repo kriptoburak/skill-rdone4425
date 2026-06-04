@@ -30,8 +30,8 @@
     category: 'all',
     subgroup: null,
     sort: 'stars-desc',
-    groupBy: 'agent',
-    viewMode: 'grouped',
+    groupBy: 'none',
+    viewMode: 'flat',
     page: 1
   };
 

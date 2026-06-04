@@ -89,14 +89,14 @@
     wrap.innerHTML = '';
 
     const allTab = document.createElement('button');
-    allTab.className = 'cat-tab' + (state.category === 'all' ? ' active' : '');
+    allTab.className = 'tab cat-tab' + (state.category === 'all' ? ' active' : '');
     allTab.dataset.id = 'all';
     allTab.textContent = hub.i18n.t('categoryAll');
     wrap.appendChild(allTab);
 
     state.categories.forEach(cat => {
       const btn = document.createElement('button');
-      btn.className = 'cat-tab' + (state.category === cat.id ? ' active' : '');
+      btn.className = 'tab cat-tab' + (state.category === cat.id ? ' active' : '');
       btn.dataset.id = cat.id;
       btn.innerHTML = `${cat.icon || s.getAgentMeta(cat.id).icon} ${s.getAgentLabel(cat.id)}`;
       wrap.appendChild(btn);
@@ -117,14 +117,14 @@
     wrap.hidden = false;
 
     const allBtn = document.createElement('button');
-    allBtn.className = 'sub-tab' + (!state.subgroup ? ' active' : '');
+    allBtn.className = 'subgroup-tab sub-tab' + (!state.subgroup ? ' active' : '');
     allBtn.dataset.group = '';
     allBtn.textContent = hub.i18n.t('categoryAll');
     wrap.appendChild(allBtn);
 
     cat.groups.forEach(group => {
       const btn = document.createElement('button');
-      btn.className = 'sub-tab' + (state.subgroup === group.id ? ' active' : '');
+      btn.className = 'subgroup-tab sub-tab' + (state.subgroup === group.id ? ' active' : '');
       btn.dataset.group = group.id;
       btn.textContent = s.getGroupLabel(group.id) || group.label;
       wrap.appendChild(btn);
@@ -155,24 +155,48 @@
     const meta = s.getAgentMeta(agentId);
     const color = meta.color || '#6b7280';
     const card = document.createElement('article');
-    card.className = 'card';
-    card.style.setProperty('--accent', color);
+    card.className = 'skill-card card';
+    card.style.setProperty('--card-accent', color);
     card.innerHTML = `
-      <div class="card-header">
-        <span class="skill-name">${skill.name}</span>
-        <span class="repo-stars" title="${skill.stars.toLocaleString()}">⭐ ${s.STAR_FMT(skill.stars)}</span>
+      <div class="card-head">
+        <div class="card-icon">${meta.icon || '📦'}</div>
+        <div class="card-title-wrap">
+          <div class="card-name">${skill.name}</div>
+          <div class="card-repo">
+            <a href="https://github.com/${skill.repo}" target="_blank" rel="noopener">${skill.repo}</a>
+            <span class="card-stars" title="${skill.stars.toLocaleString()}">⭐ ${s.STAR_FMT(skill.stars)}</span>
+          </div>
+        </div>
       </div>
-      <p class="skill-desc">${skill.desc}</p>
+      <p class="card-desc">${skill.desc}</p>
       <div class="card-meta">
-        <span class="source-tag" style="background:${color}20;color:${color}">${meta.icon || '📦'} ${s.getAgentLabel(agentId)}</span>
-        <span class="group-tag">🏷️ ${s.getGroupLabel(skill.group || 'other')}</span>
+        <span class="source-tag" style="background:${color}18;color:${color};border-color:${color}33">${meta.icon || '📦'} ${s.getAgentLabel(agentId)}</span>
+        <span class="card-group">${s.getGroupLabel(skill.group || 'other')}</span>
       </div>
-      <div class="card-actions">
-        <a class="btn-link" href="https://github.com/${skill.repo}" target="_blank" rel="noopener">🔗 ${hub.i18n.t('viewOnGitHub')}</a>
-        <span class="btn-install" title="${skill.install}">$ ${skill.install}</span>
+      <div class="card-install" title="${skill.install}">
+        <code>$ ${skill.install}</code>
+      </div>
+      <div class="card-footer">
+        <a class="card-link" href="https://github.com/${skill.repo}" target="_blank" rel="noopener">↗ ${hub.i18n.t('viewOnGitHub')}</a>
+        <span class="card-link card-link-muted">${hub.i18n.t('install')}</span>
       </div>
     `;
     return card;
+  }
+
+  function renderHeaderStats() {
+    const wrap = document.getElementById('stats');
+    if (!wrap) return;
+
+    const skills = state.data.length;
+    const agents = state.categories.length;
+    const repos = new Set(state.data.map(item => item.repo)).size;
+
+    wrap.innerHTML = `
+      <span class="stat-pill"><strong>${skills}</strong><span>${hub.i18n.t('skills')}</span></span>
+      <span class="stat-pill"><strong>${agents}</strong><span>Agents</span></span>
+      <span class="stat-pill"><strong>${repos}</strong><span>Repos</span></span>
+    `;
   }
 
   function renderGroupedView(list) {
@@ -352,6 +376,7 @@
 
   function renderAll() {
     s.syncControls();
+    renderHeaderStats();
     renderFilters();
     renderStats();
     render();

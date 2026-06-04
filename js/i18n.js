@@ -33,9 +33,13 @@ window.I18N = (function () {
       // 主分类 Tab
       tabAll: "全部",
       tabOfficial: "官方精选",
+      tabClaude: "Claude Skills",
       tabCommunity: "社区清单",
       tabTools: "CLI 工具",
       tabGeneral: "通用 Skills",
+      tabHermes: "Hermes Agent",
+      tabOpenclaw: "OpenClaw",
+      tabOpencode: "OpenCode",
 
       // 子分组 Tab（official 下的子分类）
       subgroupAll: "全部",
@@ -63,9 +67,13 @@ window.I18N = (function () {
 
       // 分类描述
       catOfficial: "OpenAI 官方精选的 skills，$skill-installer 可直接安装",
-      catCommunity: "社区维护的 awesome 清单，收录各种 Codex skills",
+      catClaude: "Anthropic Claude 官方 skills — PDF、Word、Excel、PowerPoint、设计等",
+      catCommunity: "社区维护的 awesome 清单，收录各种 Codex/Agent skills",
       catTools: "配合 Codex 使用的 CLI 工具 — proxy、router、wrapper",
       catGeneral: "通用 AI agent skills — 多端兼容（Codex/Claude Code/OpenCode）",
+      catHermes: "NousResearch Hermes Agent — 自我成长的 AI 代理",
+      catOpenclaw: "OpenClaw — 跨平台 AI 助理（任何 OS、任何平台）",
+      catOpencode: "OpenCode — 终端 AI 编程代理",
 
       // 头部统计
       statSkills: "Skills",
@@ -95,12 +103,16 @@ window.I18N = (function () {
       // 搜索
       searchPlaceholder: "Search skills / repos / descriptions…",
       searchClearTitle: "Clear",
-
+      // 主分类 Tab
       tabAll: "All",
       tabOfficial: "Official Curated",
+      tabClaude: "Claude Skills",
       tabCommunity: "Community Lists",
       tabTools: "CLI Tools",
       tabGeneral: "General Skills",
+      tabHermes: "Hermes Agent",
+      tabOpenclaw: "OpenClaw",
+      tabOpencode: "OpenCode",
 
       subgroupAll: "All",
       groupFigma: "Figma",
@@ -123,9 +135,13 @@ window.I18N = (function () {
       aboutP2: 'Deployed on <a href="https://pages.cloudflare.com" target="_blank" rel="noopener">Cloudflare Pages</a>, source on <a href="https://github.com/rdone4425/skill" target="_blank" rel="noopener">GitHub</a>. PRs and issues welcome.',
 
       catOfficial: "OpenAI's official curated skills, installable via $skill-installer",
-      catCommunity: "Community-maintained awesome lists of various Codex skills",
+      catClaude: "Anthropic Claude's official skills — PDF, Word, Excel, PowerPoint, design, and more",
+      catCommunity: "Community-maintained awesome lists of Codex/Agent skills",
       catTools: "CLI tools for Codex — proxy, router, wrapper",
       catGeneral: "General AI agent skills — cross-platform (Codex / Claude Code / OpenCode)",
+      catHermes: "NousResearch Hermes Agent — the agent that grows with you",
+      catOpenclaw: "OpenClaw — cross-platform AI assistant (any OS, any platform)",
+      catOpencode: "OpenCode — AI coding agent for the terminal",
 
       statSkills: "Skills",
       statSources: "Sources",

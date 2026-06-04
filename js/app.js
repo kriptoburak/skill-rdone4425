@@ -22,40 +22,11 @@
     return;
   }
 
-  // 源 → 颜色的映射
-  const sourceColor = {
-    official: "#6366f1",
-    community: "#10b981",
-    tools: "#f59e0b",
-    general: "#ec4899",
-  };
+  // 工具函数：从 category id 生成 i18n key
+  // 例如 claude → tabClaude, catClaude
+  const idToI18nKey = (id) => id[0].toUpperCase() + id.slice(1);
 
-  // 源 → 图标
-  const sourceIcon = {
-    official: "🎯",
-    community: "🌟",
-    tools: "🛠",
-    general: "🤖",
-  };
-
-  // 源 → i18n 描述 key
-  const sourceDescKey = {
-    official: "catOfficial",
-    community: "catCommunity",
-    tools: "catTools",
-    general: "catGeneral",
-  };
-
-  // 分组 → i18n 标签 key
-  const groupLabelKey = {
-    figma: "groupFigma",
-    github: "groupGithub",
-    notion: "groupNotion",
-    playwright: "groupPlaywright",
-    deploy: "groupDeploy",
-    security: "groupSecurity",
-    other: "groupOther",
-  };
+  // ========== 工具 ==========
 
   // 状态
   const state = {
@@ -113,15 +84,43 @@
 
   // ========== 渲染 ==========
 
+  function getCategory(id) {
+    return data.categories.find((c) => c.id === id);
+  }
+
+  // group id → i18n key (groupFigma, groupGithub, ...)
+  // 由于 group 是从 data.categories[0].groups 动态来的
+  function groupI18nKey(groupId) {
+    return "group" + groupId[0].toUpperCase() + groupId.slice(1);
+  }
+
+  function renderCategoryTabs() {
+    const nav = document.getElementById("category-tabs");
+    if (!nav) return;
+    const allTab = '<button class="tab active" data-source="all" role="tab">' +
+      '<span class="tab-icon">◉</span><span data-i18n="tabAll">' + I18N.t("tabAll") + '</span>' +
+      '</button>';
+    const catTabs = data.categories.map((c) => {
+      const key = idToI18nKey(c.id);
+      const isActive = state.currentSource === c.id;
+      return `<button class="tab ${isActive ? "active" : ""}" data-source="${c.id}" role="tab">` +
+        `<span class="tab-icon">${c.icon}</span>` +
+        `<span data-i18n="tab${key}">${I18N.t("tab" + key) || c.label}</span>` +
+        '</button>';
+    }).join('');
+    nav.innerHTML = allTab + catTabs;
+  }
+
   function renderSkillCard(skill) {
-    const color = sourceColor[skill.source] || "var(--accent)";
-    const icon = sourceIcon[skill.source] || "📦";
+    const cat = getCategory(skill.source);
+    const color = (cat && cat.color) || "var(--accent)";
+    const icon = (cat && cat.icon) || "📦";
     const card = document.createElement("article");
     card.className = "skill-card";
     card.style.setProperty("--card-accent", color);
 
     const groupLabel = skill.group
-      ? `<span class="card-group">${escapeHtml(I18N.t(groupLabelKey[skill.group]) || skill.group)}</span>`
+      ? `<span class="card-group">${escapeHtml(I18N.t(groupI18nKey(skill.group)) || skill.group)}</span>`
       : "";
 
     card.innerHTML = `
@@ -157,7 +156,7 @@
       $categoryDesc.innerHTML = "";
       return;
     }
-    const key = sourceDescKey[state.currentSource];
+    const key = "cat" + idToI18nKey(state.currentSource);
     if (!key) {
       $categoryDesc.hidden = true;
       return;
@@ -214,7 +213,7 @@
       ${groups
         .map(
           (g) =>
-            `<button class="subgroup-tab ${state.currentGroup === g.id ? "active" : ""}" data-group="${g.id}">${escapeHtml(I18N.t(groupLabelKey[g.id]) || g.label)}</button>`
+            `<button class="subgroup-tab ${state.currentGroup === g.id ? "active" : ""}" data-group="${g.id}">${escapeHtml(I18N.t(groupI18nKey(g.id)) || g.label)}</button>`
         )
         .join("")}
     `;
@@ -304,6 +303,7 @@
   function bindLanguageChange() {
     // i18n.set() 触发 languagechange 事件，重新渲染依赖语言的部分
     window.addEventListener("languagechange", () => {
+      renderCategoryTabs();
       renderSubgroupTabs();
       renderCategoryDesc();
       renderResults();
@@ -326,6 +326,7 @@
     // 先应用 i18n（更新所有 data-i18n 元素）
     I18N.apply();
     // 然后渲染
+    renderCategoryTabs();
     renderStats();
     renderCategoryDesc();
     renderSubgroupTabs();

@@ -394,8 +394,9 @@ function applyI18n(lang) {
     const color = meta.color || '#6b7280';
     const icon = meta.icon || '📦';
     const agentLabel = SKILL_HUB_I18N[lang][`category${skill.source.charAt(0).toUpperCase() + skill.source.slice(1)}`] || skill.source;
-    const groupKey = 'group_' + skill.group.replace(/-/g, '_');
-    const groupLabel = SKILL_HUB_I18N[lang][groupKey] || skill.group;
+    const _grp = skill.group || 'other';
+    const groupKey = 'group_' + _grp.replace(/-/g, '_');
+    const groupLabel = SKILL_HUB_I18N[lang][groupKey] || _grp;
 
     const card = document.createElement('article');
     card.className = 'card';

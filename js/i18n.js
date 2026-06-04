@@ -16,6 +16,16 @@ window.I18N = (function () {
 
   const STRINGS = {
     zh: {
+      // 头部品牌
+      brandName: "Codex Skills Hub",
+      brandTagline: "OpenAI Codex 技能 · 官方精选 + 社区",
+
+      // 页面 title / description / og
+      pageTitle: "Codex Skills Hub — OpenAI Codex 技能索引",
+      pageDescription: "OpenAI Codex 技能精选索引 — 官方 39 个技能、社区清单、CLI 工具、通用 agent 技能",
+      ogTitle: "Codex Skills Hub — OpenAI Codex 技能索引",
+      ogDescription: "56+ 个 Codex 技能，源自 17 个仓库 — 官方精选、社区清单、CLI 工具",
+
       // 搜索
       searchPlaceholder: "搜索 skills / 仓库 / 描述…",
       searchClearTitle: "清空",
@@ -71,8 +81,18 @@ window.I18N = (function () {
       langZh: "中",
       langEn: "EN",
     },
-
     en: {
+      // 头部品牌
+      brandName: "Codex Skills Hub",
+      brandTagline: "OpenAI Codex Skills · Official + Community",
+
+      // 页面 title / description / og
+      pageTitle: "Codex Skills Hub — OpenAI Codex Skills Index",
+      pageDescription: "Curated index of OpenAI Codex skills — 39 official curated, community lists, CLI tools, and general agent skills.",
+      ogTitle: "Codex Skills Hub — OpenAI Codex Skills Index",
+      ogDescription: "56+ Codex skills from 17 sources — official curated, community lists, CLI tools.",
+
+      // 搜索
       searchPlaceholder: "Search skills / repos / descriptions…",
       searchClearTitle: "Clear",
 
@@ -178,7 +198,19 @@ window.I18N = (function () {
       if (val) el.title = val;
     });
 
-    // 5. 更新语言切换器高亮
+    // 5. head 里的 <title> 和 <meta> 翻译（动态改浏览器标题和 SEO）
+    const headTitle = document.querySelector("title[data-i18n], head title");
+    if (headTitle && headTitle.dataset.i18n) {
+      const val = t(headTitle.dataset.i18n);
+      if (val) document.title = val;
+    }
+    document.querySelectorAll("meta[data-i18n]").forEach((el) => {
+      const key = el.dataset.i18n;
+      const val = t(key);
+      if (val) el.setAttribute("content", val);
+    });
+
+    // 6. 更新语言切换器高亮
     document.querySelectorAll(".lang-btn").forEach((btn) => {
       btn.classList.toggle("active", btn.dataset.lang === current);
     });

@@ -88,13 +88,15 @@ GitHub Actions 每周一 UTC 00:00 自动跑一次：
 
 - 工作流：`.github/workflows/update-skills.yml`
 - 抓取脚本：`scripts/fetch-skills.py`
-- 抓取后用 `peter-evans/create-pull-request-action` 自动开 PR
-- 你只需要在 PR 里 review → merge → CF Pages 重新部署
+- 抓取后**直接 commit + push 到 main**（不走 PR 流程）
+- CF Pages / Vercel 监听到 push 后自动重新部署
+- 无变化时自动跳过（不会产生空 commit）
 
 **手动触发**：
 1. 打开 https://github.com/rdone4425/skill/actions
 2. 选 **Update Codex Skills**
 3. 点 **Run workflow**
+4. 可选勾 "Dry run" 只抓数据不提交
 
 **调整更新频率**：编辑 `.github/workflows/update-skills.yml` 的 `cron` 字段
 - `0 0 * * 1` — 每周一
@@ -102,6 +104,12 @@ GitHub Actions 每周一 UTC 00:00 自动跑一次：
 - `0 */6 * * *` — 每 6 小时
 
 **添加新仓库到自动抓取**：编辑 `scripts/fetch-skills.py` 的 `KNOWN_REPOS` 字典。
+
+**回滚一次更新**：
+```bash
+git revert HEAD    # 创建反向 commit
+git push
+```
 
 ## 📊 数据来源
 

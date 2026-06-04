@@ -276,7 +276,7 @@ def infer_group(skill_name):
 # ============================================================
 def main():
     today = time.strftime("%Y-%m-%d")
-    print(f"🚀 Codex Skills Hub — fetch-skills.py @ {today}")
+    print(f"🚀 Skill Hub — fetch-skills.py @ {today}")
     print(f"   GITHUB_TOKEN: {'set' if GITHUB_TOKEN else 'NOT set (rate limit 60/h)'}")
     print()
 
@@ -415,8 +415,8 @@ def main():
 
     # 5. 生成 data.js
     meta = {
-        "title": "Codex Skills Hub",
-        "description": "Curated index of OpenAI Codex skills — official + community",
+        "title": "Skill Hub",
+        "description": "AI Agent Skills 导航站 — Codex · Claude · Hermes · OpenCode · OpenClaw",
         "lastUpdated": today,
         "totalCount": len(all_skills),
         "sources": len(sources),

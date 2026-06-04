@@ -1,23 +1,29 @@
-# 🎯 Codex Skills Hub
+# 🎯 Skill Hub — AI Agent Skills 导航站
 
-> Curated index of OpenAI Codex skills — official + community
+> **77+ skills** from **23 sources** — OpenAI Codex · Claude · Hermes Agent · OpenCode · OpenClaw
 
-一个静态网页，收录 **56 个 Codex skills** 来自 **17 个仓库**：
-- 🎯 官方精选 39 个（来自 `openai/skills`）
-- 🌟 社区清单 4 个（awesome-codex-* 系列）
-- 🛠 Codex CLI 配套工具 3 个
-- 🤖 通用 Agent Skills 10 个（兼容 Codex / Claude Code / OpenCode）
+一个静态网页，收录各类 **AI Agent Skills**：
+- 🎯 **OpenAI Codex** 官方精选 39 个（来自 `openai/skills`）
+- 🎭 **Claude** 官方技能 17 个（来自 `anthropics/skills`）
+- 🌟 **社区清单** 5 个（awesome-* 系列）
+- 🛠 **Codex CLI 配套工具** 3 个
+- 🤖 **通用 Agent Skills** 10 个（兼容 Codex / Claude Code / OpenCode）
+- 🦉 **Hermes Agent** · 🦞 **OpenClaw** · ⌨️ **OpenCode**
+
+**关键词**：skill, skills, AI agent, codex, claude code, opencode, hermes agent, openclaw, MCP, agent skills, 技能导航, awesome list
 
 **特点**：
 - 暗色主题，零依赖（纯 HTML + CSS + JS）
 - 响应式（手机 / 平板 / 桌面）
 - 客户端搜索 + 分类过滤
 - 一键复制 install 命令
+- 中英文切换
 - 数据驱动（修改 `js/data.js` 即可）
+- SEO 优化（JSON-LD、Open Graph、Twitter Card）
 
 ## 🖥 在线访问
 
-部署在 Cloudflare Pages：[https://skill.pages.dev](https://skill.pages.dev)
+**https://skill.pages.dev** — 部署在 Cloudflare Pages
 
 ## 🚀 本地运行
 
@@ -47,12 +53,18 @@ python3 -m http.server 8000
 
 ```
 skill/
-├── index.html           # 主页面
+├── index.html           # 主页面（SEO 优化 + JSON-LD 结构化数据）
 ├── css/
 │   └── style.css        # 暗色主题样式
 ├── js/
 │   ├── data.js          # 所有 skills 数据（修改这里）
+│   ├── i18n.js          # 中英文翻译
 │   └── app.js           # 渲染逻辑
+├── scripts/
+│   └── fetch-skills.py  # 自动抓取脚本
+├── .github/
+│   └── workflows/
+│       └── update-skills.yml  # 每周自动更新
 ├── LICENSE              # MIT
 └── README.md            # 本文件
 ```
@@ -66,7 +78,7 @@ skill/
 ```javascript
 {
   name: "my-skill",                    // skill 名字
-  source: "official",                  // official | community | tools | general
+  source: "official",                  // official | claude | community | tools | general | hermes | openclaw | opencode
   group: "figma",                      // official 下分组（figma/github/notion/...）
   repo: "openai/skills",               // GitHub 仓库
   stars: 21251,                        // GitHub stars
@@ -82,7 +94,7 @@ skill/
 
 `scripts/fetch-skills.py` 会自动从 GitHub API 抓取：
 - 官方 39 个 curated skills 的 SKILL.md frontmatter（name、description、stars）
-- 17 个社区/工具/通用仓库的最新 stars 和描述
+- 23 个社区/工具/通用仓库的最新 stars 和描述
 
 GitHub Actions 每周一 UTC 00:00 自动跑一次：
 
@@ -116,13 +128,18 @@ git push
 | 来源 | 数量 | 链接 |
 |---|---:|---|
 | `openai/skills` (.curated) | 39 | https://github.com/openai/skills |
+| `anthropics/skills` | 17 | https://github.com/anthropics/skills |
 | `ComposioHQ/awesome-codex-skills` | 1 | https://github.com/ComposioHQ/awesome-codex-skills |
 | `VoltAgent/awesome-codex-subagents` | 1 | https://github.com/VoltAgent/awesome-codex-subagents |
 | `hashgraph-online/awesome-codex-plugins` | 1 | https://github.com/hashgraph-online/awesome-codex-plugins |
 | `RoggeOhta/awesome-codex-cli` | 1 | https://github.com/RoggeOhta/awesome-codex-cli |
+| `JackyST0/awesome-agent-skills` | 1 | https://github.com/JackyST0/awesome-agent-skills |
 | `router-for-me/CLIProxyAPI` | 1 | https://github.com/router-for-me/CLIProxyAPI |
 | `decolua/9router` | 1 | https://github.com/decolua/9router |
 | `openai/codex` | 1 | https://github.com/openai/codex |
+| `nousresearch/hermes-agent` | 1 | https://github.com/NousResearch/hermes-agent |
+| `openclaw/openclaw` | 1 | https://github.com/openclaw/openclaw |
+| `opencode-ai/opencode` | 1 | https://github.com/opencode-ai/opencode |
 | 其他通用 skills | 10 | — |
 
 最后更新：**2026-06-04**

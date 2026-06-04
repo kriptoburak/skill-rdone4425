@@ -5,8 +5,8 @@
 
 window.SKILL_DATA = {
   "meta": {
-    "title": "Codex Skills Hub",
-    "description": "Curated index of OpenAI Codex skills — official + community",
+    "title": "Skill Hub",
+    "description": "AI Agent Skills 导航站 — Codex · Claude · Hermes · OpenCode · OpenClaw",
     "lastUpdated": "2026-06-04",
     "totalCount": 77,
     "sources": 23

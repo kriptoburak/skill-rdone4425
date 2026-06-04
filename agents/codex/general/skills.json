@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "agent": "codex",
+    "functionCategory": "general",
+    "count": 1,
+    "sourceData": "js/data.js"
+  },
+  "skills": [
+    {
+      "name": "codex-skills-library",
+      "source": "general",
+      "agent": "codex",
+      "group": null,
+      "repo": "proflead/codex-skills-library",
+      "stars": 106,
+      "desc": "Codex Skills Library is a curated library of reusable Codex skills for developers, individuals, and teams.",
+      "url": "https://github.com/proflead/codex-skills-library",
+      "install": "git clone https://github.com/proflead/codex-skills-library.git",
+      "functionCategory": "general"
+    }
+  ]
+}

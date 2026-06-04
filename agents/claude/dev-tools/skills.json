@@ -2,7 +2,7 @@
   "meta": {
     "agent": "claude",
     "functionCategory": "dev-tools",
-    "count": 27,
+    "count": 28,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -328,6 +328,18 @@
       "desc": "A meta-skill that produces skills. Point it at any codebase and it distills the project's rules, workflows, and hard-won lessons into a dedicated skills/<name>/ directory — a project skill that become",
       "url": "https://github.com/WoJiSama/skill-based-architecture",
       "install": "git clone https://github.com/WoJiSama/skill-based-architecture.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "claude-hud",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "jarrodwatts/claude-hud",
+      "stars": 24478,
+      "desc": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
+      "url": "https://github.com/jarrodwatts/claude-hud",
+      "install": "npm i -g claude-hud",
       "functionCategory": "dev-tools"
     }
   ]

@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "agent": "opencode",
+    "functionCategory": "dev-tools",
+    "count": 1,
+    "sourceData": "js/data.js"
+  },
+  "skills": [
+    {
+      "name": "opencode-claude-auth",
+      "source": "general",
+      "agent": "opencode",
+      "group": null,
+      "repo": "griffinmartin/opencode-claude-auth",
+      "stars": 1049,
+      "desc": "OpenCode plugin that uses your existing Claude Code credentials — no separate login needed. ",
+      "url": "https://github.com/griffinmartin/opencode-claude-auth",
+      "install": "npm i -g opencode-claude-auth",
+      "functionCategory": "dev-tools"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "meta": {
     "agent": "multi",
     "functionCategory": "general",
-    "count": 1,
+    "count": 8,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -16,6 +16,90 @@
       "desc": "A curated list of awesome Agent Skills for automating legal work",
       "url": "https://github.com/lawve-ai/awesome-legal-skills",
       "install": "git clone https://github.com/lawve-ai/awesome-legal-skills.git # browse the awesome list",
+      "functionCategory": "general"
+    },
+    {
+      "name": "last30days-skill",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "mvanhorn/last30days-skill",
+      "stars": 27505,
+      "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "install": "git clone https://github.com/mvanhorn/last30days-skill.git",
+      "functionCategory": "general"
+    },
+    {
+      "name": "awesome-agent-skills",
+      "source": "community",
+      "agent": "multi",
+      "group": null,
+      "repo": "libukai/awesome-agent-skills",
+      "stars": 4601,
+      "desc": "Agent Skills 终极指南：快速入门、资源推荐、精选技能与实用工具 ｜The Ultimate Guide to Agent Skills: QuickStart, Resources, Features&Toolkit",
+      "url": "https://github.com/libukai/awesome-agent-skills",
+      "install": "git clone https://github.com/libukai/awesome-agent-skills.git",
+      "functionCategory": "general"
+    },
+    {
+      "name": "anysearch-skill",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "anysearch-ai/anysearch-skill",
+      "stars": 2401,
+      "desc": "Unified real-time search engine skill for AI agents. ",
+      "url": "https://github.com/anysearch-ai/anysearch-skill",
+      "install": "git clone https://github.com/anysearch-ai/anysearch-skill.git",
+      "functionCategory": "general"
+    },
+    {
+      "name": "Deep-Research-skills",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "Weizhena/Deep-Research-skills",
+      "stars": 978,
+      "desc": "Structured deep research skill for Claude Code/Open Code/Codex with human-in-the-loop control",
+      "url": "https://github.com/Weizhena/Deep-Research-skills",
+      "install": "git clone https://github.com/Weizhena/Deep-Research-skills.git",
+      "functionCategory": "general"
+    },
+    {
+      "name": "antigravity-skills",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "guanyang/antigravity-skills",
+      "stars": 856,
+      "desc": "Empower agents with professional capabilities in specific fields (such as full-stack development, complex logic planning, multimedia processing, etc.)",
+      "url": "https://github.com/guanyang/antigravity-skills",
+      "install": "git clone https://github.com/guanyang/antigravity-skills.git",
+      "functionCategory": "general"
+    },
+    {
+      "name": "youtube-skills",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "ZeroPointRepo/youtube-skills",
+      "stars": 250,
+      "desc": "YouTube Transcript API skills for AI agents. Get transcripts, search videos, browse channels. Works with OpenClaw, Hermes-Agent, Claude Code, Cursor, ",
+      "url": "https://github.com/ZeroPointRepo/youtube-skills",
+      "install": "git clone https://github.com/ZeroPointRepo/youtube-skills.git",
+      "functionCategory": "general"
+    },
+    {
+      "name": "open-skills",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "besoeasy/open-skills",
+      "stars": 119,
+      "desc": "Battle-tested skill library for AI agents. Save 98% of API costs with ready-to-use code for crypto, PDFs, search, web scraping & more. No trial-and-er",
+      "url": "https://github.com/besoeasy/open-skills",
+      "install": "git clone https://github.com/besoeasy/open-skills.git",
       "functionCategory": "general"
     }
   ]

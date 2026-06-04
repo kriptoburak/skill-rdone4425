@@ -2,7 +2,7 @@
   "meta": {
     "agent": "hermes",
     "functionCategory": "general",
-    "count": 2,
+    "count": 5,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -28,6 +28,42 @@
       "desc": "A curated list of skills, plugins, tools, integrations, and resources for Hermes Agent by Nous Research",
       "url": "https://github.com/SamurAIGPT/awesome-hermes-agent",
       "install": "git clone https://github.com/SamurAIGPT/awesome-hermes-agent.git # browse the awesome list",
+      "functionCategory": "general"
+    },
+    {
+      "name": "hermes-ecosystem",
+      "source": "hermes",
+      "agent": "hermes",
+      "group": null,
+      "repo": "ksimback/hermes-ecosystem",
+      "stars": 949,
+      "desc": "🗺️ Hermes Atlas — the community map of every tool, skill, and integration for Hermes Agent by Nous Research. Live at hermesatlas.com",
+      "url": "https://github.com/ksimback/hermes-ecosystem",
+      "install": "git clone https://github.com/ksimback/hermes-ecosystem.git",
+      "functionCategory": "general"
+    },
+    {
+      "name": "hermes-optimization-guide",
+      "source": "hermes",
+      "agent": "hermes",
+      "group": null,
+      "repo": "OnlyTerp/hermes-optimization-guide",
+      "stars": 398,
+      "desc": "Hermes Agent setup, migration, LightRAG, Telegram, and skill creation guide",
+      "url": "https://github.com/OnlyTerp/hermes-optimization-guide",
+      "install": "git clone https://github.com/OnlyTerp/hermes-optimization-guide.git",
+      "functionCategory": "general"
+    },
+    {
+      "name": "hermeshub",
+      "source": "hermes",
+      "agent": "hermes",
+      "group": null,
+      "repo": "amanning3390/hermeshub",
+      "stars": 222,
+      "desc": "HermesHub - The Skills Hub for Hermes Agent by Nous Research. Browse, share, and install community skills.",
+      "url": "https://github.com/amanning3390/hermeshub",
+      "install": "git clone https://github.com/amanning3390/hermeshub.git",
       "functionCategory": "general"
     }
   ]

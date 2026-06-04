@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "agent": "opencode",
+    "functionCategory": "general",
+    "count": 1,
+    "sourceData": "js/data.js"
+  },
+  "skills": [
+    {
+      "name": "opencode-skills",
+      "source": "opencode",
+      "agent": "opencode",
+      "group": null,
+      "repo": "malhashemi/opencode-skills",
+      "stars": 488,
+      "desc": "",
+      "url": "https://github.com/malhashemi/opencode-skills",
+      "install": "git clone https://github.com/malhashemi/opencode-skills.git",
+      "functionCategory": "general"
+    }
+  ]
+}

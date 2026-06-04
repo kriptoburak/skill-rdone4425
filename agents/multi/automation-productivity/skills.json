@@ -2,7 +2,7 @@
   "meta": {
     "agent": "multi",
     "functionCategory": "automation-productivity",
-    "count": 1,
+    "count": 3,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -16,6 +16,30 @@
       "desc": "AI writes code. This automates everything else. 24 plugins, 49 agents, 44 skills. For Claude Code, OpenCode, Codex, Cursor, Kiro.",
       "url": "https://github.com/agent-sh/agentsys",
       "install": "git clone https://github.com/agent-sh/agentsys.git",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "OfficeCLI",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "iOfficeAI/OfficeCLI",
+      "stars": 5955,
+      "desc": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-so",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "install": "git clone https://github.com/iOfficeAI/OfficeCLI.git",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "travel-hacking-toolkit",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "borski/travel-hacking-toolkit",
+      "stars": 530,
+      "desc": "AI-powered travel hacking and search with cash, points, miles, and award flights. Drop-in skills and MCP servers for Claude, Codex, and OpenCode.",
+      "url": "https://github.com/borski/travel-hacking-toolkit",
+      "install": "git clone https://github.com/borski/travel-hacking-toolkit.git",
       "functionCategory": "automation-productivity"
     }
   ]

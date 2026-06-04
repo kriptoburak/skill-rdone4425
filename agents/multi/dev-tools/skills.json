@@ -2,7 +2,7 @@
   "meta": {
     "agent": "multi",
     "functionCategory": "dev-tools",
-    "count": 30,
+    "count": 36,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -364,6 +364,78 @@
       "desc": "A high-performance desktop application for managing skills across multiple AI coding assistants. Built with Tauri 2.0, React 19, and Rust.",
       "url": "https://github.com/jiweiyeah/Skills-Manager",
       "install": "git clone https://github.com/jiweiyeah/Skills-Manager.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "mcp-use",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "mcp-use/mcp-use",
+      "stars": 10045,
+      "desc": "The fullstack MCP framework to develop MCP Apps for ChatGPT / Claude & MCP Servers for AI Agents.",
+      "url": "https://github.com/mcp-use/mcp-use",
+      "install": "pip install mcp-use",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "costrict",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "zgsm-ai/costrict",
+      "stars": 4092,
+      "desc": "Costrict - strict AI coder for enterprises, quality first, including AI Agent, AI CodeReview, AI Completion. ",
+      "url": "https://github.com/zgsm-ai/costrict",
+      "install": "git clone https://github.com/zgsm-ai/costrict.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "skillhub",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "iflytek/skillhub",
+      "stars": 3316,
+      "desc": "Self-hosted, open-source agent skill registry for enterprises. Publish & version skill packages, govern with RBAC and audit logs, deploy   on-premise ",
+      "url": "https://github.com/iflytek/skillhub",
+      "install": "git clone https://github.com/iflytek/skillhub.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "opengap",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "open-gitagent/opengap",
+      "stars": 2796,
+      "desc": "A framework-agnostic, git-native standard for defining AI agents",
+      "url": "https://github.com/open-gitagent/opengap",
+      "install": "git clone https://github.com/open-gitagent/opengap.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "oh-my-agent",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "first-fluke/oh-my-agent",
+      "stars": 1059,
+      "desc": "Portable, vendor-agnostic agent harness for project-specific skills, workflows, and agent teams aligned with your codebase, conventions, and engineeri",
+      "url": "https://github.com/first-fluke/oh-my-agent",
+      "install": "git clone https://github.com/first-fluke/oh-my-agent.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "anysearch-mcp-server",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "anysearch-ai/anysearch-mcp-server",
+      "stars": 941,
+      "desc": "Unified real-time search engine skill for AI agents.",
+      "url": "https://github.com/anysearch-ai/anysearch-mcp-server",
+      "install": "git clone https://github.com/anysearch-ai/anysearch-mcp-server.git",
       "functionCategory": "dev-tools"
     }
   ]

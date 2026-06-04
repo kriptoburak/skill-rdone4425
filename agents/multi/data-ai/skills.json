@@ -2,7 +2,7 @@
   "meta": {
     "agent": "multi",
     "functionCategory": "data-ai",
-    "count": 7,
+    "count": 10,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -88,6 +88,42 @@
       "desc": "Supercharge AI coding agents with portable skills. Install, translate & share skills across Claude Code, Cursor, Codex, Copilot & 40 more",
       "url": "https://github.com/rohitg00/skillkit",
       "install": "npm i -g skillkit",
+      "functionCategory": "data-ai"
+    },
+    {
+      "name": "memsearch",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "zilliztech/memsearch",
+      "stars": 1906,
+      "desc": "A persistent, unified memory layer for all your AI agents (e.g. Claude Code, Codex), backed by Markdown and Milvus.",
+      "url": "https://github.com/zilliztech/memsearch",
+      "install": "pip install memsearch",
+      "functionCategory": "data-ai"
+    },
+    {
+      "name": "OpenContext",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "0xranx/OpenContext",
+      "stars": 583,
+      "desc": "A personal context store for AI agents and assistants—reuse your existing coding agent CLI (Codex/Claude/OpenCode) with built‑in Skills/tools and a de",
+      "url": "https://github.com/0xranx/OpenContext",
+      "install": "git clone https://github.com/0xranx/OpenContext.git",
+      "functionCategory": "data-ai"
+    },
+    {
+      "name": "OpenMobius-skill",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "MobiusQuant/OpenMobius-skill",
+      "stars": 374,
+      "desc": "ICT/SMC trading-knowledge skill for AI coding agents (Claude Code / Codex / OpenClaw / Hermes)",
+      "url": "https://github.com/MobiusQuant/OpenMobius-skill",
+      "install": "git clone https://github.com/MobiusQuant/OpenMobius-skill.git",
       "functionCategory": "data-ai"
     }
   ]

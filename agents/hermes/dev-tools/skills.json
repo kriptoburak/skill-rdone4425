@@ -2,7 +2,7 @@
   "meta": {
     "agent": "hermes",
     "functionCategory": "dev-tools",
-    "count": 1,
+    "count": 3,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -16,6 +16,30 @@
       "desc": "Native web workspace for Hermes Agent - chat, terminal, memory, skills, inspector.",
       "url": "https://github.com/outsourc-e/hermes-workspace",
       "install": "git clone https://github.com/outsourc-e/hermes-workspace.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "hermes-skill-factory",
+      "source": "hermes",
+      "agent": "hermes",
+      "group": null,
+      "repo": "Romanescu11/hermes-skill-factory",
+      "stars": 351,
+      "desc": " A meta-skill plugin for Nous Research's Hermes AI agent that watches your workflows and automatically turns them into reusable skills.  Every time yo",
+      "url": "https://github.com/Romanescu11/hermes-skill-factory",
+      "install": "git clone https://github.com/Romanescu11/hermes-skill-factory.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "super-hermes",
+      "source": "hermes",
+      "agent": "hermes",
+      "group": null,
+      "repo": "Cranot/super-hermes",
+      "stars": 209,
+      "desc": "Skills that teach Hermes Agent to write its own analytical prompts",
+      "url": "https://github.com/Cranot/super-hermes",
+      "install": "git clone https://github.com/Cranot/super-hermes.git",
       "functionCategory": "dev-tools"
     }
   ]

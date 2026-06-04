@@ -2,7 +2,7 @@
   "meta": {
     "agent": "openclaw",
     "functionCategory": "design-ui",
-    "count": 1,
+    "count": 2,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -16,6 +16,18 @@
       "desc": "OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hier",
       "url": "https://github.com/volcengine/OpenViking",
       "install": "git clone https://github.com/volcengine/OpenViking.git",
+      "functionCategory": "design-ui"
+    },
+    {
+      "name": "ComfyUI_Skills_OpenClaw",
+      "source": "openclaw",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "HuangYuChuh/ComfyUI_Skills_OpenClaw",
+      "stars": 310,
+      "desc": "Agent-friendly ComfyUI workflow skills for OpenClaw, Hermes Agent, Codex, and Claude Code. Turn any ComfyUI workflow into a callable AI agent skill vi",
+      "url": "https://github.com/HuangYuChuh/ComfyUI_Skills_OpenClaw",
+      "install": "git clone https://github.com/HuangYuChuh/ComfyUI_Skills_OpenClaw.git",
       "functionCategory": "design-ui"
     }
   ]

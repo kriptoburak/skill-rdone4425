@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "agent": "hermes",
+    "functionCategory": "automation-productivity",
+    "count": 1,
+    "sourceData": "js/data.js"
+  },
+  "skills": [
+    {
+      "name": "hermes-agent-idea-workflow",
+      "source": "hermes",
+      "agent": "hermes",
+      "group": null,
+      "repo": "AkoliteZA/hermes-agent-idea-workflow",
+      "stars": 125,
+      "desc": "Pre-build idea-to-spec workflow skills for Hermes Agent: turn rough ideas into design docs, implementation specs, and Superpowers-ready build handoffs",
+      "url": "https://github.com/AkoliteZA/hermes-agent-idea-workflow",
+      "install": "git clone https://github.com/AkoliteZA/hermes-agent-idea-workflow.git",
+      "functionCategory": "automation-productivity"
+    }
+  ]
+}

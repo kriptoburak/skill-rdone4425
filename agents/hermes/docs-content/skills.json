@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "agent": "hermes",
+    "functionCategory": "docs-content",
+    "count": 1,
+    "sourceData": "js/data.js"
+  },
+  "skills": [
+    {
+      "name": "learn-hermes-agent",
+      "source": "hermes",
+      "agent": "hermes",
+      "group": null,
+      "repo": "longyunfeigu/learn-hermes-agent",
+      "stars": 142,
+      "desc": "A 27-chapter hands-on tutorial for building an autonomous AI agent from zero in Python. Agent loop, tool system, memory, skills, MCP,     multi-platfo",
+      "url": "https://github.com/longyunfeigu/learn-hermes-agent",
+      "install": "git clone https://github.com/longyunfeigu/learn-hermes-agent.git",
+      "functionCategory": "docs-content"
+    }
+  ]
+}

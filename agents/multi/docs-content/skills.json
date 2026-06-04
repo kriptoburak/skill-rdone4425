@@ -2,7 +2,7 @@
   "meta": {
     "agent": "multi",
     "functionCategory": "docs-content",
-    "count": 5,
+    "count": 6,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -64,6 +64,18 @@
       "desc": "Skill that audits and rewrites content to remove AI writing patterns. Use it with Claude Code, OpenClaw, and Hermes.",
       "url": "https://github.com/conorbronsdon/avoid-ai-writing",
       "install": "git clone https://github.com/conorbronsdon/avoid-ai-writing.git",
+      "functionCategory": "docs-content"
+    },
+    {
+      "name": "litprog-skill",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "tlehman/litprog-skill",
+      "stars": 167,
+      "desc": "Literate programming skill for agent harnesses like Claude Code, OpenCode and Hermes Agent",
+      "url": "https://github.com/tlehman/litprog-skill",
+      "install": "git clone https://github.com/tlehman/litprog-skill.git",
       "functionCategory": "docs-content"
     }
   ]

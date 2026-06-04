@@ -2,7 +2,7 @@
   "meta": {
     "agent": "multi",
     "functionCategory": "devops-deploy",
-    "count": 6,
+    "count": 7,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -76,6 +76,18 @@
       "desc": "Agent skill for color science expertise. Many references covering color spaces, accessibility (APCA, WCAG), palette   generation, pigment mixing, and historical color theory. Works with Claude Code, Codex, Cursor, Copilot & others.",
       "url": "https://github.com/meodai/skill.color-expert",
       "install": "git clone https://github.com/meodai/skill.color-expert.git",
+      "functionCategory": "devops-deploy"
+    },
+    {
+      "name": "evotown",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "EXboys/evotown",
+      "stars": 950,
+      "desc": "a middle platform for enterprise Agent runtime governance and capability assets — connect OpenClaw, Hermes, SkillLite, and custom runtimes in one plac",
+      "url": "https://github.com/EXboys/evotown",
+      "install": "git clone https://github.com/EXboys/evotown.git",
       "functionCategory": "devops-deploy"
     }
   ]

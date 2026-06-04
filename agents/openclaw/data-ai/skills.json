@@ -2,7 +2,7 @@
   "meta": {
     "agent": "openclaw",
     "functionCategory": "data-ai",
-    "count": 1,
+    "count": 3,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -16,6 +16,30 @@
       "desc": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
       "url": "https://github.com/openclaw/openclaw",
       "install": "docker pull openclaw/openclaw",
+      "functionCategory": "data-ai"
+    },
+    {
+      "name": "memU",
+      "source": "openclaw",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "NevaMind-AI/memU",
+      "stars": 13777,
+      "desc": "Memory for 24/7 proactive agents like OpenClaw.",
+      "url": "https://github.com/NevaMind-AI/memU",
+      "install": "git clone https://github.com/NevaMind-AI/memU.git",
+      "functionCategory": "data-ai"
+    },
+    {
+      "name": "SkillClaw",
+      "source": "openclaw",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "AMAP-ML/SkillClaw",
+      "stars": 1610,
+      "desc": "Let Skills Evolve Collectively with Agentic Evolver ",
+      "url": "https://github.com/AMAP-ML/SkillClaw",
+      "install": "git clone https://github.com/AMAP-ML/SkillClaw.git",
       "functionCategory": "data-ai"
     }
   ]

@@ -2,7 +2,7 @@
   "meta": {
     "agent": "hermes",
     "functionCategory": "design-ui",
-    "count": 1,
+    "count": 3,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -16,6 +16,30 @@
       "desc": "A curated registry of reusable Mercury Agent, Open Claw or Hermes Agent skills designed for real developer workflows, persistent memory, and token-efficient execution.",
       "url": "https://github.com/cosmicstack-labs/mercury-agent-skills",
       "install": "git clone https://github.com/cosmicstack-labs/mercury-agent-skills.git  # browse the awesome list",
+      "functionCategory": "design-ui"
+    },
+    {
+      "name": "hermes-ui",
+      "source": "hermes",
+      "agent": "hermes",
+      "group": null,
+      "repo": "pyrate-llama/hermes-ui",
+      "stars": 153,
+      "desc": "The command center for Hermes Agent — chat, steer, browse files, manage skills, and monitor everything from a single glassmorphic HTML app.",
+      "url": "https://github.com/pyrate-llama/hermes-ui",
+      "install": "git clone https://github.com/pyrate-llama/hermes-ui.git",
+      "functionCategory": "design-ui"
+    },
+    {
+      "name": "Hermes-Studio",
+      "source": "hermes",
+      "agent": "hermes",
+      "group": null,
+      "repo": "JPeetz/Hermes-Studio",
+      "stars": 146,
+      "desc": "Web UI & dashboard for Hermes Agent — chat, memory, skills, terminal, approvals, multi-agent orchestration. Self-hosted.",
+      "url": "https://github.com/JPeetz/Hermes-Studio",
+      "install": "git clone https://github.com/JPeetz/Hermes-Studio.git",
       "functionCategory": "design-ui"
     }
   ]

@@ -332,7 +332,78 @@ def main():
         if skill["name"] in {s["name"] for s in new_skills[:added]}:
             print(f"   - {skill['repo']} ⭐{skill['stars']:,} [{skill['source']}]")
 
+    # 7. 同步新仓库到 fetch-skills.py 的 KNOWN_REPOS
+    if added > 0:
+        sync_known_repos(new_skills[:added])
+
     return added
+
+
+def sync_known_repos(new_skills):
+    """将新发现的仓库添加到 fetch-skills.py 的 KNOWN_REPOS 字典中。
+    
+    这样 fetch-skills.py 下次运行时会自动更新这些仓库的 stars。
+    """
+    fetch_script = REPO_ROOT / "scripts" / "fetch-skills.py"
+    if not fetch_script.exists():
+        print("⚠️  fetch-skills.py not found, skipping KNOWN_REPOS sync")
+        return
+
+    text = fetch_script.read_text(encoding="utf-8")
+
+    # 提取现有的 KNOWN_REPOS 中的仓库名
+    existing_repos = set(re.findall(r'"([^"]+/[^"]+)":\s*\(', text))
+
+    # 构建新条目
+    new_entries = []
+    for skill in new_skills:
+        repo = skill["repo"]
+        if repo in existing_repos:
+            continue
+        source = skill["source"]
+        name = skill["name"]
+        install = skill.get("install", "")
+
+        # 根据 source 确定安装命令
+        if source == "community":
+            install_cmd = None
+        elif install and not install.startswith("git clone"):
+            install_cmd = install
+        else:
+            install_cmd = None
+
+        # 格式化为 Python 字典条目
+        install_str = f'"{install_cmd}"' if install_cmd else "None"
+        entry = f'    "{repo}": ("{source}", None, "{name}", {install_str}),'
+        new_entries.append(entry)
+        print(f"  📝 Adding to KNOWN_REPOS: {repo}")
+
+    if not new_entries:
+        print("  ℹ️  No new repos to add to KNOWN_REPOS")
+        return
+
+    # 找到 KNOWN_REPOS 字典的结束位置（最后一个 } ）
+    # 在 "# source=hermes" 之前插入
+    # 更可靠的方式：找 KNOWN_REPOS 的 } 行
+    known_repos_pattern = r'(KNOWN_REPOS\s*=\s*\{[^}]*?)(    # source=hermes)'
+    match = re.search(known_repos_pattern, text, re.DOTALL)
+    if match:
+        insert_point = match.start(2)
+        new_text = text[:insert_point] + "\n".join(new_entries) + "\n" + text[insert_point:]
+    else:
+        # 备用方案：在最后一个 KNOWN_REPOS 条目之后插入
+        # 找 "# source=opencode" 之后的 } 之前
+        opencode_pattern = r'("(opencode-ai/opencode)".*?\),\n)(\})'
+        match = re.search(opencode_pattern, text, re.DOTALL)
+        if match:
+            insert_point = match.start(3)
+            new_text = text[:insert_point] + "\n".join(new_entries) + "\n" + text[insert_point:]
+        else:
+            print("  ⚠️  Could not find insertion point in fetch-skills.py")
+            return
+
+    fetch_script.write_text(new_text, encoding="utf-8")
+    print(f"  ✅ Added {len(new_entries)} repos to fetch-skills.py KNOWN_REPOS")
 
 
 if __name__ == "__main__":

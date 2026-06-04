@@ -1,108 +1,212 @@
 name: Update Skill Hub
 
-# 每周一 UTC 00:00 跑一次（北京时间 8:00）
-# 也可以手动触发：Actions 标签 → Update Skill Hub → Run workflow
-# 数据变化时直接 commit + push 到 main（不走 PR 流程）
-# CF Pages / Vercel 监听到 push 会自动重新部署
+# 触发方式：
+#   1. 定时：每天 UTC 00:00（北京时间 8:00）
+#   2. 手动：Actions → Run workflow（可选 dry_run / discover）
 on:
   schedule:
-    - cron: "0 0 * * 1"
+    - cron: "0 0 * * *"    # 每天运行
   workflow_dispatch:
     inputs:
       dry_run:
-        description: "Dry run (fetch and stage changes, but don't commit/push)"
+        description: "Dry run (只抓取不提交)"
         required: false
-        default: "false"
+        type: boolean
+        default: false
       discover:
-        description: "Also run discover-skills.py to find new repos"
+        description: "搜索 GitHub 发现新仓库"
         required: false
-        default: "true"
+        type: boolean
+        default: true
+      skip_fetch:
+        description: "跳过 fetch-skills.py（只跑 discover）"
+        required: false
+        type: boolean
+        default: false
+
+# 防止并行运行（避免冲突）
+concurrency:
+  group: update-skill-hub
+  cancel-in-progress: false
 
 permissions:
-  contents: write   # 写 main 分支
+  contents: write
 
 jobs:
   update:
-    name: Fetch and update skills data
+    name: 🔧 Update Skill Hub Data
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
 
     steps:
+      # ─── 1. 检出代码 ───
       - name: 📥 Checkout repository
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 1
 
+      # ─── 2. Python 环境 ───
       - name: 🐍 Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
           cache: "pip"
 
-      - name: 🔍 Discover new skills
-        if: github.event.inputs.discover != 'false'
+      # ─── 3. 发现新仓库 ───
+      - name: 🔍 Discover new skill repos
+        if: ${{ inputs.discover != false }}
+        id: discover
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          echo "🔍 Running discover-skills.py to find new repos..."
-          python scripts/discover-skills.py || echo "⚠️  Discover script had issues, continuing..."
+          echo "::group::🔍 Searching GitHub for new skill repos..."
+          python scripts/discover-skills.py 2>&1 || {
+            echo "::warning::discover-skills.py exited with error, continuing..."
+          }
+          echo "::endgroup::"
+
+          # 统计发现了多少新仓库
+          NEW_COUNT=$(git diff --numstat js/data.js 2>/dev/null | awk '{print $1}' || echo "0")
+          echo "new_lines=${NEW_COUNT:-0}" >> $GITHUB_OUTPUT
+
           echo "---"
-          echo "📊 data.js size after discover:"
+          echo "📊 data.js after discover:"
           wc -l js/data.js
 
-      - name: 🚀 Run fetch-skills.py
+      # ─── 4. 更新已知仓库数据 ───
+      - name: 🚀 Update known repos (fetch-skills.py)
+        if: ${{ inputs.skip_fetch != true }}
+        id: fetch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python scripts/fetch-skills.py
+          echo "::group::📊 Fetching latest stars & descriptions..."
+          python scripts/fetch-skills.py 2>&1
+          echo "::endgroup::"
+
           echo "---"
-          echo "📊 Final data.js size:"
+          echo "📊 Final data.js:"
           wc -l js/data.js
 
-      - name: 🔍 Detect changes
+      # ─── 5. 检测变更 ───
+      - name: 🔎 Detect changes
         id: check
         run: |
+          echo "## 📊 Skill Hub Update Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
           if git diff --quiet js/data.js scripts/; then
             echo "changed=false" >> $GITHUB_OUTPUT
-            echo "ℹ️  No changes detected — data is already up to date"
+            echo "ℹ️ No changes detected — data is up to date"
+            echo "✅ **No changes** — data is already up to date" >> $GITHUB_STEP_SUMMARY
           else
             echo "changed=true" >> $GITHUB_OUTPUT
             echo "✅ Changes detected:"
-            git diff --stat js/data.js scripts/ | tail -10
+
+            # 统计信息
+            TOTAL=$(grep -c '"name":' js/data.js || echo "?")
+            STARS=$(grep -oE '"stars": [0-9]+' js/data.js | awk '{s+=$2} END {print s}')
+            SOURCES=$(grep -oE '"repo":' js/data.js | wc -l || echo "?")
+            DATE=$(date -u +"%Y-%m-%d %H:%M UTC")
+
+            echo "total_skills=${TOTAL}" >> $GITHUB_OUTPUT
+            echo "total_stars=${STARS}" >> $GITHUB_OUTPUT
+            echo "total_sources=${SOURCES}" >> $GITHUB_OUTPUT
+
+            # 写入 Summary
+            echo "✅ **Changes detected!**" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "| Metric | Value |" >> $GITHUB_STEP_SUMMARY
+            echo "|--------|-------|" >> $GITHUB_STEP_SUMMARY
+            echo "| Skills | ${TOTAL} |" >> $GITHUB_STEP_SUMMARY
+            echo "| Sources | ${SOURCES} |" >> $GITHUB_STEP_SUMMARY
+            echo "| Total Stars | ${STARS} |" >> $GITHUB_STEP_SUMMARY
+            echo "| Updated | ${DATE} |" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+
+            # 变更详情
+            echo "### Changed files:" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            git diff --stat js/data.js scripts/ >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+
+            # 如果有新增的 skills
+            ADDED=$(git diff js/data.js | grep '^\+.*"name":' | head -20)
+            if [ -n "$ADDED" ]; then
+              echo "" >> $GITHUB_STEP_SUMMARY
+              echo "### 🆕 New skills:" >> $GITHUB_STEP_SUMMARY
+              echo "$ADDED" | sed 's/^+//' >> $GITHUB_STEP_SUMMARY
+            fi
           fi
 
-      - name: 📝 Commit and push to main
-        if: steps.check.outputs.changed == 'true' && github.event.inputs.dry_run != 'true'
+      # ─── 6. 提交并推送 ───
+      - name: 📝 Commit and push
+        if: steps.check.outputs.changed == 'true' && inputs.dry_run != true
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # 阶段所有改动（data.js 是数据，scripts 是脚本本身如果有更新）
+          # 阶段所有改动
           git add js/data.js scripts/
 
-          # 提交信息里附一些统计
-          TOTAL=$(grep -c '"name":' js/data.js || echo "?")
-          STARS=$(grep -oE '"stars": [0-9]+' js/data.js | awk '{s+=$2} END {print s}')
+          TOTAL="${{ steps.check.outputs.total_skills }}"
+          STARS="${{ steps.check.outputs.total_stars }}"
+          SOURCES="${{ steps.check.outputs.total_sources }}"
           DATE=$(date -u +"%Y-%m-%d %H:%M UTC")
 
           git commit -m "chore: auto-update Skill Hub data
 
-          - Total skills: $TOTAL
-          - Total stars:  $STARS
-          - Updated at:   $DATE
-          Triggered by: \${{ github.event_name }}
-          Run:          \${{ github.run_id }}
+          - Total skills: ${TOTAL}
+          - Total stars:  ${STARS}
+          - Sources:      ${SOURCES}
+          - Updated at:   ${DATE}
+          - Triggered by: ${{ github.event_name }}
+          - Run:          ${{ github.run_id }}
 
-          [skip ci]" \
-            -m "Auto-generated by GitHub Actions. See .github/workflows/update-skills.yml."
+          [skip ci]"
 
-          echo "---"
           echo "📤 Pushing to main..."
           git push
 
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "🚀 **Pushed to main** at ${DATE}" >> $GITHUB_STEP_SUMMARY
+
+      # ─── 7. Dry run 输出 ───
+      - name: 🧪 Dry run output
+        if: steps.check.outputs.changed == 'true' && inputs.dry_run == true
+        run: |
+          echo "::notice::🧪 DRY RUN — changes detected but NOT committed"
+          echo ""
+          echo "📊 Would commit:"
+          echo "   Skills: ${{ steps.check.outputs.total_skills }}"
+          echo "   Stars:  ${{ steps.check.outputs.total_stars }}"
+          echo "   Sources: ${{ steps.check.outputs.total_sources }}"
+          echo ""
+          git diff --stat js/data.js scripts/
+
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "🧪 **DRY RUN** — changes not committed" >> $GITHUB_STEP_SUMMARY
+
+      # ─── 8. 无变更 ───
       - name: ✅ No changes
         if: steps.check.outputs.changed == 'false'
         run: |
           echo "Nothing to do this run."
-          echo "Next scheduled run: Monday 00:00 UTC"
+          echo "Next scheduled run: Tomorrow 00:00 UTC (08:00 Beijing)"
+
+      # ─── 9. 失败时输出调试信息 ───
+      - name: 🐛 Debug info (on failure)
+        if: failure()
+        run: |
+          echo "::error::Workflow failed! Check the logs above."
+          echo ""
+          echo "## ❌ Skill Hub Update Failed" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Check the [workflow logs](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) for details." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Debug info:" >> $GITHUB_STEP_SUMMARY
+          echo "- Python version: $(python3 --version)" >> $GITHUB_STEP_SUMMARY
+          echo "- GITHUB_TOKEN set: ${{ env.GITHUB_TOKEN != '' }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Working dir: $(pwd)" >> $GITHUB_STEP_SUMMARY
+          echo "- data.js exists: $(test -f js/data.js && echo 'yes' || echo 'no')" >> $GITHUB_STEP_SUMMARY

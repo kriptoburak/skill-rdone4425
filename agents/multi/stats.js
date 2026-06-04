@@ -1,8 +1,8 @@
 window.AGENT_STATS = {
-  "generatedAt": "2026-06-04T16:06:40.205Z",
+  "generatedAt": "2026-06-04T17:00:19.554Z",
   "sourceData": "js/data.js",
   "agent": "multi",
-  "totalSkills": 65,
+  "totalSkills": 69,
   "functionCategoryCount": 7,
   "functionCategories": [
     {
@@ -11,7 +11,7 @@ window.AGENT_STATS = {
     },
     {
       "name": "design-ui",
-      "count": 17
+      "count": 20
     },
     {
       "name": "data-ai",
@@ -19,7 +19,7 @@ window.AGENT_STATS = {
     },
     {
       "name": "devops-deploy",
-      "count": 5
+      "count": 6
     },
     {
       "name": "docs-content",
@@ -37,11 +37,11 @@ window.AGENT_STATS = {
   "sources": [
     {
       "name": "tools",
-      "count": 34
+      "count": 36
     },
     {
       "name": "general",
-      "count": 26
+      "count": 28
     },
     {
       "name": "community",
@@ -166,6 +166,10 @@ window.AGENT_STATS = {
       "count": 1
     },
     {
+      "name": "K-Dense-AI/scientific-agent-skills",
+      "count": 1
+    },
+    {
       "name": "keli-wen/agentic-harness-patterns-skill",
       "count": 1
     },
@@ -218,7 +222,15 @@ window.AGENT_STATS = {
       "count": 1
     },
     {
+      "name": "nexu-io/html-anything",
+      "count": 1
+    },
+    {
       "name": "nexu-io/nexu",
+      "count": 1
+    },
+    {
+      "name": "nexu-io/open-design",
       "count": 1
     },
     {
@@ -259,6 +271,10 @@ window.AGENT_STATS = {
     },
     {
       "name": "runkids/skillshare",
+      "count": 1
+    },
+    {
+      "name": "ruvnet/ruflo",
       "count": 1
     },
     {
@@ -314,7 +330,7 @@ window.AGENT_STATS = {
     {
       "name": "ECC",
       "repo": "affaan-m/ECC",
-      "stars": 206745,
+      "stars": 206885,
       "functionCategory": "security",
       "source": "general",
       "url": "https://github.com/affaan-m/ECC"
@@ -322,7 +338,7 @@ window.AGENT_STATS = {
     {
       "name": "cc-switch",
       "repo": "farion1231/cc-switch",
-      "stars": 91521,
+      "stars": 91603,
       "functionCategory": "dev-tools",
       "source": "tools",
       "url": "https://github.com/farion1231/cc-switch"
@@ -330,15 +346,31 @@ window.AGENT_STATS = {
     {
       "name": "graphify",
       "repo": "safishamsi/graphify",
-      "stars": 59189,
+      "stars": 59235,
       "functionCategory": "docs-content",
       "source": "general",
       "url": "https://github.com/safishamsi/graphify"
     },
     {
+      "name": "open-design",
+      "repo": "nexu-io/open-design",
+      "stars": 58659,
+      "functionCategory": "design-ui",
+      "source": "tools",
+      "url": "https://github.com/nexu-io/open-design"
+    },
+    {
+      "name": "ruflo",
+      "repo": "ruvnet/ruflo",
+      "stars": 57843,
+      "functionCategory": "design-ui",
+      "source": "general",
+      "url": "https://github.com/ruvnet/ruflo"
+    },
+    {
       "name": "antigravity-awesome-skills",
       "repo": "sickn33/antigravity-awesome-skills",
-      "stars": 39693,
+      "stars": 39700,
       "functionCategory": "dev-tools",
       "source": "general",
       "url": "https://github.com/sickn33/antigravity-awesome-skills"
@@ -346,7 +378,7 @@ window.AGENT_STATS = {
     {
       "name": "CLIProxyAPI",
       "repo": "router-for-me/CLIProxyAPI",
-      "stars": 36041,
+      "stars": 36046,
       "functionCategory": "design-ui",
       "source": "tools",
       "url": "https://github.com/router-for-me/CLIProxyAPI"
@@ -354,42 +386,26 @@ window.AGENT_STATS = {
     {
       "name": "AionUi",
       "repo": "iOfficeAI/AionUi",
-      "stars": 27572,
+      "stars": 27579,
       "functionCategory": "design-ui",
       "source": "tools",
       "url": "https://github.com/iOfficeAI/AionUi"
     },
     {
+      "name": "scientific-agent-skills",
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "stars": 27237,
+      "functionCategory": "devops-deploy",
+      "source": "general",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    },
+    {
       "name": "awesome-agent-skills",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 24200,
+      "stars": 24213,
       "functionCategory": "dev-tools",
       "source": "community",
       "url": "https://github.com/VoltAgent/awesome-agent-skills"
-    },
-    {
-      "name": "claude-skills",
-      "repo": "alirezarezvani/claude-skills",
-      "stars": 17119,
-      "functionCategory": "dev-tools",
-      "source": "general",
-      "url": "https://github.com/alirezarezvani/claude-skills"
-    },
-    {
-      "name": "9router",
-      "repo": "decolua/9router",
-      "stars": 16267,
-      "functionCategory": "dev-tools",
-      "source": "tools",
-      "url": "https://github.com/decolua/9router"
-    },
-    {
-      "name": "notebooklm-py",
-      "repo": "teng-lin/notebooklm-py",
-      "stars": 15844,
-      "functionCategory": "design-ui",
-      "source": "tools",
-      "url": "https://github.com/teng-lin/notebooklm-py"
     }
   ]
 };

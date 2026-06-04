@@ -2,68 +2,80 @@
   "meta": {
     "agent": "multi",
     "functionCategory": "devops-deploy",
-    "count": 5,
+    "count": 6,
     "sourceData": "js/data.js"
   },
   "skills": [
     {
       "name": "agent-rules-books",
       "source": "general",
+      "agent": "multi",
       "group": null,
       "repo": "ciembor/agent-rules-books",
-      "stars": 1741,
+      "stars": 1742,
       "desc": "AGENTS.md rules / skills for AI coding agents: Codex, Cursor & Claude Code. Inspired by Clean Code, Refactoring, DDD, Clean Architecture and DDIA programming books.",
       "url": "https://github.com/ciembor/agent-rules-books",
       "install": "git clone https://github.com/ciembor/agent-rules-books.git",
-      "agent": "multi",
       "functionCategory": "devops-deploy"
     },
     {
       "name": "ai-agents-skills",
       "source": "general",
+      "agent": "multi",
       "group": null,
       "repo": "hoodini/ai-agents-skills",
       "stars": 219,
       "desc": "🧠 AI Agent Skills Repository - A curated collection of specialized skills for AI coding agents (Claude Code, GitHub Copilot, Cursor, Windsurf). Created by Yuval Avidani using GitHub Copilot via VS Code Insiders.",
       "url": "https://github.com/hoodini/ai-agents-skills",
       "install": "git clone https://github.com/hoodini/ai-agents-skills.git  # browse the awesome list",
-      "agent": "multi",
       "functionCategory": "devops-deploy"
     },
     {
       "name": "chops",
       "source": "general",
+      "agent": "multi",
       "group": null,
       "repo": "Shpigford/chops",
       "stars": 1390,
       "desc": "Your AI agent skills, finally organized. A macOS app to browse, edit, and manage skills across Claude Code, Cursor, Codex, Windsurf, and Amp.",
       "url": "https://github.com/Shpigford/chops",
       "install": "git clone https://github.com/Shpigford/chops.git",
-      "agent": "multi",
       "functionCategory": "devops-deploy"
     },
     {
       "name": "qaskills",
       "source": "general",
+      "agent": "multi",
       "group": null,
       "repo": "PramodDutta/qaskills",
-      "stars": 136,
+      "stars": 137,
       "desc": "QA Skills Directory QA Skills is a curated directory of testing-specific skills for AI coding agents (Claude Code, Cursor, Copilot, etc.).",
       "url": "https://github.com/PramodDutta/qaskills",
       "install": "git clone https://github.com/PramodDutta/qaskills.git  # browse the awesome list",
+      "functionCategory": "devops-deploy"
+    },
+    {
+      "name": "scientific-agent-skills",
+      "source": "general",
       "agent": "multi",
+      "group": null,
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "stars": 27237,
+      "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 160,000+ scientists worldwide. 140 ready-to-use skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compat",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "install": "git clone https://github.com/K-Dense-AI/scientific-agent-skills.git",
       "functionCategory": "devops-deploy"
     },
     {
       "name": "skill.color-expert",
       "source": "general",
+      "agent": "multi",
       "group": null,
       "repo": "meodai/skill.color-expert",
       "stars": 482,
       "desc": "Agent skill for color science expertise. Many references covering color spaces, accessibility (APCA, WCAG), palette   generation, pigment mixing, and historical color theory. Works with Claude Code, Codex, Cursor, Copilot & others.",
       "url": "https://github.com/meodai/skill.color-expert",
       "install": "git clone https://github.com/meodai/skill.color-expert.git",
-      "agent": "multi",
       "functionCategory": "devops-deploy"
     }
   ]

@@ -9,25 +9,25 @@
     {
       "name": "AI-Infra-Guard",
       "source": "general",
+      "agent": "openclaw",
       "group": null,
       "repo": "Tencent/AI-Infra-Guard",
-      "stars": 3832,
+      "stars": 3834,
       "desc": "A full-stack AI Red Teaming platform securing AI ecosystems via OpenClaw Security Scan, Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.",
       "url": "https://github.com/Tencent/AI-Infra-Guard",
       "install": "git clone https://github.com/Tencent/AI-Infra-Guard.git",
-      "agent": "openclaw",
       "functionCategory": "dev-tools"
     },
     {
       "name": "awesome-openclaw",
       "source": "community",
+      "agent": "openclaw",
       "group": null,
       "repo": "SamurAIGPT/awesome-openclaw",
       "stars": 951,
       "desc": "A curated list of OpenClaw resources, tools, skills, tutorials & articles. OpenClaw (formerly Moltbot / Clawdbot) — open-source self-hosted AI agent for WhatsApp, Telegram, Discord & 50+ integrations.",
       "url": "https://github.com/SamurAIGPT/awesome-openclaw",
       "install": "git clone https://github.com/SamurAIGPT/awesome-openclaw.git  # browse the awesome list",
-      "agent": "openclaw",
       "functionCategory": "dev-tools"
     }
   ]

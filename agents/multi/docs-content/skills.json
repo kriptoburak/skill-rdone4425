@@ -9,49 +9,49 @@
     {
       "name": "agentfiles",
       "source": "tools",
+      "agent": "multi",
       "group": null,
       "repo": "Railly/agentfiles",
-      "stars": 586,
+      "stars": 585,
       "desc": "Browse, create, and edit AI agent files across Claude Code, Cursor, Codex, and 13+ tools — from Obsidian.",
       "url": "https://github.com/Railly/agentfiles",
       "install": "npm i -g agentfiles",
-      "agent": "multi",
       "functionCategory": "docs-content"
     },
     {
       "name": "graphify",
       "source": "general",
+      "agent": "multi",
       "group": null,
       "repo": "safishamsi/graphify",
-      "stars": 59189,
+      "stars": 59235,
       "desc": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database sc",
       "url": "https://github.com/safishamsi/graphify",
       "install": "git clone https://github.com/safishamsi/graphify.git",
-      "agent": "multi",
       "functionCategory": "docs-content"
     },
     {
       "name": "obsidian-second-brain",
       "source": "tools",
+      "agent": "multi",
       "group": null,
       "repo": "eugeniughelbur/obsidian-second-brain",
-      "stars": 2128,
+      "stars": 2134,
       "desc": "Cross-CLI skill for Obsidian: turn your vault into a living AI-first second brain across Claude Code, Codex, Gemini, and OpenCode. 43 commands - now with /obsidian-architect to document your codebase, key-less web research, Google Calendar,",
       "url": "https://github.com/eugeniughelbur/obsidian-second-brain",
       "install": "git clone https://github.com/eugeniughelbur/obsidian-second-brain.git",
-      "agent": "multi",
       "functionCategory": "docs-content"
     },
     {
       "name": "seo-geo-claude-skills",
       "source": "general",
+      "agent": "multi",
       "group": null,
       "repo": "aaron-he-zhu/seo-geo-claude-skills",
-      "stars": 1991,
+      "stars": 1992,
       "desc": "20 SEO & GEO skills for Claude Code, Cursor, Codex, and 35+ AI agents. Keyword research, content writing, technical audits, rank tracking. CORE-EEAT + CITE frameworks.",
       "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills",
       "install": "git clone https://github.com/aaron-he-zhu/seo-geo-claude-skills.git",
-      "agent": "multi",
       "functionCategory": "docs-content"
     }
   ]

@@ -1,5 +1,5 @@
 window.AGENT_STATS = {
-  "generatedAt": "2026-06-04T16:06:40.201Z",
+  "generatedAt": "2026-06-04T17:00:19.554Z",
   "sourceData": "js/data.js",
   "agent": "codex",
   "totalSkills": 45,
@@ -82,7 +82,7 @@ window.AGENT_STATS = {
     {
       "name": "codex-cli",
       "repo": "openai/codex",
-      "stars": 88592,
+      "stars": 88611,
       "functionCategory": "dev-tools",
       "source": "tools",
       "url": "https://github.com/openai/codex"
@@ -90,7 +90,7 @@ window.AGENT_STATS = {
     {
       "name": "aspnet-core",
       "repo": "openai/skills",
-      "stars": 21318,
+      "stars": 21326,
       "functionCategory": "design-ui",
       "source": "official",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/aspnet-core"
@@ -98,7 +98,7 @@ window.AGENT_STATS = {
     {
       "name": "chatgpt-apps",
       "repo": "openai/skills",
-      "stars": 21318,
+      "stars": 21326,
       "functionCategory": "design-ui",
       "source": "official",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/chatgpt-apps"
@@ -106,7 +106,7 @@ window.AGENT_STATS = {
     {
       "name": "cli-creator",
       "repo": "openai/skills",
-      "stars": 21318,
+      "stars": 21326,
       "functionCategory": "design-ui",
       "source": "official",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/cli-creator"
@@ -114,7 +114,7 @@ window.AGENT_STATS = {
     {
       "name": "cloudflare-deploy",
       "repo": "openai/skills",
-      "stars": 21318,
+      "stars": 21326,
       "functionCategory": "devops-deploy",
       "source": "official",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/cloudflare-deploy"
@@ -122,7 +122,7 @@ window.AGENT_STATS = {
     {
       "name": "define-goal",
       "repo": "openai/skills",
-      "stars": 21318,
+      "stars": 21326,
       "functionCategory": "dev-tools",
       "source": "official",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/define-goal"
@@ -130,7 +130,7 @@ window.AGENT_STATS = {
     {
       "name": "figma",
       "repo": "openai/skills",
-      "stars": 21318,
+      "stars": 21326,
       "functionCategory": "design-ui",
       "source": "official",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/figma"
@@ -138,7 +138,7 @@ window.AGENT_STATS = {
     {
       "name": "figma-code-connect-components",
       "repo": "openai/skills",
-      "stars": 21318,
+      "stars": 21326,
       "functionCategory": "design-ui",
       "source": "official",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/figma-code-connect-components"
@@ -146,7 +146,7 @@ window.AGENT_STATS = {
     {
       "name": "figma-create-design-system-rules",
       "repo": "openai/skills",
-      "stars": 21318,
+      "stars": 21326,
       "functionCategory": "design-ui",
       "source": "official",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/figma-create-design-system-rules"
@@ -154,7 +154,7 @@ window.AGENT_STATS = {
     {
       "name": "figma-create-new-file",
       "repo": "openai/skills",
-      "stars": 21318,
+      "stars": 21326,
       "functionCategory": "design-ui",
       "source": "official",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/figma-create-new-file"

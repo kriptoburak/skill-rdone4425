@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "agent": "copilot",
+    "functionCategory": "backend-api",
+    "count": 1,
+    "sourceData": "js/data.js"
+  },
+  "skills": [
+    {
+      "name": "yupi-hot-monitor",
+      "source": "tools",
+      "agent": "copilot",
+      "group": null,
+      "repo": "liyupi/yupi-hot-monitor",
+      "stars": 488,
+      "desc": "2026 年编程导航 AI 编程实战新项目，基于 Node.js + Express + React + OpenRouter 的 AI 热点监控工具，支持多信息源聚合抓取（Twitter / Bing / HackerNews / B 站等 7+ 平台）、AI 查询扩展、AI 真假识别与相关性分析、WebSocket 实时推送、邮件通知、多维度筛选排序，并将热点监控能力封装为 Agent Skills 技能包。覆盖 Prisma + SQLite 数据库、Socket.io",
+      "url": "https://github.com/liyupi/yupi-hot-monitor",
+      "install": "npm i -g yupi-hot-monitor",
+      "functionCategory": "backend-api"
+    }
+  ]
+}

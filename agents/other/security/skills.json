@@ -2,32 +2,20 @@
   "meta": {
     "agent": "other",
     "functionCategory": "security",
-    "count": 2,
+    "count": 1,
     "sourceData": "js/data.js"
   },
   "skills": [
     {
       "name": "ctf-skills",
       "source": "general",
+      "agent": "other",
       "group": null,
       "repo": "ljagiello/ctf-skills",
-      "stars": 2283,
+      "stars": 2284,
       "desc": "Agent skills for solving CTF challenges - web exploitation, binary pwn, crypto, reverse engineering, forensics, OSINT, and more",
       "url": "https://github.com/ljagiello/ctf-skills",
       "install": "git clone https://github.com/ljagiello/ctf-skills.git",
-      "agent": "other",
-      "functionCategory": "security"
-    },
-    {
-      "name": "DeepCamera",
-      "source": "general",
-      "group": null,
-      "repo": "SharpAI/DeepCamera",
-      "stars": 2779,
-      "desc": "Open-Source AI Camera Skills Platform, AI NVR & CCTV Surveillance. Local VLM video analysis with Qwen, DeepSeek, SmolVLM, LLaVA, YOLO26. LLM-powered agentic security camera agent — watches, understands, remembers & guards your home via Tele",
-      "url": "https://github.com/SharpAI/DeepCamera",
-      "install": "npm i -g DeepCamera",
-      "agent": "other",
       "functionCategory": "security"
     }
   ]

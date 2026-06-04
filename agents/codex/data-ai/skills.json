@@ -9,25 +9,25 @@
     {
       "name": "jupyter-notebook",
       "source": "official",
+      "agent": "codex",
       "group": "other",
       "repo": "openai/skills",
-      "stars": 21318,
+      "stars": 21326,
       "desc": "\"Use when the user asks to create, scaffold, or edit Jupyter notebooks (`.ipynb`) for experiments, explorations, or tutorials; prefer the bundled templates and run the helper script `new_notebook.py` to generate a clean starting notebook.\"",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/jupyter-notebook",
       "install": "$skill-installer jupyter-notebook",
-      "agent": "codex",
       "functionCategory": "data-ai"
     },
     {
       "name": "transcribe",
       "source": "official",
+      "agent": "codex",
       "group": "other",
       "repo": "openai/skills",
-      "stars": 21318,
+      "stars": 21326,
       "desc": "\"Transcribe audio files to text with optional diarization and known-speaker hints. Use when a user asks to transcribe speech from audio/video, extract text from recordings, or label speakers in interviews or meetings.\"",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/transcribe",
       "install": "$skill-installer transcribe",
-      "agent": "codex",
       "functionCategory": "data-ai"
     }
   ]

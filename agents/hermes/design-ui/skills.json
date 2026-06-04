@@ -9,13 +9,13 @@
     {
       "name": "mercury-agent-skills",
       "source": "general",
+      "agent": "hermes",
       "group": null,
       "repo": "cosmicstack-labs/mercury-agent-skills",
       "stars": 258,
       "desc": "A curated registry of reusable Mercury Agent, Open Claw or Hermes Agent skills designed for real developer workflows, persistent memory, and token-efficient execution.",
       "url": "https://github.com/cosmicstack-labs/mercury-agent-skills",
       "install": "git clone https://github.com/cosmicstack-labs/mercury-agent-skills.git  # browse the awesome list",
-      "agent": "hermes",
       "functionCategory": "design-ui"
     }
   ]

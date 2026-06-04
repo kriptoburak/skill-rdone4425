@@ -9,13 +9,13 @@
     {
       "name": "hermes-agent",
       "source": "hermes",
+      "agent": "hermes",
       "group": null,
       "repo": "nousresearch/hermes-agent",
-      "stars": 180382,
+      "stars": 180571,
       "desc": "The agent that grows with you",
       "url": "https://github.com/NousResearch/hermes-agent",
       "install": "npm i -g @nousresearch/hermes-agent",
-      "agent": "hermes",
       "functionCategory": "data-ai"
     }
   ]

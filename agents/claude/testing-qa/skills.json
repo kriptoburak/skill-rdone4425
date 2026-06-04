@@ -9,25 +9,25 @@
     {
       "name": "jeffreysprompts.com",
       "source": "general",
+      "agent": "claude",
       "group": null,
       "repo": "Dicklesworthstone/jeffreysprompts.com",
       "stars": 107,
       "desc": "A curated collection of battle-tested prompts for agentic coding - Browse, copy, and install as Claude Code skills",
       "url": "https://github.com/Dicklesworthstone/jeffreysprompts.com",
       "install": "git clone https://github.com/Dicklesworthstone/jeffreysprompts.com.git  # browse the awesome list",
-      "agent": "claude",
       "functionCategory": "testing-qa"
     },
     {
       "name": "skill-creator",
       "source": "claude",
+      "agent": "claude",
       "group": null,
       "repo": "anthropics/skills",
-      "stars": 146441,
+      "stars": 146488,
       "desc": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with varia",
       "url": "https://github.com/anthropics/skills/tree/main/skills/skill-creator",
       "install": "$skill-installer skill-creator",
-      "agent": "claude",
       "functionCategory": "testing-qa"
     }
   ]

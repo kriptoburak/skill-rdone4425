@@ -9,13 +9,13 @@
     {
       "name": "AbsolutelySkilled",
       "source": "community",
+      "agent": "other",
       "group": null,
       "repo": "AbsolutelySkilled/AbsolutelySkilled",
       "stars": 172,
       "desc": "Awesome Skills from Around the World",
       "url": "https://github.com/AbsolutelySkilled/AbsolutelySkilled",
       "install": "git clone https://github.com/AbsolutelySkilled/AbsolutelySkilled.git",
-      "agent": "other",
       "functionCategory": "general"
     }
   ]

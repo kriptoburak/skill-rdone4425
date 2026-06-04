@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T16:06:40.209Z",
+  "generatedAt": "2026-06-04T17:00:19.556Z",
   "sourceData": "js/data.js",
   "totalSkills": 217,
   "buckets": [
@@ -16,7 +16,7 @@
     {
       "agent": "claude",
       "functionCategory": "design-ui",
-      "count": 15
+      "count": 14
     },
     {
       "agent": "claude",
@@ -37,6 +37,11 @@
       "agent": "claude",
       "functionCategory": "general",
       "count": 2
+    },
+    {
+      "agent": "claude",
+      "functionCategory": "security",
+      "count": 1
     },
     {
       "agent": "claude",
@@ -71,6 +76,11 @@
     {
       "agent": "codex",
       "functionCategory": "testing-qa",
+      "count": 1
+    },
+    {
+      "agent": "copilot",
+      "functionCategory": "backend-api",
       "count": 1
     },
     {
@@ -116,7 +126,7 @@
     {
       "agent": "multi",
       "functionCategory": "design-ui",
-      "count": 17
+      "count": 20
     },
     {
       "agent": "multi",
@@ -126,7 +136,7 @@
     {
       "agent": "multi",
       "functionCategory": "devops-deploy",
-      "count": 5
+      "count": 6
     },
     {
       "agent": "multi",
@@ -160,18 +170,13 @@
     },
     {
       "agent": "other",
-      "functionCategory": "backend-api",
-      "count": 1
-    },
-    {
-      "agent": "other",
       "functionCategory": "data-ai",
       "count": 15
     },
     {
       "agent": "other",
       "functionCategory": "design-ui",
-      "count": 14
+      "count": 12
     },
     {
       "agent": "other",
@@ -181,7 +186,7 @@
     {
       "agent": "other",
       "functionCategory": "devops-deploy",
-      "count": 7
+      "count": 6
     },
     {
       "agent": "other",
@@ -196,7 +201,7 @@
     {
       "agent": "other",
       "functionCategory": "security",
-      "count": 2
+      "count": 1
     }
   ]
 }

@@ -9,13 +9,13 @@
     {
       "name": "codex-autoresearch",
       "source": "general",
+      "agent": "codex",
       "group": null,
       "repo": "leo-lilinxiao/codex-autoresearch",
-      "stars": 1830,
+      "stars": 1831,
       "desc": "Codex Autoresearch Skill — A self-directed iterative system for Codex that continuously cycles through: modify, verify, retain or discard, and repeat indefinitely. Inspired by Karpathy’s autoresearch concept.",
       "url": "https://github.com/leo-lilinxiao/codex-autoresearch",
       "install": "git clone https://github.com/leo-lilinxiao/codex-autoresearch.git",
-      "agent": "codex",
       "functionCategory": "testing-qa"
     }
   ]

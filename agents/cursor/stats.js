@@ -1,5 +1,5 @@
 window.AGENT_STATS = {
-  "generatedAt": "2026-06-04T16:06:40.208Z",
+  "generatedAt": "2026-06-04T17:00:19.555Z",
   "sourceData": "js/data.js",
   "agent": "cursor",
   "totalSkills": 1,

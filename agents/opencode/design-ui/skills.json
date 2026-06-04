@@ -9,13 +9,13 @@
     {
       "name": "opencode",
       "source": "opencode",
+      "agent": "opencode",
       "group": null,
       "repo": "opencode-ai/opencode",
       "stars": 12821,
       "desc": "A powerful AI coding agent. Built for the terminal.",
       "url": "https://github.com/opencode-ai/opencode",
       "install": "npm i -g opencode-ai",
-      "agent": "opencode",
       "functionCategory": "design-ui"
     }
   ]

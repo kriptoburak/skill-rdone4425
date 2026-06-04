@@ -9,13 +9,13 @@
     {
       "name": "OpenViking",
       "source": "general",
+      "agent": "openclaw",
       "group": null,
       "repo": "volcengine/OpenViking",
       "stars": 25137,
       "desc": "OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hier",
       "url": "https://github.com/volcengine/OpenViking",
       "install": "git clone https://github.com/volcengine/OpenViking.git",
-      "agent": "openclaw",
       "functionCategory": "design-ui"
     }
   ]

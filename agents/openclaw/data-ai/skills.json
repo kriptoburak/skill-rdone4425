@@ -9,13 +9,13 @@
     {
       "name": "openclaw",
       "source": "openclaw",
+      "agent": "openclaw",
       "group": null,
       "repo": "openclaw/openclaw",
-      "stars": 376777,
+      "stars": 376804,
       "desc": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
       "url": "https://github.com/openclaw/openclaw",
       "install": "docker pull openclaw/openclaw",
-      "agent": "openclaw",
       "functionCategory": "data-ai"
     }
   ]

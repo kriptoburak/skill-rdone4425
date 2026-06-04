@@ -1,5 +1,5 @@
 window.AGENT_STATS = {
-  "generatedAt": "2026-06-04T16:06:40.207Z",
+  "generatedAt": "2026-06-04T17:00:19.555Z",
   "sourceData": "js/data.js",
   "agent": "openclaw",
   "totalSkills": 4,
@@ -54,7 +54,7 @@ window.AGENT_STATS = {
     {
       "name": "openclaw",
       "repo": "openclaw/openclaw",
-      "stars": 376777,
+      "stars": 376804,
       "functionCategory": "data-ai",
       "source": "openclaw",
       "url": "https://github.com/openclaw/openclaw"
@@ -70,7 +70,7 @@ window.AGENT_STATS = {
     {
       "name": "AI-Infra-Guard",
       "repo": "Tencent/AI-Infra-Guard",
-      "stars": 3832,
+      "stars": 3834,
       "functionCategory": "dev-tools",
       "source": "general",
       "url": "https://github.com/Tencent/AI-Infra-Guard"

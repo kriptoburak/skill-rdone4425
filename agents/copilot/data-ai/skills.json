@@ -9,13 +9,13 @@
     {
       "name": "awesome-copilot",
       "source": "community",
+      "agent": "copilot",
       "group": null,
       "repo": "github/awesome-copilot",
-      "stars": 34452,
+      "stars": 34456,
       "desc": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
       "url": "https://github.com/github/awesome-copilot",
       "install": "git clone https://github.com/github/awesome-copilot.git  # browse the awesome list",
-      "agent": "copilot",
       "functionCategory": "data-ai"
     }
   ]

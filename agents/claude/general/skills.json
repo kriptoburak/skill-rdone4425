@@ -9,25 +9,25 @@
     {
       "name": "algorithmic-art",
       "source": "claude",
+      "agent": "claude",
       "group": null,
       "repo": "anthropics/skills",
-      "stars": 146441,
+      "stars": 146488,
       "desc": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algor",
       "url": "https://github.com/anthropics/skills/tree/main/skills/algorithmic-art",
       "install": "$skill-installer algorithmic-art",
-      "agent": "claude",
       "functionCategory": "general"
     },
     {
       "name": "caveman",
       "source": "general",
+      "agent": "claude",
       "group": null,
       "repo": "JuliusBrussee/caveman",
-      "stars": 68728,
+      "stars": 68774,
       "desc": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
       "url": "https://github.com/JuliusBrussee/caveman",
       "install": "npm i -g caveman",
-      "agent": "claude",
       "functionCategory": "general"
     }
   ]

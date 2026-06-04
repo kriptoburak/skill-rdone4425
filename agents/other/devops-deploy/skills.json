@@ -2,92 +2,80 @@
   "meta": {
     "agent": "other",
     "functionCategory": "devops-deploy",
-    "count": 7,
+    "count": 6,
     "sourceData": "js/data.js"
   },
   "skills": [
     {
       "name": "armory",
       "source": "general",
+      "agent": "other",
       "group": null,
       "repo": "Mathews-Tom/armory",
-      "stars": 242,
+      "stars": 241,
       "desc": "Curated, production-grade skills for AI coding agents. Battle-tested workflows for developers who use AI seriously.",
       "url": "https://github.com/Mathews-Tom/armory",
       "install": "git clone https://github.com/Mathews-Tom/armory.git  # browse the awesome list",
-      "agent": "other",
       "functionCategory": "devops-deploy"
     },
     {
       "name": "Auto-Empirical-Research-Skills",
       "source": "general",
+      "agent": "other",
       "group": null,
       "repo": "brycewang-stanford/Auto-Empirical-Research-Skills",
-      "stars": 1674,
+      "stars": 1676,
       "desc": "🔬 A curated collection of 23,000+ agent skills for empirical research across 8 social science disciplines. | 精选 23,000+ AI Agent 技能库，覆盖8大社会科学学科的实证研究。CoPaper.AI 20分钟完成一篇可复现的规范实证论文，并支持用户上传 Skills。-- Maintained by CoPaper.AI from Stanford REAP",
       "url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills",
       "install": "git clone https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills.git  # browse the awesome list",
-      "agent": "other",
       "functionCategory": "devops-deploy"
     },
     {
       "name": "dbt-agent-skills",
       "source": "general",
+      "agent": "other",
       "group": null,
       "repo": "dbt-labs/dbt-agent-skills",
       "stars": 542,
       "desc": "A curated collection of Agent Skills for working with dbt, to help AI agents understand and execute dbt workflows more effectively.",
       "url": "https://github.com/dbt-labs/dbt-agent-skills",
       "install": "git clone https://github.com/dbt-labs/dbt-agent-skills.git  # browse the awesome list",
-      "agent": "other",
       "functionCategory": "devops-deploy"
     },
     {
       "name": "n8n-as-code",
       "source": "general",
+      "agent": "other",
       "group": null,
       "repo": "EtienneLescot/n8n-as-code",
       "stars": 1307,
       "desc": "Give your AI agent n8n superpowers. 537 nodes with full schemas, 7,700+ templates, Git-like sync, and TypeScript workflows.",
       "url": "https://github.com/EtienneLescot/n8n-as-code",
       "install": "npm i -g n8n-as-code",
-      "agent": "other",
-      "functionCategory": "devops-deploy"
-    },
-    {
-      "name": "scientific-agent-skills",
-      "source": "general",
-      "group": null,
-      "repo": "K-Dense-AI/scientific-agent-skills",
-      "stars": 27220,
-      "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 160,000+ scientists worldwide. 140 ready-to-use skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compat",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "install": "git clone https://github.com/K-Dense-AI/scientific-agent-skills.git",
-      "agent": "other",
       "functionCategory": "devops-deploy"
     },
     {
       "name": "SkillOpt",
       "source": "general",
+      "agent": "other",
       "group": null,
       "repo": "microsoft/SkillOpt",
-      "stars": 4853,
+      "stars": 4871,
       "desc": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts.",
       "url": "https://github.com/microsoft/SkillOpt",
       "install": "git clone https://github.com/microsoft/SkillOpt.git",
-      "agent": "other",
       "functionCategory": "devops-deploy"
     },
     {
       "name": "taste-skill",
       "source": "general",
+      "agent": "other",
       "group": null,
       "repo": "Leonxlnx/taste-skill",
-      "stars": 32961,
+      "stars": 33002,
       "desc": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
       "url": "https://github.com/Leonxlnx/taste-skill",
       "install": "git clone https://github.com/Leonxlnx/taste-skill.git",
-      "agent": "other",
       "functionCategory": "devops-deploy"
     }
   ]

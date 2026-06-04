@@ -9,37 +9,37 @@
     {
       "name": "academic-research-skills",
       "source": "general",
+      "agent": "claude",
       "group": null,
       "repo": "Imbad0202/academic-research-skills",
-      "stars": 27143,
+      "stars": 27185,
       "desc": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
       "url": "https://github.com/Imbad0202/academic-research-skills",
       "install": "git clone https://github.com/Imbad0202/academic-research-skills.git",
-      "agent": "claude",
       "functionCategory": "data-ai"
     },
     {
       "name": "andrej-karpathy-skills",
       "source": "general",
+      "agent": "claude",
       "group": null,
       "repo": "multica-ai/andrej-karpathy-skills",
-      "stars": 167501,
+      "stars": 167594,
       "desc": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
       "url": "https://github.com/multica-ai/andrej-karpathy-skills",
       "install": "git clone https://github.com/multica-ai/andrej-karpathy-skills.git",
-      "agent": "claude",
       "functionCategory": "data-ai"
     },
     {
       "name": "awesomeAgentskills",
       "source": "community",
+      "agent": "claude",
       "group": null,
       "repo": "littleben/awesomeAgentskills",
       "stars": 178,
       "desc": "A curated collection of skills for Claude Code and other AI agents | 精选的 Claude Code 和其他 AI 智能体技能集合",
       "url": "https://github.com/littleben/awesomeAgentskills",
       "install": "git clone https://github.com/littleben/awesomeAgentskills.git  # browse the awesome list",
-      "agent": "claude",
       "functionCategory": "data-ai"
     }
   ]

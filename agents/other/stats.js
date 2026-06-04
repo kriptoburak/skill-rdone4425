@@ -1,51 +1,47 @@
 window.AGENT_STATS = {
-  "generatedAt": "2026-06-04T16:06:40.206Z",
+  "generatedAt": "2026-06-04T17:00:19.555Z",
   "sourceData": "js/data.js",
   "agent": "other",
-  "totalSkills": 58,
-  "functionCategoryCount": 8,
+  "totalSkills": 53,
+  "functionCategoryCount": 7,
   "functionCategories": [
     {
       "name": "data-ai",
       "count": 15
     },
     {
-      "name": "design-ui",
-      "count": 14
-    },
-    {
       "name": "dev-tools",
       "count": 13
     },
     {
+      "name": "design-ui",
+      "count": 12
+    },
+    {
       "name": "devops-deploy",
-      "count": 7
+      "count": 6
     },
     {
       "name": "docs-content",
       "count": 5
     },
     {
-      "name": "security",
-      "count": 2
-    },
-    {
-      "name": "backend-api",
+      "name": "general",
       "count": 1
     },
     {
-      "name": "general",
+      "name": "security",
       "count": 1
     }
   ],
   "sources": [
     {
       "name": "general",
-      "count": 33
+      "count": 30
     },
     {
       "name": "tools",
-      "count": 20
+      "count": 18
     },
     {
       "name": "community",
@@ -150,10 +146,6 @@ window.AGENT_STATS = {
       "count": 1
     },
     {
-      "name": "K-Dense-AI/scientific-agent-skills",
-      "count": 1
-    },
-    {
       "name": "kepano/obsidian-skills",
       "count": 1
     },
@@ -163,10 +155,6 @@ window.AGENT_STATS = {
     },
     {
       "name": "Leonxlnx/taste-skill",
-      "count": 1
-    },
-    {
-      "name": "liyupi/yupi-hot-monitor",
       "count": 1
     },
     {
@@ -222,10 +210,6 @@ window.AGENT_STATS = {
       "count": 1
     },
     {
-      "name": "nexu-io/html-anything",
-      "count": 1
-    },
-    {
       "name": "op7418/guizang-ppt-skill",
       "count": 1
     },
@@ -250,10 +234,6 @@ window.AGENT_STATS = {
       "count": 1
     },
     {
-      "name": "SharpAI/DeepCamera",
-      "count": 1
-    },
-    {
       "name": "skillmatic-ai/awesome-agent-skills",
       "count": 1
     },
@@ -267,10 +247,6 @@ window.AGENT_STATS = {
     },
     {
       "name": "twostraws/Swift-Agent-Skills",
-      "count": 1
-    },
-    {
-      "name": "wasp-lang/open-saas",
       "count": 1
     },
     {
@@ -290,7 +266,7 @@ window.AGENT_STATS = {
     {
       "name": "deer-flow",
       "repo": "bytedance/deer-flow",
-      "stars": 70452,
+      "stars": 70460,
       "functionCategory": "dev-tools",
       "source": "tools",
       "url": "https://github.com/bytedance/deer-flow"
@@ -298,7 +274,7 @@ window.AGENT_STATS = {
     {
       "name": "agent-skills",
       "repo": "addyosmani/agent-skills",
-      "stars": 48216,
+      "stars": 48231,
       "functionCategory": "data-ai",
       "source": "general",
       "url": "https://github.com/addyosmani/agent-skills"
@@ -306,7 +282,7 @@ window.AGENT_STATS = {
     {
       "name": "cherry-studio",
       "repo": "CherryHQ/cherry-studio",
-      "stars": 46867,
+      "stars": 46870,
       "functionCategory": "data-ai",
       "source": "general",
       "url": "https://github.com/CherryHQ/cherry-studio"
@@ -314,7 +290,7 @@ window.AGENT_STATS = {
     {
       "name": "JeecgBoot",
       "repo": "jeecgboot/JeecgBoot",
-      "stars": 46610,
+      "stars": 46611,
       "functionCategory": "dev-tools",
       "source": "general",
       "url": "https://github.com/jeecgboot/JeecgBoot"
@@ -322,7 +298,7 @@ window.AGENT_STATS = {
     {
       "name": "CowAgent",
       "repo": "zhayujie/CowAgent",
-      "stars": 45055,
+      "stars": 45056,
       "functionCategory": "dev-tools",
       "source": "tools",
       "url": "https://github.com/zhayujie/CowAgent"
@@ -330,7 +306,7 @@ window.AGENT_STATS = {
     {
       "name": "obsidian-skills",
       "repo": "kepano/obsidian-skills",
-      "stars": 34237,
+      "stars": 34252,
       "functionCategory": "docs-content",
       "source": "general",
       "url": "https://github.com/kepano/obsidian-skills"
@@ -338,23 +314,15 @@ window.AGENT_STATS = {
     {
       "name": "taste-skill",
       "repo": "Leonxlnx/taste-skill",
-      "stars": 32961,
+      "stars": 33002,
       "functionCategory": "devops-deploy",
       "source": "general",
       "url": "https://github.com/Leonxlnx/taste-skill"
     },
     {
-      "name": "scientific-agent-skills",
-      "repo": "K-Dense-AI/scientific-agent-skills",
-      "stars": 27220,
-      "functionCategory": "devops-deploy",
-      "source": "general",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
-    },
-    {
       "name": "frontend-slides",
       "repo": "zarazhangrui/frontend-slides",
-      "stars": 20318,
+      "stars": 20331,
       "functionCategory": "design-ui",
       "source": "general",
       "url": "https://github.com/zarazhangrui/frontend-slides"
@@ -362,10 +330,18 @@ window.AGENT_STATS = {
     {
       "name": "context-mode",
       "repo": "mksglu/context-mode",
-      "stars": 16408,
+      "stars": 16418,
       "functionCategory": "dev-tools",
       "source": "tools",
       "url": "https://github.com/mksglu/context-mode"
+    },
+    {
+      "name": "ai-website-cloner-template",
+      "repo": "JCodesMore/ai-website-cloner-template",
+      "stars": 16229,
+      "functionCategory": "dev-tools",
+      "source": "general",
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template"
     }
   ]
 };

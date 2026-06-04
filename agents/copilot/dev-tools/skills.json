@@ -9,13 +9,13 @@
     {
       "name": "awesome-copilot-agents",
       "source": "community",
+      "agent": "copilot",
       "group": null,
       "repo": "Code-and-Sorts/awesome-copilot-agents",
       "stars": 530,
       "desc": "✨ A curated list of awesome GitHub instructions, prompt, skills, MCPs and agent markdown files for enhancing your GitHub Copilot AI experience.",
       "url": "https://github.com/Code-and-Sorts/awesome-copilot-agents",
       "install": "git clone https://github.com/Code-and-Sorts/awesome-copilot-agents.git  # browse the awesome list",
-      "agent": "copilot",
       "functionCategory": "dev-tools"
     }
   ]

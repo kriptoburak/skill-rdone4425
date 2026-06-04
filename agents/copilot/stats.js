@@ -1,10 +1,14 @@
 window.AGENT_STATS = {
-  "generatedAt": "2026-06-04T16:06:40.208Z",
+  "generatedAt": "2026-06-04T17:00:19.555Z",
   "sourceData": "js/data.js",
   "agent": "copilot",
-  "totalSkills": 3,
-  "functionCategoryCount": 3,
+  "totalSkills": 4,
+  "functionCategoryCount": 4,
   "functionCategories": [
+    {
+      "name": "backend-api",
+      "count": 1
+    },
     {
       "name": "data-ai",
       "count": 1
@@ -26,6 +30,10 @@ window.AGENT_STATS = {
     {
       "name": "general",
       "count": 1
+    },
+    {
+      "name": "tools",
+      "count": 1
     }
   ],
   "repos": [
@@ -38,6 +46,10 @@ window.AGENT_STATS = {
       "count": 1
     },
     {
+      "name": "liyupi/yupi-hot-monitor",
+      "count": 1
+    },
+    {
       "name": "microsoft/hve-core",
       "count": 1
     }
@@ -46,7 +58,7 @@ window.AGENT_STATS = {
     {
       "name": "awesome-copilot",
       "repo": "github/awesome-copilot",
-      "stars": 34452,
+      "stars": 34456,
       "functionCategory": "data-ai",
       "source": "community",
       "url": "https://github.com/github/awesome-copilot"
@@ -66,6 +78,14 @@ window.AGENT_STATS = {
       "functionCategory": "dev-tools",
       "source": "community",
       "url": "https://github.com/Code-and-Sorts/awesome-copilot-agents"
+    },
+    {
+      "name": "yupi-hot-monitor",
+      "repo": "liyupi/yupi-hot-monitor",
+      "stars": 488,
+      "functionCategory": "backend-api",
+      "source": "tools",
+      "url": "https://github.com/liyupi/yupi-hot-monitor"
     }
   ]
 };

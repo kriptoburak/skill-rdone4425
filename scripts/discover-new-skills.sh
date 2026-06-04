@@ -13,7 +13,7 @@ echo "🔍 Skill Hub — discover @ $(date -u +%Y-%m-%d_%H:%M:%S_UTC)"
 
 # 检查是否有 GitHub token
 if [ -z "$GITHUB_TOKEN" ] && [ -z "$GH_TOKEN" ]; then
-    export GH_TOKEN=*** auth token 2>/dev/null || echo "")
+    export GH_TOKEN=$(gh auth token 2>/dev/null || echo "")
 fi
 
 if [ -z "$GH_TOKEN" ] && [ -z "$GITHUB_TOKEN" ]; then

@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "agent": "openclaw",
+    "functionCategory": "security",
+    "count": 1,
+    "sourceData": "js/data.js"
+  },
+  "skills": [
+    {
+      "name": "clawsec",
+      "source": "tools",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "prompt-security/clawsec",
+      "stars": 1024,
+      "desc": "A complete security skill suite for OpenClaw, Hermes, PicoClaw and NanoClaw agents. Drift detection, security recommendations, automated audits, skill integrity verification.",
+      "url": "https://github.com/prompt-security/clawsec",
+      "install": "git clone https://github.com/prompt-security/clawsec.git",
+      "functionCategory": "security"
+    }
+  ]
+}

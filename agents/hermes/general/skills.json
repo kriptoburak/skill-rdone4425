@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "agent": "hermes",
+    "functionCategory": "general",
+    "count": 2,
+    "sourceData": "js/data.js"
+  },
+  "skills": [
+    {
+      "name": "awesome-hermes-agent-nyx",
+      "source": "community",
+      "agent": "hermes",
+      "group": null,
+      "repo": "0xNyk/awesome-hermes-agent",
+      "stars": 3717,
+      "desc": "A curated list of awesome skills, tools, integrations, and resources for Hermes Agent by Nous Research",
+      "url": "https://github.com/0xNyk/awesome-hermes-agent",
+      "install": "git clone https://github.com/0xNyk/awesome-hermes-agent.git # browse the awesome list",
+      "functionCategory": "general"
+    },
+    {
+      "name": "awesome-hermes-agent-samurai",
+      "source": "community",
+      "agent": "hermes",
+      "group": null,
+      "repo": "SamurAIGPT/awesome-hermes-agent",
+      "stars": 1662,
+      "desc": "A curated list of skills, plugins, tools, integrations, and resources for Hermes Agent by Nous Research",
+      "url": "https://github.com/SamurAIGPT/awesome-hermes-agent",
+      "install": "git clone https://github.com/SamurAIGPT/awesome-hermes-agent.git # browse the awesome list",
+      "functionCategory": "general"
+    }
+  ]
+}

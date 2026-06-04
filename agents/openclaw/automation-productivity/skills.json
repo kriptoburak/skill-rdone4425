@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "agent": "openclaw",
+    "functionCategory": "automation-productivity",
+    "count": 1,
+    "sourceData": "js/data.js"
+  },
+  "skills": [
+    {
+      "name": "xiaohongshu-skills",
+      "source": "general",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "white0dew/XiaohongshuSkills",
+      "stars": 2965,
+      "desc": "Xiaohongshu auto-publishing, auto-commenting, auto-search skill. Supports OpenClaw, Codex, CC, etc.",
+      "url": "https://github.com/white0dew/XiaohongshuSkills",
+      "install": "git clone https://github.com/white0dew/XiaohongshuSkills.git",
+      "functionCategory": "automation-productivity"
+    }
+  ]
+}

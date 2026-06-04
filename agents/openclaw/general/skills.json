@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "agent": "openclaw",
+    "functionCategory": "general",
+    "count": 3,
+    "sourceData": "js/data.js"
+  },
+  "skills": [
+    {
+      "name": "awesome-openclaw-skills",
+      "source": "community",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "VoltAgent/awesome-openclaw-skills",
+      "stars": 49811,
+      "desc": "The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.",
+      "url": "https://github.com/VoltAgent/awesome-openclaw-skills",
+      "install": "git clone https://github.com/VoltAgent/awesome-openclaw-skills.git # browse the awesome list",
+      "functionCategory": "general"
+    },
+    {
+      "name": "awesome-openclaw-skills-zh",
+      "source": "community",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "clawdbot-ai/awesome-openclaw-skills-zh",
+      "stars": 4098,
+      "desc": "OpenClaw Chinese official skills library, translated from Clawdbot official skills, categorized by scenario, supports Chinese natural language invocation.",
+      "url": "https://github.com/clawdbot-ai/awesome-openclaw-skills-zh",
+      "install": "git clone https://github.com/clawdbot-ai/awesome-openclaw-skills-zh.git # browse the awesome list",
+      "functionCategory": "general"
+    },
+    {
+      "name": "clawhub",
+      "source": "official",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "openclaw/clawhub",
+      "stars": 8868,
+      "desc": "Skill + Plugin Registry for OpenClaw",
+      "url": "https://github.com/openclaw/clawhub",
+      "install": "git clone https://github.com/openclaw/clawhub.git",
+      "functionCategory": "general"
+    }
+  ]
+}

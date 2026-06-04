@@ -2,7 +2,7 @@
   "meta": {
     "agent": "codex",
     "functionCategory": "docs-content",
-    "count": 4,
+    "count": 5,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -52,6 +52,18 @@
       "desc": "Turn Notion specs into implementation plans, tasks, and progress tracking; use when implementing PRDs/feature specs and creating Notion plans + tasks from them.",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/notion-spec-to-implementation",
       "install": "$skill-installer notion-spec-to-implementation",
+      "functionCategory": "docs-content"
+    },
+    {
+      "name": "ppt-image-first",
+      "source": "general",
+      "agent": "codex",
+      "group": null,
+      "repo": "NyxTides/ppt-image-first",
+      "stars": 1004,
+      "desc": "PPT image-first skill for Codex/Claude Code/Opencode CLI",
+      "url": "https://github.com/NyxTides/ppt-image-first",
+      "install": "git clone https://github.com/NyxTides/ppt-image-first.git",
       "functionCategory": "docs-content"
     }
   ]

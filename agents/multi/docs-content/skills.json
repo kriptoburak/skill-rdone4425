@@ -2,7 +2,7 @@
   "meta": {
     "agent": "multi",
     "functionCategory": "docs-content",
-    "count": 4,
+    "count": 5,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -52,6 +52,18 @@
       "desc": "20 SEO & GEO skills for Claude Code, Cursor, Codex, and 35+ AI agents. Keyword research, content writing, technical audits, rank tracking. CORE-EEAT + CITE frameworks.",
       "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills",
       "install": "git clone https://github.com/aaron-he-zhu/seo-geo-claude-skills.git",
+      "functionCategory": "docs-content"
+    },
+    {
+      "name": "avoid-ai-writing",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "conorbronsdon/avoid-ai-writing",
+      "stars": 1687,
+      "desc": "Skill that audits and rewrites content to remove AI writing patterns. Use it with Claude Code, OpenClaw, and Hermes.",
+      "url": "https://github.com/conorbronsdon/avoid-ai-writing",
+      "install": "git clone https://github.com/conorbronsdon/avoid-ai-writing.git",
       "functionCategory": "docs-content"
     }
   ]

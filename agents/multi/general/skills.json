@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "agent": "multi",
+    "functionCategory": "general",
+    "count": 1,
+    "sourceData": "js/data.js"
+  },
+  "skills": [
+    {
+      "name": "awesome-legal-skills",
+      "source": "community",
+      "agent": "multi",
+      "group": null,
+      "repo": "lawve-ai/awesome-legal-skills",
+      "stars": 406,
+      "desc": "A curated list of awesome Agent Skills for automating legal work",
+      "url": "https://github.com/lawve-ai/awesome-legal-skills",
+      "install": "git clone https://github.com/lawve-ai/awesome-legal-skills.git # browse the awesome list",
+      "functionCategory": "general"
+    }
+  ]
+}

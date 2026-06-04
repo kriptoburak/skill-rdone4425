@@ -2,7 +2,7 @@
   "meta": {
     "agent": "hermes",
     "functionCategory": "data-ai",
-    "count": 1,
+    "count": 2,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -16,6 +16,18 @@
       "desc": "The agent that grows with you",
       "url": "https://github.com/NousResearch/hermes-agent",
       "install": "npm i -g @nousresearch/hermes-agent",
+      "functionCategory": "data-ai"
+    },
+    {
+      "name": "hermes-agent-self-evolution",
+      "source": "official",
+      "agent": "hermes",
+      "group": null,
+      "repo": "NousResearch/hermes-agent-self-evolution",
+      "stars": 3855,
+      "desc": "Evolutionary self-improvement for Hermes Agent - optimize skills, prompts, and code using DSPy + GEPA",
+      "url": "https://github.com/NousResearch/hermes-agent-self-evolution",
+      "install": "git clone https://github.com/NousResearch/hermes-agent-self-evolution.git",
       "functionCategory": "data-ai"
     }
   ]

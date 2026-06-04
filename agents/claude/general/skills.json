@@ -2,7 +2,7 @@
   "meta": {
     "agent": "claude",
     "functionCategory": "general",
-    "count": 2,
+    "count": 3,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -28,6 +28,18 @@
       "desc": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
       "url": "https://github.com/JuliusBrussee/caveman",
       "install": "npm i -g caveman",
+      "functionCategory": "general"
+    },
+    {
+      "name": "buildwithclaude",
+      "source": "community",
+      "agent": "claude",
+      "group": null,
+      "repo": "davepoon/buildwithclaude",
+      "stars": 3020,
+      "desc": "A single hub to find Claude Skills, Agents, Commands, Hooks, Plugins, and Marketplace collections to extend Claude Code, Claude Desktop, Agent SDK and OpenClaw",
+      "url": "https://github.com/davepoon/buildwithclaude",
+      "install": "git clone https://github.com/davepoon/buildwithclaude.git",
       "functionCategory": "general"
     }
   ]

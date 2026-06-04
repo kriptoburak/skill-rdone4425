@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "agent": "multi",
+    "functionCategory": "automation-productivity",
+    "count": 1,
+    "sourceData": "js/data.js"
+  },
+  "skills": [
+    {
+      "name": "agentsys",
+      "source": "tools",
+      "agent": "multi",
+      "group": null,
+      "repo": "agent-sh/agentsys",
+      "stars": 840,
+      "desc": "AI writes code. This automates everything else. 24 plugins, 49 agents, 44 skills. For Claude Code, OpenCode, Codex, Cursor, Kiro.",
+      "url": "https://github.com/agent-sh/agentsys",
+      "install": "git clone https://github.com/agent-sh/agentsys.git",
+      "functionCategory": "automation-productivity"
+    }
+  ]
+}

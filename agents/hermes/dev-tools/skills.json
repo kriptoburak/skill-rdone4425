@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "agent": "hermes",
+    "functionCategory": "dev-tools",
+    "count": 1,
+    "sourceData": "js/data.js"
+  },
+  "skills": [
+    {
+      "name": "hermes-workspace",
+      "source": "tools",
+      "agent": "hermes",
+      "group": null,
+      "repo": "outsourc-e/hermes-workspace",
+      "stars": 5363,
+      "desc": "Native web workspace for Hermes Agent - chat, terminal, memory, skills, inspector.",
+      "url": "https://github.com/outsourc-e/hermes-workspace",
+      "install": "git clone https://github.com/outsourc-e/hermes-workspace.git",
+      "functionCategory": "dev-tools"
+    }
+  ]
+}

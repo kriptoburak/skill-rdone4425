@@ -2,7 +2,7 @@
   "meta": {
     "agent": "multi",
     "functionCategory": "dev-tools",
-    "count": 29,
+    "count": 30,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -352,6 +352,18 @@
       "desc": "🦸 AI 编程超能力 · 中文增强版 — superpowers（116k+ ⭐）完整汉化 + 6 个中国原创 skills，让 Claude Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI 等 16 款 AI 编程工具真正会干活",
       "url": "https://github.com/jnMetaCode/superpowers-zh",
       "install": "git clone https://github.com/jnMetaCode/superpowers-zh.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "skills-manager-jiweiyeah",
+      "source": "tools",
+      "agent": "multi",
+      "group": null,
+      "repo": "jiweiyeah/Skills-Manager",
+      "stars": 693,
+      "desc": "A high-performance desktop application for managing skills across multiple AI coding assistants. Built with Tauri 2.0, React 19, and Rust.",
+      "url": "https://github.com/jiweiyeah/Skills-Manager",
+      "install": "git clone https://github.com/jiweiyeah/Skills-Manager.git",
       "functionCategory": "dev-tools"
     }
   ]

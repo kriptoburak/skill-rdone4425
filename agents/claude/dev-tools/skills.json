@@ -2,7 +2,7 @@
   "meta": {
     "agent": "claude",
     "functionCategory": "dev-tools",
-    "count": 7,
+    "count": 8,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -88,6 +88,18 @@
       "desc": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\"",
       "url": "https://github.com/anthropics/skills/tree/main/skills/slack-gif-creator",
       "install": "$skill-installer slack-gif-creator",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "claude-code-skill-factory",
+      "source": "tools",
+      "agent": "claude",
+      "group": null,
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "stars": 793,
+      "desc": "Claude Code Skill Factory - A powerful open-source toolkit for building and deploying production-ready Claude Skills, Code Agents, custom Slash Commands, and LLM Prompts at scale.",
+      "url": "https://github.com/alirezarezvani/claude-code-skill-factory",
+      "install": "git clone https://github.com/alirezarezvani/claude-code-skill-factory.git",
       "functionCategory": "dev-tools"
     }
   ]

@@ -235,6 +235,21 @@ window.I18N = (function () {
       if (val) el.title = val;
     });
 
+    // 4b. <option> 元素翻译
+    document.querySelectorAll("select[data-i18n-options]").forEach((sel) => {
+      const mapping = sel.dataset.i18nOptions;
+      if (!mapping) return;
+      // mapping format: "value1:key1,value2:key2,..."
+      mapping.split(",").forEach((pair) => {
+        const [val, key] = pair.split(":");
+        const opt = sel.querySelector(`option[value="${val}"]`);
+        if (opt && key) {
+          const txt = t(key.trim());
+          if (txt) opt.textContent = txt;
+        }
+      });
+    });
+
     // 5. head 里的 <title> 和 <meta> 翻译（动态改浏览器标题和 SEO）
     const headTitle = document.querySelector("title[data-i18n], head title");
     if (headTitle && headTitle.dataset.i18n) {

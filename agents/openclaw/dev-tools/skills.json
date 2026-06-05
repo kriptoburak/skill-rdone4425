@@ -2,7 +2,7 @@
   "meta": {
     "agent": "openclaw",
     "functionCategory": "dev-tools",
-    "count": 16,
+    "count": 17,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -196,6 +196,18 @@
       "desc": "得到 APP 课程下载工具，可在终端查看文章内容，可生成 PDF，音频文件，markdown 文稿，可下载电子书。可结合 openclaw +skill 等使用",
       "url": "https://github.com/yann0917/dedao-dl",
       "install": "go install github.com/yann0917/dedao-dl@latest",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "openclaw-claude-code-plugin",
+      "source": "general",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "alizarion/openclaw-claude-code-plugin",
+      "stars": 131,
+      "desc": "OpenClaw Claude Code Plugin",
+      "url": "https://github.com/alizarion/openclaw-claude-code-plugin",
+      "install": "git clone https://github.com/alizarion/openclaw-claude-code-plugin.git",
       "functionCategory": "dev-tools"
     }
   ]

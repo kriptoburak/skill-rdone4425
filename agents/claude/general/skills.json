@@ -2,7 +2,7 @@
   "meta": {
     "agent": "claude",
     "functionCategory": "general",
-    "count": 6,
+    "count": 7,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -76,6 +76,18 @@
       "desc": "Some sharing on Claude Skills",
       "url": "https://github.com/staruhub/ClaudeSkills",
       "install": "pip install ClaudeSkills",
+      "functionCategory": "general"
+    },
+    {
+      "name": "awesome-claude-plugins",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "Chat2AnyLLM/awesome-claude-plugins",
+      "stars": 102,
+      "desc": "A curated list of awesome claude marketplaces and plugins",
+      "url": "https://github.com/Chat2AnyLLM/awesome-claude-plugins",
+      "install": "git clone https://github.com/Chat2AnyLLM/awesome-claude-plugins.git",
       "functionCategory": "general"
     }
   ]

@@ -2,7 +2,7 @@
   "meta": {
     "agent": "claude",
     "functionCategory": "dev-tools",
-    "count": 43,
+    "count": 44,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -520,6 +520,18 @@
       "desc": "Firecrawl plugin for Claude Code - web scraping and crawling",
       "url": "https://github.com/firecrawl/firecrawl-claude-plugin",
       "install": "git clone https://github.com/firecrawl/firecrawl-claude-plugin.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "ClaudeAdvancedPlugins",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "JoasASantos/ClaudeAdvancedPlugins",
+      "stars": 151,
+      "desc": "Claude Code Advanced Plugins",
+      "url": "https://github.com/JoasASantos/ClaudeAdvancedPlugins",
+      "install": "git clone https://github.com/JoasASantos/ClaudeAdvancedPlugins.git",
       "functionCategory": "dev-tools"
     }
   ]

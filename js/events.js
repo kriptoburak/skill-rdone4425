@@ -64,6 +64,16 @@
       });
     }
 
+    if (dom['subgroup-tabs']) {
+      dom['subgroup-tabs'].addEventListener('click', async (e) => {
+        const btn = e.target.closest('.sub-tab');
+        if (!btn) return;
+        s.selectSubgroup(btn.dataset.group || null);
+        await s.ensureDataForCurrentState();
+        r.renderAll();
+      });
+    }
+
     if (dom['page-prev']) {
       dom['page-prev'].addEventListener('click', () => {
         if (state.page > 1) {
@@ -95,6 +105,7 @@
       const next = { ...s.readStoredState(), ...s.readUrlState() };
       if (typeof next.keyword === 'string') state.keyword = next.keyword;
       if (typeof next.category === 'string') state.category = next.category || 'all';
+      state.subgroup = Object.prototype.hasOwnProperty.call(next, 'subgroup') ? (next.subgroup || null) : null;
       if (typeof next.sort === 'string') state.sort = next.sort || 'stars-desc';
       if (typeof next.viewMode === 'string') {
         state.viewMode = next.viewMode === 'flat' ? 'flat' : 'grouped';

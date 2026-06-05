@@ -64,7 +64,8 @@
   function finalizeCategoryMap(map) {
     return Array.from(map.values()).map(category => ({
       id: category.id,
-      count: category.count
+      count: category.count,
+      groups: Array.from(category.groups.values()).sort((a, b) => a.id.localeCompare(b.id))
     }));
   }
 
@@ -72,18 +73,30 @@
     const map = new Map();
 
     (index.buckets || []).forEach(bucket => {
+      const agentId = bucket.agent || 'other';
       const groupId = bucket.functionCategory || 'general';
       const bucketCount = bucket.count || 0;
 
-      if (!map.has(groupId)) {
-        map.set(groupId, {
+      if (!map.has(agentId)) {
+        map.set(agentId, {
+          id: agentId,
+          count: 0,
+          groups: new Map()
+        });
+      }
+
+      const category = map.get(agentId);
+      category.count += bucketCount;
+
+      if (!category.groups.has(groupId)) {
+        category.groups.set(groupId, {
           id: groupId,
+          label: groupId,
           count: 0
         });
       }
 
-      const category = map.get(groupId);
-      category.count += bucketCount;
+      category.groups.get(groupId).count += bucketCount;
     });
 
     return finalizeCategoryMap(map);
@@ -93,17 +106,29 @@
     const map = new Map();
 
     (skills || []).forEach(skill => {
+      const agentId = skill.agent || 'other';
       const groupId = skill.group || 'general';
 
-      if (!map.has(groupId)) {
-        map.set(groupId, {
+      if (!map.has(agentId)) {
+        map.set(agentId, {
+          id: agentId,
+          count: 0,
+          groups: new Map()
+        });
+      }
+
+      const category = map.get(agentId);
+      category.count += 1;
+
+      if (!category.groups.has(groupId)) {
+        category.groups.set(groupId, {
           id: groupId,
+          label: groupId,
           count: 0
         });
       }
 
-      const category = map.get(groupId);
-      category.count += 1;
+      category.groups.get(groupId).count += 1;
     });
 
     return finalizeCategoryMap(map);
@@ -132,7 +157,10 @@
 
   function filterBuckets(buckets, selection) {
     return buckets.filter(bucket => {
-      if (selection.category !== 'all' && bucket.functionCategory !== selection.category) {
+      if (selection.category !== 'all' && bucket.agent !== selection.category) {
+        return false;
+      }
+      if (selection.subgroup && bucket.functionCategory !== selection.subgroup) {
         return false;
       }
       return true;
@@ -210,7 +238,7 @@
     const indexData = await loadIndex();
     const summaryPromise = prefetchAllData();
 
-    const shouldLoadAllBuckets = selection.category === 'all';
+    const shouldLoadAllBuckets = selection.category === 'all' && !selection.subgroup;
     if (shouldLoadAllBuckets) {
       const allData = await summaryPromise;
       return {

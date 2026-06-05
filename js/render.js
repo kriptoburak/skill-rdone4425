@@ -52,6 +52,7 @@
     const cacheKey = [
       state.dataVersion,
       state.category,
+      state.subgroup || '',
       state.keyword,
       state.sort
     ].join('::');
@@ -63,7 +64,10 @@
     let list = state.data;
 
     if (state.category !== 'all') {
-      list = list.filter(item => s.getSkillGroup(item) === state.category);
+      list = list.filter(item => s.getSkillAgent(item) === state.category);
+    }
+    if (state.subgroup) {
+      list = list.filter(item => s.getSkillGroup(item) === state.subgroup);
     }
     if (state.keyword) {
       const kw = state.keyword.toLowerCase();
@@ -87,6 +91,55 @@
     return filteredCacheValue;
   }
 
+  function renderDirectoryMenu() {
+    const wrap = dom['directory-menu'];
+    if (!wrap) return;
+    wrap.innerHTML = '';
+
+    state.categories.forEach(cat => {
+      const card = document.createElement('section');
+      card.className = 'directory-agent-card';
+      card.style.setProperty('--accent', cat.color || s.getAgentMeta(cat.id).color || '#6366f1');
+
+      const count = cat.count || state.data.filter(skill => s.getSkillAgent(skill) === cat.id).length;
+      const top = document.createElement('div');
+      top.className = 'directory-agent-top';
+      top.innerHTML = `
+        <div class="directory-agent-name">${renderAgentMark(cat.id, 'agent-mark agent-mark-sm')} ${s.getAgentLabel(cat.id)}</div>
+        <span class="directory-agent-count">${count}</span>
+      `;
+
+      const list = document.createElement('div');
+      list.className = 'directory-group-list';
+
+      const allChip = document.createElement('button');
+      allChip.type = 'button';
+      allChip.className = 'directory-group-chip' + (state.category === cat.id && !state.subgroup ? ' active' : '');
+      allChip.textContent = hub.i18n.t('categoryAll');
+      allChip.addEventListener('click', () => {
+        s.selectCategory(cat.id);
+        hub.render.renderAll();
+      });
+      list.appendChild(allChip);
+
+      (cat.groups || []).forEach(group => {
+        const chip = document.createElement('button');
+        chip.type = 'button';
+        chip.className = 'directory-group-chip' + (state.category === cat.id && state.subgroup === group.id ? ' active' : '');
+        chip.textContent = s.getGroupLabel(group.id);
+        chip.addEventListener('click', () => {
+          s.selectCategory(cat.id, group.id);
+          hub.render.renderAll();
+        });
+        list.appendChild(chip);
+      });
+
+      card.appendChild(top);
+      card.appendChild(list);
+      wrap.appendChild(card);
+    });
+  }
+
   function renderCategoryTabs() {
     const wrap = dom['category-tabs'];
     if (!wrap) return;
@@ -102,9 +155,79 @@
       const btn = document.createElement('button');
       btn.className = 'tab cat-tab' + (state.category === cat.id ? ' active' : '');
       btn.dataset.id = cat.id;
-      btn.textContent = s.getCategoryLabel(cat.id);
+      btn.innerHTML = `${renderAgentMark(cat.id, 'agent-mark agent-mark-xs')} ${s.getAgentLabel(cat.id)}`;
       wrap.appendChild(btn);
     });
+  }
+
+  function renderSubgroupTabs() {
+    const wrap = dom['subgroup-tabs'];
+    if (!wrap) return;
+    wrap.innerHTML = '';
+    wrap.hidden = true;
+
+    if (state.category === 'all') {
+      const allGroups = Array.from(new Set(
+        state.categories.flatMap(cat => (cat.groups || []).map(group => group.id))
+      )).sort((a, b) => a.localeCompare(b));
+
+      if (allGroups.length === 0) return;
+
+      wrap.hidden = false;
+
+      const allBtn = document.createElement('button');
+      allBtn.className = 'subgroup-tab sub-tab' + (!state.subgroup ? ' active' : '');
+      allBtn.dataset.group = '';
+      allBtn.textContent = hub.i18n.t('categoryAll');
+      wrap.appendChild(allBtn);
+
+      allGroups.forEach(groupId => {
+        const btn = document.createElement('button');
+        btn.className = 'subgroup-tab sub-tab' + (state.subgroup === groupId ? ' active' : '');
+        btn.dataset.group = groupId;
+        btn.textContent = s.getGroupLabel(groupId);
+        wrap.appendChild(btn);
+      });
+      return;
+    }
+
+    const cat = s.getCategoryById(state.category);
+    if (!cat || !cat.groups || cat.groups.length === 0) return;
+
+    wrap.hidden = false;
+
+    const allBtn = document.createElement('button');
+    allBtn.className = 'subgroup-tab sub-tab' + (!state.subgroup ? ' active' : '');
+    allBtn.dataset.group = '';
+    allBtn.textContent = hub.i18n.t('categoryAll');
+    wrap.appendChild(allBtn);
+
+    cat.groups.forEach(group => {
+      const btn = document.createElement('button');
+      btn.className = 'subgroup-tab sub-tab' + (state.subgroup === group.id ? ' active' : '');
+      btn.dataset.group = group.id;
+      btn.textContent = s.getGroupLabel(group.id) || group.label;
+      wrap.appendChild(btn);
+    });
+  }
+
+  function renderCategoryDesc() {
+    const el = dom['category-desc'];
+    if (!el) return;
+    el.hidden = true;
+
+    if (state.category === 'all') {
+      el.textContent = hub.i18n.t('categoryAllDesc');
+      el.hidden = false;
+      return;
+    }
+
+    const cat = s.getCategoryById(state.category);
+    const desc = s.getAgentDesc(state.category, cat ? (cat.description || '') : '');
+    if (desc) {
+      el.textContent = desc;
+      el.hidden = false;
+    }
   }
 
   function createCard(skill) {
@@ -186,64 +309,19 @@
 
     wrap.innerHTML = `
       <span class="stat-pill"><strong>${skills}</strong><span>${hub.i18n.t('skills')}</span></span>
-      <span class="stat-pill"><strong>${agents}</strong><span>${hub.i18n.t('categoriesLabel')}</span></span>
-      <span class="stat-pill"><strong>${repos}</strong><span>${hub.i18n.t('reposLabel')}</span></span>
+      <span class="stat-pill"><strong>${agents}</strong><span>Agents</span></span>
+      <span class="stat-pill"><strong>${repos}</strong><span>Repos</span></span>
     `;
   }
 
   function renderGroupedView(list) {
-    if (state.category === 'all') {
-      const grouped = {};
-      list.forEach(skill => {
-        const groupId = s.getSkillGroup(skill);
-        if (!grouped[groupId]) grouped[groupId] = [];
-        grouped[groupId].push(skill);
-      });
-
-      const container = document.createDocumentFragment();
-      state.categories.forEach(category => {
-        const skills = grouped[category.id];
-        if (!skills || skills.length === 0) return;
-
-        const section = document.createElement('section');
-        section.className = 'agent-section';
-        section.style.setProperty('--agent-color', 'var(--accent)');
-
-        const header = document.createElement('div');
-        header.className = 'agent-header';
-        header.innerHTML = `
-          <div class="agent-header-left">
-            <h2 class="agent-title">${s.getCategoryLabel(category.id)}</h2>
-            <span class="agent-count">${skills.length} ${hub.i18n.t('skills')}</span>
-          </div>
-          <span class="agent-toggle">▼</span>
-        `;
-
-        const content = document.createElement('div');
-        content.className = 'agent-content';
-
-        const grid = document.createElement('div');
-        grid.className = 'card-grid';
-        skills.forEach(skill => grid.appendChild(createCard(skill)));
-        content.appendChild(grid);
-
-        section.appendChild(header);
-        section.appendChild(content);
-        container.appendChild(section);
-
-        header.addEventListener('click', () => {
-          section.classList.toggle('collapsed');
-        });
-      });
-
-      return container;
-    }
-
     const grouped = {};
     list.forEach(skill => {
       const agent = s.getSkillAgent(skill);
-      if (!grouped[agent]) grouped[agent] = [];
-      grouped[agent].push(skill);
+      const group = skill.group || 'other';
+      if (!grouped[agent]) grouped[agent] = {};
+      if (!grouped[agent][group]) grouped[agent][group] = [];
+      grouped[agent][group].push(skill);
     });
 
     const agentKeys = Object.keys(grouped).sort((a, b) => (s.AGENT_META[a]?.order || 99) - (s.AGENT_META[b]?.order || 99));
@@ -251,7 +329,8 @@
 
     agentKeys.forEach(agent => {
       const meta = s.getAgentMeta(agent);
-      const skills = grouped[agent];
+      const groups = grouped[agent];
+      const totalCount = Object.values(groups).reduce((sum, arr) => sum + arr.length, 0);
       const section = document.createElement('section');
       section.className = 'agent-section';
       section.style.setProperty('--agent-color', meta.color || '#6b7280');
@@ -262,7 +341,7 @@
         <div class="agent-header-left">
           ${renderAgentMark(agent, 'agent-mark agent-mark-sm')}
           <h2 class="agent-title">${s.getAgentLabel(agent)}</h2>
-          <span class="agent-count">${skills.length} ${hub.i18n.t('skills')}</span>
+          <span class="agent-count">${totalCount} ${hub.i18n.t('skills')}</span>
         </div>
         <span class="agent-toggle">▼</span>
       `;
@@ -270,10 +349,26 @@
       const content = document.createElement('div');
       content.className = 'agent-content';
 
-      const grid = document.createElement('div');
-      grid.className = 'card-grid';
-      skills.forEach(skill => grid.appendChild(createCard(skill)));
-      content.appendChild(grid);
+      Object.keys(groups).sort((a, b) => {
+        if (a === 'other') return 1;
+        if (b === 'other') return -1;
+        return a.localeCompare(b);
+      }).forEach(group => {
+        const groupSection = document.createElement('div');
+        groupSection.className = 'type-group';
+        groupSection.innerHTML = `
+          <div class="type-header">
+            <h3 class="type-title">🏷️ ${s.getGroupLabel(group)}</h3>
+            <span class="type-count">${groups[group].length}</span>
+          </div>
+        `;
+
+        const grid = document.createElement('div');
+        grid.className = 'card-grid';
+        groups[group].forEach(skill => grid.appendChild(createCard(skill)));
+        groupSection.appendChild(grid);
+        content.appendChild(groupSection);
+      });
 
       section.appendChild(header);
       section.appendChild(content);
@@ -388,7 +483,10 @@
   }
 
   function renderFilters() {
+    renderDirectoryMenu();
     renderCategoryTabs();
+    renderSubgroupTabs();
+    renderCategoryDesc();
   }
 
   function renderListOnly() {
@@ -415,7 +513,10 @@
 
   hub.render = {
     getFiltered,
+    renderDirectoryMenu,
     renderCategoryTabs,
+    renderSubgroupTabs,
+    renderCategoryDesc,
     createCard,
     renderGroupedView,
     renderFlatView,

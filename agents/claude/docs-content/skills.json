@@ -2,7 +2,7 @@
   "meta": {
     "agent": "claude",
     "functionCategory": "docs-content",
-    "count": 17,
+    "count": 18,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -208,6 +208,18 @@
       "desc": "A Claude Code plugin that turns your terminal into an autonomous research lab — literature survey, experiment execution, paper writing, all in one pipeline.",
       "url": "https://github.com/LigphiDonk/Oh-my--paper",
       "install": "npx Oh-my--paper",
+      "functionCategory": "docs-content"
+    },
+    {
+      "name": "Claude_skills_zh-CN",
+      "source": "community",
+      "agent": "claude",
+      "group": null,
+      "repo": "LeastBit/Claude_skills_zh-CN",
+      "stars": 476,
+      "desc": "Anthropics/skills中文学习版本 来自：https://github.com/anthropics/skills",
+      "url": "https://github.com/LeastBit/Claude_skills_zh-CN",
+      "install": "git clone https://github.com/LeastBit/Claude_skills_zh-CN.git",
       "functionCategory": "docs-content"
     }
   ]

@@ -2,7 +2,7 @@
   "meta": {
     "agent": "multi",
     "functionCategory": "general",
-    "count": 9,
+    "count": 10,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -112,6 +112,18 @@
       "desc": "收集全网最热门的Agent-Skills项目",
       "url": "https://github.com/itgoyo/awesome-agent-skills",
       "install": "git clone https://github.com/itgoyo/awesome-agent-skills.git",
+      "functionCategory": "general"
+    },
+    {
+      "name": "agent-skills.md",
+      "source": "community",
+      "agent": "multi",
+      "group": null,
+      "repo": "futantan/agent-skills.md",
+      "stars": 197,
+      "desc": "Find awesome Agent Skills",
+      "url": "https://github.com/futantan/agent-skills.md",
+      "install": "git clone https://github.com/futantan/agent-skills.md.git # browse the curated list",
       "functionCategory": "general"
     }
   ]

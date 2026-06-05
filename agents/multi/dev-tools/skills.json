@@ -2,7 +2,7 @@
   "meta": {
     "agent": "multi",
     "functionCategory": "dev-tools",
-    "count": 45,
+    "count": 46,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -544,6 +544,18 @@
       "desc": "Compact operational charter that turns LLM coding agents into disciplined principal engineers. Eleven rules + one meta-rule.",
       "url": "https://github.com/entropyvortex/meta-llm-charter",
       "install": "npm i -g meta-llm-charter",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "gaster-code-releases",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "HereditaryDog/gaster-code-releases",
+      "stars": 104,
+      "desc": "Gaster Code: public local AI coding assistant with CLI, desktop app, MCP, Skills, Agents, and signed installers",
+      "url": "https://github.com/HereditaryDog/gaster-code-releases",
+      "install": "git clone https://github.com/HereditaryDog/gaster-code-releases.git",
       "functionCategory": "dev-tools"
     }
   ]

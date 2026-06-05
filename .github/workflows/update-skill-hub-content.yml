@@ -34,12 +34,3 @@ jobs:
         with:
           commit_message: "chore: refresh Skill Hub stars and health report"
           file_pattern: "agents/**/*.json agents/**/*.js agents/health-report.json"
-
-      - name: Deploy to Cloudflare Pages
-        if: steps.auto-commit-action.outputs.changes_detected == 'true'
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-          command: pages deploy . --project-name=skill-hub

@@ -2,7 +2,7 @@
   "meta": {
     "agent": "openclaw",
     "functionCategory": "dev-tools",
-    "count": 3,
+    "count": 4,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -40,6 +40,18 @@
       "desc": "OpenClaw skill for cost-optimized model routing based on task complexity",
       "url": "https://github.com/zscole/model-hierarchy-skill",
       "install": "git clone https://github.com/zscole/model-hierarchy-skill.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "dedao-dl",
+      "source": "openclaw",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "yann0917/dedao-dl",
+      "stars": 840,
+      "desc": "Dedao APP course download tool. View articles in terminal, generate PDF/audio/markdown, download ebooks. Compatible with OpenClaw skills.",
+      "url": "https://github.com/yann0917/dedao-dl",
+      "install": "go install github.com/yann0917/dedao-dl@latest",
       "functionCategory": "dev-tools"
     }
   ]

@@ -2,7 +2,7 @@
   "meta": {
     "agent": "claude",
     "functionCategory": "docs-content",
-    "count": 18,
+    "count": 19,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -220,6 +220,18 @@
       "desc": "Anthropics/skills中文学习版本 来自：https://github.com/anthropics/skills",
       "url": "https://github.com/LeastBit/Claude_skills_zh-CN",
       "install": "git clone https://github.com/LeastBit/Claude_skills_zh-CN.git",
+      "functionCategory": "docs-content"
+    },
+    {
+      "name": "awesome-japanese-nlp-resources",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "taishi-i/awesome-japanese-nlp-resources",
+      "stars": 972,
+      "desc": "A curated list of resources dedicated to Python libraries, LLMs, dictionaries, and corpora of NLP for Japanese. Includes a Claude Code plugin with skills to search resources.",
+      "url": "https://github.com/taishi-i/awesome-japanese-nlp-resources",
+      "install": "git clone https://github.com/taishi-i/awesome-japanese-nlp-resources.git",
       "functionCategory": "docs-content"
     }
   ]

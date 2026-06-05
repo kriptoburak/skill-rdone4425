@@ -2,7 +2,7 @@
   "meta": {
     "agent": "openclaw",
     "functionCategory": "dev-tools",
-    "count": 15,
+    "count": 16,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -184,6 +184,18 @@
       "desc": "ClawSweeper scans all issues and PRs and suggest what we can close, and why. It runs every PR / Issue once a week.",
       "url": "https://github.com/openclaw/clawsweeper",
       "install": "npm i -g clawsweeper",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "dedao-dl",
+      "source": "general",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "yann0917/dedao-dl",
+      "stars": 840,
+      "desc": "得到 APP 课程下载工具，可在终端查看文章内容，可生成 PDF，音频文件，markdown 文稿，可下载电子书。可结合 openclaw +skill 等使用",
+      "url": "https://github.com/yann0917/dedao-dl",
+      "install": "go install github.com/yann0917/dedao-dl@latest",
       "functionCategory": "dev-tools"
     }
   ]

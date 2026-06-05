@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "agent": "cursor",
+    "functionCategory": "general",
+    "count": 2,
+    "sourceData": "js/data.js"
+  },
+  "skills": [
+    {
+      "name": "llm-cursor-rules",
+      "source": "general",
+      "agent": "cursor",
+      "group": null,
+      "repo": "RayFernando1337/llm-cursor-rules",
+      "stars": 888,
+      "desc": "My go-to rules for using Cursor and LLMs in software development.",
+      "url": "https://github.com/RayFernando1337/llm-cursor-rules",
+      "install": "git clone https://github.com/RayFernando1337/llm-cursor-rules.git",
+      "functionCategory": "general"
+    },
+    {
+      "name": "cursor-rules-and-prompts",
+      "source": "general",
+      "agent": "cursor",
+      "group": null,
+      "repo": "thehimel/cursor-rules-and-prompts",
+      "stars": 238,
+      "desc": "A comprehensive, open-source collection of rules and prompts designed to guide Cursor AI in generating better, more consistent code. Enhance code quality, enforce coding standards, and streamline deve",
+      "url": "https://github.com/thehimel/cursor-rules-and-prompts",
+      "install": "git clone https://github.com/thehimel/cursor-rules-and-prompts.git",
+      "functionCategory": "general"
+    }
+  ]
+}

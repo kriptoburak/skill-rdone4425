@@ -2,7 +2,7 @@
   "meta": {
     "agent": "cursor",
     "functionCategory": "dev-tools",
-    "count": 2,
+    "count": 3,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -28,6 +28,18 @@
       "desc": "神级Cursor Rule",
       "url": "https://github.com/NeekChaw/RIPER-5",
       "install": "git clone https://github.com/NeekChaw/RIPER-5.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "advance-minimax-m3-cursor-rules",
+      "source": "general",
+      "agent": "cursor",
+      "group": null,
+      "repo": "madebyaris/advance-minimax-m3-cursor-rules",
+      "stars": 114,
+      "desc": "Agentic-first Cursor Rules powered by MiniMax M3 - clarify-first prompting, interleaved thinking, and full tool orchestration for production-ready AI coding",
+      "url": "https://github.com/madebyaris/advance-minimax-m3-cursor-rules",
+      "install": "npm i -g advance-minimax-m3-cursor-rules",
       "functionCategory": "dev-tools"
     }
   ]

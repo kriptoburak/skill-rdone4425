@@ -20,6 +20,18 @@
     ['data-ai', ['ai', 'llm', 'model', 'agent', 'rag', 'research', 'analysis', 'prompt', 'memory', 'vector', 'dataset']],
     ['automation-productivity', ['automation', 'automate', 'productivity', 'sync', 'manage', 'manager', 'organize', 'planner', 'planning', 'task']]
   ];
+  const FUNCTION_CATEGORY_ORDER = [
+    'automation-productivity',
+    'backend-api',
+    'data-ai',
+    'design-ui',
+    'dev-tools',
+    'devops-deploy',
+    'docs-content',
+    'general',
+    'security',
+    'testing-qa'
+  ];
 
   const AGENT_META = {
     codex:    { icon: '🎯', iconUrl: 'https://www.google.com/s2/favicons?domain=openai.com&sz=64', color: '#6366f1', order: 1, zh: 'Codex', en: 'Codex', zhDesc: '面向 Codex 生态的 skills、工具和资源', enDesc: 'Skills, tools, and resources for the Codex ecosystem' },
@@ -46,7 +58,6 @@
     categories: [],
     keyword: '',
     category: 'all',
-    subgroup: null,
     sort: 'stars-desc',
     groupBy: 'none',
     viewMode: 'flat',
@@ -66,7 +77,6 @@
     const params = new URLSearchParams(window.location.search);
     const nextState = {};
     if (params.has('category')) nextState.category = params.get('category') || 'all';
-    if (params.has('group')) nextState.subgroup = params.get('group') || null;
     if (params.has('q')) nextState.keyword = params.get('q') || '';
     if (params.has('sort')) nextState.sort = params.get('sort') || 'stars-desc';
     if (params.has('view')) nextState.viewMode = params.get('view') || 'grouped';
@@ -89,7 +99,6 @@
     const persisted = { ...readStoredState(), ...readUrlState() };
     if (typeof persisted.keyword === 'string') state.keyword = persisted.keyword;
     if (typeof persisted.category === 'string') state.category = persisted.category || 'all';
-    if (Object.prototype.hasOwnProperty.call(persisted, 'subgroup')) state.subgroup = persisted.subgroup || null;
     if (typeof persisted.sort === 'string') state.sort = persisted.sort || 'stars-desc';
     if (typeof persisted.viewMode === 'string') {
       state.viewMode = persisted.viewMode === 'flat' ? 'flat' : 'grouped';
@@ -100,7 +109,7 @@
 
   function cacheDom() {
     ['search', 'search-clear', 'results', 'empty', 'results-count',
-      'category-tabs', 'subgroup-tabs', 'category-desc', 'directory-menu',
+      'category-tabs',
       'stats-section', 'stats-chart', 'stats-bars',
       'pagination', 'page-info', 'page-prev', 'page-next',
       'sort-select', 'group-select', 'view-toggle'
@@ -129,6 +138,11 @@
 
   function getCategoryById(categoryId) {
     return state.categories.find(cat => cat.id === categoryId) || null;
+  }
+
+  function getCategoryLabel(categoryId) {
+    if (!categoryId || categoryId === 'all') return hub.i18n.t('categoryAll');
+    return getGroupLabel(categoryId);
   }
 
   function getGroupLabel(groupId) {
@@ -160,14 +174,8 @@
     state.page = 1;
   }
 
-  function selectCategory(categoryId, subgroup = null) {
-    state.category = categoryId;
-    state.subgroup = subgroup;
-    resetPage();
-  }
-
-  function selectSubgroup(subgroupId) {
-    state.subgroup = subgroupId || null;
+  function selectCategory(categoryId) {
+    state.category = categoryId || 'all';
     resetPage();
   }
 
@@ -190,7 +198,6 @@
   function persistState() {
     const snapshot = {
       category: state.category,
-      subgroup: state.subgroup,
       keyword: state.keyword,
       sort: state.sort,
       viewMode: state.viewMode,
@@ -205,7 +212,6 @@
 
     const params = new URLSearchParams();
     if (state.category && state.category !== 'all') params.set('category', state.category);
-    if (state.subgroup) params.set('group', state.subgroup);
     if (state.keyword) params.set('q', state.keyword);
     if (state.sort && state.sort !== 'stars-desc') params.set('sort', state.sort);
     if (state.viewMode && state.viewMode !== 'grouped') params.set('view', state.viewMode);
@@ -219,13 +225,6 @@
     const categoryIds = new Set(state.categories.map(cat => cat.id));
     if (state.category !== 'all' && !categoryIds.has(state.category)) {
       state.category = 'all';
-      state.subgroup = null;
-    }
-
-    const activeCategory = getCategoryById(state.category);
-    const groupIds = new Set((activeCategory?.groups || []).map(group => group.id));
-    if (state.subgroup && !groupIds.has(state.subgroup)) {
-      state.subgroup = null;
     }
 
     state.page = parsePositiveInt(state.page, 1);
@@ -242,9 +241,10 @@
   }
 
   function sortCategories(categories) {
+    const orderMap = new Map(FUNCTION_CATEGORY_ORDER.map((id, index) => [id, index]));
     return (categories || []).sort((a, b) => {
-      const orderA = getAgentMeta(a.id).order || 999;
-      const orderB = getAgentMeta(b.id).order || 999;
+      const orderA = orderMap.has(a.id) ? orderMap.get(a.id) : 999;
+      const orderB = orderMap.has(b.id) ? orderMap.get(b.id) : 999;
       return orderA - orderB;
     });
   }
@@ -275,7 +275,6 @@
     const requestSeq = ++state.requestSeq;
     const payload = await hub.data.loadForSelection({
       category: state.category,
-      subgroup: state.subgroup,
       keyword: state.keyword
     });
 
@@ -301,11 +300,11 @@
     getAgentLabel,
     getAgentDesc,
     getCategoryById,
+    getCategoryLabel,
     getGroupLabel,
     inferFunctionCategory,
     resetPage,
     selectCategory,
-    selectSubgroup,
     setKeyword,
     setSort,
     setViewMode,

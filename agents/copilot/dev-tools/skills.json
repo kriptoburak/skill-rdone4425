@@ -2,7 +2,7 @@
   "meta": {
     "agent": "copilot",
     "functionCategory": "dev-tools",
-    "count": 1,
+    "count": 2,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -16,6 +16,18 @@
       "desc": "✨ A curated list of awesome GitHub instructions, prompt, skills, MCPs and agent markdown files for enhancing your GitHub Copilot AI experience.",
       "url": "https://github.com/Code-and-Sorts/awesome-copilot-agents",
       "install": "git clone https://github.com/Code-and-Sorts/awesome-copilot-agents.git  # browse the awesome list",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "github-copilot-agent-skills",
+      "source": "general",
+      "agent": "copilot",
+      "group": null,
+      "repo": "thomast1906/github-copilot-agent-skills",
+      "stars": 179,
+      "desc": "Repo containing my GitHub Copilot Agent & Skills - continually experimenting! ",
+      "url": "https://github.com/thomast1906/github-copilot-agent-skills",
+      "install": "git clone https://github.com/thomast1906/github-copilot-agent-skills.git",
       "functionCategory": "dev-tools"
     }
   ]

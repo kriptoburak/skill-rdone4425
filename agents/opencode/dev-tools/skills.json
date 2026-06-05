@@ -2,7 +2,7 @@
   "meta": {
     "agent": "opencode",
     "functionCategory": "dev-tools",
-    "count": 1,
+    "count": 4,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -16,6 +16,42 @@
       "desc": "OpenCode plugin that uses your existing Claude Code credentials — no separate login needed. ",
       "url": "https://github.com/griffinmartin/opencode-claude-auth",
       "install": "npm i -g opencode-claude-auth",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "opencode-skillful",
+      "source": "general",
+      "agent": "opencode",
+      "group": null,
+      "repo": "zenobi-us/opencode-skillful",
+      "stars": 305,
+      "desc": "OpenCode Skills Plugin - Allow your opencode agents to lazy load prompts on demand.",
+      "url": "https://github.com/zenobi-us/opencode-skillful",
+      "install": "npx opencode-skillful",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "opencode-skills",
+      "source": "general",
+      "agent": "opencode",
+      "group": null,
+      "repo": "zrt-ai-lab/opencode-skills",
+      "stars": 218,
+      "desc": "OpenCode/Claude Code 技能库 。特色技能：视频生成、图片生成、AI Agent 互联、智能问数等等各场景，持续开发更新中",
+      "url": "https://github.com/zrt-ai-lab/opencode-skills",
+      "install": "git clone https://github.com/zrt-ai-lab/opencode-skills.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "opencode-skill-creator",
+      "source": "general",
+      "agent": "opencode",
+      "group": null,
+      "repo": "antongulin/opencode-skill-creator",
+      "stars": 108,
+      "desc": "OpenCode skill for creating, testing, and optimizing other OpenCode skills. Adapted from Anthropic's skill-creator for Claude Code.",
+      "url": "https://github.com/antongulin/opencode-skill-creator",
+      "install": "npx opencode-skill-creator",
       "functionCategory": "dev-tools"
     }
   ]

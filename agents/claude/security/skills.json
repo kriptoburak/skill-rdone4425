@@ -2,7 +2,7 @@
   "meta": {
     "agent": "claude",
     "functionCategory": "security",
-    "count": 2,
+    "count": 6,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -28,6 +28,54 @@
       "desc": "Claude Skills for Governance, Risk, & Compliance (GRC): Expert-level compliance guidance for ISO 27001, SOC 2, FedRAMP, GDPR, HIPAA, NIST CSF, PCI DSS, EU AI Act, ISO 42001, ISO 27701, DORA, CSRD, Ind",
       "url": "https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance",
       "install": "git clone https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance.git",
+      "functionCategory": "security"
+    },
+    {
+      "name": "skills",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "trailofbits/skills",
+      "stars": 5560,
+      "desc": "Trail of Bits Claude Code skills for security research, vulnerability detection, and audit workflows",
+      "url": "https://github.com/trailofbits/skills",
+      "install": "git clone https://github.com/trailofbits/skills.git",
+      "functionCategory": "security"
+    },
+    {
+      "name": "Claude-BugHunter",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "elementalsouls/Claude-BugHunter",
+      "stars": 1650,
+      "desc": "A Claude Code skill bundle for bug hunting and external red-team work - 51 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 vulnerability classes, plus enterprise identity...",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "install": "git clone https://github.com/elementalsouls/Claude-BugHunter.git",
+      "functionCategory": "security"
+    },
+    {
+      "name": "hackingtool-plugin",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "AKCodez/hackingtool-plugin",
+      "stars": 743,
+      "desc": "Claude Code plugin: 183+ pentesting & OSINT tools from Z4nzu/hackingtool. Auto-runs what it can, hands off the rest.",
+      "url": "https://github.com/AKCodez/hackingtool-plugin",
+      "install": "git clone https://github.com/AKCodez/hackingtool-plugin.git",
+      "functionCategory": "security"
+    },
+    {
+      "name": "skills-curated",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "trailofbits/skills-curated",
+      "stars": 425,
+      "desc": "Curated, community-vetted Claude Code plugin marketplace",
+      "url": "https://github.com/trailofbits/skills-curated",
+      "install": "git clone https://github.com/trailofbits/skills-curated.git",
       "functionCategory": "security"
     }
   ]

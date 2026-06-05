@@ -2,7 +2,7 @@
   "meta": {
     "agent": "opencode",
     "functionCategory": "general",
-    "count": 1,
+    "count": 2,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -16,6 +16,18 @@
       "desc": "",
       "url": "https://github.com/malhashemi/opencode-skills",
       "install": "git clone https://github.com/malhashemi/opencode-skills.git",
+      "functionCategory": "general"
+    },
+    {
+      "name": "opencode-skills-chinese",
+      "source": "general",
+      "agent": "opencode",
+      "group": null,
+      "repo": "linxuan-sys/opencode-skills-chinese",
+      "stars": 152,
+      "desc": "一个存放终端ai skills 的仓库, 语言为中文",
+      "url": "https://github.com/linxuan-sys/opencode-skills-chinese",
+      "install": "git clone https://github.com/linxuan-sys/opencode-skills-chinese.git",
       "functionCategory": "general"
     }
   ]

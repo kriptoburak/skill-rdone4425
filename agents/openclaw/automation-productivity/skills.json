@@ -2,7 +2,7 @@
   "meta": {
     "agent": "openclaw",
     "functionCategory": "automation-productivity",
-    "count": 1,
+    "count": 7,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -16,6 +16,78 @@
       "desc": "Xiaohongshu auto-publishing, auto-commenting, auto-search skill. Supports OpenClaw, Codex, CC, etc.",
       "url": "https://github.com/white0dew/XiaohongshuSkills",
       "install": "git clone https://github.com/white0dew/XiaohongshuSkills.git",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "CountBot",
+      "source": "general",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "countbot-ai/CountBot",
+      "stars": 716,
+      "desc": "更适配中文用户的轻量开源AI Agent | 国产大模型Coding plan支持 | 兼容OpenClaw Skills生态| 已接入微信ClawBot/微博龙虾/飞书/钉钉/QQ/小智AI/Telegram/deepseek-v4。",
+      "url": "https://github.com/countbot-ai/CountBot",
+      "install": "git clone https://github.com/countbot-ai/CountBot.git",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "tuya-openclaw-skills",
+      "source": "general",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "tuya/tuya-openclaw-skills",
+      "stars": 561,
+      "desc": "Tuya AI Skill Library for OpenClaw/TuyaClaw - An AI-driven skill set built for the development of Tuya's smart ecosystem (e.g., device control).",
+      "url": "https://github.com/tuya/tuya-openclaw-skills",
+      "install": "git clone https://github.com/tuya/tuya-openclaw-skills.git",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "x-bookmarks",
+      "source": "general",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "sharbelxyz/x-bookmarks",
+      "stars": 270,
+      "desc": "OpenClaw skill: turn your X bookmarks into agent actions. Stop hoarding. Start applying.",
+      "url": "https://github.com/sharbelxyz/x-bookmarks",
+      "install": "git clone https://github.com/sharbelxyz/x-bookmarks.git",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "content-collector-skill",
+      "source": "general",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "vigorX777/content-collector-skill",
+      "stars": 232,
+      "desc": "OpenClaw skill: 自动收集社交媒体内容并整理成结构化笔记存入飞书文档",
+      "url": "https://github.com/vigorX777/content-collector-skill",
+      "install": "git clone https://github.com/vigorX777/content-collector-skill.git",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "reddit-growth-skill",
+      "source": "general",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "oh-ashen-one/reddit-growth-skill",
+      "stars": 142,
+      "desc": "OpenClaw skill for Reddit community growth — human-style engagement, intent harvesting, warm-up protocol",
+      "url": "https://github.com/oh-ashen-one/reddit-growth-skill",
+      "install": "git clone https://github.com/oh-ashen-one/reddit-growth-skill.git",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "dingtalk-ai-table",
+      "source": "general",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "aliramw/dingtalk-ai-table",
+      "stars": 102,
+      "desc": "钉钉 AI 表格（多维表）操作技能 - OpenClaw Skill",
+      "url": "https://github.com/aliramw/dingtalk-ai-table",
+      "install": "git clone https://github.com/aliramw/dingtalk-ai-table.git",
       "functionCategory": "automation-productivity"
     }
   ]

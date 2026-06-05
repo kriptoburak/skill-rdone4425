@@ -2,7 +2,7 @@
   "meta": {
     "agent": "openclaw",
     "functionCategory": "dev-tools",
-    "count": 2,
+    "count": 3,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -28,6 +28,18 @@
       "desc": "A curated list of OpenClaw resources, tools, skills, tutorials & articles. OpenClaw (formerly Moltbot / Clawdbot) — open-source self-hosted AI agent for WhatsApp, Telegram, Discord & 50+ integrations.",
       "url": "https://github.com/SamurAIGPT/awesome-openclaw",
       "install": "git clone https://github.com/SamurAIGPT/awesome-openclaw.git  # browse the awesome list",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "model-hierarchy-skill",
+      "source": "general",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "zscole/model-hierarchy-skill",
+      "stars": 338,
+      "desc": "OpenClaw skill for cost-optimized model routing based on task complexity",
+      "url": "https://github.com/zscole/model-hierarchy-skill",
+      "install": "git clone https://github.com/zscole/model-hierarchy-skill.git",
       "functionCategory": "dev-tools"
     }
   ]

@@ -2,7 +2,7 @@
   "meta": {
     "agent": "openclaw",
     "functionCategory": "general",
-    "count": 3,
+    "count": 8,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -40,6 +40,66 @@
       "desc": "Skill + Plugin Registry for OpenClaw",
       "url": "https://github.com/openclaw/clawhub",
       "install": "git clone https://github.com/openclaw/clawhub.git",
+      "functionCategory": "general"
+    },
+    {
+      "name": "openclaw-master-skills",
+      "source": "general",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "LeoYeAI/openclaw-master-skills",
+      "stars": 2012,
+      "desc": "🧠 Curated collection of 1209+ best OpenClaw skills — weekly updated by MyClaw.ai",
+      "url": "https://github.com/LeoYeAI/openclaw-master-skills",
+      "install": "git clone https://github.com/LeoYeAI/openclaw-master-skills.git",
+      "functionCategory": "general"
+    },
+    {
+      "name": "awesome-openclaw-skills",
+      "source": "general",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "sundial-org/awesome-openclaw-skills",
+      "stars": 607,
+      "desc": "Top OpenClaw skills, with the most popular and useful ones.",
+      "url": "https://github.com/sundial-org/awesome-openclaw-skills",
+      "install": "git clone https://github.com/sundial-org/awesome-openclaw-skills.git",
+      "functionCategory": "general"
+    },
+    {
+      "name": "openclaw-chat-history-import",
+      "source": "general",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "dashhuang/openclaw-chat-history-import",
+      "stars": 139,
+      "desc": "OpenClaw skill for importing external chat history into archive, daily memory, and MEMORY.md workflows.",
+      "url": "https://github.com/dashhuang/openclaw-chat-history-import",
+      "install": "git clone https://github.com/dashhuang/openclaw-chat-history-import.git",
+      "functionCategory": "general"
+    },
+    {
+      "name": "awesome-skills-cn",
+      "source": "general",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "lingxling/awesome-skills-cn",
+      "stars": 118,
+      "desc": "热门Skills中文cn学习版+教程，提供7000+Skills，集成claude skills (11w+Star) | awesome-openclaw-skills (4w+Star) | ui-ux-pro-max-skill (4w+Star)等10余个热门Skill项目",
+      "url": "https://github.com/lingxling/awesome-skills-cn",
+      "install": "git clone https://github.com/lingxling/awesome-skills-cn.git",
+      "functionCategory": "general"
+    },
+    {
+      "name": "awesome-openclaw-skills-CN",
+      "source": "general",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "AIPMAndy/awesome-openclaw-skills-CN",
+      "stars": 116,
+      "desc": "🇨🇳 中文开发者友好的 OpenClaw Skills 精选 | 含国产模型接入指南（DeepSeek/Qwen/GLM/Moonshot）| 2868+ Skills 分类整理",
+      "url": "https://github.com/AIPMAndy/awesome-openclaw-skills-CN",
+      "install": "git clone https://github.com/AIPMAndy/awesome-openclaw-skills-CN.git",
       "functionCategory": "general"
     }
   ]

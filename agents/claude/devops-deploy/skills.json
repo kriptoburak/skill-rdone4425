@@ -2,7 +2,7 @@
   "meta": {
     "agent": "claude",
     "functionCategory": "devops-deploy",
-    "count": 2,
+    "count": 4,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -28,6 +28,30 @@
       "desc": "Claude Code learns from your corrections: self-correcting memory that compounds over 50+ sessions. Context engineering, parallel worktrees, agent teams, and 17 battle-tested skills.",
       "url": "https://github.com/rohitg00/pro-workflow",
       "install": "npm i -g pro-workflow",
+      "functionCategory": "devops-deploy"
+    },
+    {
+      "name": "pinme",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "glitternetwork/pinme",
+      "stars": 3608,
+      "desc": "Deploy Your Frontend in a Single Command. Claude Code Skills supported.",
+      "url": "https://github.com/glitternetwork/pinme",
+      "install": "npx pinme",
+      "functionCategory": "devops-deploy"
+    },
+    {
+      "name": "agent-skills",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "hashicorp/agent-skills",
+      "stars": 652,
+      "desc": "A collection of Agent skills and Claude Code plugins for HashiCorp products.",
+      "url": "https://github.com/hashicorp/agent-skills",
+      "install": "git clone https://github.com/hashicorp/agent-skills.git",
       "functionCategory": "devops-deploy"
     }
   ]

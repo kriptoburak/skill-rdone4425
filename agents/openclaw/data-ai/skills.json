@@ -2,7 +2,7 @@
   "meta": {
     "agent": "openclaw",
     "functionCategory": "data-ai",
-    "count": 3,
+    "count": 5,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -40,6 +40,30 @@
       "desc": "Let Skills Evolve Collectively with Agentic Evolver ",
       "url": "https://github.com/AMAP-ML/SkillClaw",
       "install": "git clone https://github.com/AMAP-ML/SkillClaw.git",
+      "functionCategory": "data-ai"
+    },
+    {
+      "name": "openclaw-search-skills",
+      "source": "general",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "blessonism/openclaw-search-skills",
+      "stars": 433,
+      "desc": "OpenClaw skills for deep search — multi-source search, content extraction, and structured research reports.",
+      "url": "https://github.com/blessonism/openclaw-search-skills",
+      "install": "git clone https://github.com/blessonism/openclaw-search-skills.git",
+      "functionCategory": "data-ai"
+    },
+    {
+      "name": "decodo-openclaw-skill",
+      "source": "general",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "Decodo/decodo-openclaw-skill",
+      "stars": 149,
+      "desc": "OpenClaw skill for scraping any URL using the Decodo Web Scraping API.",
+      "url": "https://github.com/Decodo/decodo-openclaw-skill",
+      "install": "git clone https://github.com/Decodo/decodo-openclaw-skill.git",
       "functionCategory": "data-ai"
     }
   ]

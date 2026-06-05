@@ -2,7 +2,7 @@
   "meta": {
     "agent": "claude",
     "functionCategory": "testing-qa",
-    "count": 2,
+    "count": 4,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -28,6 +28,30 @@
       "desc": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with varia",
       "url": "https://github.com/anthropics/skills/tree/main/skills/skill-creator",
       "install": "$skill-installer skill-creator",
+      "functionCategory": "testing-qa"
+    },
+    {
+      "name": "playwright-skill",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "lackeyjb/playwright-skill",
+      "stars": 2720,
+      "desc": "Claude Code Skill for browser automation with Playwright. Model-invoked - Claude autonomously writes and executes custom automation for testing and validation.",
+      "url": "https://github.com/lackeyjb/playwright-skill",
+      "install": "npx playwright-skill",
+      "functionCategory": "testing-qa"
+    },
+    {
+      "name": "claude-review-loop",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "hamelsmu/claude-review-loop",
+      "stars": 676,
+      "desc": "Claude Code plugin: automated code review loop with Codex",
+      "url": "https://github.com/hamelsmu/claude-review-loop",
+      "install": "git clone https://github.com/hamelsmu/claude-review-loop.git",
       "functionCategory": "testing-qa"
     }
   ]

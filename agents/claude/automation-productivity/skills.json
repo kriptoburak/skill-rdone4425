@@ -2,7 +2,7 @@
   "meta": {
     "agent": "claude",
     "functionCategory": "automation-productivity",
-    "count": 5,
+    "count": 11,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -64,6 +64,78 @@
       "desc": "Curated Claude Code plugin marketplace",
       "url": "https://github.com/obra/superpowers-marketplace",
       "install": "git clone https://github.com/obra/superpowers-marketplace.git",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "NotFair",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "nowork-studio/NotFair",
+      "stars": 2772,
+      "desc": "Open-source Claude Code skills for SEO, GEO, Google Ads, Meta Ads",
+      "url": "https://github.com/nowork-studio/NotFair",
+      "install": "npx NotFair",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "videocut-skills",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "Ceeon/videocut-skills",
+      "stars": 1814,
+      "desc": "用 Claude Code Skills 做的视频剪辑 Agent",
+      "url": "https://github.com/Ceeon/videocut-skills",
+      "install": "npx videocut-skills",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "gtm-engineer-skills",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "onvoyage-ai/gtm-engineer-skills",
+      "stars": 1124,
+      "desc": "Claude Code skill for improving website AEO (AI Engine Optimization) and GEO (Generative Engine Optimization) scores — 16 foundational checks, 6 intelligence dimensions, framework-specific fixes",
+      "url": "https://github.com/onvoyage-ai/gtm-engineer-skills",
+      "install": "git clone https://github.com/onvoyage-ai/gtm-engineer-skills.git",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "x-article-publisher-skill",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "wshuyi/x-article-publisher-skill",
+      "stars": 790,
+      "desc": "Claude Code skill for publishing Markdown articles to X (Twitter) Articles",
+      "url": "https://github.com/wshuyi/x-article-publisher-skill",
+      "install": "git clone https://github.com/wshuyi/x-article-publisher-skill.git",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "ralph-wiggum-marketer",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "muratcankoylan/ralph-wiggum-marketer",
+      "stars": 746,
+      "desc": "A Claude Code Plugin that provides an autonomous AI copywriter.",
+      "url": "https://github.com/muratcankoylan/ralph-wiggum-marketer",
+      "install": "npx ralph-wiggum-marketer",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "claude-equity-research",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "quant-sentiment-ai/claude-equity-research",
+      "stars": 553,
+      "desc": "🔌 Claude Code Plugin for institutional-grade equity research.   Install with /plugin marketplace add. Generates professional   buy/sell recommendations with comprehensive fundamental   analysis, te...",
+      "url": "https://github.com/quant-sentiment-ai/claude-equity-research",
+      "install": "git clone https://github.com/quant-sentiment-ai/claude-equity-research.git",
       "functionCategory": "automation-productivity"
     }
   ]

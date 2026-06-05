@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "agent": "openclaw",
+    "functionCategory": "docs-content",
+    "count": 3,
+    "sourceData": "js/data.js"
+  },
+  "skills": [
+    {
+      "name": "PaperClaw",
+      "source": "general",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "guhaohao0991/PaperClaw",
+      "stars": 236,
+      "desc": "an OpenClaw skill that can generate paper search-review-critque expert-agent relevant to specific topics (we use Scientific ML and 3D geometry surrogate modeling as a demo).",
+      "url": "https://github.com/guhaohao0991/PaperClaw",
+      "install": "git clone https://github.com/guhaohao0991/PaperClaw.git",
+      "functionCategory": "docs-content"
+    },
+    {
+      "name": "scholar-skill",
+      "source": "general",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "EESJGong/scholar-skill",
+      "stars": 198,
+      "desc": "An OpenClaw skill for academic reading, knowledge linking, reflection, and knowledge evolution in Obsidian.",
+      "url": "https://github.com/EESJGong/scholar-skill",
+      "install": "git clone https://github.com/EESJGong/scholar-skill.git",
+      "functionCategory": "docs-content"
+    },
+    {
+      "name": "getnote-openclaw",
+      "source": "general",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "iswalle/getnote-openclaw",
+      "stars": 116,
+      "desc": "Get 笔记 openclaw Skill",
+      "url": "https://github.com/iswalle/getnote-openclaw",
+      "install": "git clone https://github.com/iswalle/getnote-openclaw.git",
+      "functionCategory": "docs-content"
+    }
+  ]
+}

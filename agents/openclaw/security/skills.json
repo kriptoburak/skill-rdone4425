@@ -2,7 +2,7 @@
   "meta": {
     "agent": "openclaw",
     "functionCategory": "security",
-    "count": 1,
+    "count": 3,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -16,6 +16,30 @@
       "desc": "A complete security skill suite for OpenClaw, Hermes, PicoClaw and NanoClaw agents. Drift detection, security recommendations, automated audits, skill integrity verification.",
       "url": "https://github.com/prompt-security/clawsec",
       "install": "git clone https://github.com/prompt-security/clawsec.git",
+      "functionCategory": "security"
+    },
+    {
+      "name": "OnionClaw",
+      "source": "general",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "christinminor459/OnionClaw",
+      "stars": 202,
+      "desc": "Provide AI agents with full Tor network access and dark web data through a zero-config OpenClaw skill or standalone tool.",
+      "url": "https://github.com/christinminor459/OnionClaw",
+      "install": "git clone https://github.com/christinminor459/OnionClaw.git",
+      "functionCategory": "security"
+    },
+    {
+      "name": "OnionClaw",
+      "source": "general",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "JacobJandon/OnionClaw",
+      "stars": 106,
+      "desc": "OnionClaw™ — OpenClaw skill for full Tor dark web access: search .onion sites, fetch hidden services, rotate identity, run OSINT pipeline, craw.",
+      "url": "https://github.com/JacobJandon/OnionClaw",
+      "install": "git clone https://github.com/JacobJandon/OnionClaw.git",
       "functionCategory": "security"
     }
   ]

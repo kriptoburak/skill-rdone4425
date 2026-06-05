@@ -2,7 +2,7 @@
   "meta": {
     "agent": "claude",
     "functionCategory": "design-ui",
-    "count": 15,
+    "count": 20,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -184,6 +184,66 @@
       "desc": "SwiftUI Front-End Design Skills — Six Ironclad Rules Against AI Sloppiness, Design Direction Consulting, Brand Asset Guidelines, and Five-Dimensional Review. Supports all AI agent platforms, including",
       "url": "https://github.com/Wholiver/swiftui-design-skill",
       "install": "git clone https://github.com/Wholiver/swiftui-design-skill.git",
+      "functionCategory": "design-ui"
+    },
+    {
+      "name": "nothing-design-skill",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "dominikmartn/nothing-design-skill",
+      "stars": 2410,
+      "desc": "A Claude Code skill for generating UI in the Nothing design language. Monochrome, typographic, industrial.",
+      "url": "https://github.com/dominikmartn/nothing-design-skill",
+      "install": "git clone https://github.com/dominikmartn/nothing-design-skill.git",
+      "functionCategory": "design-ui"
+    },
+    {
+      "name": "mcp_excalidraw",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "yctimlin/mcp_excalidraw",
+      "stars": 2019,
+      "desc": "MCP server and Claude Code skill for Excalidraw — programmatic canvas toolkit to create, edit, and export diagrams via AI agents with real-time canvas sync.",
+      "url": "https://github.com/yctimlin/mcp_excalidraw",
+      "install": "npx mcp_excalidraw",
+      "functionCategory": "design-ui"
+    },
+    {
+      "name": "claude-skill-app-onboarding-questionnaire",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "adamlyttleapps/claude-skill-app-onboarding-questionnaire",
+      "stars": 1050,
+      "desc": " A Claude Code skill that designs and builds high-converting questionnaire-style app onboarding flows — modelled    on proven conversion patterns from top subscription apps like Mob, Headspace and ...",
+      "url": "https://github.com/adamlyttleapps/claude-skill-app-onboarding-questionnaire",
+      "install": "git clone https://github.com/adamlyttleapps/claude-skill-app-onboarding-questionnaire.git",
+      "functionCategory": "design-ui"
+    },
+    {
+      "name": "mckinsey-pptx",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "seulee26/mckinsey-pptx",
+      "stars": 471,
+      "desc": "McKinsey-style PPTX generator — Claude Code plugin with 40 slide templates + subagent that picks the right template and defends its choice. Built by AX Labs (이승필).",
+      "url": "https://github.com/seulee26/mckinsey-pptx",
+      "install": "git clone https://github.com/seulee26/mckinsey-pptx.git",
+      "functionCategory": "design-ui"
+    },
+    {
+      "name": "gpt-image2-ppt-skills",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "JuneYaooo/gpt-image2-ppt-skills",
+      "stars": 854,
+      "desc": "Clone any .pptx into your own deck — OpenAI gpt-image-2 mimics the layout, you supply the content. 10 bundled styles. | 把任何 .pptx 模板\"抄\"成你的 PPT：gpt-image-2 仿版式、你换内容，另含 10 套精选风格。Claude Code / OpenCla...",
+      "url": "https://github.com/JuneYaooo/gpt-image2-ppt-skills",
+      "install": "git clone https://github.com/JuneYaooo/gpt-image2-ppt-skills.git",
       "functionCategory": "design-ui"
     }
   ]

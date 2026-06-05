@@ -2,7 +2,7 @@
   "meta": {
     "agent": "claude",
     "functionCategory": "data-ai",
-    "count": 4,
+    "count": 6,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -52,6 +52,30 @@
       "desc": "LLM Council — a Claude Code skill that runs your decisions through 5 AI advisors with peer review",
       "url": "https://github.com/aiwithremy/claude-skills-llm-council",
       "install": "git clone https://github.com/aiwithremy/claude-skills-llm-council.git",
+      "functionCategory": "data-ai"
+    },
+    {
+      "name": "claude-video-vision",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "jordanrendric/claude-video-vision",
+      "stars": 744,
+      "desc": "Give Claude the ability to watch and understand videos — Claude Code plugin with frame extraction and multimodal audio analysis",
+      "url": "https://github.com/jordanrendric/claude-video-vision",
+      "install": "npx claude-video-vision",
+      "functionCategory": "data-ai"
+    },
+    {
+      "name": "nano-banana-2-skill",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "kingbootoshi/nano-banana-2-skill",
+      "stars": 381,
+      "desc": "AI image generation CLI powered by Gemini 3 Pro. Green screen transparency, reference images, style transfer. Also a Claude Code plugin.",
+      "url": "https://github.com/kingbootoshi/nano-banana-2-skill",
+      "install": "npx nano-banana-2-skill",
       "functionCategory": "data-ai"
     }
   ]

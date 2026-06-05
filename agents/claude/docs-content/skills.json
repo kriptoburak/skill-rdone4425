@@ -2,7 +2,7 @@
   "meta": {
     "agent": "claude",
     "functionCategory": "docs-content",
-    "count": 11,
+    "count": 17,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -136,6 +136,78 @@
       "desc": "Claude Code plugin that generates individualized knowledge systems from conversation. You describe how you think and work, have a conversation and get a complete second brain as markdown files you own",
       "url": "https://github.com/agenticnotetaking/arscontexta",
       "install": "git clone https://github.com/agenticnotetaking/arscontexta.git",
+      "functionCategory": "docs-content"
+    },
+    {
+      "name": "Humanizer-zh",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "op7418/Humanizer-zh",
+      "stars": 9182,
+      "desc": "Humanizer 的汉化版本，Claude Code Skills，旨在消除文本中 AI 生成的痕迹。",
+      "url": "https://github.com/op7418/Humanizer-zh",
+      "install": "git clone https://github.com/op7418/Humanizer-zh.git",
+      "functionCategory": "docs-content"
+    },
+    {
+      "name": "codebase-to-course",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "zarazhangrui/codebase-to-course",
+      "stars": 4554,
+      "desc": "A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course for non-technical vibe coders.",
+      "url": "https://github.com/zarazhangrui/codebase-to-course",
+      "install": "git clone https://github.com/zarazhangrui/codebase-to-course.git",
+      "functionCategory": "docs-content"
+    },
+    {
+      "name": "book-to-skill",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "virgiliojr94/book-to-skill",
+      "stars": 4188,
+      "desc": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "install": "git clone https://github.com/virgiliojr94/book-to-skill.git",
+      "functionCategory": "docs-content"
+    },
+    {
+      "name": "tutor-skills",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "bevibing/tutor-skills",
+      "stars": 922,
+      "desc": "A Claude Code skill that turns PDFs, docs, and codebases into Obsidian study vaults",
+      "url": "https://github.com/bevibing/tutor-skills",
+      "install": "git clone https://github.com/bevibing/tutor-skills.git",
+      "functionCategory": "docs-content"
+    },
+    {
+      "name": "translate-book",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "deusyu/translate-book",
+      "stars": 749,
+      "desc": "Claude Code skill that translates entire books (PDF/DOCX/EPUB) into any language using parallel subagents",
+      "url": "https://github.com/deusyu/translate-book",
+      "install": "git clone https://github.com/deusyu/translate-book.git",
+      "functionCategory": "docs-content"
+    },
+    {
+      "name": "Oh-my--paper",
+      "source": "general",
+      "agent": "claude",
+      "group": null,
+      "repo": "LigphiDonk/Oh-my--paper",
+      "stars": 620,
+      "desc": "A Claude Code plugin that turns your terminal into an autonomous research lab — literature survey, experiment execution, paper writing, all in one pipeline.",
+      "url": "https://github.com/LigphiDonk/Oh-my--paper",
+      "install": "npx Oh-my--paper",
       "functionCategory": "docs-content"
     }
   ]

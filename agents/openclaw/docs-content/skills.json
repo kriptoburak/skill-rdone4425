@@ -2,7 +2,7 @@
   "meta": {
     "agent": "openclaw",
     "functionCategory": "docs-content",
-    "count": 9,
+    "count": 10,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -112,6 +112,18 @@
       "desc": "🐾 OpenClaw 101 — 从零开始，7天掌握你的AI私人助理 | 全网资源聚合站",
       "url": "https://github.com/mengjian-github/openclaw101",
       "install": "npm i -g openclaw101",
+      "functionCategory": "docs-content"
+    },
+    {
+      "name": "awesome-openclaw-skills-zh",
+      "source": "openclaw",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "Rito-w/awesome-openclaw-skills-zh",
+      "stars": 66,
+      "desc": "Awesome OpenClaw Skills 中文版 - 5494 个 OpenClaw 技能的中文翻译与分类",
+      "url": "https://github.com/Rito-w/awesome-openclaw-skills-zh",
+      "install": "git clone https://github.com/Rito-w/awesome-openclaw-skills-zh.git",
       "functionCategory": "docs-content"
     }
   ]

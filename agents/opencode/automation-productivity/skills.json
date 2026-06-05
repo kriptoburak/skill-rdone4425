@@ -2,7 +2,7 @@
   "meta": {
     "agent": "opencode",
     "functionCategory": "automation-productivity",
-    "count": 2,
+    "count": 3,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -28,6 +28,18 @@
       "desc": "OpenCode mobile client via Telegram: run and monitor AI coding tasks from your phone while everything runs locally on your machine. Scheduled tasks support.",
       "url": "https://github.com/grinev/opencode-telegram-bot",
       "install": "npm i -g opencode-telegram-bot",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "open-artisan",
+      "source": "opencode",
+      "agent": "opencode",
+      "group": null,
+      "repo": "yehudacohen/open-artisan",
+      "stars": 59,
+      "desc": "OpenCode plugin for structured AI workflow orchestration",
+      "url": "https://github.com/yehudacohen/open-artisan",
+      "install": "npm i -g open-artisan",
       "functionCategory": "automation-productivity"
     }
   ]

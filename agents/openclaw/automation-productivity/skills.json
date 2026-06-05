@@ -2,7 +2,7 @@
   "meta": {
     "agent": "openclaw",
     "functionCategory": "automation-productivity",
-    "count": 11,
+    "count": 13,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -136,6 +136,30 @@
       "desc": "Official OpenClaw DingTalk channel plugin | 钉钉官方 OpenClaw 插件",
       "url": "https://github.com/DingTalk-Real-AI/dingtalk-openclaw-connector",
       "install": "npm i -g dingtalk-openclaw-connector",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "flightclaw",
+      "source": "openclaw",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "jackculpan/flightclaw",
+      "stars": 56,
+      "desc": "Track flight prices from Google Flights with this OpenClaw skill. Search routes, monitor prices, and get alerts when prices drop.",
+      "url": "https://github.com/jackculpan/flightclaw",
+      "install": "pip install flightclaw",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "dotskills",
+      "source": "openclaw",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "vincentkoc/dotskills",
+      "stars": 55,
+      "desc": "🐙 A curated set of Codex and OpenClaw skills for workflow automation, technical debugging, and agent-assisted development patterns.",
+      "url": "https://github.com/vincentkoc/dotskills",
+      "install": "pip install dotskills",
       "functionCategory": "automation-productivity"
     }
   ]

@@ -2,7 +2,7 @@
   "meta": {
     "agent": "cursor",
     "functionCategory": "docs-content",
-    "count": 3,
+    "count": 4,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -40,6 +40,18 @@
       "desc": "整理和收集来自不同项目的Cursor规则文件，提供多种编程语言和框架的规则支持。",
       "url": "https://github.com/flyeric0212/cursor-rules",
       "install": "git clone https://github.com/flyeric0212/cursor-rules.git",
+      "functionCategory": "docs-content"
+    },
+    {
+      "name": "awesome-cursor-rules",
+      "source": "community",
+      "agent": "cursor",
+      "group": null,
+      "repo": "blefnk/awesome-cursor-rules",
+      "stars": 81,
+      "desc": "❇️ neatly composed rules for ai ides like cursor, windsurf, vscode microsoft github copilot, reliverse ai, etc. optimized for modern frontend development with next.js 15, react 19, typescript 5, tailwind 4, shadcn/ui, drizzle orm, better auth, polar, tanstack form, react query, etc.",
+      "url": "https://github.com/blefnk/awesome-cursor-rules",
+      "install": "git clone https://github.com/blefnk/awesome-cursor-rules.git",
       "functionCategory": "docs-content"
     }
   ]

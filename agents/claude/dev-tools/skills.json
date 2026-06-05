@@ -2,7 +2,7 @@
   "meta": {
     "agent": "claude",
     "functionCategory": "dev-tools",
-    "count": 49,
+    "count": 62,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -592,6 +592,162 @@
       "desc": "The most comprehensive Claude Code skills registry | Web Search: https://majiayu000.github.io/claude-skill-registry-core/",
       "url": "https://github.com/majiayu000/claude-skill-registry",
       "install": "git clone https://github.com/majiayu000/claude-skill-registry.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "claude-code-toolkit",
+      "source": "claude",
+      "agent": "claude",
+      "group": null,
+      "repo": "AsifKibria/claude-code-toolkit",
+      "stars": 93,
+      "desc": "",
+      "url": "https://github.com/AsifKibria/claude-code-toolkit",
+      "install": "npm i -g claude-code-toolkit",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "claude-code-toolkit",
+      "source": "claude",
+      "agent": "claude",
+      "group": null,
+      "repo": "robertguss/claude-code-toolkit",
+      "stars": 92,
+      "desc": "A collection of custom skills that extend Claude's capabilities with specialized workflows, methods, and domain knowledge.",
+      "url": "https://github.com/robertguss/claude-code-toolkit",
+      "install": "git clone https://github.com/robertguss/claude-code-toolkit.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "claude-code-toolkit",
+      "source": "claude",
+      "agent": "claude",
+      "group": null,
+      "repo": "applied-artificial-intelligence/claude-code-toolkit",
+      "stars": 72,
+      "desc": "Production-tested commands, skills, and workflow patterns for Claude Code. Developed through 6+ months of daily use. Includes explore→plan→next→ship workflow, session handoffs, MCP integrations, and domain skills. Copy what works, adapt to your needs.",
+      "url": "https://github.com/applied-artificial-intelligence/claude-code-toolkit",
+      "install": "pip install claude-code-toolkit",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": ".claude",
+      "source": "claude",
+      "agent": "claude",
+      "group": null,
+      "repo": "travisjneuman/.claude",
+      "stars": 60,
+      "desc": "The Ultimate Claude Code Toolkit — 127 skills, 86 agents, 109 marketplace repos (11,700+ community skills), 30 commands, 8 hooks, GSD framework. Drop-in ~/.claude config that auto-activates the right resources from your prompt. Zero config required.",
+      "url": "https://github.com/travisjneuman/.claude",
+      "install": "npm i -g .claude",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "claude-plugins",
+      "source": "claude",
+      "agent": "claude",
+      "group": null,
+      "repo": "closedloop-ai/claude-plugins",
+      "stars": 94,
+      "desc": "Open-source Claude Code plugins for multi-agent software delivery. Plan-first SDLC workflow, code review, LLM quality judges, and self-learning — grounded in your codebase.  Bootstrap, Plan, & Ship.   ",
+      "url": "https://github.com/closedloop-ai/claude-plugins",
+      "install": "pip install claude-plugins",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "obsidian-claude-code-plugin",
+      "source": "claude",
+      "agent": "claude",
+      "group": null,
+      "repo": "deivid11/obsidian-claude-code-plugin",
+      "stars": 82,
+      "desc": "Interactive Claude Code integration for Obsidian",
+      "url": "https://github.com/deivid11/obsidian-claude-code-plugin",
+      "install": "npm i -g obsidian-claude-code-plugin",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "claude-plugins",
+      "source": "claude",
+      "agent": "claude",
+      "group": null,
+      "repo": "BankrBot/claude-plugins",
+      "stars": 79,
+      "desc": "Public Claude Code plugins for Web3 development with Bankr's multi-chain DeFi infrastructure.",
+      "url": "https://github.com/BankrBot/claude-plugins",
+      "install": "npm i -g claude-plugins",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "claude-plugins",
+      "source": "claude",
+      "agent": "claude",
+      "group": null,
+      "repo": "corca-ai/claude-plugins",
+      "stars": 78,
+      "desc": "",
+      "url": "https://github.com/corca-ai/claude-plugins",
+      "install": "git clone https://github.com/corca-ai/claude-plugins.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "claude-code-plugins",
+      "source": "claude",
+      "agent": "claude",
+      "group": null,
+      "repo": "melodic-software/claude-code-plugins",
+      "stars": 78,
+      "desc": "",
+      "url": "https://github.com/melodic-software/claude-code-plugins",
+      "install": "pip install claude-code-plugins",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "claude-code-plugin",
+      "source": "claude",
+      "agent": "claude",
+      "group": null,
+      "repo": "browserbase/claude-code-plugin",
+      "stars": 70,
+      "desc": "Browserbase plugin for Claude Code - Use cloud browsers with Claude Code instead of local Chrome",
+      "url": "https://github.com/browserbase/claude-code-plugin",
+      "install": "npm i -g claude-code-plugin",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "claude-plugins",
+      "source": "claude",
+      "agent": "claude",
+      "group": null,
+      "repo": "hrconsultnj/claude-plugins",
+      "stars": 68,
+      "desc": "Claude Code plugin — code quality hooks, knowledge graph, impact-aware reviews, decomposition enforcement. Babysitter for your AI's code quality.",
+      "url": "https://github.com/hrconsultnj/claude-plugins",
+      "install": "git clone https://github.com/hrconsultnj/claude-plugins.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "wookstar-claude-plugins",
+      "source": "claude",
+      "agent": "claude",
+      "group": null,
+      "repo": "henkisdabro/wookstar-claude-plugins",
+      "stars": 67,
+      "desc": "An opinionated Claude Code Plugin Pack. Skills, Agents, Hooks, MCPs. Examples: Email draft preview assistance & humanisation. Agents for Codex and Gemini \"outsourcing\". Skills for Google Analytics & Google Tag Manager, Shopify and much more",
+      "url": "https://github.com/henkisdabro/wookstar-claude-plugins",
+      "install": "pip install wookstar-claude-plugins",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "pinecone-claude-code-plugin",
+      "source": "claude",
+      "agent": "claude",
+      "group": null,
+      "repo": "pinecone-io/pinecone-claude-code-plugin",
+      "stars": 66,
+      "desc": "The official Pinecone marketplace for Claude Code Plugins",
+      "url": "https://github.com/pinecone-io/pinecone-claude-code-plugin",
+      "install": "pip install pinecone-claude-code-plugin",
       "functionCategory": "dev-tools"
     }
   ]

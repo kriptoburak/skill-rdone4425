@@ -2,7 +2,7 @@
   "meta": {
     "agent": "openclaw",
     "functionCategory": "dev-tools",
-    "count": 18,
+    "count": 25,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -220,6 +220,90 @@
       "desc": "A single hub to find Claude Skills, Agents, Commands, Hooks, Plugins, and Marketplace collections to extend Claude Code, Claude Desktop, Agent SDK and OpenClaw",
       "url": "https://github.com/davepoon/buildwithclaude",
       "install": "npm i -g buildwithclaude",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "wemp-operator",
+      "source": "openclaw",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "IanShaw027/wemp-operator",
+      "stars": 96,
+      "desc": "微信公众号自动化运营 OpenClaw Skill - 内容采集、数据分析、互动管理",
+      "url": "https://github.com/IanShaw027/wemp-operator",
+      "install": "npm i -g wemp-operator",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "humanizer",
+      "source": "openclaw",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "brandonwise/humanizer",
+      "stars": 85,
+      "desc": "OpenClaw skill that detects and removes signs of AI-generated writing, making text sound natural and human. Based on Wikipedia's Signs of AI Writing.",
+      "url": "https://github.com/brandonwise/humanizer",
+      "install": "npm i -g humanizer",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "codex-imagen",
+      "source": "openclaw",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "darkamenosa/codex-imagen",
+      "stars": 80,
+      "desc": "Codex/OpenClaw skill for generating images with ChatGPT/Codex OAuth",
+      "url": "https://github.com/darkamenosa/codex-imagen",
+      "install": "npm i -g codex-imagen",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "xiaohongshu-auto-operation",
+      "source": "openclaw",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "ijerryhuang/xiaohongshu-auto-operation",
+      "stars": 76,
+      "desc": "小红书账号全自动运营系统 - OpenClaw Skill",
+      "url": "https://github.com/ijerryhuang/xiaohongshu-auto-operation",
+      "install": "pip install xiaohongshu-auto-operation",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "clawpod",
+      "source": "openclaw",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "joinmassive/clawpod",
+      "stars": 73,
+      "desc": "OpenClaw skill that works with Massive proxy network",
+      "url": "https://github.com/joinmassive/clawpod",
+      "install": "git clone https://github.com/joinmassive/clawpod.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "playwright-browser-skill",
+      "source": "openclaw",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "91fapiao-cn/playwright-browser-skill",
+      "stars": 64,
+      "desc": "一个功能强大的浏览器自动化技能，基于 Playwright 构建，通过 MCP 协议为 OpenClaw 提供 101 完整的浏览器操作能力。OpenClaw skill for browser automation using Playwright - 101 tools for complete browser control",
+      "url": "https://github.com/91fapiao-cn/playwright-browser-skill",
+      "install": "git clone https://github.com/91fapiao-cn/playwright-browser-skill.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "openclaw-skills",
+      "source": "openclaw",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "blessonism/openclaw-skills",
+      "stars": 58,
+      "desc": "A collection of OpenClaw Agent Skills — search, analysis, content extraction, and more.",
+      "url": "https://github.com/blessonism/openclaw-skills",
+      "install": "pip install openclaw-skills",
       "functionCategory": "dev-tools"
     }
   ]

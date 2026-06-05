@@ -2,7 +2,7 @@
   "meta": {
     "agent": "hermes",
     "functionCategory": "data-ai",
-    "count": 1,
+    "count": 2,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -16,6 +16,18 @@
       "desc": "The agent that grows with you",
       "url": "https://github.com/NousResearch/hermes-agent",
       "install": "npm i -g @nousresearch/hermes-agent",
+      "functionCategory": "data-ai"
+    },
+    {
+      "name": "hermes-concurrent-agents",
+      "source": "hermes",
+      "agent": "hermes",
+      "group": null,
+      "repo": "r0b0tlab/hermes-concurrent-agents",
+      "stars": 55,
+      "desc": "Deploy concurrent Hermes Agent workers on unified-memory GPUs (GB10, DGX Spark) for maximum total tok/s. Profile-isolated, kanban-coordinated, crash-recovering.",
+      "url": "https://github.com/r0b0tlab/hermes-concurrent-agents",
+      "install": "git clone https://github.com/r0b0tlab/hermes-concurrent-agents.git",
       "functionCategory": "data-ai"
     }
   ]

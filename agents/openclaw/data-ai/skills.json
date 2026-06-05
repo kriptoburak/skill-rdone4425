@@ -2,7 +2,7 @@
   "meta": {
     "agent": "openclaw",
     "functionCategory": "data-ai",
-    "count": 3,
+    "count": 4,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -40,6 +40,18 @@
       "desc": "The largest open-source medical AI skills library for OpenClaw🦞.",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills",
       "install": "pip install OpenClaw-Medical-Skills",
+      "functionCategory": "data-ai"
+    },
+    {
+      "name": "obsidian-openclaw-memory",
+      "source": "openclaw",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "Samin12/obsidian-openclaw-memory",
+      "stars": 51,
+      "desc": "OpenClaw skill: Use Obsidian + OpenClaw as an AI memory system with knowledge graph",
+      "url": "https://github.com/Samin12/obsidian-openclaw-memory",
+      "install": "git clone https://github.com/Samin12/obsidian-openclaw-memory.git",
       "functionCategory": "data-ai"
     }
   ]

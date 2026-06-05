@@ -2,7 +2,7 @@
   "meta": {
     "agent": "multi",
     "functionCategory": "automation-productivity",
-    "count": 6,
+    "count": 7,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -76,6 +76,18 @@
       "desc": "BrowserWing turns your browser actions into MCP commands Or Claude Skill, allowing AI agents to control browsers efficiently and reliably. Say goodbye to slow, token-heavy LLM interactions — let agents call commands directly for faster automation. Perfect for AI-driven tasks, browser automation, and boosting productivity.",
       "url": "https://github.com/browserwing/browserwing",
       "install": "go install github.com/browserwing/browserwing@latest",
+      "functionCategory": "automation-productivity"
+    },
+    {
+      "name": "seo-kit",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "TheMattBerman/seo-kit",
+      "stars": 80,
+      "desc": "AI agent that finds keywords, writes content, monitors rankings, and self-improves. Two OpenClaw skills that chain into a compounding SEO loop.",
+      "url": "https://github.com/TheMattBerman/seo-kit",
+      "install": "git clone https://github.com/TheMattBerman/seo-kit.git",
       "functionCategory": "automation-productivity"
     }
   ]

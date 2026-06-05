@@ -2,7 +2,7 @@
   "meta": {
     "agent": "hermes",
     "functionCategory": "docs-content",
-    "count": 4,
+    "count": 8,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -52,6 +52,54 @@
       "desc": "",
       "url": "https://github.com/HZ0108/hermes-agent-insights",
       "install": "git clone https://github.com/HZ0108/hermes-agent-insights.git",
+      "functionCategory": "docs-content"
+    },
+    {
+      "name": "awesome-hermes-skills",
+      "source": "hermes",
+      "agent": "hermes",
+      "group": null,
+      "repo": "ChuckSRQ/awesome-hermes-skills",
+      "stars": 66,
+      "desc": "A curated collection of production-ready Hermes Agent skills — brainstorming, PRD workflows, debugging, Apple integrations, MLOps, document processing, and more.",
+      "url": "https://github.com/ChuckSRQ/awesome-hermes-skills",
+      "install": "pip install awesome-hermes-skills",
+      "functionCategory": "docs-content"
+    },
+    {
+      "name": "hermes-agent-docs",
+      "source": "hermes",
+      "agent": "hermes",
+      "group": null,
+      "repo": "mudrii/hermes-agent-docs",
+      "stars": 56,
+      "desc": "Comprehensive documentation for Hermes Agent by NousResearch — the self-improving AI agent (v0.2.0)",
+      "url": "https://github.com/mudrii/hermes-agent-docs",
+      "install": "git clone https://github.com/mudrii/hermes-agent-docs.git",
+      "functionCategory": "docs-content"
+    },
+    {
+      "name": "awesome-hermes-agent-zh",
+      "source": "hermes",
+      "agent": "hermes",
+      "group": null,
+      "repo": "jefferyjob/awesome-hermes-agent-zh",
+      "stars": 55,
+      "desc": "Nous Research 精心整理了一份适用于 Hermes Agent 的实用技能、工具、集成和资源列表。",
+      "url": "https://github.com/jefferyjob/awesome-hermes-agent-zh",
+      "install": "git clone https://github.com/jefferyjob/awesome-hermes-agent-zh.git",
+      "functionCategory": "docs-content"
+    },
+    {
+      "name": "hermes-agent-anatomy",
+      "source": "hermes",
+      "agent": "hermes",
+      "group": null,
+      "repo": "anneheartrecord/hermes-agent-anatomy",
+      "stars": 53,
+      "desc": "hermes-agent源码解析",
+      "url": "https://github.com/anneheartrecord/hermes-agent-anatomy",
+      "install": "git clone https://github.com/anneheartrecord/hermes-agent-anatomy.git",
       "functionCategory": "docs-content"
     }
   ]

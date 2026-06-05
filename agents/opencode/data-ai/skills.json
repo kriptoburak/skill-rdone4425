@@ -2,7 +2,7 @@
   "meta": {
     "agent": "opencode",
     "functionCategory": "data-ai",
-    "count": 2,
+    "count": 3,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -28,6 +28,18 @@
       "desc": "OpenCode plugin that gives coding agents persistent memory using local vector database",
       "url": "https://github.com/tickernelz/opencode-mem",
       "install": "npm i -g opencode-mem",
+      "functionCategory": "data-ai"
+    },
+    {
+      "name": "opencode-rules",
+      "source": "opencode",
+      "agent": "opencode",
+      "group": null,
+      "repo": "frap129/opencode-rules",
+      "stars": 83,
+      "desc": "An opencode plugin to dynamically inject rules into context, like cursor",
+      "url": "https://github.com/frap129/opencode-rules",
+      "install": "npm i -g opencode-rules",
       "functionCategory": "data-ai"
     }
   ]

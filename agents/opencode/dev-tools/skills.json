@@ -2,7 +2,7 @@
   "meta": {
     "agent": "opencode",
     "functionCategory": "dev-tools",
-    "count": 43,
+    "count": 57,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -520,6 +520,174 @@
       "desc": "Better 'AskUserQuestion' - A lightweight MCP server/OpenCode plugin/Agent Skills + CLI interface which allows parallel AI agents ask questions to you. Be the human in the human-in-the-loop!",
       "url": "https://github.com/paulp-o/ask-user-questions-mcp",
       "install": "npm i -g ask-user-questions-mcp",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "opencode-claude-code-plugin",
+      "source": "opencode",
+      "agent": "opencode",
+      "group": null,
+      "repo": "unixfox/opencode-claude-code-plugin",
+      "stars": 76,
+      "desc": "Use Claude Code in OpenCode - created from idea https://github.com/anomalyco/opencode/issues/9677",
+      "url": "https://github.com/unixfox/opencode-claude-code-plugin",
+      "install": "npm i -g opencode-claude-code-plugin",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "oc-tps",
+      "source": "opencode",
+      "agent": "opencode",
+      "group": null,
+      "repo": "Tarquinen/oc-tps",
+      "stars": 87,
+      "desc": "OpenCode plugin for viewing LLM Tokens Per Second (TPS) rates",
+      "url": "https://github.com/Tarquinen/oc-tps",
+      "install": "npm i -g oc-tps",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "opencode-claude-bridge",
+      "source": "opencode",
+      "agent": "opencode",
+      "group": null,
+      "repo": "dotCipher/opencode-claude-bridge",
+      "stars": 85,
+      "desc": "OpenCode plugin for Claude Pro/Max OAuth — auto-syncs from Claude CLI",
+      "url": "https://github.com/dotCipher/opencode-claude-bridge",
+      "install": "npm i -g opencode-claude-bridge",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "openslimedit",
+      "source": "opencode",
+      "agent": "opencode",
+      "group": null,
+      "repo": "ASidorenkoCode/openslimedit",
+      "stars": 75,
+      "desc": "An OpenCode plugin that reduces token usage by up to 45% with zero configuration. It compresses tool descriptions, compacts read output, and adds line-range edit support.",
+      "url": "https://github.com/ASidorenkoCode/openslimedit",
+      "install": "npm i -g openslimedit",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "open-trees",
+      "source": "opencode",
+      "agent": "opencode",
+      "group": null,
+      "repo": "0xSero/open-trees",
+      "stars": 73,
+      "desc": "An Opencode plugin for managing git worktrees. ",
+      "url": "https://github.com/0xSero/open-trees",
+      "install": "npm i -g open-trees",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "opencode-plugin-otel",
+      "source": "opencode",
+      "agent": "opencode",
+      "group": null,
+      "repo": "DEVtheOPS/opencode-plugin-otel",
+      "stars": 69,
+      "desc": "An opencode plugin that exports telemetry via OpenTelemetry (OTLP/gRPC), mirroring the same signals as Claude Code's monitoring.",
+      "url": "https://github.com/DEVtheOPS/opencode-plugin-otel",
+      "install": "npm i -g opencode-plugin-otel",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "opencode-background",
+      "source": "opencode",
+      "agent": "opencode",
+      "group": null,
+      "repo": "zenobi-us/opencode-background",
+      "stars": 68,
+      "desc": "Opencode plugin to manage and communicate with background tasks",
+      "url": "https://github.com/zenobi-us/opencode-background",
+      "install": "npm i -g opencode-background",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "caveman-opencode-plugin",
+      "source": "opencode",
+      "agent": "opencode",
+      "group": null,
+      "repo": "dantesCode/caveman-opencode-plugin",
+      "stars": 66,
+      "desc": "",
+      "url": "https://github.com/dantesCode/caveman-opencode-plugin",
+      "install": "npm i -g caveman-opencode-plugin",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "opencode-notificator",
+      "source": "opencode",
+      "agent": "opencode",
+      "group": null,
+      "repo": "panta82/opencode-notificator",
+      "stars": 65,
+      "desc": "OpenCode plugin for desktop notifications",
+      "url": "https://github.com/panta82/opencode-notificator",
+      "install": "npm i -g opencode-notificator",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "opencode-ignore",
+      "source": "opencode",
+      "agent": "opencode",
+      "group": null,
+      "repo": "lgladysz/opencode-ignore",
+      "stars": 61,
+      "desc": "OpenCode plugin to restrict AI access to files and directories using .ignore patterns (gitignore-style).",
+      "url": "https://github.com/lgladysz/opencode-ignore",
+      "install": "npm i -g opencode-ignore",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "opencode-morph-plugin",
+      "source": "opencode",
+      "agent": "opencode",
+      "group": null,
+      "repo": "morphllm/opencode-morph-plugin",
+      "stars": 59,
+      "desc": "OpenCode plugin for Morph - FastApply, WarpGrep codebase search, FlashCompact",
+      "url": "https://github.com/morphllm/opencode-morph-plugin",
+      "install": "npm i -g opencode-morph-plugin",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "opencode-plugin-langfuse",
+      "source": "opencode",
+      "agent": "opencode",
+      "group": null,
+      "repo": "omercnet/opencode-plugin-langfuse",
+      "stars": 58,
+      "desc": "",
+      "url": "https://github.com/omercnet/opencode-plugin-langfuse",
+      "install": "npm i -g opencode-plugin-langfuse",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "OpencodePlugins",
+      "source": "opencode",
+      "agent": "opencode",
+      "group": null,
+      "repo": "sjzsdu/OpencodePlugins",
+      "stars": 56,
+      "desc": "🤖 OpenCode 插件 - 三省六部多智能体协作系统：将中国古代治理智慧融入 AI 编程助手，自动完成复杂编程任务的规划、审核与执行",
+      "url": "https://github.com/sjzsdu/OpencodePlugins",
+      "install": "npm i -g OpencodePlugins",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "Opencode-Google-AI-Search-Plugin",
+      "source": "opencode",
+      "agent": "opencode",
+      "group": null,
+      "repo": "IgorWarzocha/Opencode-Google-AI-Search-Plugin",
+      "stars": 56,
+      "desc": "An Opencode plugin that exposes a native tool for querying Google AI Mode",
+      "url": "https://github.com/IgorWarzocha/Opencode-Google-AI-Search-Plugin",
+      "install": "npm i -g Opencode-Google-AI-Search-Plugin",
       "functionCategory": "dev-tools"
     }
   ]

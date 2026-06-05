@@ -2,7 +2,7 @@
   "meta": {
     "agent": "multi",
     "functionCategory": "docs-content",
-    "count": 4,
+    "count": 6,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -52,6 +52,30 @@
       "desc": "20 SEO & GEO skills for Claude Code, Cursor, Codex, and 35+ AI agents. Keyword research, content writing, technical audits, rank tracking. CORE-EEAT + CITE frameworks.",
       "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills",
       "install": "git clone https://github.com/aaron-he-zhu/seo-geo-claude-skills.git",
+      "functionCategory": "docs-content"
+    },
+    {
+      "name": "Awesome-Agent-Skills",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "JayLZhou/Awesome-Agent-Skills",
+      "stars": 90,
+      "desc": "",
+      "url": "https://github.com/JayLZhou/Awesome-Agent-Skills",
+      "install": "git clone https://github.com/JayLZhou/Awesome-Agent-Skills.git",
+      "functionCategory": "docs-content"
+    },
+    {
+      "name": "awesome-agent-skills",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "kodustech/awesome-agent-skills",
+      "stars": 74,
+      "desc": "Curated list of Agent Skills for AI coding agents like Claude Code, Codex and Cursor.",
+      "url": "https://github.com/kodustech/awesome-agent-skills",
+      "install": "git clone https://github.com/kodustech/awesome-agent-skills.git",
       "functionCategory": "docs-content"
     }
   ]

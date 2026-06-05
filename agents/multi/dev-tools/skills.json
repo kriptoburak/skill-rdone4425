@@ -2,7 +2,7 @@
   "meta": {
     "agent": "multi",
     "functionCategory": "dev-tools",
-    "count": 51,
+    "count": 52,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -616,6 +616,18 @@
       "desc": "Claude Skill to do your tasks with subagents in Git worktrees",
       "url": "https://github.com/zippoxer/subtask",
       "install": "go install github.com/zippoxer/subtask@latest",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "yara-rule-skill",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "YARAHQ/yara-rule-skill",
+      "stars": 59,
+      "desc": "LLM Agent Skill for YARA rule authoring and review",
+      "url": "https://github.com/YARAHQ/yara-rule-skill",
+      "install": "pip install yara-rule-skill",
       "functionCategory": "dev-tools"
     }
   ]

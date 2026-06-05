@@ -2,7 +2,7 @@
   "meta": {
     "agent": "multi",
     "functionCategory": "data-ai",
-    "count": 8,
+    "count": 10,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -100,6 +100,30 @@
       "desc": "A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits wasted. Full context and memory retention",
       "url": "https://github.com/nidhinjs/prompt-master",
       "install": "git clone https://github.com/nidhinjs/prompt-master.git",
+      "functionCategory": "data-ai"
+    },
+    {
+      "name": "Mind-Cloning-Engineering",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "yzfly/Mind-Cloning-Engineering",
+      "stars": 54,
+      "desc": "MCE: Clone Human Souls with LLM Native Agent Skills | 基于 LLM Agent Skills 的心智克隆工程 | Agent Skills | Mind Skills | Mind Clone",
+      "url": "https://github.com/yzfly/Mind-Cloning-Engineering",
+      "install": "git clone https://github.com/yzfly/Mind-Cloning-Engineering.git",
+      "functionCategory": "data-ai"
+    },
+    {
+      "name": "ZotPilot",
+      "source": "general",
+      "agent": "multi",
+      "group": null,
+      "repo": "xunhe730/ZotPilot",
+      "stars": 51,
+      "desc": "AI-powered Zotero research assistant — MCP server + agent skill",
+      "url": "https://github.com/xunhe730/ZotPilot",
+      "install": "pip install ZotPilot",
       "functionCategory": "data-ai"
     }
   ]

@@ -2,7 +2,7 @@
   "meta": {
     "agent": "hermes",
     "functionCategory": "dev-tools",
-    "count": 12,
+    "count": 19,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -148,6 +148,90 @@
       "desc": "A dedicated Obsidian plugin + Hermes skill that turns Hermes into an autonomous project executor using Kanban boards inside your Obsidian vault.",
       "url": "https://github.com/GumbyEnder/hermes-kanban",
       "install": "pip install hermes-kanban",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "Wizards-of-the-Ghosts",
+      "source": "hermes",
+      "agent": "hermes",
+      "group": null,
+      "repo": "Hmbown/Wizards-of-the-Ghosts",
+      "stars": 92,
+      "desc": "Unofficial Hermes Agent skill pack built from fantasy spell and skill names",
+      "url": "https://github.com/Hmbown/Wizards-of-the-Ghosts",
+      "install": "pip install Wizards-of-the-Ghosts",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "hermes-skill-atlas",
+      "source": "hermes",
+      "agent": "hermes",
+      "group": null,
+      "repo": "codesstar/hermes-skill-atlas",
+      "stars": 56,
+      "desc": "The complete, interactive map of Hermes Agent skills — 70+ curated, verified, open source. 🗺️",
+      "url": "https://github.com/codesstar/hermes-skill-atlas",
+      "install": "git clone https://github.com/codesstar/hermes-skill-atlas.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "hermes-agent-metaharness",
+      "source": "hermes",
+      "agent": "hermes",
+      "group": null,
+      "repo": "howdymary/hermes-agent-metaharness",
+      "stars": 89,
+      "desc": "An implementation of a Meta Harness for Hermes.",
+      "url": "https://github.com/howdymary/hermes-agent-metaharness",
+      "install": "pip install hermes-agent-metaharness",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "Hermes-Agent-On-Android",
+      "source": "hermes",
+      "agent": "hermes",
+      "group": null,
+      "repo": "AbuZar-Ansarii/Hermes-Agent-On-Android",
+      "stars": 88,
+      "desc": "Run Hermes Agent - a self-evolving AI assistant - on any Android device using Termux. One-line installation.",
+      "url": "https://github.com/AbuZar-Ansarii/Hermes-Agent-On-Android",
+      "install": "git clone https://github.com/AbuZar-Ansarii/Hermes-Agent-On-Android.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "hermes-agent-helm-chart",
+      "source": "hermes",
+      "agent": "hermes",
+      "group": null,
+      "repo": "ultraworkers/hermes-agent-helm-chart",
+      "stars": 87,
+      "desc": "The community-driven unofficial chart packages Hermes Agent for Kubernetes with cloud-native defaults, explicit state-safety guardrails, and flexible composition points for platform teams.",
+      "url": "https://github.com/ultraworkers/hermes-agent-helm-chart",
+      "install": "git clone https://github.com/ultraworkers/hermes-agent-helm-chart.git",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "hermes-arxiv-agent",
+      "source": "hermes",
+      "agent": "hermes",
+      "group": null,
+      "repo": "genggng/hermes-arxiv-agent",
+      "stars": 80,
+      "desc": "一个基于 Hermes 的 agent skill：每天自动从 arXiv 抓取论文，用 AI 生成中文摘要和作者单位，推送到飞书，并提供本地静态阅读网站。 ",
+      "url": "https://github.com/genggng/hermes-arxiv-agent",
+      "install": "pip install hermes-arxiv-agent",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "hermes-agent-rtk-caveman",
+      "source": "hermes",
+      "agent": "hermes",
+      "group": null,
+      "repo": "adityahimaone/hermes-agent-rtk-caveman",
+      "stars": 57,
+      "desc": "Hermes Agent RTK + Caveman setup - 90-99% token savings on CLI operations with 35+ pre-configured skills",
+      "url": "https://github.com/adityahimaone/hermes-agent-rtk-caveman",
+      "install": "git clone https://github.com/adityahimaone/hermes-agent-rtk-caveman.git",
       "functionCategory": "dev-tools"
     }
   ]

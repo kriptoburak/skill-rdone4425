@@ -2,7 +2,7 @@
   "meta": {
     "agent": "openclaw",
     "functionCategory": "security",
-    "count": 4,
+    "count": 5,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -52,6 +52,18 @@
       "desc": "This guide is designed for OpenClaw itself (Agent-facing), not as a traditional human-only hardening checklist.",
       "url": "https://github.com/slowmist/openclaw-security-practice-guide",
       "install": "git clone https://github.com/slowmist/openclaw-security-practice-guide.git",
+      "functionCategory": "security"
+    },
+    {
+      "name": "openclaw-skills-security",
+      "source": "openclaw",
+      "agent": "openclaw",
+      "group": null,
+      "repo": "UseAI-pro/openclaw-skills-security",
+      "stars": 61,
+      "desc": "Curated, security-first OpenClaw skills (Markdown-based). Security audit skills - detect prompt injection, supply chain attacks, credential leaks. Works with Codex CLI, Claude Code, any LLM.",
+      "url": "https://github.com/UseAI-pro/openclaw-skills-security",
+      "install": "pip install openclaw-skills-security",
       "functionCategory": "security"
     }
   ]

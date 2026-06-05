@@ -2,7 +2,7 @@
   "meta": {
     "agent": "cursor",
     "functionCategory": "dev-tools",
-    "count": 3,
+    "count": 4,
     "sourceData": "js/data.js"
   },
   "skills": [
@@ -40,6 +40,18 @@
       "desc": "Agentic-first Cursor Rules powered by MiniMax M3 - clarify-first prompting, interleaved thinking, and full tool orchestration for production-ready AI coding",
       "url": "https://github.com/madebyaris/advance-minimax-m3-cursor-rules",
       "install": "npm i -g advance-minimax-m3-cursor-rules",
+      "functionCategory": "dev-tools"
+    },
+    {
+      "name": "mdc_autogen",
+      "source": "community",
+      "agent": "cursor",
+      "group": null,
+      "repo": "pranav270-create/mdc_autogen",
+      "stars": 55,
+      "desc": "Autogenerates cursor rules for a given repository",
+      "url": "https://github.com/pranav270-create/mdc_autogen",
+      "install": "pip install mdc_autogen",
       "functionCategory": "dev-tools"
     }
   ]

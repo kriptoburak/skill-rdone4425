@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "agent": "copilot",
+    "functionCategory": "automation-productivity",
+    "count": 1,
+    "sourceData": "js/data.js"
+  },
+  "skills": [
+    {
+      "name": "nightscout-cgm-skill",
+      "source": "community",
+      "agent": "copilot",
+      "group": null,
+      "repo": "shanselman/nightscout-cgm-skill",
+      "stars": 53,
+      "desc": "GitHub Copilot Agent Skill for Nightscout CGM blood glucose analysis",
+      "url": "https://github.com/shanselman/nightscout-cgm-skill",
+      "install": "pip install nightscout-cgm-skill",
+      "functionCategory": "automation-productivity"
+    }
+  ]
+}

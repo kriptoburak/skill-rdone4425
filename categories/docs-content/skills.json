@@ -18,7 +18,9 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "docx \"use this skill whenever the user wants to create, read, edit, or manipulate word documents (.docx files). triggers include: any mention of 'word doc', 'word document', '.docx', or requests to produce professional documents with formatting anthropics/skills $skill-installer docx docs-content claude"
+      "searchText": "docx \"use this skill whenever the user wants to create, read, edit, or manipulate word documents (.docx files). triggers include: any mention of 'word doc', 'word document', '.docx', or requests to produce professional documents with formatting anthropics/skills $skill-installer docx docs-content claude",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries"
     },
     {
       "name": "internal-comms",
@@ -33,7 +35,9 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "internal-comms a set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership anthropics/skills $skill-installer internal-comms docs-content claude"
+      "searchText": "internal-comms a set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership anthropics/skills $skill-installer internal-comms docs-content claude",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries"
     },
     {
       "name": "pdf",
@@ -48,7 +52,9 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "pdf use this skill whenever the user wants to do anything with pdf files. this includes reading or extracting text/tables from pdfs, combining or merging multiple pdfs into one, splitting pdfs apart, rotating pages, adding watermarks, creating anthropics/skills $skill-installer pdf docs-content claude"
+      "searchText": "pdf use this skill whenever the user wants to do anything with pdf files. this includes reading or extracting text/tables from pdfs, combining or merging multiple pdfs into one, splitting pdfs apart, rotating pages, adding watermarks, creating anthropics/skills $skill-installer pdf docs-content claude",
+      "topCategoryId": "docs",
+      "subCategoryId": "references"
     },
     {
       "name": "pptx",
@@ -63,7 +69,9 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "pptx \"use this skill any time a .pptx file is involved in any way — as input, output, or both. this includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx file (even if the extracted co anthropics/skills $skill-installer pptx docs-content claude"
+      "searchText": "pptx \"use this skill any time a .pptx file is involved in any way — as input, output, or both. this includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx file (even if the extracted co anthropics/skills $skill-installer pptx docs-content claude",
+      "topCategoryId": "docs",
+      "subCategoryId": "references"
     },
     {
       "name": "graphify",
@@ -82,7 +90,9 @@
         "opencode",
         "gemini"
       ],
-      "searchText": "graphify ai coding assistant skill (claude code, codex, opencode, cursor, gemini cli, and more). turn any folder of code, sql schemas, r scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. app code + database sc safishamsi/graphify git clone https://github.com/safishamsi/graphify.git docs-content claude codex cursor opencode gemini"
+      "searchText": "graphify ai coding assistant skill (claude code, codex, opencode, cursor, gemini cli, and more). turn any folder of code, sql schemas, r scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. app code + database sc safishamsi/graphify git clone https://github.com/safishamsi/graphify.git docs-content claude codex cursor opencode gemini",
+      "topCategoryId": "development",
+      "subCategoryId": "coding"
     },
     {
       "name": "obsidian-skills",
@@ -97,7 +107,9 @@
       "supportedAgents": [
         "other"
       ],
-      "searchText": "obsidian-skills agent skills for obsidian. teach your agent to use markdown, bases, json canvas, and use the cli. kepano/obsidian-skills git clone https://github.com/kepano/obsidian-skills.git docs-content other"
+      "searchText": "obsidian-skills agent skills for obsidian. teach your agent to use markdown, bases, json canvas, and use the cli. kepano/obsidian-skills git clone https://github.com/kepano/obsidian-skills.git docs-content other",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries"
     },
     {
       "name": "marketingskills",
@@ -112,7 +124,9 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "marketingskills marketing skills for claude code and ai agents. cro, copywriting, seo, analytics, and growth engineering. coreyhaines31/marketingskills git clone https://github.com/coreyhaines31/marketingskills.git docs-content claude"
+      "searchText": "marketingskills marketing skills for claude code and ai agents. cro, copywriting, seo, analytics, and growth engineering. coreyhaines31/marketingskills git clone https://github.com/coreyhaines31/marketingskills.git docs-content claude",
+      "topCategoryId": "automation",
+      "subCategoryId": "ops"
     },
     {
       "name": "awesome-openclaw-usecases",
@@ -127,7 +141,9 @@
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "awesome-openclaw-usecases a community collection of openclaw use cases for making life easier. hesamsheikh/awesome-openclaw-usecases git clone https://github.com/hesamsheikh/awesome-openclaw-usecases.git docs-content openclaw"
+      "searchText": "awesome-openclaw-usecases a community collection of openclaw use cases for making life easier. hesamsheikh/awesome-openclaw-usecases git clone https://github.com/hesamsheikh/awesome-openclaw-usecases.git docs-content openclaw",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome"
     },
     {
       "name": "humanizer",
@@ -142,7 +158,9 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "humanizer claude code skill that removes signs of ai-generated writing from text blader/humanizer git clone https://github.com/blader/humanizer.git docs-content claude"
+      "searchText": "humanizer claude code skill that removes signs of ai-generated writing from text blader/humanizer git clone https://github.com/blader/humanizer.git docs-content claude",
+      "topCategoryId": "docs",
+      "subCategoryId": "references"
     },
     {
       "name": "notion-knowledge-capture",
@@ -157,7 +175,9 @@
       "supportedAgents": [
         "codex"
       ],
-      "searchText": "notion-knowledge-capture capture conversations and decisions into structured notion pages; use when turning chats/notes into wiki entries, how-tos, decisions, or faqs with proper linking. openai/skills $skill-installer notion-knowledge-capture docs-content codex"
+      "searchText": "notion-knowledge-capture capture conversations and decisions into structured notion pages; use when turning chats/notes into wiki entries, how-tos, decisions, or faqs with proper linking. openai/skills $skill-installer notion-knowledge-capture docs-content codex",
+      "topCategoryId": "docs",
+      "subCategoryId": "references"
     },
     {
       "name": "notion-meeting-intelligence",
@@ -172,7 +192,9 @@
       "supportedAgents": [
         "codex"
       ],
-      "searchText": "notion-meeting-intelligence prepare meeting materials with notion context and codex research; use when gathering context, drafting agendas/pre-reads, and tailoring materials to attendees. openai/skills $skill-installer notion-meeting-intelligence docs-content codex"
+      "searchText": "notion-meeting-intelligence prepare meeting materials with notion context and codex research; use when gathering context, drafting agendas/pre-reads, and tailoring materials to attendees. openai/skills $skill-installer notion-meeting-intelligence docs-content codex",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries"
     },
     {
       "name": "notion-research-documentation",
@@ -187,7 +209,9 @@
       "supportedAgents": [
         "codex"
       ],
-      "searchText": "notion-research-documentation research across notion and synthesize into structured documentation; use when gathering info from multiple notion sources to produce briefs, comparisons, or reports with citations. openai/skills $skill-installer notion-research-documentation docs-content codex"
+      "searchText": "notion-research-documentation research across notion and synthesize into structured documentation; use when gathering info from multiple notion sources to produce briefs, comparisons, or reports with citations. openai/skills $skill-installer notion-research-documentation docs-content codex",
+      "topCategoryId": "docs",
+      "subCategoryId": "references"
     },
     {
       "name": "notion-spec-to-implementation",
@@ -202,7 +226,9 @@
       "supportedAgents": [
         "codex"
       ],
-      "searchText": "notion-spec-to-implementation turn notion specs into implementation plans, tasks, and progress tracking; use when implementing prds/feature specs and creating notion plans + tasks from them. openai/skills $skill-installer notion-spec-to-implementation docs-content codex"
+      "searchText": "notion-spec-to-implementation turn notion specs into implementation plans, tasks, and progress tracking; use when implementing prds/feature specs and creating notion plans + tasks from them. openai/skills $skill-installer notion-spec-to-implementation docs-content codex",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries"
     },
     {
       "name": "awesome-claude-skills",
@@ -217,7 +243,9 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "awesome-claude-skills a curated list of claude skills. behisecc/awesome-claude-skills git clone https://github.com/behisecc/awesome-claude-skills.git docs-content claude"
+      "searchText": "awesome-claude-skills a curated list of claude skills. behisecc/awesome-claude-skills git clone https://github.com/behisecc/awesome-claude-skills.git docs-content claude",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome"
     },
     {
       "name": "Humanizer-zh",
@@ -232,7 +260,9 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "humanizer-zh humanizer 的汉化版本，claude code skills，旨在消除文本中 ai 生成的痕迹。 op7418/humanizer-zh git clone https://github.com/op7418/humanizer-zh.git docs-content claude"
+      "searchText": "humanizer-zh humanizer 的汉化版本，claude code skills，旨在消除文本中 ai 生成的痕迹。 op7418/humanizer-zh git clone https://github.com/op7418/humanizer-zh.git docs-content claude",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries"
     },
     {
       "name": "awesome-opencode",
@@ -247,7 +277,9 @@
       "supportedAgents": [
         "opencode"
       ],
-      "searchText": "awesome-opencode a curated list of awesome plugins, themes, agents, projects, and resources for https://opencode.ai awesome-opencode/awesome-opencode npm i -g awesome-opencode docs-content opencode"
+      "searchText": "awesome-opencode a curated list of awesome plugins, themes, agents, projects, and resources for https://opencode.ai awesome-opencode/awesome-opencode npm i -g awesome-opencode docs-content opencode",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome"
     },
     {
       "name": "codebase-to-course",
@@ -262,7 +294,9 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "codebase-to-course a claude code skill that turns any codebase into a beautiful, interactive single-page html course for non-technical vibe coders. zarazhangrui/codebase-to-course git clone https://github.com/zarazhangrui/codebase-to-course.git docs-content claude"
+      "searchText": "codebase-to-course a claude code skill that turns any codebase into a beautiful, interactive single-page html course for non-technical vibe coders. zarazhangrui/codebase-to-course git clone https://github.com/zarazhangrui/codebase-to-course.git docs-content claude",
+      "topCategoryId": "docs",
+      "subCategoryId": "guides"
     },
     {
       "name": "awesome-openclaw-tutorial",
@@ -277,7 +311,9 @@
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "awesome-openclaw-tutorial 从零开始玩转openclaw：最全面的中文教程，涵盖安装、配置、实战案例和避坑指南（github版） xianyu110/awesome-openclaw-tutorial git clone https://github.com/xianyu110/awesome-openclaw-tutorial.git docs-content openclaw"
+      "searchText": "awesome-openclaw-tutorial 从零开始玩转openclaw：最全面的中文教程，涵盖安装、配置、实战案例和避坑指南（github版） xianyu110/awesome-openclaw-tutorial git clone https://github.com/xianyu110/awesome-openclaw-tutorial.git docs-content openclaw",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome"
     },
     {
       "name": "book-to-skill",
@@ -292,7 +328,9 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "book-to-skill turn any technical book pdf into a claude code skill — ready to study, reference, and use while you work. virgiliojr94/book-to-skill pip install book-to-skill docs-content claude"
+      "searchText": "book-to-skill turn any technical book pdf into a claude code skill — ready to study, reference, and use while you work. virgiliojr94/book-to-skill pip install book-to-skill docs-content claude",
+      "topCategoryId": "docs",
+      "subCategoryId": "references"
     },
     {
       "name": "awesome-openclaw-usecases-zh",
@@ -307,7 +345,9 @@
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "awesome-openclaw-usecases-zh 🇨🇳 openclaw中文用例大全 | 50个真实场景 | 国内特色 + 海外案例的国内适配 | 自动化办公·内容创作·运维·ai助理·知识管理 | 新手友好 alexanys/awesome-openclaw-usecases-zh git clone https://github.com/alexanys/awesome-openclaw-usecases-zh.git docs-content openclaw"
+      "searchText": "awesome-openclaw-usecases-zh 🇨🇳 openclaw中文用例大全 | 50个真实场景 | 国内特色 + 海外案例的国内适配 | 自动化办公·内容创作·运维·ai助理·知识管理 | 新手友好 alexanys/awesome-openclaw-usecases-zh git clone https://github.com/alexanys/awesome-openclaw-usecases-zh.git docs-content openclaw",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome"
     },
     {
       "name": "hermes-agent-orange-book",
@@ -322,7 +362,9 @@
       "supportedAgents": [
         "hermes"
       ],
-      "searchText": "hermes-agent-orange-book hermes agent 从入门到精通 · 橙皮书系列 · nous research 开源 ai agent 框架实战指南 alchaincyf/hermes-agent-orange-book git clone https://github.com/alchaincyf/hermes-agent-orange-book.git docs-content hermes"
+      "searchText": "hermes-agent-orange-book hermes agent 从入门到精通 · 橙皮书系列 · nous research 开源 ai agent 框架实战指南 alchaincyf/hermes-agent-orange-book git clone https://github.com/alchaincyf/hermes-agent-orange-book.git docs-content hermes",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries"
     },
     {
       "name": "OpenClawChineseTranslation",
@@ -338,7 +380,9 @@
         "claude",
         "openclaw"
       ],
-      "searchText": "openclawchinesetranslation 🦞 openclaw (clawdbot/moltbot) 汉化版 - 开源个人 ai 助手中文版 | claude/chatgpt llm 接入 | whatsapp/telegram/discord 多平台 | 每小时自动同步 | cli + dashboard 全中文 | 全流程搭建教程，以及排错指南！ 1186258278/openclawchinesetranslation npm i -g openclawchinesetranslation docs-content claude openclaw"
+      "searchText": "openclawchinesetranslation 🦞 openclaw (clawdbot/moltbot) 汉化版 - 开源个人 ai 助手中文版 | claude/chatgpt llm 接入 | whatsapp/telegram/discord 多平台 | 每小时自动同步 | cli + dashboard 全中文 | 全流程搭建教程，以及排错指南！ 1186258278/openclawchinesetranslation npm i -g openclawchinesetranslation docs-content claude openclaw",
+      "topCategoryId": "docs",
+      "subCategoryId": "references"
     },
     {
       "name": "awesome-openclaw-agents",
@@ -353,7 +397,9 @@
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "awesome-openclaw-agents 162 production-ready ai agent templates for openclaw. soul.md configs across 19 categories. submit yours! mergisi/awesome-openclaw-agents git clone https://github.com/mergisi/awesome-openclaw-agents.git docs-content openclaw"
+      "searchText": "awesome-openclaw-agents 162 production-ready ai agent templates for openclaw. soul.md configs across 19 categories. submit yours! mergisi/awesome-openclaw-agents git clone https://github.com/mergisi/awesome-openclaw-agents.git docs-content openclaw",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome"
     },
     {
       "name": "awesome-cursor-rules-mdc",
@@ -368,7 +414,9 @@
       "supportedAgents": [
         "cursor"
       ],
-      "searchText": "awesome-cursor-rules-mdc curated list of awesome cursor rules .mdc files sanjeed5/awesome-cursor-rules-mdc pip install awesome-cursor-rules-mdc docs-content cursor"
+      "searchText": "awesome-cursor-rules-mdc curated list of awesome cursor rules .mdc files sanjeed5/awesome-cursor-rules-mdc pip install awesome-cursor-rules-mdc docs-content cursor",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome"
     },
     {
       "name": "arscontexta",
@@ -383,7 +431,9 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "arscontexta claude code plugin that generates individualized knowledge systems from conversation. you describe how you think and work, have a conversation and get a complete second brain as markdown files you own. agenticnotetaking/arscontexta git clone https://github.com/agenticnotetaking/arscontexta.git docs-content claude"
+      "searchText": "arscontexta claude code plugin that generates individualized knowledge systems from conversation. you describe how you think and work, have a conversation and get a complete second brain as markdown files you own. agenticnotetaking/arscontexta git clone https://github.com/agenticnotetaking/arscontexta.git docs-content claude",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries"
     },
     {
       "name": "academic-research-skills-codex",
@@ -398,7 +448,9 @@
       "supportedAgents": [
         "codex"
       ],
-      "searchText": "academic-research-skills-codex codex-native academic research skills suite for human-in-the-loop academic research workflows imbad0202/academic-research-skills-codex pip install academic-research-skills-codex docs-content codex"
+      "searchText": "academic-research-skills-codex codex-native academic research skills suite for human-in-the-loop academic research workflows imbad0202/academic-research-skills-codex pip install academic-research-skills-codex docs-content codex",
+      "topCategoryId": "data",
+      "subCategoryId": "research"
     },
     {
       "name": "openclaw101",
@@ -413,7 +465,9 @@
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "openclaw101 🐾 openclaw 101 — 从零开始，7天掌握你的ai私人助理 | 全网资源聚合站 mengjian-github/openclaw101 npm i -g openclaw101 docs-content openclaw"
+      "searchText": "openclaw101 🐾 openclaw 101 — 从零开始，7天掌握你的ai私人助理 | 全网资源聚合站 mengjian-github/openclaw101 npm i -g openclaw101 docs-content openclaw",
+      "topCategoryId": "docs",
+      "subCategoryId": "guides"
     },
     {
       "name": "obsidian-second-brain",
@@ -431,7 +485,9 @@
         "opencode",
         "gemini"
       ],
-      "searchText": "obsidian-second-brain cross-cli skill for obsidian: turn your vault into a living ai-first second brain across claude code, codex, gemini, and opencode. 43 commands - now with /obsidian-architect to document your codebase, key-less web research, google calendar, eugeniughelbur/obsidian-second-brain git clone https://github.com/eugeniughelbur/obsidian-second-brain.git docs-content claude codex opencode gemini"
+      "searchText": "obsidian-second-brain cross-cli skill for obsidian: turn your vault into a living ai-first second brain across claude code, codex, gemini, and opencode. 43 commands - now with /obsidian-architect to document your codebase, key-less web research, google calendar, eugeniughelbur/obsidian-second-brain git clone https://github.com/eugeniughelbur/obsidian-second-brain.git docs-content claude codex opencode gemini",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries"
     },
     {
       "name": "seo-geo-claude-skills",
@@ -448,7 +504,9 @@
         "codex",
         "cursor"
       ],
-      "searchText": "seo-geo-claude-skills 20 seo & geo skills for claude code, cursor, codex, and 35+ ai agents. keyword research, content writing, technical audits, rank tracking. core-eeat + cite frameworks. aaron-he-zhu/seo-geo-claude-skills git clone https://github.com/aaron-he-zhu/seo-geo-claude-skills.git docs-content claude codex cursor"
+      "searchText": "seo-geo-claude-skills 20 seo & geo skills for claude code, cursor, codex, and 35+ ai agents. keyword research, content writing, technical audits, rank tracking. core-eeat + cite frameworks. aaron-he-zhu/seo-geo-claude-skills git clone https://github.com/aaron-he-zhu/seo-geo-claude-skills.git docs-content claude codex cursor",
+      "topCategoryId": "automation",
+      "subCategoryId": "publishing"
     },
     {
       "name": "awesome-claude-code-toolkit",
@@ -463,7 +521,9 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "awesome-claude-code-toolkit the most comprehensive toolkit for claude code -- 135 agents, 35 curated skills, 42 commands, 176+ plugins, 20 hooks, 15 rules, 7 templates, 14 mcp configs, 26 companion apps, 52 ecosystem entries, and more. rohitg00/awesome-claude-code-toolkit npm i -g awesome-claude-code-toolkit docs-content claude"
+      "searchText": "awesome-claude-code-toolkit the most comprehensive toolkit for claude code -- 135 agents, 35 curated skills, 42 commands, 176+ plugins, 20 hooks, 15 rules, 7 templates, 14 mcp configs, 26 companion apps, 52 ecosystem entries, and more. rohitg00/awesome-claude-code-toolkit npm i -g awesome-claude-code-toolkit docs-content claude",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome"
     },
     {
       "name": "agent-toolkit",
@@ -478,7 +538,9 @@
       "supportedAgents": [
         "other"
       ],
-      "searchText": "agent-toolkit a curated collection of skills for ai coding agents. skills are packaged instructions and scripts that extend agent capabilities across development, documentation, planning, and professional workflows. softaworks/agent-toolkit git clone https://github.com/softaworks/agent-toolkit.git  # browse the awesome list docs-content other"
+      "searchText": "agent-toolkit a curated collection of skills for ai coding agents. skills are packaged instructions and scripts that extend agent capabilities across development, documentation, planning, and professional workflows. softaworks/agent-toolkit git clone https://github.com/softaworks/agent-toolkit.git  # browse the awesome list docs-content other",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome"
     },
     {
       "name": "cursor-rules",
@@ -493,7 +555,9 @@
       "supportedAgents": [
         "cursor"
       ],
-      "searchText": "cursor-rules 整理和收集来自不同项目的cursor规则文件，提供多种编程语言和框架的规则支持。 flyeric0212/cursor-rules git clone https://github.com/flyeric0212/cursor-rules.git docs-content cursor"
+      "searchText": "cursor-rules 整理和收集来自不同项目的cursor规则文件，提供多种编程语言和框架的规则支持。 flyeric0212/cursor-rules git clone https://github.com/flyeric0212/cursor-rules.git docs-content cursor",
+      "topCategoryId": "development",
+      "subCategoryId": "coding"
     },
     {
       "name": "awesome-claude-plugins",
@@ -508,7 +572,9 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "awesome-claude-plugins a curated list of plugins that let you extend claude code with custom commands, agents, hooks, and mcp servers through the plugin system. composiohq/awesome-claude-plugins npm i -g awesome-claude-plugins docs-content claude"
+      "searchText": "awesome-claude-plugins a curated list of plugins that let you extend claude code with custom commands, agents, hooks, and mcp servers through the plugin system. composiohq/awesome-claude-plugins npm i -g awesome-claude-plugins docs-content claude",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome"
     },
     {
       "name": "mcp",
@@ -523,7 +589,9 @@
       "supportedAgents": [
         "other"
       ],
-      "searchText": "mcp official microsoft learn mcp server and cli tool – powering llms and ai agents with real-time, trusted microsoft docs & code samples. microsoftdocs/mcp npm i -g mcp docs-content other"
+      "searchText": "mcp official microsoft learn mcp server and cli tool – powering llms and ai agents with real-time, trusted microsoft docs & code samples. microsoftdocs/mcp npm i -g mcp docs-content other",
+      "topCategoryId": "development",
+      "subCategoryId": "plugins"
     },
     {
       "name": "learn-opencode",
@@ -538,7 +606,9 @@
       "supportedAgents": [
         "opencode"
       ],
-      "searchText": "learn-opencode opencode 中文实战课源码与内容仓库：一课一页，覆盖入门到实战工作流。 vbgate/learn-opencode git clone https://github.com/vbgate/learn-opencode.git docs-content opencode"
+      "searchText": "learn-opencode opencode 中文实战课源码与内容仓库：一课一页，覆盖入门到实战工作流。 vbgate/learn-opencode git clone https://github.com/vbgate/learn-opencode.git docs-content opencode",
+      "topCategoryId": "docs",
+      "subCategoryId": "guides"
     },
     {
       "name": "ai-prompts",
@@ -554,7 +624,9 @@
         "cursor",
         "copilot"
       ],
-      "searchText": "ai-prompts curated ai prompts for cursor rules, cline, windsurf and github copilot instructa/ai-prompts npm i -g ai-prompts docs-content cursor copilot"
+      "searchText": "ai-prompts curated ai prompts for cursor rules, cline, windsurf and github copilot instructa/ai-prompts npm i -g ai-prompts docs-content cursor copilot",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome"
     },
     {
       "name": "tutor-skills",
@@ -569,7 +641,9 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "tutor-skills a claude code skill that turns pdfs, docs, and codebases into obsidian study vaults bevibing/tutor-skills git clone https://github.com/bevibing/tutor-skills.git docs-content claude"
+      "searchText": "tutor-skills a claude code skill that turns pdfs, docs, and codebases into obsidian study vaults bevibing/tutor-skills git clone https://github.com/bevibing/tutor-skills.git docs-content claude",
+      "topCategoryId": "docs",
+      "subCategoryId": "references"
     },
     {
       "name": "gpt-image2-ppt-skills",
@@ -585,7 +659,9 @@
         "claude",
         "openclaw"
       ],
-      "searchText": "gpt-image2-ppt-skills clone any .pptx into your own deck — openai gpt-image-2 mimics the layout, you supply the content. 10 bundled styles. | 把任何 .pptx 模板\"抄\"成你的 ppt：gpt-image-2 仿版式、你换内容，另含 10 套精选风格。claude code / openclaw skill. juneyaooo/gpt-image2-ppt-skills pip install gpt-image2-ppt-skills docs-content claude openclaw"
+      "searchText": "gpt-image2-ppt-skills clone any .pptx into your own deck — openai gpt-image-2 mimics the layout, you supply the content. 10 bundled styles. | 把任何 .pptx 模板\"抄\"成你的 ppt：gpt-image-2 仿版式、你换内容，另含 10 套精选风格。claude code / openclaw skill. juneyaooo/gpt-image2-ppt-skills pip install gpt-image2-ppt-skills docs-content claude openclaw",
+      "topCategoryId": "docs",
+      "subCategoryId": "references"
     },
     {
       "name": "awesome-claude-code-plugins",
@@ -600,7 +676,9 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "awesome-claude-code-plugins awesome claude code plugins — a curated list of slash commands, subagents, mcp servers, and hooks for claude code ccplugins/awesome-claude-code-plugins pip install awesome-claude-code-plugins docs-content claude"
+      "searchText": "awesome-claude-code-plugins awesome claude code plugins — a curated list of slash commands, subagents, mcp servers, and hooks for claude code ccplugins/awesome-claude-code-plugins pip install awesome-claude-code-plugins docs-content claude",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome"
     },
     {
       "name": "awesome-claude-plugins",
@@ -615,7 +693,9 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "awesome-claude-plugins automated collection of claude code plugin adoption metrics across github repositories using n8n workflows quemsah/awesome-claude-plugins npm i -g awesome-claude-plugins docs-content claude"
+      "searchText": "awesome-claude-plugins automated collection of claude code plugin adoption metrics across github repositories using n8n workflows quemsah/awesome-claude-plugins npm i -g awesome-claude-plugins docs-content claude",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome"
     },
     {
       "name": "translate-book",
@@ -630,7 +710,9 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "translate-book claude code skill that translates entire books (pdf/docx/epub) into any language using parallel subagents deusyu/translate-book pip install translate-book docs-content claude"
+      "searchText": "translate-book claude code skill that translates entire books (pdf/docx/epub) into any language using parallel subagents deusyu/translate-book pip install translate-book docs-content claude",
+      "topCategoryId": "docs",
+      "subCategoryId": "references"
     },
     {
       "name": "claude-office-skills",
@@ -645,7 +727,9 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "claude-office-skills office document creation and editing skills for claude code - pptx, docx, xlsx, and pdf workflows with automation support tfriedel/claude-office-skills pip install claude-office-skills docs-content claude"
+      "searchText": "claude-office-skills office document creation and editing skills for claude code - pptx, docx, xlsx, and pdf workflows with automation support tfriedel/claude-office-skills pip install claude-office-skills docs-content claude",
+      "topCategoryId": "docs",
+      "subCategoryId": "references"
     },
     {
       "name": "claude-skills-collection",
@@ -660,7 +744,9 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "claude-skills-collection a curated collection of official and community-built claude skills – extend anthropic's claude with powerful, modular capabilities for productivity, creativity, coding, and more. abubakarsiddik31/claude-skills-collection git clone https://github.com/abubakarsiddik31/claude-skills-collection.git docs-content claude"
+      "searchText": "claude-skills-collection a curated collection of official and community-built claude skills – extend anthropic's claude with powerful, modular capabilities for productivity, creativity, coding, and more. abubakarsiddik31/claude-skills-collection git clone https://github.com/abubakarsiddik31/claude-skills-collection.git docs-content claude",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome"
     },
     {
       "name": "Oh-my--paper",
@@ -675,7 +761,9 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "oh-my--paper a claude code plugin that turns your terminal into an autonomous research lab — literature survey, experiment execution, paper writing, all in one pipeline. ligphidonk/oh-my--paper npm i -g oh-my--paper docs-content claude"
+      "searchText": "oh-my--paper a claude code plugin that turns your terminal into an autonomous research lab — literature survey, experiment execution, paper writing, all in one pipeline. ligphidonk/oh-my--paper npm i -g oh-my--paper docs-content claude",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries"
     },
     {
       "name": "Agent-Skills",
@@ -690,7 +778,9 @@
       "supportedAgents": [
         "other"
       ],
-      "searchText": "agent-skills curated agent skills for microsoft & azure – giving ai coding assistants structured, real-time expertise from microsoft learn docs. microsoftdocs/agent-skills git clone https://github.com/microsoftdocs/agent-skills.git  # browse the awesome list docs-content other"
+      "searchText": "agent-skills curated agent skills for microsoft & azure – giving ai coding assistants structured, real-time expertise from microsoft learn docs. microsoftdocs/agent-skills git clone https://github.com/microsoftdocs/agent-skills.git  # browse the awesome list docs-content other",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome"
     },
     {
       "name": "agentfiles",
@@ -707,7 +797,9 @@
         "codex",
         "cursor"
       ],
-      "searchText": "agentfiles browse, create, and edit ai agent files across claude code, cursor, codex, and 13+ tools — from obsidian. railly/agentfiles npm i -g agentfiles docs-content claude codex cursor"
+      "searchText": "agentfiles browse, create, and edit ai agent files across claude code, cursor, codex, and 13+ tools — from obsidian. railly/agentfiles npm i -g agentfiles docs-content claude codex cursor",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries"
     },
     {
       "name": "academic-pptx-skill",
@@ -722,7 +814,9 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "academic-pptx-skill a claude skill for creating academic presentations (conference talks, seminar slides, thesis defenses, grant briefings). enforces action titles, structured argument, exhibit discipline, citation standards, and communication-first design. works alongside anthropic's built-in pptx skill. gabberflast/academic-pptx-skill git clone https://github.com/gabberflast/academic-pptx-skill.git docs-content claude"
+      "searchText": "academic-pptx-skill a claude skill for creating academic presentations (conference talks, seminar slides, thesis defenses, grant briefings). enforces action titles, structured argument, exhibit discipline, citation standards, and communication-first design. works alongside anthropic's built-in pptx skill. gabberflast/academic-pptx-skill git clone https://github.com/gabberflast/academic-pptx-skill.git docs-content claude",
+      "topCategoryId": "docs",
+      "subCategoryId": "references"
     },
     {
       "name": "codex-academic-paper-skills",
@@ -737,7 +831,9 @@
       "supportedAgents": [
         "codex"
       ],
-      "searchText": "codex-academic-paper-skills codex academic paper skills for software engineering thesis planning and revision aaass554/codex-academic-paper-skills pip install codex-academic-paper-skills docs-content codex"
+      "searchText": "codex-academic-paper-skills codex academic paper skills for software engineering thesis planning and revision aaass554/codex-academic-paper-skills pip install codex-academic-paper-skills docs-content codex",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries"
     },
     {
       "name": "Claude_skills_zh-CN",
@@ -752,7 +848,9 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "claude_skills_zh-cn anthropics/skills中文学习版本 来自：https://github.com/anthropics/skills leastbit/claude_skills_zh-cn pip install claude_skills_zh-cn docs-content claude"
+      "searchText": "claude_skills_zh-cn anthropics/skills中文学习版本 来自：https://github.com/anthropics/skills leastbit/claude_skills_zh-cn pip install claude_skills_zh-cn docs-content claude",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries"
     },
     {
       "name": "mckinsey-pptx",
@@ -767,7 +865,9 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "mckinsey-pptx mckinsey-style pptx generator — claude code plugin with 40 slide templates + subagent that picks the right template and defends its choice. built by ax labs (이승필). seulee26/mckinsey-pptx pip install mckinsey-pptx docs-content claude"
+      "searchText": "mckinsey-pptx mckinsey-style pptx generator — claude code plugin with 40 slide templates + subagent that picks the right template and defends its choice. built by ax labs (이승필). seulee26/mckinsey-pptx pip install mckinsey-pptx docs-content claude",
+      "topCategoryId": "docs",
+      "subCategoryId": "references"
     },
     {
       "name": "learn-agents-from-opencode",
@@ -782,7 +882,9 @@
       "supportedAgents": [
         "opencode"
       ],
-      "searchText": "learn-agents-from-opencode 根据 opencode 源码编写的 agent 开发教程 yexia553/learn-agents-from-opencode git clone https://github.com/yexia553/learn-agents-from-opencode.git docs-content opencode"
+      "searchText": "learn-agents-from-opencode 根据 opencode 源码编写的 agent 开发教程 yexia553/learn-agents-from-opencode git clone https://github.com/yexia553/learn-agents-from-opencode.git docs-content opencode",
+      "topCategoryId": "docs",
+      "subCategoryId": "guides"
     },
     {
       "name": "ai-labs-claude-skills",
@@ -797,7 +899,9 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "ai-labs-claude-skills this package is use to remove the hustle of finding claudeskills and shift them into any of the user project. this project become a bridge between user's usage and claude skills ailabs-393/ai-labs-claude-skills pip install ai-labs-claude-skills docs-content claude"
+      "searchText": "ai-labs-claude-skills this package is use to remove the hustle of finding claudeskills and shift them into any of the user project. this project become a bridge between user's usage and claude skills ailabs-393/ai-labs-claude-skills pip install ai-labs-claude-skills docs-content claude",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries"
     },
     {
       "name": "awesome-claude-skills",
@@ -812,7 +916,9 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "awesome-claude-skills 🎯 the definitive collection of 50+ verified awesome claude skills for claude code, claude.ai, and api. boost productivity with tdd, debugging, git workflows, document processing, and more. community-driven, actively maintained. karanb192/awesome-claude-skills git clone https://github.com/karanb192/awesome-claude-skills.git docs-content claude"
+      "searchText": "awesome-claude-skills 🎯 the definitive collection of 50+ verified awesome claude skills for claude code, claude.ai, and api. boost productivity with tdd, debugging, git workflows, document processing, and more. community-driven, actively maintained. karanb192/awesome-claude-skills git clone https://github.com/karanb192/awesome-claude-skills.git docs-content claude",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome"
     },
     {
       "name": "codex-claude-academic-skills",
@@ -828,7 +934,9 @@
         "claude",
         "codex"
       ],
-      "searchText": "codex-claude-academic-skills 本仓库包含三个面向学术科研人员的skills，覆盖从文献阅读、论文写作到科学计算的完整研究工作流。office-academic-skill 负责论文阅读报告与学术 ppt/word 文档生成；research-writing-skill 提供论文写作、润色与审稿回复辅助；scientific-toolkit-skill 整合 matlab/python 科学计算与期刊级图表生成。三个 skill 专为中文科研用户设计，可在 claude code 和 codex 中一键调用。 zlanqing/codex-claude-academic-skills pip install codex-claude-academic-skills docs-content claude codex"
+      "searchText": "codex-claude-academic-skills 本仓库包含三个面向学术科研人员的skills，覆盖从文献阅读、论文写作到科学计算的完整研究工作流。office-academic-skill 负责论文阅读报告与学术 ppt/word 文档生成；research-writing-skill 提供论文写作、润色与审稿回复辅助；scientific-toolkit-skill 整合 matlab/python 科学计算与期刊级图表生成。三个 skill 专为中文科研用户设计，可在 claude code 和 codex 中一键调用。 zlanqing/codex-claude-academic-skills pip install codex-claude-academic-skills docs-content claude codex",
+      "topCategoryId": "docs",
+      "subCategoryId": "references"
     },
     {
       "name": "hermes-agent-guide",
@@ -844,7 +952,9 @@
         "hermes",
         "openclaw"
       ],
-      "searchText": "hermes-agent-guide hermes agent 是目前开源社区最具潜力的 ai agent 框架之一。它继承了 openclaw 的优秀基因，在架构设计、记忆系统、技能生态和自动化能力上实现全面升级。但 hermes 的文档分散在多个仓库和平台，缺乏一本系统性的中文指南。  本书填补的正是这个空白。全书 16 册、30 万+ 字，覆盖从安装部署到高阶开发、从个人玩赚到企业服务、从单 agent 操控到多 agent 编排的完整知识图谱。 jwangkun/hermes-agent-guide pip install hermes-agent-guide docs-content hermes openclaw"
+      "searchText": "hermes-agent-guide hermes agent 是目前开源社区最具潜力的 ai agent 框架之一。它继承了 openclaw 的优秀基因，在架构设计、记忆系统、技能生态和自动化能力上实现全面升级。但 hermes 的文档分散在多个仓库和平台，缺乏一本系统性的中文指南。  本书填补的正是这个空白。全书 16 册、30 万+ 字，覆盖从安装部署到高阶开发、从个人玩赚到企业服务、从单 agent 操控到多 agent 编排的完整知识图谱。 jwangkun/hermes-agent-guide pip install hermes-agent-guide docs-content hermes openclaw",
+      "topCategoryId": "docs",
+      "subCategoryId": "guides"
     },
     {
       "name": "PaperClaw",
@@ -859,7 +969,9 @@
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "paperclaw an openclaw skill that can generate paper search-review-critque expert-agent relevant to specific topics (we use scientific ml and 3d geometry surrogate modeling as a demo). guhaohao0991/paperclaw git clone https://github.com/guhaohao0991/paperclaw.git docs-content openclaw"
+      "searchText": "paperclaw an openclaw skill that can generate paper search-review-critque expert-agent relevant to specific topics (we use scientific ml and 3d geometry surrogate modeling as a demo). guhaohao0991/paperclaw git clone https://github.com/guhaohao0991/paperclaw.git docs-content openclaw",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries"
     },
     {
       "name": "scholar-skill",
@@ -874,7 +986,9 @@
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "scholar-skill an openclaw skill for academic reading, knowledge linking, reflection, and knowledge evolution in obsidian. eesjgong/scholar-skill git clone https://github.com/eesjgong/scholar-skill.git docs-content openclaw"
+      "searchText": "scholar-skill an openclaw skill for academic reading, knowledge linking, reflection, and knowledge evolution in obsidian. eesjgong/scholar-skill git clone https://github.com/eesjgong/scholar-skill.git docs-content openclaw",
+      "topCategoryId": "docs",
+      "subCategoryId": "libraries"
     },
     {
       "name": "anywhere-agents",
@@ -889,7 +1003,9 @@
       "supportedAgents": [
         "other"
       ],
-      "searchText": "anywhere-agents one config to rule all your ai agents: portable (every project, every session), effective (curated writing, routing, skills), and safer (destructive-command guard). yzhao062/anywhere-agents git clone https://github.com/yzhao062/anywhere-agents.git  # browse the awesome list docs-content other"
+      "searchText": "anywhere-agents one config to rule all your ai agents: portable (every project, every session), effective (curated writing, routing, skills), and safer (destructive-command guard). yzhao062/anywhere-agents git clone https://github.com/yzhao062/anywhere-agents.git  # browse the awesome list docs-content other",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome"
     },
     {
       "name": "claude-plugins-community",
@@ -904,7 +1020,9 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "claude-plugins-community community plugin marketplace for claude cowork and claude code. read-only mirror — submit plugins at clau.de/plugin-directory-submission. anthropics/claude-plugins-community git clone https://github.com/anthropics/claude-plugins-community.git docs-content claude"
+      "searchText": "claude-plugins-community community plugin marketplace for claude cowork and claude code. read-only mirror — submit plugins at clau.de/plugin-directory-submission. anthropics/claude-plugins-community git clone https://github.com/anthropics/claude-plugins-community.git docs-content claude",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome"
     },
     {
       "name": "learn-hermes-agent",
@@ -919,7 +1037,9 @@
       "supportedAgents": [
         "hermes"
       ],
-      "searchText": "learn-hermes-agent a 27-chapter hands-on tutorial for building an autonomous ai agent from zero in python. agent loop, tool system, memory, skills, mcp,     multi-platfo longyunfeigu/learn-hermes-agent git clone https://github.com/longyunfeigu/learn-hermes-agent.git docs-content hermes"
+      "searchText": "learn-hermes-agent a 27-chapter hands-on tutorial for building an autonomous ai agent from zero in python. agent loop, tool system, memory, skills, mcp,     multi-platfo longyunfeigu/learn-hermes-agent git clone https://github.com/longyunfeigu/learn-hermes-agent.git docs-content hermes",
+      "topCategoryId": "docs",
+      "subCategoryId": "guides"
     },
     {
       "name": "claude-code-plugins",
@@ -934,7 +1054,9 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "claude-code-plugins claude code plugin marketplace for the buildatscale youtube channel buildatscale-tv/claude-code-plugins pip install claude-code-plugins docs-content claude"
+      "searchText": "claude-code-plugins claude code plugin marketplace for the buildatscale youtube channel buildatscale-tv/claude-code-plugins pip install claude-code-plugins docs-content claude",
+      "topCategoryId": "docs",
+      "subCategoryId": "references"
     },
     {
       "name": "hermes-agent-insights",
@@ -949,7 +1071,9 @@
       "supportedAgents": [
         "hermes"
       ],
-      "searchText": "hermes-agent-insights hz0108/hermes-agent-insights git clone https://github.com/hz0108/hermes-agent-insights.git docs-content hermes"
+      "searchText": "hermes-agent-insights hz0108/hermes-agent-insights git clone https://github.com/hz0108/hermes-agent-insights.git docs-content hermes",
+      "topCategoryId": "docs",
+      "subCategoryId": "references"
     },
     {
       "name": "getnote-openclaw",
@@ -964,7 +1088,9 @@
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "getnote-openclaw get 笔记 openclaw skill iswalle/getnote-openclaw git clone https://github.com/iswalle/getnote-openclaw.git docs-content openclaw"
+      "searchText": "getnote-openclaw get 笔记 openclaw skill iswalle/getnote-openclaw git clone https://github.com/iswalle/getnote-openclaw.git docs-content openclaw",
+      "topCategoryId": "docs",
+      "subCategoryId": "references"
     },
     {
       "name": "Awesome-Agent-Skills",
@@ -985,7 +1111,9 @@
         "opencode",
         "openclaw"
       ],
-      "searchText": "awesome-agent-skills jaylzhou/awesome-agent-skills git clone https://github.com/jaylzhou/awesome-agent-skills.git docs-content claude codex cursor copilot hermes opencode openclaw"
+      "searchText": "awesome-agent-skills jaylzhou/awesome-agent-skills git clone https://github.com/jaylzhou/awesome-agent-skills.git docs-content claude codex cursor copilot hermes opencode openclaw",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome"
     },
     {
       "name": "awesome-cursor-rules",
@@ -1001,7 +1129,9 @@
         "cursor",
         "copilot"
       ],
-      "searchText": "awesome-cursor-rules ❇️ neatly composed rules for ai ides like cursor, windsurf, vscode microsoft github copilot, reliverse ai, etc. optimized for modern frontend development with next.js 15, react 19, typescript 5, tailwind 4, shadcn/ui, drizzle orm, better auth, polar, tanstack form, react query, etc. blefnk/awesome-cursor-rules git clone https://github.com/blefnk/awesome-cursor-rules.git docs-content cursor copilot"
+      "searchText": "awesome-cursor-rules ❇️ neatly composed rules for ai ides like cursor, windsurf, vscode microsoft github copilot, reliverse ai, etc. optimized for modern frontend development with next.js 15, react 19, typescript 5, tailwind 4, shadcn/ui, drizzle orm, better auth, polar, tanstack form, react query, etc. blefnk/awesome-cursor-rules git clone https://github.com/blefnk/awesome-cursor-rules.git docs-content cursor copilot",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome"
     },
     {
       "name": "awesome-agent-skills",
@@ -1018,7 +1148,9 @@
         "codex",
         "cursor"
       ],
-      "searchText": "awesome-agent-skills curated list of agent skills for ai coding agents like claude code, codex and cursor. kodustech/awesome-agent-skills git clone https://github.com/kodustech/awesome-agent-skills.git docs-content claude codex cursor"
+      "searchText": "awesome-agent-skills curated list of agent skills for ai coding agents like claude code, codex and cursor. kodustech/awesome-agent-skills git clone https://github.com/kodustech/awesome-agent-skills.git docs-content claude codex cursor",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome"
     },
     {
       "name": "awesome-hermes-skills",
@@ -1033,7 +1165,9 @@
       "supportedAgents": [
         "hermes"
       ],
-      "searchText": "awesome-hermes-skills a curated collection of production-ready hermes agent skills — brainstorming, prd workflows, debugging, apple integrations, mlops, document processing, and more. chucksrq/awesome-hermes-skills pip install awesome-hermes-skills docs-content hermes"
+      "searchText": "awesome-hermes-skills a curated collection of production-ready hermes agent skills — brainstorming, prd workflows, debugging, apple integrations, mlops, document processing, and more. chucksrq/awesome-hermes-skills pip install awesome-hermes-skills docs-content hermes",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome"
     },
     {
       "name": "awesome-openclaw-skills-zh",
@@ -1048,7 +1182,9 @@
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "awesome-openclaw-skills-zh awesome openclaw skills 中文版 - 5494 个 openclaw 技能的中文翻译与分类 rito-w/awesome-openclaw-skills-zh git clone https://github.com/rito-w/awesome-openclaw-skills-zh.git docs-content openclaw"
+      "searchText": "awesome-openclaw-skills-zh awesome openclaw skills 中文版 - 5494 个 openclaw 技能的中文翻译与分类 rito-w/awesome-openclaw-skills-zh git clone https://github.com/rito-w/awesome-openclaw-skills-zh.git docs-content openclaw",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome"
     },
     {
       "name": "hermes-agent-docs",
@@ -1063,7 +1199,9 @@
       "supportedAgents": [
         "hermes"
       ],
-      "searchText": "hermes-agent-docs comprehensive documentation for hermes agent by nousresearch — the self-improving ai agent (v0.2.0) mudrii/hermes-agent-docs git clone https://github.com/mudrii/hermes-agent-docs.git docs-content hermes"
+      "searchText": "hermes-agent-docs comprehensive documentation for hermes agent by nousresearch — the self-improving ai agent (v0.2.0) mudrii/hermes-agent-docs git clone https://github.com/mudrii/hermes-agent-docs.git docs-content hermes",
+      "topCategoryId": "docs",
+      "subCategoryId": "references"
     },
     {
       "name": "awesome-hermes-agent-zh",
@@ -1078,7 +1216,9 @@
       "supportedAgents": [
         "hermes"
       ],
-      "searchText": "awesome-hermes-agent-zh nous research 精心整理了一份适用于 hermes agent 的实用技能、工具、集成和资源列表。 jefferyjob/awesome-hermes-agent-zh git clone https://github.com/jefferyjob/awesome-hermes-agent-zh.git docs-content hermes"
+      "searchText": "awesome-hermes-agent-zh nous research 精心整理了一份适用于 hermes agent 的实用技能、工具、集成和资源列表。 jefferyjob/awesome-hermes-agent-zh git clone https://github.com/jefferyjob/awesome-hermes-agent-zh.git docs-content hermes",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome"
     },
     {
       "name": "hermes-agent-anatomy",
@@ -1093,7 +1233,9 @@
       "supportedAgents": [
         "hermes"
       ],
-      "searchText": "hermes-agent-anatomy hermes-agent源码解析 anneheartrecord/hermes-agent-anatomy git clone https://github.com/anneheartrecord/hermes-agent-anatomy.git docs-content hermes"
+      "searchText": "hermes-agent-anatomy hermes-agent源码解析 anneheartrecord/hermes-agent-anatomy git clone https://github.com/anneheartrecord/hermes-agent-anatomy.git docs-content hermes",
+      "topCategoryId": "docs",
+      "subCategoryId": "guides"
     }
   ]
 }

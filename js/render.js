@@ -63,9 +63,6 @@
 
     let list = state.data;
 
-    if (state.category !== 'all') {
-      list = list.filter((item) => s.getSkillCategory(item) === state.category);
-    }
     if (state.agent) {
       list = list.filter((item) => s.getSkillAgents(item).includes(state.agent));
     }
@@ -91,10 +88,47 @@
     return filteredCacheValue;
   }
 
+  function createInlineSubgroupTabs(categoryId, subcategories) {
+    const items = subcategories || [];
+    if (!categoryId || items.length <= 0) {
+      return null;
+    }
+
+    const wrap = document.createElement('div');
+    wrap.className = 'subgroup-tabs subgroup-tabs-inline';
+
+    const allButton = document.createElement('button');
+    allButton.type = 'button';
+    allButton.className = `subgroup-tab${!state.subcategory ? ' active' : ''}`;
+    allButton.dataset.subcategoryId = '';
+    allButton.innerHTML = `
+      <span>${hub.i18n.t('categoryAll')}</span>
+      <span class="subgroup-tab-count">${items.reduce((sum, item) => sum + (item.count || 0), 0)}</span>
+    `;
+    wrap.appendChild(allButton);
+
+    items.forEach((category) => {
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = `subgroup-tab${state.subcategory === category.subcategoryId ? ' active' : ''}`;
+      button.dataset.subcategoryId = category.subcategoryId;
+      button.innerHTML = `
+        <span>${s.getCategoryLabel(category.subcategoryId)}</span>
+        <span class="subgroup-tab-count">${category.count || 0}</span>
+      `;
+      wrap.appendChild(button);
+    });
+
+    return wrap;
+  }
+
   function renderCategoryTabs() {
     const wrap = dom['category-tabs'];
     if (!wrap) return;
     wrap.innerHTML = '';
+
+    const allItem = document.createElement('div');
+    allItem.className = 'category-item';
 
     const allButton = document.createElement('button');
     allButton.type = 'button';
@@ -104,18 +138,54 @@
       <span class="cat-tab-label">${hub.i18n.t('categoryAll')}</span>
       <span class="cat-tab-count">${state.meta.totalCount || state.data.length}</span>
     `;
-    wrap.appendChild(allButton);
+    allItem.appendChild(allButton);
+    wrap.appendChild(allItem);
 
     state.categories.forEach((category) => {
+      const item = document.createElement('div');
+      const isActive = state.category === category.id;
+      const isExpanded = state.expandedCategory === category.id;
+      const subcategories = category.id === state.category
+        ? (state.subcategories || [])
+        : (s.sortSubcategories(category.subcategories || []));
+      const hasSubcategories = subcategories.length > 0;
+
+      item.className = `category-item${isActive ? ' active' : ''}${isExpanded ? ' expanded' : ''}`;
+
+      const row = document.createElement('div');
+      row.className = 'category-row';
+
       const button = document.createElement('button');
       button.type = 'button';
-      button.className = `cat-tab${state.category === category.id ? ' active' : ''}`;
+      button.className = `cat-tab${isActive ? ' active' : ''}`;
       button.dataset.id = category.id;
       button.innerHTML = `
         <span class="cat-tab-label">${s.getCategoryLabel(category.id)}</span>
         <span class="cat-tab-count">${category.count || 0}</span>
       `;
-      wrap.appendChild(button);
+      row.appendChild(button);
+
+      if (hasSubcategories) {
+        const toggle = document.createElement('button');
+        toggle.type = 'button';
+        toggle.className = `cat-expand${isExpanded ? ' active' : ''}`;
+        toggle.dataset.expandId = category.id;
+        toggle.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+        toggle.setAttribute('aria-label', isExpanded ? '?????' : '?????');
+        toggle.innerHTML = '<span class="cat-expand-icon" aria-hidden="true">+</span>'; 
+        row.appendChild(toggle);
+      }
+
+      item.appendChild(row);
+
+      if (isExpanded && hasSubcategories) {
+        const inlineSubgroups = createInlineSubgroupTabs(category.id, subcategories);
+        if (inlineSubgroups) {
+          item.appendChild(inlineSubgroups);
+        }
+      }
+
+      wrap.appendChild(item);
     });
   }
 
@@ -126,30 +196,50 @@
     wrap.innerHTML = '';
   }
 
+  function getSkillCategoryDisplay(skill) {
+    const topCategory = s.getSkillTopCategory(skill);
+    const subcategory = s.getSkillSubcategory(skill);
+    if (topCategory === subcategory) {
+      return s.getCategoryLabel(topCategory);
+    }
+    if (state.category !== 'all' && state.category === topCategory) {
+      return s.getCategoryLabel(subcategory);
+    }
+    return `${s.getCategoryLabel(topCategory)} / ${s.getCategoryLabel(subcategory)}`;
+  }
+
   function renderCategoryDesc() {
     const element = dom['category-desc'];
     if (!element) return;
 
-    const parts = [];
-    if (state.category === 'all') {
-      parts.push(hub.i18n.t('categoryAllDesc'));
-    } else {
-      parts.push(`${hub.i18n.t('activeCategory')}: ${s.getCategoryLabel(state.category)}`);
+    if (!state.agent && !state.keyword) {
+      element.hidden = true;
+      element.innerHTML = '';
+      return;
+    }
+
+    element.hidden = false;
+    const chips = [
+      `<span class="summary-chip summary-chip-strong">${state.category === 'all' ? hub.i18n.t('categoryAll') : s.getCategoryLabel(state.category)}</span>`,
+    ];
+
+    if (state.subcategory) {
+      chips.push(`<span class="summary-chip">${s.getCategoryLabel(state.subcategory)}</span>`);
     }
 
     if (state.agent) {
-      parts.push(`${hub.i18n.t('activePlatform')}: ${s.getAgentLabel(state.agent)}`);
+      chips.push(`<span class="summary-chip">${s.getAgentLabel(state.agent)}</span>`);
     }
 
-    const clearAgent = state.agent
-      ? `<button type="button" class="filter-inline-btn" data-clear-agent="1">${hub.i18n.t('clearPlatformFilter')}</button>`
-      : '';
+    if (state.keyword) {
+      chips.push(`<span class="summary-chip">"${state.keyword}"</span>`);
+    }
 
-    element.hidden = false;
     element.innerHTML = `
       <div class="filter-summary">
-        <span>${parts.join(' · ')}</span>
-        ${clearAgent}
+        <span class="filter-summary-label">${hub.i18n.t('resultsLabel')}</span>
+        <div class="filter-summary-chips">${chips.join('')}</div>
+        ${state.agent ? `<button type="button" class="filter-inline-btn" data-clear-agent="1">${hub.i18n.t('clearPlatformFilter')}</button>` : ''}
       </div>
     `;
   }
@@ -176,6 +266,7 @@
     const primaryMeta = s.getAgentMeta(primaryAgentId);
     const repoOwner = String(skill.repo || '').split('/')[0] || '';
     const avatarUrl = repoOwner ? `https://github.com/${repoOwner}.png?size=96` : '';
+    const installCode = String(skill.install || '').trim();
     const card = document.createElement('article');
     card.className = 'skill-card card';
     card.style.setProperty('--card-accent', primaryMeta.color || '#6b7280');
@@ -196,7 +287,7 @@
       </div>
       <p class="card-desc">${skill.desc || ''}</p>
       <div class="card-meta">
-        <span class="card-group">${s.getCategoryLabel(s.getSkillCategory(skill))}</span>
+        <span class="card-group">${getSkillCategoryDisplay(skill)}</span>
       </div>
       <div class="agent-chip-list">
         ${s.getSkillAgents(skill).map(createAgentChip).join('')}
@@ -206,16 +297,15 @@
       </div>
       <div class="card-footer">
         <a class="card-link" href="https://github.com/${skill.repo}" target="_blank" rel="noopener">${hub.i18n.t('viewOnGitHub')}</a>
-        <button type="button" class="copy-btn card-copy-btn" title="${getLabelWithFallback('install', '安装', 'Install')}">${getLabelWithFallback('install', '安装', 'Install')}</button>
+        <button type="button" class="copy-btn card-copy-btn" title="${getLabelWithFallback('copyCommand', '复制命令', 'Copy command')}">${getLabelWithFallback('copyCommand', '复制命令', 'Copy command')}</button>
       </div>
     `;
 
     const copyButton = card.querySelector('.copy-btn');
-    const installCode = String(skill.install || '').trim();
     if (copyButton) {
       copyButton.addEventListener('click', async () => {
-        const copiedLabel = getLabelWithFallback('installCopied', '已复制', 'Copied');
-        const installLabel = getLabelWithFallback('install', '安装', 'Install');
+        const copiedLabel = getLabelWithFallback('copyCommandCopied', '已复制', 'Copied');
+        const installLabel = getLabelWithFallback('copyCommand', '复制命令', 'Copy command');
         try {
           await copyInstallText(installCode);
           copyButton.textContent = copiedLabel;
@@ -259,27 +349,63 @@
   }
 
   function renderGroupedView(list) {
+    const categoryOrder = new Map((state.categories || []).map((category, index) => [String(category.id || ''), index]));
+    const subcategoryOrder = new Map((state.subcategories || []).map((category, index) => [String(category.subcategoryId || category.id || ''), index]));
+    const leafOrder = new Map(
+      (state.leafCategories || [])
+        .filter((category) => state.category === 'all' || category.groupId === state.category)
+        .map((category, index) => [String(category.id || ''), index]),
+    );
+
     const grouped = new Map();
     list.forEach((skill) => {
-      const categoryId = s.getSkillCategory(skill);
-      if (!grouped.has(categoryId)) grouped.set(categoryId, []);
-      grouped.get(categoryId).push(skill);
+      let key = 'top:' + s.getSkillTopCategory(skill);
+      let title = s.getCategoryLabel(s.getSkillTopCategory(skill));
+      let order = categoryOrder.get(s.getSkillTopCategory(skill));
+
+      if (state.category !== 'all' && !state.subcategory) {
+        const subcategoryId = s.getSkillSubcategory(skill);
+        key = 'sub:' + subcategoryId;
+        title = s.getCategoryLabel(subcategoryId);
+        order = subcategoryOrder.get(subcategoryId);
+      } else if (state.subcategory) {
+        const leafCategoryId = s.getSkillCategory(skill);
+        key = 'leaf:' + leafCategoryId;
+        title = s.getCategoryLabel(leafCategoryId);
+        order = leafOrder.get(leafCategoryId);
+      }
+
+      if (!grouped.has(key)) {
+        grouped.set(key, {
+          key,
+          title,
+          order: Number.isFinite(order) ? order : Number.MAX_SAFE_INTEGER,
+          skills: [],
+        });
+      }
+      grouped.get(key).skills.push(skill);
+    });
+
+    const sections = [...grouped.values()].sort((left, right) => {
+      if (left.order !== right.order) return left.order - right.order;
+      if (right.skills.length !== left.skills.length) return right.skills.length - left.skills.length;
+      return String(left.title || '').localeCompare(String(right.title || ''));
     });
 
     const container = document.createDocumentFragment();
-    [...grouped.entries()].sort((left, right) => left[0].localeCompare(right[0])).forEach(([categoryId, skills]) => {
+    sections.forEach((group) => {
       const section = document.createElement('section');
       section.className = 'type-group';
-      section.innerHTML = `
-        <div class="type-header">
-          <h3 class="type-title">${s.getCategoryLabel(categoryId)}</h3>
-          <span class="type-count">${skills.length}</span>
-        </div>
-      `;
+      section.innerHTML = [
+        '        <div class="type-header">',
+        '          <h3 class="type-title">' + group.title + '</h3>',
+        '          <span class="type-count">' + group.skills.length + '</span>',
+        '        </div>',
+      ].join('\n');
 
       const grid = document.createElement('div');
       grid.className = 'card-grid';
-      skills.forEach((skill) => grid.appendChild(createCard(skill)));
+      group.skills.forEach((skill) => grid.appendChild(createCard(skill)));
       section.appendChild(grid);
       container.appendChild(section);
     });

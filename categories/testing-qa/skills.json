@@ -18,7 +18,9 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "skill-creator create new skills, modify and improve existing skills, and measure skill performance. use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with varia anthropics/skills $skill-installer skill-creator testing-qa claude"
+      "searchText": "skill-creator create new skills, modify and improve existing skills, and measure skill performance. use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with varia anthropics/skills $skill-installer skill-creator testing-qa claude",
+      "topCategoryId": "development",
+      "subCategoryId": "coding"
     },
     {
       "name": "playwright-skill",
@@ -33,7 +35,9 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "playwright-skill claude code skill for browser automation with playwright. model-invoked - claude autonomously writes and executes custom automation for testing and validation. lackeyjb/playwright-skill npm i -g playwright-skill testing-qa claude"
+      "searchText": "playwright-skill claude code skill for browser automation with playwright. model-invoked - claude autonomously writes and executes custom automation for testing and validation. lackeyjb/playwright-skill npm i -g playwright-skill testing-qa claude",
+      "topCategoryId": "testing",
+      "subCategoryId": "browser"
     },
     {
       "name": "codex-autoresearch",
@@ -48,7 +52,9 @@
       "supportedAgents": [
         "codex"
       ],
-      "searchText": "codex-autoresearch codex autoresearch skill — a self-directed iterative system for codex that continuously cycles through: modify, verify, retain or discard, and repeat indefinitely. inspired by karpathy’s autoresearch concept. leo-lilinxiao/codex-autoresearch git clone https://github.com/leo-lilinxiao/codex-autoresearch.git testing-qa codex"
+      "searchText": "codex-autoresearch codex autoresearch skill — a self-directed iterative system for codex that continuously cycles through: modify, verify, retain or discard, and repeat indefinitely. inspired by karpathy’s autoresearch concept. leo-lilinxiao/codex-autoresearch git clone https://github.com/leo-lilinxiao/codex-autoresearch.git testing-qa codex",
+      "topCategoryId": "testing",
+      "subCategoryId": "review"
     },
     {
       "name": "claude-review-loop",
@@ -64,7 +70,9 @@
         "claude",
         "codex"
       ],
-      "searchText": "claude-review-loop claude code plugin: automated code review loop with codex hamelsmu/claude-review-loop git clone https://github.com/hamelsmu/claude-review-loop.git testing-qa claude codex"
+      "searchText": "claude-review-loop claude code plugin: automated code review loop with codex hamelsmu/claude-review-loop git clone https://github.com/hamelsmu/claude-review-loop.git testing-qa claude codex",
+      "topCategoryId": "testing",
+      "subCategoryId": "review"
     },
     {
       "name": "jeffreysprompts.com",
@@ -79,7 +87,9 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "jeffreysprompts.com a curated collection of battle-tested prompts for agentic coding - browse, copy, and install as claude code skills dicklesworthstone/jeffreysprompts.com git clone https://github.com/dicklesworthstone/jeffreysprompts.com.git  # browse the awesome list testing-qa claude"
+      "searchText": "jeffreysprompts.com a curated collection of battle-tested prompts for agentic coding - browse, copy, and install as claude code skills dicklesworthstone/jeffreysprompts.com git clone https://github.com/dicklesworthstone/jeffreysprompts.com.git  # browse the awesome list testing-qa claude",
+      "topCategoryId": "testing",
+      "subCategoryId": "qa"
     }
   ]
 }

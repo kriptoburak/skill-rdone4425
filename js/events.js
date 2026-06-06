@@ -47,9 +47,38 @@
 
     if (dom['category-tabs']) {
       dom['category-tabs'].addEventListener('click', async (event) => {
+        const expandButton = event.target.closest('.cat-expand');
+        if (expandButton) {
+          event.preventDefault();
+          event.stopPropagation();
+          s.toggleExpandedCategory(expandButton.dataset.expandId || null);
+          r.renderFilterChrome();
+          return;
+        }
+
+        const subgroupButton = event.target.closest('.subgroup-tab');
+        if (subgroupButton) {
+          event.preventDefault();
+          s.selectSubcategory(subgroupButton.dataset.subcategoryId || null);
+          await s.ensureDataForCurrentState();
+          r.renderAll();
+          return;
+        }
+
         const button = event.target.closest('.cat-tab');
-        if (!button) return;
+        if (!button || button.closest('.subgroup-tabs-inline')) return;
+        event.preventDefault();
         s.selectCategory(button.dataset.id);
+        await s.ensureDataForCurrentState();
+        r.renderAll();
+      });
+    }
+
+    if (dom['subgroup-tabs']) {
+      dom['subgroup-tabs'].addEventListener('click', async (event) => {
+        const button = event.target.closest('[data-subcategory-id]');
+        if (!button) return;
+        s.selectSubcategory(button.dataset.subcategoryId || null);
         await s.ensureDataForCurrentState();
         r.renderAll();
       });
@@ -107,6 +136,8 @@
       const next = { ...s.readStoredState(), ...s.readUrlState() };
       if (typeof next.keyword === 'string') state.keyword = next.keyword;
       if (typeof next.category === 'string') state.category = next.category || 'all';
+      state.subcategory = Object.prototype.hasOwnProperty.call(next, 'subcategory') ? (next.subcategory || null) : null;
+      state.expandedCategory = Object.prototype.hasOwnProperty.call(next, 'expandedCategory') ? (next.expandedCategory || null) : (state.category !== 'all' ? state.category : null);
       state.agent = Object.prototype.hasOwnProperty.call(next, 'agent') ? (next.agent || null) : null;
       if (typeof next.sort === 'string') state.sort = next.sort || 'stars-desc';
       if (typeof next.viewMode === 'string') state.viewMode = next.viewMode === 'grouped' ? 'grouped' : 'flat';

@@ -44,6 +44,19 @@ const AGENT_PATTERNS = [
   ["gemini", /\bgemini(?:\s+cli)?\b/i],
 ];
 
+const LEGACY_CATEGORY_HIERARCHY = {
+  "automation-productivity": { groupId: "automation", subcategoryId: "productivity" },
+  "backend-api": { groupId: "backend", subcategoryId: "api" },
+  "data-ai": { groupId: "data", subcategoryId: "ai" },
+  "design-ui": { groupId: "design", subcategoryId: "ui" },
+  "dev-tools": { groupId: "development", subcategoryId: "tools" },
+  "devops-deploy": { groupId: "devops", subcategoryId: "deploy" },
+  "docs-content": { groupId: "docs", subcategoryId: "content" },
+  general: { groupId: "general", subcategoryId: "general" },
+  security: { groupId: "security", subcategoryId: "general" },
+  "testing-qa": { groupId: "testing", subcategoryId: "qa" },
+};
+
 function parseArgs(argv) {
   const args = {
     root: ".",
@@ -158,6 +171,12 @@ function writeIfChanged(filePath, text) {
   return true;
 }
 
+function normalizeCategoryPath(value) {
+  return String(value || "")
+    .replace(/\\/g, "/")
+    .replace(/^\/+|\/+$/g, "");
+}
+
 function listAgentBuckets(agentsRoot) {
   if (!fs.existsSync(agentsRoot)) return [];
   const buckets = [];
@@ -179,12 +198,63 @@ function listAgentBuckets(agentsRoot) {
   return buckets.sort((left, right) => left.filePath.localeCompare(right.filePath));
 }
 
-function listCategoryDirs(categoriesRoot) {
+function resolveCategoryMeta(relativePath) {
+  const normalizedPath = normalizeCategoryPath(relativePath);
+  const legacy = LEGACY_CATEGORY_HIERARCHY[normalizedPath];
+  if (legacy) {
+    return {
+      id: normalizedPath,
+      path: normalizedPath,
+      groupId: legacy.groupId,
+      subcategoryId: legacy.subcategoryId,
+    };
+  }
+
+  const parts = normalizedPath.split("/").filter(Boolean);
+  if (parts.length >= 2) {
+    return {
+      id: normalizedPath,
+      path: normalizedPath,
+      groupId: parts[0],
+      subcategoryId: parts[1],
+    };
+  }
+
+  const fallback = normalizedPath || "general";
+  return {
+    id: fallback,
+    path: fallback,
+    groupId: fallback,
+    subcategoryId: fallback,
+  };
+}
+
+function listCategoryLeaves(categoriesRoot) {
   if (!fs.existsSync(categoriesRoot)) return [];
-  return fs.readdirSync(categoriesRoot, { withFileTypes: true })
-    .filter((entry) => entry.isDirectory())
-    .map((entry) => entry.name)
-    .sort((left, right) => left.localeCompare(right));
+  const leaves = [];
+
+  function walk(currentRoot, parts) {
+    if (parts.length > 2) return;
+    const entries = fs.readdirSync(currentRoot, { withFileTypes: true });
+    const childDirs = entries.filter((entry) => entry.isDirectory());
+    const hasSkillsFile = fs.existsSync(path.join(currentRoot, "skills.json"));
+    const relativePath = normalizeCategoryPath(parts.join("/"));
+
+    if (parts.length > 0 && (hasSkillsFile || childDirs.length === 0)) {
+      leaves.push({
+        ...resolveCategoryMeta(relativePath),
+        filePath: path.join(currentRoot, "skills.json"),
+      });
+    }
+
+    if (parts.length >= 2) return;
+    for (const child of childDirs) {
+      walk(path.join(currentRoot, child.name), [...parts, child.name]);
+    }
+  }
+
+  walk(categoriesRoot, []);
+  return leaves.sort((left, right) => left.path.localeCompare(right.path));
 }
 
 function repoApiUrl(repo) {
@@ -258,7 +328,8 @@ function inferSupportedAgents(skill, sourceAgent, warnings) {
   return sortAgents([...inferred]);
 }
 
-function normalizeSkill(skill, categoryId, sourceAgent, warnings) {
+function normalizeSkill(skill, categoryMeta, sourceAgent, warnings) {
+  const categoryId = categoryMeta.id;
   const normalized = {
     name: String(skill.name || "").trim(),
     source: String(skill.source || "general").trim() || "general",
@@ -269,6 +340,9 @@ function normalizeSkill(skill, categoryId, sourceAgent, warnings) {
     url: String(skill.url || "").trim(),
     install: String(skill.install || "").trim(),
     functionCategory: categoryId,
+    topCategoryId: categoryMeta.groupId,
+    subCategoryId: categoryMeta.subcategoryId,
+    categoryPath: categoryMeta.path,
   };
 
   const supportedAgents = inferSupportedAgents(
@@ -328,10 +402,13 @@ function dedupeSkills(skills) {
   });
 }
 
-function buildCategoryPayload(categoryId, skills) {
+function buildCategoryPayload(categoryMeta, skills) {
   return {
     meta: {
-      functionCategory: categoryId,
+      functionCategory: categoryMeta.id,
+      topCategoryId: categoryMeta.groupId,
+      subCategoryId: categoryMeta.subcategoryId,
+      categoryPath: categoryMeta.path,
       count: skills.length,
       sourceData: "categories",
     },
@@ -340,8 +417,8 @@ function buildCategoryPayload(categoryId, skills) {
 }
 
 function ensureCategoriesFromAgents(root, categoriesRoot) {
-  const existingDirs = listCategoryDirs(categoriesRoot);
-  if (existingDirs.length > 0) return false;
+  const existingLeaves = listCategoryLeaves(categoriesRoot);
+  if (existingLeaves.length > 0) return false;
 
   const agentBuckets = listAgentBuckets(path.join(root, "agents"));
   if (agentBuckets.length === 0) return false;
@@ -352,7 +429,8 @@ function ensureCategoriesFromAgents(root, categoriesRoot) {
     const payload = loadJson(bucket.filePath);
     const skillList = payload.skills || [];
     if (!grouped.has(bucket.category)) grouped.set(bucket.category, []);
-    const normalizedSkills = skillList.map((skill) => normalizeSkill(skill, bucket.category, bucket.agent, warnings));
+    const categoryMeta = resolveCategoryMeta(bucket.category);
+    const normalizedSkills = skillList.map((skill) => normalizeSkill(skill, categoryMeta, bucket.agent, warnings));
     grouped.get(bucket.category).push(...normalizedSkills);
   }
 
@@ -361,18 +439,18 @@ function ensureCategoriesFromAgents(root, categoriesRoot) {
     const categoryDir = path.join(categoriesRoot, categoryId);
     fs.mkdirSync(categoryDir, { recursive: true });
     const outputPath = path.join(categoryDir, "skills.json");
-    const payload = buildCategoryPayload(categoryId, dedupeSkills(skills));
+    const payload = buildCategoryPayload(resolveCategoryMeta(categoryId), dedupeSkills(skills));
     fs.writeFileSync(outputPath, dumpJson(payload), "utf8");
   }
 
   return true;
 }
 
-function ensureSkillsFiles(categoriesRoot, categoryIds) {
-  for (const categoryId of categoryIds) {
-    const filePath = path.join(categoriesRoot, categoryId, "skills.json");
+function ensureSkillsFiles(categoryLeaves) {
+  for (const category of categoryLeaves) {
+    const filePath = category.filePath;
     if (!fs.existsSync(filePath)) {
-      const payload = buildCategoryPayload(categoryId, []);
+      const payload = buildCategoryPayload(category, []);
       fs.writeFileSync(filePath, dumpJson(payload), "utf8");
     }
   }
@@ -383,8 +461,8 @@ async function refreshCategoryData(root, args) {
   fs.mkdirSync(categoriesRoot, { recursive: true });
   ensureCategoriesFromAgents(root, categoriesRoot);
 
-  const categoryIds = listCategoryDirs(categoriesRoot);
-  ensureSkillsFiles(categoriesRoot, categoryIds);
+  const categoryLeaves = listCategoryLeaves(categoriesRoot);
+  ensureSkillsFiles(categoryLeaves);
 
   const headers = buildHeaders();
   const hasGitHubToken = Boolean(process.env.GITHUB_TOKEN);
@@ -400,16 +478,15 @@ async function refreshCategoryData(root, args) {
   const allSkills = [];
   const categoryRows = [];
 
-  for (const categoryId of categoryIds) {
-    const filePath = path.join(categoriesRoot, categoryId, "skills.json");
-    const payload = loadJson(filePath);
+  for (const categoryMeta of categoryLeaves) {
+    const payload = loadJson(categoryMeta.filePath);
     const rawSkills = Array.isArray(payload.skills) ? payload.skills : [];
     const normalizedSkills = dedupeSkills(
-      rawSkills.map((skill) => normalizeSkill(skill, categoryId, skill.sourceAgent || skill.agent, warnings)),
+      rawSkills.map((skill) => normalizeSkill(skill, categoryMeta, skill.sourceAgent || skill.agent, warnings)),
     );
     categoryRows.push({
-      categoryId,
-      filePath,
+      categoryMeta,
+      filePath: categoryMeta.filePath,
       skills: normalizedSkills,
     });
   }
@@ -441,7 +518,8 @@ async function refreshCategoryData(root, args) {
   }
 
   for (const row of categoryRows) {
-    const { categoryId, filePath, skills } = row;
+    const { categoryMeta, filePath, skills } = row;
+    const categoryId = categoryMeta.id;
 
     for (const skill of skills) {
       checked += 1;
@@ -511,13 +589,16 @@ async function refreshCategoryData(root, args) {
 
     const sortedSkills = dedupeSkills(skills);
     categorySummaries.push({
-      id: categoryId,
+      id: categoryMeta.id,
+      path: categoryMeta.path,
+      groupId: categoryMeta.groupId,
+      subcategoryId: categoryMeta.subcategoryId,
       count: sortedSkills.length,
     });
     allSkills.push(...sortedSkills);
 
     if (!args.dryRun) {
-      const nextPayload = buildCategoryPayload(categoryId, sortedSkills);
+      const nextPayload = buildCategoryPayload(categoryMeta, sortedSkills);
       if (writeIfChanged(filePath, dumpJson(nextPayload))) {
         fileChanged += 1;
       }
@@ -531,6 +612,25 @@ async function refreshCategoryData(root, args) {
     }
   }
 
+  const groupMap = new Map();
+  for (const category of categorySummaries) {
+    if (!groupMap.has(category.groupId)) {
+      groupMap.set(category.groupId, {
+        id: category.groupId,
+        count: 0,
+        subcategories: [],
+      });
+    }
+    const group = groupMap.get(category.groupId);
+    group.count += category.count || 0;
+    group.subcategories.push({
+      id: category.id,
+      path: category.path,
+      subcategoryId: category.subcategoryId,
+      count: category.count || 0,
+    });
+  }
+
   const indexPayload = {
     generatedAt: new Date().toISOString(),
     sourceData: "categories",
@@ -539,6 +639,18 @@ async function refreshCategoryData(root, args) {
       if (right.count !== left.count) return right.count - left.count;
       return left.id.localeCompare(right.id);
     }),
+    groups: [...groupMap.values()]
+      .map((group) => ({
+        ...group,
+        subcategories: group.subcategories.sort((left, right) => {
+          if (right.count !== left.count) return right.count - left.count;
+          return left.subcategoryId.localeCompare(right.subcategoryId);
+        }),
+      }))
+      .sort((left, right) => {
+        if (right.count !== left.count) return right.count - left.count;
+        return left.id.localeCompare(right.id);
+      }),
     platforms: [...platformCounts.entries()]
       .sort((left, right) => {
         if (right[1] !== left[1]) return right[1] - left[1];
@@ -554,7 +666,8 @@ async function refreshCategoryData(root, args) {
       missingCount: missing.length,
       warningCount: warnings.length,
       starUpdates,
-      categories: categorySummaries.length,
+      categories: groupMap.size,
+      leafCategories: categorySummaries.length,
     },
     missing: missing.sort((left, right) => {
       if (left.category !== right.category) return left.category.localeCompare(right.category);

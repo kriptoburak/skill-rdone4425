@@ -19,7 +19,9 @@
         "claude",
         "codex"
       ],
-      "searchText": "awesome-chatgpt-repositories a curated list of resources dedicated to open source github repositories related to chatgpt, openai api, and codex. searchable via claude code skills. taishi-i/awesome-chatgpt-repositories git clone https://github.com/taishi-i/awesome-chatgpt-repositories.git  # browse the awesome list backend-api claude codex"
+      "searchText": "awesome-chatgpt-repositories a curated list of resources dedicated to open source github repositories related to chatgpt, openai api, and codex. searchable via claude code skills. taishi-i/awesome-chatgpt-repositories git clone https://github.com/taishi-i/awesome-chatgpt-repositories.git  # browse the awesome list backend-api claude codex",
+      "topCategoryId": "docs",
+      "subCategoryId": "awesome"
     },
     {
       "name": "pg-aiguide",
@@ -34,7 +36,9 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "pg-aiguide mcp server and claude plugin for postgres skills and documentation. helps ai coding tools generate better postgresql code. timescale/pg-aiguide pip install pg-aiguide backend-api claude"
+      "searchText": "pg-aiguide mcp server and claude plugin for postgres skills and documentation. helps ai coding tools generate better postgresql code. timescale/pg-aiguide pip install pg-aiguide backend-api claude",
+      "topCategoryId": "backend",
+      "subCategoryId": "database"
     },
     {
       "name": "yupi-hot-monitor",
@@ -50,7 +54,9 @@
         "copilot",
         "other"
       ],
-      "searchText": "yupi-hot-monitor 2026 年编程导航 ai 编程实战新项目，基于 node.js + express + react + openrouter 的 ai 热点监控工具，支持多信息源聚合抓取（twitter / bing / hackernews / b 站等 7+ 平台）、ai 查询扩展、ai 真假识别与相关性分析、websocket 实时推送、邮件通知、多维度筛选排序，并将热点监控能力封装为 agent skills 技能包。覆盖 prisma + sqlite 数据库、socket.io liyupi/yupi-hot-monitor npm i -g yupi-hot-monitor backend-api copilot other"
+      "searchText": "yupi-hot-monitor 2026 年编程导航 ai 编程实战新项目，基于 node.js + express + react + openrouter 的 ai 热点监控工具，支持多信息源聚合抓取（twitter / bing / hackernews / b 站等 7+ 平台）、ai 查询扩展、ai 真假识别与相关性分析、websocket 实时推送、邮件通知、多维度筛选排序，并将热点监控能力封装为 agent skills 技能包。覆盖 prisma + sqlite 数据库、socket.io liyupi/yupi-hot-monitor npm i -g yupi-hot-monitor backend-api copilot other",
+      "topCategoryId": "automation",
+      "subCategoryId": "publishing"
     }
   ]
 }

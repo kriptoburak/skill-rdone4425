@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "skill",
+  "name": "skill-hub",
   "compatibility_date": "2026-06-04",
   "observability": {
     "enabled": true

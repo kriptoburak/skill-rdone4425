@@ -10,6 +10,18 @@
   const STATE_STORAGE_KEY = 'skill-hub.view-state';
   const STAR_FMT = (value) => value >= 1000 ? `${(value / 1000).toFixed(1).replace(/\.0$/, '')}k` : value.toLocaleString();
 
+  const CATEGORY_LABELS = {
+    'automation-productivity': { zh: '自动化效率', en: 'Automation Productivity' },
+    'backend-api': { zh: '后端 API', en: 'Backend API' },
+    'data-ai': { zh: '数据 AI', en: 'Data AI' },
+    'design-ui': { zh: '设计 UI', en: 'Design UI' },
+    'dev-tools': { zh: '开发工具', en: 'Dev Tools' },
+    'devops-deploy': { zh: '部署运维', en: 'DevOps Deploy' },
+    'docs-content': { zh: '文档内容', en: 'Docs Content' },
+    general: { zh: '通用', en: 'General' },
+    security: { zh: '安全', en: 'Security' },
+    'testing-qa': { zh: '测试质检', en: 'Testing QA' }
+  };
   const AGENT_META = {
     codex: { icon: 'C', iconUrl: 'https://www.google.com/s2/favicons?domain=openai.com&sz=64', color: '#6366f1', order: 1, zh: 'Codex', en: 'Codex' },
     claude: { icon: 'A', iconUrl: 'https://www.google.com/s2/favicons?domain=anthropic.com&sz=64', color: '#fb923c', order: 2, zh: 'Claude Code', en: 'Claude Code' },
@@ -124,7 +136,13 @@
   }
 
   function getCategoryLabel(categoryId) {
-    return String(categoryId || 'general');
+    const normalized = String(categoryId || 'general');
+    const lang = hub.i18n.getLang();
+    const meta = CATEGORY_LABELS[normalized];
+    if (meta) {
+      return lang === 'zh' ? meta.zh : meta.en;
+    }
+    return normalized;
   }
 
   function resetPage() {

@@ -237,6 +237,10 @@ a:hover { color: #a5b4fc; }
   padding: 26px 24px 72px;
 }
 
+.container-tight {
+  padding-top: 18px;
+}
+
 .hero {
   padding: 22px 28px;
   margin-bottom: 18px;
@@ -1734,5 +1738,11 @@ a:hover { color: #a5b4fc; }
 
   .category-tabs {
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .container-tight {
+    padding-top: 14px;
   }
 }

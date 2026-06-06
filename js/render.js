@@ -320,10 +320,10 @@
       results.className = state.viewMode === 'flat' ? 'results card-grid' : 'results results-grouped';
       if (state.viewMode === 'grouped') {
         results.appendChild(renderGroupedView(filtered));
-        renderPagination(1);
+        renderPagination(1, filtered.length);
       } else {
         results.appendChild(renderFlatView(pageData));
-        renderPagination(totalPages);
+        renderPagination(totalPages, filtered.length);
       }
     }
 

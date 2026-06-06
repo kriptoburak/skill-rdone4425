@@ -158,7 +158,7 @@
       table.innerHTML = sortedCategories.map(([categoryId, count]) => {
         const pct = data.skills.length > 0 ? (count / data.skills.length * 100).toFixed(1) : '0.0';
         return `<div class="stats-row">
-          <span class="stats-label">${categoryId}</span>
+          <span class="stats-label">${hub.state.getCategoryLabel(categoryId)}</span>
           <div class="stats-bar-bg">
             <div class="stats-bar-fill" style="width:${pct}%"></div>
           </div>

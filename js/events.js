@@ -59,6 +59,11 @@
         const subgroupButton = event.target.closest('.subgroup-tab');
         if (subgroupButton) {
           event.preventDefault();
+          const parentItem = subgroupButton.closest('.category-item');
+          const parentCategoryButton = parentItem ? parentItem.querySelector('.category-row .cat-tab') : null;
+          if (parentCategoryButton && parentCategoryButton.dataset.id) {
+            s.selectCategory(parentCategoryButton.dataset.id);
+          }
           s.selectSubcategory(subgroupButton.dataset.subcategoryId || null);
           await s.ensureDataForCurrentState();
           r.renderAll();

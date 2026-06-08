@@ -1128,7 +1128,7 @@
       "sourceAgent": "hermes",
       "repo": "HZ0108/hermes-agent-insights",
       "stars": 124,
-      "desc": "",
+      "desc": "In-depth source code analysis and architectural study of Hermes Agent by Nous Research.",
       "url": "https://github.com/HZ0108/hermes-agent-insights",
       "install": "git clone https://github.com/HZ0108/hermes-agent-insights.git",
       "functionCategory": "docs-content",
@@ -1138,7 +1138,7 @@
       "supportedAgents": [
         "hermes"
       ],
-      "searchText": "hermes-agent-insights hz0108/hermes-agent-insights git clone https://github.com/hz0108/hermes-agent-insights.git docs-content hermes"
+      "searchText": "hermes-agent-insights In-depth source code analysis and architectural study of Hermes Agent by Nous Research. HZ0108/hermes-agent-insights git clone https://github.com/HZ0108/hermes-agent-insights.git docs-content hermes"
     },
     {
       "name": "getnote-openclaw",
@@ -1164,7 +1164,7 @@
       "sourceAgent": "multi",
       "repo": "JayLZhou/Awesome-Agent-Skills",
       "stars": 91,
-      "desc": "",
+      "desc": "Curated paper list and resource hub for skill-centric LLM agent ecosystems.",
       "url": "https://github.com/JayLZhou/Awesome-Agent-Skills",
       "install": "git clone https://github.com/JayLZhou/Awesome-Agent-Skills.git",
       "functionCategory": "docs-content",
@@ -1180,7 +1180,7 @@
         "opencode",
         "openclaw"
       ],
-      "searchText": "awesome-agent-skills jaylzhou/awesome-agent-skills git clone https://github.com/jaylzhou/awesome-agent-skills.git docs-content claude codex cursor copilot hermes opencode openclaw"
+      "searchText": "Awesome-Agent-Skills Curated paper list and resource hub for skill-centric LLM agent ecosystems. JayLZhou/Awesome-Agent-Skills git clone https://github.com/JayLZhou/Awesome-Agent-Skills.git docs-content claude codex cursor copilot hermes opencode openclaw"
     },
     {
       "name": "awesome-cursor-rules",

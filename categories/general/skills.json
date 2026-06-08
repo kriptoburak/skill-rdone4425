@@ -381,7 +381,7 @@
       "sourceAgent": "opencode",
       "repo": "malhashemi/opencode-skills",
       "stars": 487,
-      "desc": "",
+      "desc": "Archived OpenCode skills plugin whose functionality graduated into native OpenCode support.",
       "url": "https://github.com/malhashemi/opencode-skills",
       "install": "git clone https://github.com/malhashemi/opencode-skills.git",
       "functionCategory": "general",
@@ -391,7 +391,7 @@
       "supportedAgents": [
         "opencode"
       ],
-      "searchText": "opencode-skills malhashemi/opencode-skills git clone https://github.com/malhashemi/opencode-skills.git general opencode"
+      "searchText": "opencode-skills Archived OpenCode skills plugin whose functionality graduated into native OpenCode support. malhashemi/opencode-skills git clone https://github.com/malhashemi/opencode-skills.git general opencode"
     },
     {
       "name": "ClaudeSkills",

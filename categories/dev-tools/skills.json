@@ -1285,7 +1285,7 @@
       "sourceAgent": "claude",
       "repo": "adamlyttleapps/claude-skill-aso-appstore-screenshots",
       "stars": 1416,
-      "desc": "",
+      "desc": "Claude Code skill that analyzes an iOS app codebase and simulator screenshots to generate high-converting App Store screenshot assets.",
       "url": "https://github.com/adamlyttleapps/claude-skill-aso-appstore-screenshots",
       "install": "pip install claude-skill-aso-appstore-screenshots",
       "functionCategory": "dev-tools",
@@ -1295,7 +1295,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "claude-skill-aso-appstore-screenshots adamlyttleapps/claude-skill-aso-appstore-screenshots pip install claude-skill-aso-appstore-screenshots dev-tools claude"
+      "searchText": "claude-skill-aso-appstore-screenshots Claude Code skill that analyzes an iOS app codebase and simulator screenshots to generate high-converting App Store screenshot assets. adamlyttleapps/claude-skill-aso-appstore-screenshots pip install claude-skill-aso-appstore-screenshots dev-tools claude"
     },
     {
       "name": "agent-skill-creator",
@@ -1669,7 +1669,7 @@
       "sourceAgent": "codex",
       "repo": "am-will/codex-skills",
       "stars": 941,
-      "desc": "",
+      "desc": "Collection of Codex and agent skills for planning, documentation access, frontend development, and browser automation.",
       "url": "https://github.com/am-will/codex-skills",
       "install": "git clone https://github.com/am-will/codex-skills.git",
       "functionCategory": "dev-tools",
@@ -1679,7 +1679,7 @@
       "supportedAgents": [
         "codex"
       ],
-      "searchText": "codex-skills am-will/codex-skills git clone https://github.com/am-will/codex-skills.git dev-tools codex"
+      "searchText": "codex-skills Collection of Codex and agent skills for planning, documentation access, frontend development, and browser automation. am-will/codex-skills git clone https://github.com/am-will/codex-skills.git dev-tools codex"
     },
     {
       "name": "synalinks-skills",
@@ -3017,7 +3017,7 @@
       "sourceAgent": "claude",
       "repo": "astral-sh/claude-code-plugins",
       "stars": 266,
-      "desc": "",
+      "desc": "Astral marketplace plugins for Claude Code.",
       "url": "https://github.com/astral-sh/claude-code-plugins",
       "install": "git clone https://github.com/astral-sh/claude-code-plugins.git",
       "functionCategory": "dev-tools",
@@ -3027,7 +3027,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "claude-code-plugins astral-sh/claude-code-plugins git clone https://github.com/astral-sh/claude-code-plugins.git dev-tools claude"
+      "searchText": "claude-code-plugins Astral marketplace plugins for Claude Code. astral-sh/claude-code-plugins git clone https://github.com/astral-sh/claude-code-plugins.git dev-tools claude"
     },
     {
       "name": "awesome-codex-cli",
@@ -3162,7 +3162,7 @@
       "sourceAgent": "hermes",
       "repo": "praveen-ks-2001/hermes-agent-template",
       "stars": 186,
-      "desc": "",
+      "desc": "Railway deployment template for Hermes Agent with a web-based admin dashboard for configuration, gateway management, and user pairing.",
       "url": "https://github.com/praveen-ks-2001/hermes-agent-template",
       "install": "git clone https://github.com/praveen-ks-2001/hermes-agent-template.git",
       "functionCategory": "dev-tools",
@@ -3172,7 +3172,7 @@
       "supportedAgents": [
         "hermes"
       ],
-      "searchText": "hermes-agent-template praveen-ks-2001/hermes-agent-template git clone https://github.com/praveen-ks-2001/hermes-agent-template.git dev-tools hermes"
+      "searchText": "hermes-agent-template Railway deployment template for Hermes Agent with a web-based admin dashboard for configuration, gateway management, and user pairing. praveen-ks-2001/hermes-agent-template git clone https://github.com/praveen-ks-2001/hermes-agent-template.git dev-tools hermes"
     },
     {
       "name": "github-copilot-agent-skills",
@@ -3929,7 +3929,7 @@
       "sourceAgent": "claude",
       "repo": "AsifKibria/claude-code-toolkit",
       "stars": 93,
-      "desc": "",
+      "desc": "Maintenance, recovery, and observability toolkit for Claude Code, including a CLI, MCP server, and dashboard.",
       "url": "https://github.com/AsifKibria/claude-code-toolkit",
       "install": "npm i -g claude-code-toolkit",
       "functionCategory": "dev-tools",
@@ -3939,7 +3939,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "claude-code-toolkit asifkibria/claude-code-toolkit npm i -g claude-code-toolkit dev-tools claude"
+      "searchText": "claude-code-toolkit Maintenance, recovery, and observability toolkit for Claude Code, including a CLI, MCP server, and dashboard. AsifKibria/claude-code-toolkit npm i -g claude-code-toolkit dev-tools claude"
     },
     {
       "name": "Wizards-of-the-Ghosts",
@@ -4110,7 +4110,7 @@
       "sourceAgent": "claude",
       "repo": "melodic-software/claude-code-plugins",
       "stars": 78,
-      "desc": "",
+      "desc": "Claude Code plugins for documentation management, code quality, and ecosystem support.",
       "url": "https://github.com/melodic-software/claude-code-plugins",
       "install": "pip install claude-code-plugins",
       "functionCategory": "dev-tools",
@@ -4120,7 +4120,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "claude-code-plugins melodic-software/claude-code-plugins pip install claude-code-plugins dev-tools claude"
+      "searchText": "claude-code-plugins Claude Code plugins for documentation management, code quality, and ecosystem support. melodic-software/claude-code-plugins pip install claude-code-plugins dev-tools claude"
     },
     {
       "name": "claude-plugins",
@@ -4128,7 +4128,7 @@
       "sourceAgent": "claude",
       "repo": "corca-ai/claude-plugins",
       "stars": 78,
-      "desc": "",
+      "desc": "Archived Claude Code plugin for the Corca Workflow Framework, now directing users to corca-ai/charness.",
       "url": "https://github.com/corca-ai/claude-plugins",
       "install": "git clone https://github.com/corca-ai/claude-plugins.git",
       "functionCategory": "dev-tools",
@@ -4138,7 +4138,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "claude-plugins corca-ai/claude-plugins git clone https://github.com/corca-ai/claude-plugins.git dev-tools claude"
+      "searchText": "claude-plugins Archived Claude Code plugin for the Corca Workflow Framework, now directing users to corca-ai/charness. corca-ai/claude-plugins git clone https://github.com/corca-ai/claude-plugins.git dev-tools claude"
     },
     {
       "name": "opencode-claude-code-plugin",
@@ -4292,7 +4292,7 @@
       "sourceAgent": "opencode",
       "repo": "dantesCode/caveman-opencode-plugin",
       "stars": 68,
-      "desc": "",
+      "desc": "Opencode plugin that adapts JuliusBrussee/caveman into hook-based caveman communication mode.",
       "url": "https://github.com/dantesCode/caveman-opencode-plugin",
       "install": "npm i -g caveman-opencode-plugin",
       "functionCategory": "dev-tools",
@@ -4302,7 +4302,7 @@
       "supportedAgents": [
         "opencode"
       ],
-      "searchText": "caveman-opencode-plugin dantescode/caveman-opencode-plugin npm i -g caveman-opencode-plugin dev-tools opencode"
+      "searchText": "caveman-opencode-plugin Opencode plugin that adapts JuliusBrussee/caveman into hook-based caveman communication mode. dantesCode/caveman-opencode-plugin npm i -g caveman-opencode-plugin dev-tools opencode"
     },
     {
       "name": "claude-plugins",
@@ -4534,7 +4534,7 @@
       "sourceAgent": "opencode",
       "repo": "omercnet/opencode-plugin-langfuse",
       "stars": 58,
-      "desc": "",
+      "desc": "OpenCode plugin for automatic LLM observability using Langfuse via OpenTelemetry.",
       "url": "https://github.com/omercnet/opencode-plugin-langfuse",
       "install": "npm i -g opencode-plugin-langfuse",
       "functionCategory": "dev-tools",
@@ -4544,7 +4544,7 @@
       "supportedAgents": [
         "opencode"
       ],
-      "searchText": "opencode-plugin-langfuse omercnet/opencode-plugin-langfuse npm i -g opencode-plugin-langfuse dev-tools opencode"
+      "searchText": "opencode-plugin-langfuse OpenCode plugin for automatic LLM observability using Langfuse via OpenTelemetry. omercnet/opencode-plugin-langfuse npm i -g opencode-plugin-langfuse dev-tools opencode"
     },
     {
       "name": "openclaw-skills",

@@ -184,7 +184,7 @@
       bars.innerHTML = topRepos.map(([repo, count]) => {
         const pct = (count / maxCount * 100).toFixed(1);
         return `<div class="stats-row">
-          <a class="stats-label link" href="https://github.com/${repo}" target="_blank">${repo}</a>
+          <a class="stats-label link" href="https://github.com/${repo}" target="_blank" rel="noopener noreferrer">${repo}</a>
           <div class="stats-bar-bg">
             <div class="stats-bar-fill" style="width:${pct}%"></div>
           </div>

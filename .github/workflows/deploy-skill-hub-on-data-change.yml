@@ -1,22 +1,10 @@
 name: Deploy Skill Hub on Data Change
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - "categories/**"
-      - "index.html"
-      - "stats.html"
-      - "css/**"
-      - "js/**"
-      - ".github/scripts/refresh_skill_hub_data.mjs"
-      - ".github/workflows/deploy-skill-hub-on-data-change.yml"
-      - ".github/workflows/update-skill-hub-content.yml"
   workflow_dispatch:
 
 concurrency:
-  group: deploy-skill-hub
+  group: deploy-skill-hub-manual
   cancel-in-progress: false
 
 permissions:

@@ -13,7 +13,7 @@
       "source": "community",
       "sourceAgent": "multi",
       "repo": "taishi-i/awesome-ChatGPT-repositories",
-      "stars": 3072,
+      "stars": 3073,
       "desc": "A curated list of resources dedicated to open source GitHub repositories related to ChatGPT, OpenAI API, and Codex. Searchable via Claude Code skills.",
       "url": "https://github.com/taishi-i/awesome-ChatGPT-repositories",
       "install": "git clone https://github.com/taishi-i/awesome-ChatGPT-repositories.git  # browse the awesome list",

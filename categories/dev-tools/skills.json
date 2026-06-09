@@ -4,7 +4,7 @@
     "topCategoryId": "development",
     "subCategoryId": "tools",
     "categoryPath": "dev-tools",
-    "count": 268,
+    "count": 269,
     "sourceData": "categories"
   },
   "skills": [
@@ -5013,6 +5013,27 @@
         "claude-code"
       ],
       "searchText": "wzrdxOS open-source operating system for AI agent teams claude code skills workflows subagents memory WizardingCode-io/wzrdxos dev-tools claude-code"
+    },
+    {
+      "name": "nixos-ai-skill",
+      "source": "community",
+      "sourceAgent": "multi",
+      "repo": "marceloeatworld/nixos-ai-skill",
+      "stars": 0,
+      "desc": "Auto-updated NixOS and Nix documentation skill for AI coding assistants using the Agent Skills standard, with install paths for Claude Code, Cursor, GitHub Copilot, OpenCode, Codex, and other compatible tools.",
+      "url": "https://github.com/marceloeatworld/nixos-ai-skill",
+      "install": "git clone https://github.com/marceloeatworld/nixos-ai-skill.git .agents/skills/nixos",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "agents",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "opencode"
+      ],
+      "searchText": "nixos-ai-skill auto-updated nixos and nix documentation skill for ai coding assistants using the agent skills standard install paths for claude code cursor github copilot opencode codex marceloeatworld/nixos-ai-skill git clone https://github.com/marceloeatworld/nixos-ai-skill.git .agents/skills/nixos dev-tools claude codex cursor opencode"
     }
   ]
 }

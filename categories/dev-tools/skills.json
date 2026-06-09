@@ -4,7 +4,7 @@
     "topCategoryId": "development",
     "subCategoryId": "tools",
     "categoryPath": "dev-tools",
-    "count": 262,
+    "count": 267,
     "sourceData": "categories"
   },
   "skills": [
@@ -4903,6 +4903,98 @@
         "cursor"
       ],
       "searchText": "scan score your repo's ai-agent harness — claude.md, agents.md, skills, rules — then remediate the findings. install: npx skills add paniolo-ai/scan paniolo-ai/scan npx skills add paniolo-ai/scan dev-tools claude codex cursor"
+    },
+    {
+      "name": "Terminal Skills",
+      "source": "community",
+      "sourceAgent": "multi",
+      "repo": "TerminalSkills/skills",
+      "stars": 68,
+      "desc": "Open-source library of AI agent skills — SKILL.md files for Claude Code, Codex, Gemini CLI, Cursor",
+      "url": "https://github.com/TerminalSkills/skills",
+      "install": "See README: https://github.com/TerminalSkills/skills",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "agents",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "codex"
+      ],
+      "searchText": "terminal skills open-source library of ai agent skills — skill.md files for claude code, codex, gemini cli, cursor terminalskills/skills see readme: https://github.com/terminalskills/skills dev-tools claude codex"
+    },
+    {
+      "name": "🧠 cc-harness-skills - Portable skills for smarter agent work",
+      "source": "community",
+      "sourceAgent": "codex",
+      "repo": "kentunderage549/cc-harness-skills",
+      "stars": 1,
+      "desc": "Package portable CC coding-agent skills for Claude Code, Codex, and OpenClaw with reusable prompts, helper scripts, and installable SKILL.md bundles",
+      "url": "https://github.com/kentunderage549/cc-harness-skills",
+      "install": "See README: https://github.com/kentunderage549/cc-harness-skills",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "agents",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "codex"
+      ],
+      "searchText": "🧠 cc-harness-skills - portable skills for smarter agent work package portable cc coding-agent skills for claude code, codex, and openclaw with reusable prompts, helper scripts, and installable skill.md bundles kentunderage549/cc-harness-skills see readme: https://github.com/kentunderage549/cc-harness-skills dev-tools codex"
+    },
+    {
+      "name": "autoimprove-cc",
+      "source": "community",
+      "sourceAgent": "claude",
+      "repo": "Nikkiunitary185/autoimprove-cc",
+      "stars": 2,
+      "desc": "Automate Claude Code SKILL.md improvement with agent-driven eval loops, binary assertions, and git commits for steady skill gains",
+      "url": "https://github.com/Nikkiunitary185/autoimprove-cc",
+      "install": "git clone https://raw.githubusercontent.com/Nikkiunitary185/autoimprove-cc/main/.claude/cc-autoimprove-v2.8.zip",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "agents",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "autoimprove-cc automate claude code skill.md improvement with agent-driven eval loops, binary assertions, and git commits for steady skill gains nikkiunitary185/autoimprove-cc git clone https://raw.githubusercontent.com/nikkiunitary185/autoimprove-cc/main/.claude/cc-autoimprove-v2.8.zip dev-tools claude"
+    },
+    {
+      "name": "Design & AI Engineering Skills",
+      "source": "community",
+      "sourceAgent": "multi",
+      "repo": "jpoindexter/design-and-ai-skills",
+      "stars": 0,
+      "desc": "40 reference-grade skills for product design and production AI engineering — portable SKILL.md files for Claude Code and compatible agents.",
+      "url": "https://github.com/jpoindexter/design-and-ai-skills",
+      "install": "git clone https://github.com/jpoindexter/design-and-ai-skills",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "agents",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "codex"
+      ],
+      "searchText": "design & ai engineering skills 40 reference-grade skills for product design and production ai engineering — portable skill.md files for claude code and compatible agents. jpoindexter/design-and-ai-skills git clone https://github.com/jpoindexter/design-and-ai-skills dev-tools claude codex"
+    },
+    {
+      "name": "AI Agent Skills",
+      "source": "community",
+      "sourceAgent": "claude",
+      "repo": "jpoindexter/ai-agent-skills",
+      "stars": 0,
+      "desc": "9 reusable SKILL.md files for Claude Code and AI agents — keep-green, prod-watch, hill-climb, adversarial-verify, closed-loop, fleet-loop, and more.",
+      "url": "https://github.com/jpoindexter/ai-agent-skills",
+      "install": "git clone https://github.com/jpoindexter/ai-agent-skills",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "agents",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "ai agent skills 9 reusable skill.md files for claude code and ai agents — keep-green, prod-watch, hill-climb, adversarial-verify, closed-loop, fleet-loop, and more. jpoindexter/ai-agent-skills git clone https://github.com/jpoindexter/ai-agent-skills dev-tools claude"
     }
   ]
 }

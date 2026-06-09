@@ -4,7 +4,7 @@
     "topCategoryId": "development",
     "subCategoryId": "tools",
     "categoryPath": "dev-tools",
-    "count": 250,
+    "count": 254,
     "sourceData": "categories"
   },
   "skills": [
@@ -270,6 +270,27 @@
         "gemini"
       ],
       "searchText": "awesome-agent-skills a curated collection of 1000+ agent skills from official dev teams and the community, compatible with claude code, codex, gemini cli, cursor, and more. voltagent/awesome-agent-skills git clone https://github.com/voltagent/awesome-agent-skills.git  # browse the awesome list dev-tools claude codex cursor gemini"
+    },
+    {
+      "name": "vercel-labs-skills-cli",
+      "source": "tools",
+      "sourceAgent": "agent-skills",
+      "repo": "vercel-labs/skills",
+      "stars": 21777,
+      "desc": "Open agent skills CLI for discovering, installing, using, updating, and managing reusable Agent Skills across OpenCode, Claude Code, Codex, Cursor, and many more agents.",
+      "url": "https://github.com/vercel-labs/skills",
+      "install": "npx skills add <source>",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tooling",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "opencode"
+      ],
+      "searchText": "vercel-labs-skills-cli open agent skills cli for discovering, installing, using, updating, and managing reusable agent skills across opencode, claude code, codex, cursor, and many more agents. vercel-labs/skills npx skills add <source> dev-tools claude codex cursor opencode"
     },
     {
       "name": "define-goal",
@@ -1295,7 +1316,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "claude-skill-aso-appstore-screenshots Claude Code skill that analyzes an iOS app codebase and simulator screenshots to generate high-converting App Store screenshot assets. adamlyttleapps/claude-skill-aso-appstore-screenshots pip install claude-skill-aso-appstore-screenshots dev-tools claude"
+      "searchText": "claude-skill-aso-appstore-screenshots claude code skill that analyzes an ios app codebase and simulator screenshots to generate high-converting app store screenshot assets. adamlyttleapps/claude-skill-aso-appstore-screenshots pip install claude-skill-aso-appstore-screenshots dev-tools claude"
     },
     {
       "name": "agent-skill-creator",
@@ -1679,7 +1700,7 @@
       "supportedAgents": [
         "codex"
       ],
-      "searchText": "codex-skills Collection of Codex and agent skills for planning, documentation access, frontend development, and browser automation. am-will/codex-skills git clone https://github.com/am-will/codex-skills.git dev-tools codex"
+      "searchText": "codex-skills collection of codex and agent skills for planning, documentation access, frontend development, and browser automation. am-will/codex-skills git clone https://github.com/am-will/codex-skills.git dev-tools codex"
     },
     {
       "name": "synalinks-skills",
@@ -2693,6 +2714,25 @@
       "searchText": "claude-skill-registry the most comprehensive claude code skills registry | web search: https://majiayu000.github.io/claude-skill-registry-core/ majiayu000/claude-skill-registry git clone https://github.com/majiayu000/claude-skill-registry.git dev-tools claude"
     },
     {
+      "name": "opencode-power-pack",
+      "source": "opencode",
+      "sourceAgent": "opencode",
+      "repo": "waybarrios/opencode-power-pack",
+      "stars": 377,
+      "desc": "Eleven Claude Code skills ported to OpenCode: code-review, security-review, feature-dev, frontend-design + 7 more. One config line, one plugin.",
+      "url": "https://github.com/waybarrios/opencode-power-pack",
+      "install": "opencode plugin add waybarrios/opencode-power-pack",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "plugins",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "opencode"
+      ],
+      "searchText": "opencode-power-pack eleven claude code skills ported to opencode: code-review, security-review, feature-dev, frontend-design + 7 more. one config line, one plugin. waybarrios/opencode-power-pack opencode plugin add waybarrios/opencode-power-pack dev-tools claude opencode"
+    },
+    {
       "name": "skills",
       "source": "general",
       "sourceAgent": "multi",
@@ -2785,6 +2825,25 @@
         "gemini"
       ],
       "searchText": "hol-guard ai antivirus for developer agents: protect codex, claude code, cursor, gemini, opencode, plugins, skills, mcp servers, and ai harnesses before tools run. hashgraph-online/hol-guard git clone https://github.com/hashgraph-online/hol-guard.git dev-tools claude codex cursor opencode gemini"
+    },
+    {
+      "name": "aiskillstore-marketplace",
+      "source": "community",
+      "sourceAgent": "agent-skills",
+      "repo": "aiskillstore/marketplace",
+      "stars": 350,
+      "desc": "Marketplace repository for security-audited, quality-verified AI agent skills for Claude Code and Codex, containing approved skills, pending submissions, validation schemas, and workflows.",
+      "url": "https://github.com/aiskillstore/marketplace",
+      "install": "$skill-installer install https://github.com/aiskillstore/marketplace/tree/main/skills/<skill-name>",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tooling",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "codex"
+      ],
+      "searchText": "aiskillstore-marketplace marketplace repository for security-audited, quality-verified ai agent skills for claude code and codex, containing approved skills, pending submissions, validation schemas, and workflows. aiskillstore/marketplace $skill-installer install https://github.com/aiskillstore/marketplace/tree/main/skills/<skill-name> dev-tools claude codex"
     },
     {
       "name": "robotics-skills-suite",
@@ -3027,7 +3086,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "claude-code-plugins Astral marketplace plugins for Claude Code. astral-sh/claude-code-plugins git clone https://github.com/astral-sh/claude-code-plugins.git dev-tools claude"
+      "searchText": "claude-code-plugins astral marketplace plugins for claude code. astral-sh/claude-code-plugins git clone https://github.com/astral-sh/claude-code-plugins.git dev-tools claude"
     },
     {
       "name": "awesome-codex-cli",
@@ -3082,6 +3141,28 @@
         "opencode"
       ],
       "searchText": "opencode-beads an opencode plugin for the beads issue tracker joshuadavidthomas/opencode-beads npm i -g opencode-beads dev-tools opencode"
+    },
+    {
+      "name": "agent-skills",
+      "source": "multi",
+      "sourceAgent": "multi",
+      "repo": "jdrhyne/agent-skills",
+      "stars": 234,
+      "desc": "A collection of AI agent skills for Clawdbot, Claude Code, Codex",
+      "url": "https://github.com/jdrhyne/agent-skills",
+      "install": "git clone https://github.com/jdrhyne/agent-skills.git",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "plugins",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "openclaw",
+        "gemini"
+      ],
+      "searchText": "agent-skills a collection of ai agent skills for clawdbot, claude code, codex jdrhyne/agent-skills git clone https://github.com/jdrhyne/agent-skills.git dev-tools claude codex cursor openclaw gemini"
     },
     {
       "name": "opencode-agent-skills",
@@ -3172,7 +3253,7 @@
       "supportedAgents": [
         "hermes"
       ],
-      "searchText": "hermes-agent-template Railway deployment template for Hermes Agent with a web-based admin dashboard for configuration, gateway management, and user pairing. praveen-ks-2001/hermes-agent-template git clone https://github.com/praveen-ks-2001/hermes-agent-template.git dev-tools hermes"
+      "searchText": "hermes-agent-template railway deployment template for hermes agent with a web-based admin dashboard for configuration, gateway management, and user pairing. praveen-ks-2001/hermes-agent-template git clone https://github.com/praveen-ks-2001/hermes-agent-template.git dev-tools hermes"
     },
     {
       "name": "github-copilot-agent-skills",
@@ -3301,6 +3382,29 @@
         "opencode"
       ],
       "searchText": "openrtk opencode plugin for rtk (rust token killer) martinstannard/openrtk npm i -g openrtk dev-tools opencode"
+    },
+    {
+      "name": "databricks-agent-skills",
+      "source": "databricks",
+      "sourceAgent": "agent-skills",
+      "repo": "databricks/databricks-agent-skills",
+      "stars": 149,
+      "desc": "Databricks-maintained Agent Skills for AI coding assistants covering Databricks CLI/auth, Apps, Asset Bundles, Jobs, Lakebase, Model Serving, Pipelines, serverless migration, and Vector Search.",
+      "url": "https://github.com/databricks/databricks-agent-skills",
+      "install": "databricks aitools install",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tooling",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "copilot",
+        "opencode",
+        "antigravity"
+      ],
+      "searchText": "databricks-agent-skills databricks-maintained agent skills for ai coding assistants covering databricks cli/auth, apps, asset bundles, jobs, lakebase, model serving, pipelines, serverless migration, and vector search. databricks/databricks-agent-skills databricks aitools install dev-tools claude codex cursor copilot opencode antigravity"
     },
     {
       "name": "decodo-openclaw-skill",
@@ -3939,7 +4043,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "claude-code-toolkit Maintenance, recovery, and observability toolkit for Claude Code, including a CLI, MCP server, and dashboard. AsifKibria/claude-code-toolkit npm i -g claude-code-toolkit dev-tools claude"
+      "searchText": "claude-code-toolkit maintenance, recovery, and observability toolkit for claude code, including a cli, mcp server, and dashboard. asifkibria/claude-code-toolkit npm i -g claude-code-toolkit dev-tools claude"
     },
     {
       "name": "Wizards-of-the-Ghosts",
@@ -4120,7 +4224,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "claude-code-plugins Claude Code plugins for documentation management, code quality, and ecosystem support. melodic-software/claude-code-plugins pip install claude-code-plugins dev-tools claude"
+      "searchText": "claude-code-plugins claude code plugins for documentation management, code quality, and ecosystem support. melodic-software/claude-code-plugins pip install claude-code-plugins dev-tools claude"
     },
     {
       "name": "claude-plugins",
@@ -4138,7 +4242,7 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "claude-plugins Archived Claude Code plugin for the Corca Workflow Framework, now directing users to corca-ai/charness. corca-ai/claude-plugins git clone https://github.com/corca-ai/claude-plugins.git dev-tools claude"
+      "searchText": "claude-plugins archived claude code plugin for the corca workflow framework, now directing users to corca-ai/charness. corca-ai/claude-plugins git clone https://github.com/corca-ai/claude-plugins.git dev-tools claude"
     },
     {
       "name": "opencode-claude-code-plugin",
@@ -4302,7 +4406,7 @@
       "supportedAgents": [
         "opencode"
       ],
-      "searchText": "caveman-opencode-plugin Opencode plugin that adapts JuliusBrussee/caveman into hook-based caveman communication mode. dantesCode/caveman-opencode-plugin npm i -g caveman-opencode-plugin dev-tools opencode"
+      "searchText": "caveman-opencode-plugin opencode plugin that adapts juliusbrussee/caveman into hook-based caveman communication mode. dantescode/caveman-opencode-plugin npm i -g caveman-opencode-plugin dev-tools opencode"
     },
     {
       "name": "claude-plugins",
@@ -4544,7 +4648,7 @@
       "supportedAgents": [
         "opencode"
       ],
-      "searchText": "opencode-plugin-langfuse OpenCode plugin for automatic LLM observability using Langfuse via OpenTelemetry. omercnet/opencode-plugin-langfuse npm i -g opencode-plugin-langfuse dev-tools opencode"
+      "searchText": "opencode-plugin-langfuse opencode plugin for automatic llm observability using langfuse via opentelemetry. omercnet/opencode-plugin-langfuse npm i -g opencode-plugin-langfuse dev-tools opencode"
     },
     {
       "name": "openclaw-skills",
@@ -4619,45 +4723,27 @@
       "searchText": "mdc_autogen autogenerates cursor rules for a given repository pranav270-create/mdc_autogen pip install mdc_autogen dev-tools cursor"
     },
     {
-      "name": "opencode-power-pack",
-      "source": "opencode",
-      "sourceAgent": "opencode",
-      "repo": "waybarrios/opencode-power-pack",
-      "stars": 377,
-      "desc": "Eleven Claude Code skills ported to OpenCode: code-review, security-review, feature-dev, frontend-design + 7 more. One config line, one plugin.",
-      "url": "https://github.com/waybarrios/opencode-power-pack",
-      "install": "opencode plugin add waybarrios/opencode-power-pack",
+      "name": "netresearch-claude-code-marketplace",
+      "source": "community",
+      "sourceAgent": "claude",
+      "repo": "netresearch/claude-code-marketplace",
+      "stars": 42,
+      "desc": "Curated Agent Skills marketplace by Netresearch with approximately 40 portable skills for AI-assisted development, including TYPO3, PHP, Go, Docker, Jira, security, documentation, DevOps, productivity, and skill-authoring workflows.",
+      "url": "https://github.com/netresearch/claude-code-marketplace",
+      "install": "/plugin marketplace add netresearch/claude-code-marketplace",
       "functionCategory": "dev-tools",
       "topCategoryId": "development",
-      "subCategoryId": "plugins",
+      "subCategoryId": "tooling",
       "categoryPath": "dev-tools",
       "supportedAgents": [
-        "opencode",
-        "claude"
-      ],
-      "searchText": "opencode-power-pack eleven claude code skills ported to opencode: code-review, security-review, feature-dev, frontend-design + 7 more. one config line, one plugin. waybarrios/opencode-power-pack opencode plugin add waybarrios/opencode-power-pack dev-tools opencode claude"
-    },
-    {
-      "name": "agent-skills",
-      "source": "multi",
-      "sourceAgent": "multi",
-      "repo": "jdrhyne/agent-skills",
-      "stars": 234,
-      "desc": "A collection of AI agent skills for Clawdbot, Claude Code, Codex",
-      "url": "https://github.com/jdrhyne/agent-skills",
-      "install": "git clone https://github.com/jdrhyne/agent-skills.git",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "plugins",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "openclaw",
         "claude",
         "codex",
         "cursor",
+        "copilot",
+        "opencode",
         "gemini"
       ],
-      "searchText": "agent-skills a collection of ai agent skills for clawdbot, claude code, codex jdrhyne/agent-skills git clone https://github.com/jdrhyne/agent-skills.git dev-tools openclaw claude codex cursor gemini"
+      "searchText": "netresearch-claude-code-marketplace curated agent skills marketplace by netresearch with approximately 40 portable skills for ai-assisted development, including typo3, php, go, docker, jira, security, documentation, devops, productivity, and skill-authoring workflows. netresearch/claude-code-marketplace /plugin marketplace add netresearch/claude-code-marketplace dev-tools claude codex cursor copilot opencode gemini"
     }
   ]
 }

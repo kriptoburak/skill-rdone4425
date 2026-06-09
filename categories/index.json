@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-08T16:13:23.492Z",
+  "generatedAt": "2026-06-09T08:15:41.971Z",
   "sourceData": "categories",
-  "totalSkills": 560,
+  "totalSkills": 567,
   "categories": [
     {
       "id": "dev-tools",
       "path": "dev-tools",
       "groupId": "development",
       "subcategoryId": "tools",
-      "count": 248
+      "count": 254
     },
     {
       "id": "design-ui",
@@ -36,7 +36,7 @@
       "path": "data-ai",
       "groupId": "data",
       "subcategoryId": "ai",
-      "count": 40
+      "count": 41
     },
     {
       "id": "general",
@@ -77,7 +77,7 @@
   "groups": [
     {
       "id": "development",
-      "count": 281,
+      "count": 287,
       "subcategories": [
         {
           "id": "development/coding",
@@ -89,7 +89,7 @@
           "id": "development/plugins",
           "path": "development/plugins",
           "subcategoryId": "plugins",
-          "count": 91
+          "count": 93
         },
         {
           "id": "development/platforms",
@@ -101,7 +101,7 @@
           "id": "development/tooling",
           "path": "development/tooling",
           "subcategoryId": "tooling",
-          "count": 27
+          "count": 31
         },
         {
           "id": "development/agents",
@@ -152,10 +152,10 @@
           "count": 12
         },
         {
-          "id": "automation/ops",
-          "path": "automation/ops",
-          "subcategoryId": "ops",
-          "count": 10
+          "id": "automation/workflow",
+          "path": "automation/workflow",
+          "subcategoryId": "workflow",
+          "count": 11
         },
         {
           "id": "automation/publishing",
@@ -164,22 +164,22 @@
           "count": 10
         },
         {
+          "id": "automation/ops",
+          "path": "automation/ops",
+          "subcategoryId": "ops",
+          "count": 9
+        },
+        {
           "id": "automation/office",
           "path": "automation/office",
           "subcategoryId": "office",
-          "count": 8
-        },
-        {
-          "id": "automation/workflow",
-          "path": "automation/workflow",
-          "subcategoryId": "workflow",
-          "count": 8
+          "count": 6
         }
       ]
     },
     {
       "id": "data",
-      "count": 39,
+      "count": 40,
       "subcategories": [
         {
           "id": "data/models",
@@ -197,7 +197,7 @@
           "id": "data/research",
           "path": "data/research",
           "subcategoryId": "research",
-          "count": 9
+          "count": 10
         },
         {
           "id": "data/analytics",
@@ -343,39 +343,43 @@
   "platforms": [
     {
       "id": "claude",
-      "count": 281
+      "count": 288
     },
     {
       "id": "codex",
-      "count": 132
-    },
-    {
-      "id": "openclaw",
-      "count": 103
+      "count": 138
     },
     {
       "id": "opencode",
-      "count": 103
+      "count": 107
+    },
+    {
+      "id": "openclaw",
+      "count": 104
     },
     {
       "id": "cursor",
-      "count": 79
+      "count": 84
     },
     {
       "id": "hermes",
       "count": 65
     },
     {
+      "id": "copilot",
+      "count": 56
+    },
+    {
       "id": "other",
       "count": 54
     },
     {
-      "id": "copilot",
-      "count": 53
+      "id": "gemini",
+      "count": 39
     },
     {
-      "id": "gemini",
-      "count": 36
+      "id": "antigravity",
+      "count": 1
     }
   ]
 }

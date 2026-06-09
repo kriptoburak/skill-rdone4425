@@ -1,14 +1,21 @@
 {
-  "generatedAt": "2026-06-09T08:15:41.971Z",
+  "generatedAt": "2026-06-09T10:51:44.925Z",
   "sourceData": "categories",
-  "totalSkills": 568,
+  "totalSkills": 577,
   "categories": [
     {
       "id": "dev-tools",
       "path": "dev-tools",
       "groupId": "development",
       "subcategoryId": "tools",
-      "count": 255
+      "count": 262
+    },
+    {
+      "id": "docs-content",
+      "path": "docs-content",
+      "groupId": "docs",
+      "subcategoryId": "content",
+      "count": 72
     },
     {
       "id": "design-ui",
@@ -18,18 +25,11 @@
       "count": 71
     },
     {
-      "id": "docs-content",
-      "path": "docs-content",
-      "groupId": "docs",
-      "subcategoryId": "content",
-      "count": 71
-    },
-    {
       "id": "automation-productivity",
       "path": "automation-productivity",
       "groupId": "automation",
       "subcategoryId": "productivity",
-      "count": 44
+      "count": 45
     },
     {
       "id": "data-ai",
@@ -77,7 +77,7 @@
   "groups": [
     {
       "id": "development",
-      "count": 288,
+      "count": 295,
       "subcategories": [
         {
           "id": "development/coding",
@@ -101,19 +101,25 @@
           "id": "development/tooling",
           "path": "development/tooling",
           "subcategoryId": "tooling",
-          "count": 32
+          "count": 35
         },
         {
           "id": "development/agents",
           "path": "development/agents",
           "subcategoryId": "agents",
-          "count": 19
+          "count": 22
+        },
+        {
+          "id": "development/tools",
+          "path": "development/tools",
+          "subcategoryId": "tools",
+          "count": 1
         }
       ]
     },
     {
       "id": "docs",
-      "count": 118,
+      "count": 119,
       "subcategories": [
         {
           "id": "docs/awesome",
@@ -131,7 +137,7 @@
           "id": "docs/references",
           "path": "docs/references",
           "subcategoryId": "references",
-          "count": 20
+          "count": 21
         },
         {
           "id": "docs/guides",
@@ -143,13 +149,13 @@
     },
     {
       "id": "automation",
-      "count": 48,
+      "count": 49,
       "subcategories": [
         {
           "id": "automation/productivity",
           "path": "automation/productivity",
           "subcategoryId": "productivity",
-          "count": 12
+          "count": 13
         },
         {
           "id": "automation/workflow",
@@ -343,15 +349,15 @@
   "platforms": [
     {
       "id": "claude",
-      "count": 288
+      "count": 292
     },
     {
       "id": "codex",
-      "count": 138
+      "count": 143
     },
     {
       "id": "opencode",
-      "count": 107
+      "count": 108
     },
     {
       "id": "openclaw",
@@ -359,7 +365,7 @@
     },
     {
       "id": "cursor",
-      "count": 84
+      "count": 90
     },
     {
       "id": "hermes",
@@ -367,15 +373,23 @@
     },
     {
       "id": "copilot",
-      "count": 56
+      "count": 57
     },
     {
       "id": "other",
-      "count": 54
+      "count": 55
     },
     {
       "id": "gemini",
-      "count": 39
+      "count": 42
+    },
+    {
+      "id": "agent-skills-compatible",
+      "count": 2
+    },
+    {
+      "id": "claude-code",
+      "count": 2
     },
     {
       "id": "antigravity",

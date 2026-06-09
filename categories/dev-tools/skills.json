@@ -4825,6 +4825,64 @@
         "other"
       ],
       "searchText": "git-mcp free, open-source remote mcp server that turns any public github repository or github pages site into ai-accessible documentation. idosal/git-mcp npx mcp-remote https://gitmcp.io/{owner}/{repo} dev-tools claude cursor copilot other"
+    },
+    {
+      "name": "codex-profile",
+      "source": "community",
+      "sourceAgent": "codex",
+      "repo": "mofan212/codex-profile",
+      "stars": 0,
+      "desc": "自用 Codex 配置备份：AGENTS.md、个人 Skills、AI 编码工作流",
+      "url": "https://github.com/mofan212/codex-profile",
+      "install": "git clone https://github.com/mofan212/codex-profile.git",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "agents",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "codex"
+      ],
+      "searchText": "codex-profile 自用 codex 配置备份：agents.md、个人 skills、ai 编码工作流 mofan212/codex-profile git clone https://github.com/mofan212/codex-profile.git dev-tools codex"
+    },
+    {
+      "name": "agent-brains",
+      "source": "community",
+      "sourceAgent": "multi",
+      "repo": "samzong/agent-brains",
+      "stars": 3,
+      "desc": "Personal agent brain catalog for coding agents: AGENTS.md, SOUL.md, MEMORY.md, skills, workflows, and a bundled loader.",
+      "url": "https://github.com/samzong/agent-brains",
+      "install": "git clone https://github.com/samzong/agent-brains.git",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "agents",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor"
+      ],
+      "searchText": "agent-brains personal agent brain catalog for coding agents: agents.md, soul.md, memory.md, skills, workflows, and a bundled loader. samzong/agent-brains git clone https://github.com/samzong/agent-brains.git dev-tools claude codex cursor"
+    },
+    {
+      "name": "scan",
+      "source": "community",
+      "sourceAgent": "multi",
+      "repo": "paniolo-ai/scan",
+      "stars": 0,
+      "desc": "Score your repo's AI-agent harness — CLAUDE.md, AGENTS.md, skills, rules — then remediate the findings. Install: npx skills add paniolo-ai/scan",
+      "url": "https://github.com/paniolo-ai/scan",
+      "install": "npx skills add paniolo-ai/scan",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "agents",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor"
+      ],
+      "searchText": "scan score your repo's ai-agent harness — claude.md, agents.md, skills, rules — then remediate the findings. install: npx skills add paniolo-ai/scan paniolo-ai/scan npx skills add paniolo-ai/scan dev-tools claude codex cursor"
     }
   ]
 }

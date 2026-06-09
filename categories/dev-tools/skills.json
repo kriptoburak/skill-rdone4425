@@ -4804,6 +4804,27 @@
         "opencode"
       ],
       "searchText": "agnix <p><strong>lint agent configurations before they break your workflow</strong></p> agent-sh/agnix install from github releases or package manager per readme dev-tools claude-code codex cursor gemini opencode"
+    },
+    {
+      "name": "git-mcp",
+      "source": "tools",
+      "sourceAgent": "multi",
+      "repo": "idosal/git-mcp",
+      "stars": 8154,
+      "desc": "Free, open-source remote MCP server that turns any public GitHub repository or GitHub Pages site into AI-accessible documentation.",
+      "url": "https://github.com/idosal/git-mcp",
+      "install": "npx mcp-remote https://gitmcp.io/{owner}/{repo}",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tooling",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "copilot",
+        "other"
+      ],
+      "searchText": "git-mcp free, open-source remote mcp server that turns any public github repository or github pages site into ai-accessible documentation. idosal/git-mcp npx mcp-remote https://gitmcp.io/{owner}/{repo} dev-tools claude cursor copilot other"
     }
   ]
 }

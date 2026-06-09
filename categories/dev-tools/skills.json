@@ -4,7 +4,7 @@
     "topCategoryId": "development",
     "subCategoryId": "tools",
     "categoryPath": "dev-tools",
-    "count": 257,
+    "count": 262,
     "sourceData": "categories"
   },
   "skills": [
@@ -574,6 +574,27 @@
         "gemini"
       ],
       "searchText": "opencode-antigravity-auth enable opencode to authenticate against antigravity (google's ide) via oauth so you can use antigravity rate limits and access models like gemini-3-pro and claude-opus-4-5-thinking with your google credentials. noefabris/opencode-antigravity-auth git clone https://github.com/noefabris/opencode-antigravity-auth.git dev-tools claude opencode gemini"
+    },
+    {
+      "name": "git-mcp",
+      "source": "tools",
+      "sourceAgent": "multi",
+      "repo": "idosal/git-mcp",
+      "stars": 8154,
+      "desc": "Free, open-source remote MCP server that turns any public GitHub repository or GitHub Pages site into AI-accessible documentation.",
+      "url": "https://github.com/idosal/git-mcp",
+      "install": "npx mcp-remote https://gitmcp.io/{owner}/{repo}",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tooling",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "cursor",
+        "copilot",
+        "other"
+      ],
+      "searchText": "git-mcp free, open-source remote mcp server that turns any public github repository or github pages site into ai-accessible documentation. idosal/git-mcp npx mcp-remote https://gitmcp.io/{owner}/{repo} dev-tools claude cursor copilot other"
     },
     {
       "name": "dev-browser",
@@ -3071,6 +3092,28 @@
       "searchText": "agent-skills lightweight, high-performance cross-platform desktop app to browse, sync, and manage ai agent skills across claude code, cursor, gemini cli, copilot, and more.（轻量高性能的跨平台 ai agent skills 管理工具） chrlsio/agent-skills npm i -g agent-skills dev-tools claude cursor copilot gemini"
     },
     {
+      "name": "agnix",
+      "source": "agent_sh",
+      "sourceAgent": "multi",
+      "repo": "agent-sh/agnix",
+      "stars": 279,
+      "desc": "<p><strong>Lint agent configurations before they break your workflow</strong></p>",
+      "url": "https://github.com/agent-sh/agnix/blob/main/README.md",
+      "install": "Install from GitHub releases or package manager per README",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tooling",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude-code",
+        "codex",
+        "cursor",
+        "gemini",
+        "opencode"
+      ],
+      "searchText": "agnix <p><strong>lint agent configurations before they break your workflow</strong></p> agent-sh/agnix install from github releases or package manager per readme dev-tools claude-code codex cursor gemini opencode"
+    },
+    {
       "name": "claude-code-plugins",
       "source": "claude",
       "sourceAgent": "claude",
@@ -4746,6 +4789,26 @@
       "searchText": "netresearch-claude-code-marketplace curated agent skills marketplace by netresearch with approximately 40 portable skills for ai-assisted development, including typo3, php, go, docker, jira, security, documentation, devops, productivity, and skill-authoring workflows. netresearch/claude-code-marketplace /plugin marketplace add netresearch/claude-code-marketplace dev-tools claude codex cursor copilot opencode gemini"
     },
     {
+      "name": "agent-powerups",
+      "source": "tools",
+      "sourceAgent": "multi",
+      "repo": "yeaight7/agent-powerups",
+      "stars": 7,
+      "desc": "Oh My Zsh-style collection of reusable skills, slash commands, MCP configs, hooks, AGENTS.md templates, workflows, and plugins for coding agents.",
+      "url": "https://github.com/yeaight7/agent-powerups",
+      "install": "npm install -g agent-powerups",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tools",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "gemini"
+      ],
+      "searchText": "agent-powerups oh my zsh-style collection of reusable skills, slash commands, mcp configs, hooks, agents.md templates, workflows, and plugins for coding agents. yeaight7/agent-powerups npm install -g agent-powerups dev-tools claude codex gemini"
+    },
+    {
       "name": "hyprland-ai-skill",
       "source": "marceloeatworld",
       "sourceAgent": "cursor",
@@ -4762,87 +4825,6 @@
         "cursor"
       ],
       "searchText": "hyprland-ai-skill this skill should be used when the user asks about \"hyprland configuration\", marceloeatworld/hyprland-ai-skill $skill-installer hyprland-ai-skill dev-tools cursor"
-    },
-    {
-      "name": "php-opcua-ai-skills",
-      "source": "php_opcua",
-      "sourceAgent": "multi",
-      "repo": "php-opcua/ai-skills",
-      "stars": 0,
-      "desc": "<h1 align=\"center\"><strong>OPC UA — AI Skills</strong></h1>",
-      "url": "https://github.com/php-opcua/ai-skills/blob/master/README.md",
-      "install": "Install/copy skills from repository README",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tooling",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "claude-code",
-        "cursor",
-        "gemini"
-      ],
-      "searchText": "php-opcua-ai-skills <h1 align=\"center\"><strong>opc ua — ai skills</strong></h1> php-opcua/ai-skills install/copy skills from repository readme dev-tools claude-code cursor gemini"
-    },
-    {
-      "name": "agnix",
-      "source": "agent_sh",
-      "sourceAgent": "multi",
-      "repo": "agent-sh/agnix",
-      "stars": 279,
-      "desc": "<p><strong>Lint agent configurations before they break your workflow</strong></p>",
-      "url": "https://github.com/agent-sh/agnix/blob/main/README.md",
-      "install": "Install from GitHub releases or package manager per README",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tooling",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "claude-code",
-        "codex",
-        "cursor",
-        "gemini",
-        "opencode"
-      ],
-      "searchText": "agnix <p><strong>lint agent configurations before they break your workflow</strong></p> agent-sh/agnix install from github releases or package manager per readme dev-tools claude-code codex cursor gemini opencode"
-    },
-    {
-      "name": "git-mcp",
-      "source": "tools",
-      "sourceAgent": "multi",
-      "repo": "idosal/git-mcp",
-      "stars": 8154,
-      "desc": "Free, open-source remote MCP server that turns any public GitHub repository or GitHub Pages site into AI-accessible documentation.",
-      "url": "https://github.com/idosal/git-mcp",
-      "install": "npx mcp-remote https://gitmcp.io/{owner}/{repo}",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "tooling",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "copilot",
-        "other"
-      ],
-      "searchText": "git-mcp free, open-source remote mcp server that turns any public github repository or github pages site into ai-accessible documentation. idosal/git-mcp npx mcp-remote https://gitmcp.io/{owner}/{repo} dev-tools claude cursor copilot other"
-    },
-    {
-      "name": "codex-profile",
-      "source": "community",
-      "sourceAgent": "codex",
-      "repo": "mofan212/codex-profile",
-      "stars": 0,
-      "desc": "自用 Codex 配置备份：AGENTS.md、个人 Skills、AI 编码工作流",
-      "url": "https://github.com/mofan212/codex-profile",
-      "install": "git clone https://github.com/mofan212/codex-profile.git",
-      "functionCategory": "dev-tools",
-      "topCategoryId": "development",
-      "subCategoryId": "agents",
-      "categoryPath": "dev-tools",
-      "supportedAgents": [
-        "codex"
-      ],
-      "searchText": "codex-profile 自用 codex 配置备份：agents.md、个人 skills、ai 编码工作流 mofan212/codex-profile git clone https://github.com/mofan212/codex-profile.git dev-tools codex"
     },
     {
       "name": "agent-brains",
@@ -4863,6 +4845,44 @@
         "cursor"
       ],
       "searchText": "agent-brains personal agent brain catalog for coding agents: agents.md, soul.md, memory.md, skills, workflows, and a bundled loader. samzong/agent-brains git clone https://github.com/samzong/agent-brains.git dev-tools claude codex cursor"
+    },
+    {
+      "name": "codex-profile",
+      "source": "community",
+      "sourceAgent": "codex",
+      "repo": "mofan212/codex-profile",
+      "stars": 0,
+      "desc": "自用 Codex 配置备份：AGENTS.md、个人 Skills、AI 编码工作流",
+      "url": "https://github.com/mofan212/codex-profile",
+      "install": "git clone https://github.com/mofan212/codex-profile.git",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "agents",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "codex"
+      ],
+      "searchText": "codex-profile 自用 codex 配置备份：agents.md、个人 skills、ai 编码工作流 mofan212/codex-profile git clone https://github.com/mofan212/codex-profile.git dev-tools codex"
+    },
+    {
+      "name": "php-opcua-ai-skills",
+      "source": "php_opcua",
+      "sourceAgent": "multi",
+      "repo": "php-opcua/ai-skills",
+      "stars": 0,
+      "desc": "<h1 align=\"center\"><strong>OPC UA — AI Skills</strong></h1>",
+      "url": "https://github.com/php-opcua/ai-skills/blob/master/README.md",
+      "install": "Install/copy skills from repository README",
+      "functionCategory": "dev-tools",
+      "topCategoryId": "development",
+      "subCategoryId": "tooling",
+      "categoryPath": "dev-tools",
+      "supportedAgents": [
+        "claude-code",
+        "cursor",
+        "gemini"
+      ],
+      "searchText": "php-opcua-ai-skills <h1 align=\"center\"><strong>opc ua — ai skills</strong></h1> php-opcua/ai-skills install/copy skills from repository readme dev-tools claude-code cursor gemini"
     },
     {
       "name": "scan",

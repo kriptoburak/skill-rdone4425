@@ -112,7 +112,10 @@
   }
 
   function t(key) {
-    return dictionary[getLang()][key] || key;
+    const current = dictionary[getLang()] || {};
+    const english = dictionary.en || {};
+    const chinese = dictionary.zh || {};
+    return current[key] || english[key] || chinese[key] || key;
   }
 
   function applyI18n(lang) {

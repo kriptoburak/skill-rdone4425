@@ -65,7 +65,7 @@
         "testing",
         "testing-qa"
       ],
-      "affiliateUrl": "https://example.com/affiliate?ref=skillhub&skill=playwright-skill"
+      "affiliateUrl": null
     },
     {
       "name": "codex-autoresearch",
@@ -150,7 +150,7 @@
         "qa",
         "testing-qa"
       ],
-      "affiliateUrl": "https://example.com/affiliate?ref=skillhub&skill=jeffreysprompts.com"
+      "affiliateUrl": null
     }
   ]
 }

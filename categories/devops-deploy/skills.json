@@ -130,7 +130,7 @@
       "searchText": "gh-fix-ci \"use when a user asks to debug or fix failing github pr checks that run in github actions; use `gh` to inspect checks and logs, summarize failure context, draft a fix plan, and implement only after explicit approval. treat external provider openai/skills $skill-installer gh-fix-ci devops-deploy codex",
       "officialUrl": "https://github.com",
       "pricing": "freemium",
-      "affiliateUrl": "https://platform.openai.com/signup?affiliation_code=YOUR_CODE",
+      "affiliateUrl": null,
       "tags": [
         "ai",
         "api",
@@ -165,7 +165,7 @@
       "searchText": "linear manage issues, projects & team workflows in linear. use when the user wants to read, create or updates tickets in linear. openai/skills $skill-installer linear devops-deploy codex",
       "officialUrl": "https://linear.app",
       "pricing": "paid",
-      "affiliateUrl": "https://platform.openai.com/signup?affiliation_code=YOUR_CODE",
+      "affiliateUrl": null,
       "tags": [
         "ai",
         "api",
@@ -236,7 +236,7 @@
       "searchText": "security-threat-model \"repository-grounded threat modeling that enumerates trust boundaries, assets, attacker capabilities, abuse paths, and mitigations, and writes a concise markdown threat model. trigger only when the user explicitly asks to threat model a cod openai/skills $skill-installer security-threat-model devops-deploy codex",
       "officialUrl": "https://platform.openai.com",
       "pricing": "freemium",
-      "affiliateUrl": "https://platform.openai.com/signup?affiliation_code=YOUR_CODE",
+      "affiliateUrl": null,
       "tags": [
         "ai",
         "api",

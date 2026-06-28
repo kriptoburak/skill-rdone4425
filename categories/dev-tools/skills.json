@@ -150,7 +150,7 @@
       "searchText": "codex-cli lightweight coding agent that runs in your terminal openai/codex npm i -g @openai/codex dev-tools codex",
       "officialUrl": "https://platform.openai.com",
       "pricing": "freemium",
-      "affiliateUrl": "https://platform.openai.com/signup?affiliation_code=YOUR_CODE",
+      "affiliateUrl": null,
       "tags": [
         "ai",
         "api",
@@ -483,7 +483,7 @@
       "searchText": "define-goal help the user define a concrete, measurable goal before starting work, especially when they ask to use the goal tool, create a goal, set an objective, clarify success criteria, or turn a fuzzy intention into a quantitative outcome. use this openai/skills $skill-installer define-goal dev-tools codex",
       "officialUrl": "https://platform.openai.com",
       "pricing": "freemium",
-      "affiliateUrl": "https://platform.openai.com/signup?affiliation_code=YOUR_CODE",
+      "affiliateUrl": null,
       "tags": [
         "ai",
         "api",
@@ -515,7 +515,7 @@
       "searchText": "gh-address-comments help address review/issue comments on the open github pr for the current branch using gh cli; verify gh auth first and prompt the user to authenticate if not logged in. openai/skills $skill-installer gh-address-comments dev-tools codex",
       "officialUrl": "https://github.com",
       "pricing": "freemium",
-      "affiliateUrl": "https://platform.openai.com/signup?affiliation_code=YOUR_CODE",
+      "affiliateUrl": null,
       "tags": [
         "ai",
         "api",
@@ -551,7 +551,7 @@
       "searchText": "migrate-to-codex migrate supported instruction files, skills, agents, and mcp config into codex project and global files. openai/skills $skill-installer migrate-to-codex dev-tools codex",
       "officialUrl": "https://openai.com/codex",
       "pricing": "freemium",
-      "affiliateUrl": "https://platform.openai.com/signup?affiliation_code=YOUR_CODE",
+      "affiliateUrl": null,
       "tags": [
         "ai",
         "api",
@@ -621,7 +621,7 @@
       "searchText": "screenshot \"use when the user explicitly asks for a desktop or system screenshot (full screen, specific app or window, or a pixel region), or when tool-specific capture capabilities are unavailable and an os-level capture is needed.\" openai/skills $skill-installer screenshot dev-tools codex",
       "officialUrl": "https://platform.openai.com",
       "pricing": "freemium",
-      "affiliateUrl": "https://platform.openai.com/signup?affiliation_code=YOUR_CODE",
+      "affiliateUrl": null,
       "tags": [
         "ai",
         "api",
@@ -689,7 +689,7 @@
       "searchText": "yeet \"use only when the user explicitly asks to stage, commit, push, and open a github pull request in one flow using the github cli (`gh`).\" openai/skills $skill-installer yeet dev-tools codex",
       "officialUrl": "https://platform.openai.com",
       "pricing": "freemium",
-      "affiliateUrl": "https://platform.openai.com/signup?affiliation_code=YOUR_CODE",
+      "affiliateUrl": null,
       "tags": [
         "ai",
         "api",
@@ -1871,7 +1871,7 @@
       "searchText": "opencode-openai-codex-auth oauth authentication plugin for personal coding assistance with chatgpt plus/pro subscriptions - uses openai's official authentication method numman-ali/opencode-openai-codex-auth git clone https://github.com/numman-ali/opencode-openai-codex-auth.git dev-tools codex opencode",
       "officialUrl": "https://opencode.ai",
       "pricing": "free",
-      "affiliateUrl": "https://platform.openai.com/signup?affiliation_code=YOUR_CODE",
+      "affiliateUrl": null,
       "tags": [
         "agent",
         "ai",
@@ -2152,7 +2152,7 @@
         "llm",
         "production"
       ],
-      "affiliateUrl": "https://platform.openai.com/signup?affiliation_code=YOUR_CODE"
+      "affiliateUrl": null
     },
     {
       "name": "agent-skill-creator",

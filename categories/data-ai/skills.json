@@ -226,7 +226,7 @@
       "searchText": "jupyter-notebook \"use when the user asks to create, scaffold, or edit jupyter notebooks (`.ipynb`) for experiments, explorations, or tutorials; prefer the bundled templates and run the helper script `new_notebook.py` to generate a clean starting notebook.\" openai/skills $skill-installer jupyter-notebook data-ai codex",
       "officialUrl": "https://platform.openai.com",
       "pricing": "freemium",
-      "affiliateUrl": "https://platform.openai.com/signup?affiliation_code=YOUR_CODE",
+      "affiliateUrl": null,
       "tags": [
         "ai",
         "analytics",
@@ -258,7 +258,7 @@
       "searchText": "transcribe \"transcribe audio files to text with optional diarization and known-speaker hints. use when a user asks to transcribe speech from audio/video, extract text from recordings, or label speakers in interviews or meetings.\" openai/skills $skill-installer transcribe data-ai codex",
       "officialUrl": "https://platform.openai.com",
       "pricing": "freemium",
-      "affiliateUrl": "https://platform.openai.com/signup?affiliation_code=YOUR_CODE",
+      "affiliateUrl": null,
       "tags": [
         "ai",
         "analytics",

@@ -41,7 +41,7 @@
         "llm",
         "production"
       ],
-      "affiliateUrl": "https://platform.openai.com/signup?affiliation_code=YOUR_CODE"
+      "affiliateUrl": null
     },
     {
       "name": "pg-aiguide",

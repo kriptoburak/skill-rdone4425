@@ -274,11 +274,12 @@
       ts: Date.now(),
     };
     console.log('[SkillHub] Affiliate click:', JSON.stringify(eventData));
-    // Use sendBeacon for reliability on page unload
+    const endpoint = (window.SkillHub.config && window.SkillHub.config.trackEndpoint) || '/api/track';
+    const blob = new Blob([JSON.stringify(eventData)], { type: 'application/json' });
     if (navigator.sendBeacon) {
-      const blob = new Blob([JSON.stringify(eventData)], { type: 'application/json' });
-      // Beacon endpoint can be configured here; currently logs to console
-      navigator.sendBeacon('/api/track', blob);
+      navigator.sendBeacon(endpoint, blob);
+    } else if (window.fetch) {
+      fetch(endpoint, { method: 'POST', body: blob, keepalive: true }).catch(function(){});
     }
   }
 

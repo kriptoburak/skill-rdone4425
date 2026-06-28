@@ -36,7 +36,7 @@
         "llm",
         "ui"
       ],
-      "affiliateUrl": "https://example.com/affiliate?ref=skillhub&skill=algorithmic-art"
+      "affiliateUrl": null
     },
     {
       "name": "caveman",
@@ -130,7 +130,7 @@
         "openclaw",
         "opencode"
       ],
-      "affiliateUrl": "https://example.com/affiliate?ref=skillhub&skill=last30days-skill"
+      "affiliateUrl": null
     },
     {
       "name": "claude-skills",
@@ -225,7 +225,7 @@
         "openclaw",
         "opencode"
       ],
-      "affiliateUrl": "https://example.com/affiliate?ref=skillhub&skill=awesome-agent-skills"
+      "affiliateUrl": null
     },
     {
       "name": "awesome-openclaw-skills-zh",

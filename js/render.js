@@ -266,14 +266,41 @@
     `;
   }
 
+  function trackAffiliateClick(skill, url) {
+    const eventData = {
+      event: 'affiliate_click',
+      skill: skill.name || '',
+      url: url,
+      ts: Date.now(),
+    };
+    console.log('[SkillHub] Affiliate click:', JSON.stringify(eventData));
+    // Use sendBeacon for reliability on page unload
+    if (navigator.sendBeacon) {
+      const blob = new Blob([JSON.stringify(eventData)], { type: 'application/json' });
+      // Beacon endpoint can be configured here; currently logs to console
+      navigator.sendBeacon('/api/track', blob);
+    }
+  }
+
+  function getPricingLabel(pricing) {
+    const key = {
+      free: 'pricingFree',
+      freemium: 'pricingFreemium',
+      paid: 'pricingPaid',
+    }[String(pricing || '').toLowerCase()] || null;
+    return key ? hub.i18n.t(key) : null;
+  }
+
   function createCard(skill) {
     const primaryAgentId = s.getPrimarySkillAgent(skill);
     const primaryMeta = s.getAgentMeta(primaryAgentId);
     const repoOwner = String(skill.repo || '').split('/')[0] || '';
     const avatarUrl = repoOwner ? `https://github.com/${repoOwner}.png?size=96` : '';
     const installCode = String(skill.install || '').trim();
+    const hasAffiliate = Boolean(skill.affiliateUrl);
+    const pricingLabel = getPricingLabel(skill.pricing);
     const card = document.createElement('article');
-    card.className = 'skill-card card';
+    card.className = 'skill-card card' + (hasAffiliate ? ' card-affiliate' : '');
     card.style.setProperty('--card-accent', primaryMeta.color || '#6b7280');
     card.innerHTML = `
       <div class="card-head">
@@ -293,6 +320,8 @@
       <p class="card-desc">${skill.desc || ''}</p>
       <div class="card-meta">
         <span class="card-group">${getSkillCategoryDisplay(skill)}</span>
+        ${pricingLabel ? `<span class="card-pricing pricing-${String(skill.pricing || 'free').toLowerCase()}">${pricingLabel}</span>` : ''}
+        ${hasAffiliate ? `<span class="card-affiliate-badge">${hub.i18n.t('affiliateLabel')}</span>` : ''}
       </div>
       <div class="agent-chip-list">
         ${s.getSkillAgents(skill).map(createAgentChip).join('')}
@@ -301,7 +330,9 @@
         <code>$ ${skill.install || ''}</code>
       </div>
       <div class="card-footer">
-        <a class="card-link" href="https://github.com/${skill.repo}" target="_blank" rel="noopener">${hub.i18n.t('viewOnGitHub')}</a>
+        ${hasAffiliate
+          ? `<a class="card-link card-affiliate-link" href="${skill.affiliateUrl}" target="_blank" rel="noopener sponsored">${hub.i18n.t('viewOnGitHub')} ↗</a>`
+          : `<a class="card-link" href="https://github.com/${skill.repo}" target="_blank" rel="noopener">${hub.i18n.t('viewOnGitHub')}</a>`}
         <button type="button" class="copy-btn card-copy-btn" title="${getLabelWithFallback('copyCommand', '复制命令', 'Copy command')}">${getLabelWithFallback('copyCommand', '复制命令', 'Copy command')}</button>
       </div>
     `;
@@ -331,6 +362,16 @@
           copyButton.title = installLabel;
         }
       });
+    }
+
+    // Track affiliate link clicks
+    if (hasAffiliate) {
+      const affiliateLink = card.querySelector('.card-affiliate-link');
+      if (affiliateLink) {
+        affiliateLink.addEventListener('click', (e) => {
+          trackAffiliateClick(skill, skill.affiliateUrl);
+        });
+      }
     }
 
     return card;

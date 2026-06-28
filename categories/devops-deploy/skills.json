@@ -5,7 +5,8 @@
     "subCategoryId": "deploy",
     "categoryPath": "devops-deploy",
     "count": 23,
-    "sourceData": "categories"
+    "sourceData": "categories",
+    "monetizationEnriched": true
   },
   "skills": [
     {
@@ -24,7 +25,15 @@
       "supportedAgents": [
         "other"
       ],
-      "searchText": "taste-skill taste-skill - gives your ai good taste. stops the ai from generating boring, generic slop leonxlnx/taste-skill git clone https://github.com/leonxlnx/taste-skill.git devops-deploy other"
+      "searchText": "taste-skill taste-skill - gives your ai good taste. stops the ai from generating boring, generic slop leonxlnx/taste-skill git clone https://github.com/leonxlnx/taste-skill.git devops-deploy other",
+      "officialUrl": "https://github.com/Leonxlnx/taste-skill",
+      "pricing": "unknown",
+      "tags": [
+        "devops-deploy",
+        "general",
+        "other",
+        "visual"
+      ]
     },
     {
       "name": "scientific-agent-skills",
@@ -48,7 +57,21 @@
         "opencode",
         "openclaw"
       ],
-      "searchText": "scientific-agent-skills turn any ai agent into an ai scientist. the #1 agent skills library for science, used by 160,000+ scientists worldwide. 140 ready-to-use skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. compat k-dense-ai/scientific-agent-skills git clone https://github.com/k-dense-ai/scientific-agent-skills.git devops-deploy claude codex cursor copilot hermes opencode openclaw"
+      "searchText": "scientific-agent-skills turn any ai agent into an ai scientist. the #1 agent skills library for science, used by 160,000+ scientists worldwide. 140 ready-to-use skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. compat k-dense-ai/scientific-agent-skills git clone https://github.com/k-dense-ai/scientific-agent-skills.git devops-deploy claude codex cursor copilot hermes opencode openclaw",
+      "officialUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "pricing": "unknown",
+      "tags": [
+        "claude",
+        "codex",
+        "copilot",
+        "cursor",
+        "devops-deploy",
+        "general",
+        "hermes",
+        "openclaw",
+        "opencode",
+        "research"
+      ]
     },
     {
       "name": "cloudflare-deploy",
@@ -66,7 +89,27 @@
       "supportedAgents": [
         "codex"
       ],
-      "searchText": "cloudflare-deploy deploy applications and infrastructure to cloudflare using workers, pages, and related platform services. use when the user asks to deploy, host, publish, or set up a project on cloudflare. openai/skills $skill-installer cloudflare-deploy devops-deploy codex"
+      "searchText": "cloudflare-deploy deploy applications and infrastructure to cloudflare using workers, pages, and related platform services. use when the user asks to deploy, host, publish, or set up a project on cloudflare. openai/skills $skill-installer cloudflare-deploy devops-deploy codex",
+      "officialUrl": "https://www.cloudflare.com",
+      "pricing": "freemium",
+      "affiliateUrl": "https://www.cloudflare.com/partner-program/",
+      "tags": [
+        "ai",
+        "api",
+        "cdn",
+        "codex",
+        "devops-deploy",
+        "dns",
+        "edge",
+        "gpt-4",
+        "infra",
+        "llm",
+        "official",
+        "production",
+        "security",
+        "serverless",
+        "workers"
+      ]
     },
     {
       "name": "gh-fix-ci",
@@ -84,7 +127,24 @@
       "supportedAgents": [
         "codex"
       ],
-      "searchText": "gh-fix-ci \"use when a user asks to debug or fix failing github pr checks that run in github actions; use `gh` to inspect checks and logs, summarize failure context, draft a fix plan, and implement only after explicit approval. treat external provider openai/skills $skill-installer gh-fix-ci devops-deploy codex"
+      "searchText": "gh-fix-ci \"use when a user asks to debug or fix failing github pr checks that run in github actions; use `gh` to inspect checks and logs, summarize failure context, draft a fix plan, and implement only after explicit approval. treat external provider openai/skills $skill-installer gh-fix-ci devops-deploy codex",
+      "officialUrl": "https://github.com",
+      "pricing": "freemium",
+      "affiliateUrl": "https://platform.openai.com/signup?affiliation_code=YOUR_CODE",
+      "tags": [
+        "ai",
+        "api",
+        "ci",
+        "codex",
+        "devops",
+        "devops-deploy",
+        "git",
+        "gpt-4",
+        "llm",
+        "official",
+        "production",
+        "version-control"
+      ]
     },
     {
       "name": "linear",
@@ -102,7 +162,24 @@
       "supportedAgents": [
         "codex"
       ],
-      "searchText": "linear manage issues, projects & team workflows in linear. use when the user wants to read, create or updates tickets in linear. openai/skills $skill-installer linear devops-deploy codex"
+      "searchText": "linear manage issues, projects & team workflows in linear. use when the user wants to read, create or updates tickets in linear. openai/skills $skill-installer linear devops-deploy codex",
+      "officialUrl": "https://linear.app",
+      "pricing": "paid",
+      "affiliateUrl": "https://platform.openai.com/signup?affiliation_code=YOUR_CODE",
+      "tags": [
+        "ai",
+        "api",
+        "codex",
+        "devops",
+        "devops-deploy",
+        "gpt-4",
+        "issue-tracking",
+        "llm",
+        "office",
+        "official",
+        "production",
+        "project-management"
+      ]
     },
     {
       "name": "render-deploy",
@@ -120,7 +197,25 @@
       "supportedAgents": [
         "codex"
       ],
-      "searchText": "render-deploy deploy applications to render by analyzing codebases, generating render.yaml blueprints, and providing dashboard deeplinks. use when the user wants to deploy, host, publish, or set up their application on render's cloud platform. openai/skills $skill-installer render-deploy devops-deploy codex"
+      "searchText": "render-deploy deploy applications to render by analyzing codebases, generating render.yaml blueprints, and providing dashboard deeplinks. use when the user wants to deploy, host, publish, or set up their application on render's cloud platform. openai/skills $skill-installer render-deploy devops-deploy codex",
+      "officialUrl": "https://render.com",
+      "pricing": "freemium",
+      "affiliateUrl": "https://render.com/affiliate",
+      "tags": [
+        "ai",
+        "api",
+        "backend",
+        "codex",
+        "deploy",
+        "deployment",
+        "devops-deploy",
+        "gpt-4",
+        "hosting",
+        "llm",
+        "official",
+        "paas",
+        "production"
+      ]
     },
     {
       "name": "security-threat-model",
@@ -138,7 +233,21 @@
       "supportedAgents": [
         "codex"
       ],
-      "searchText": "security-threat-model \"repository-grounded threat modeling that enumerates trust boundaries, assets, attacker capabilities, abuse paths, and mitigations, and writes a concise markdown threat model. trigger only when the user explicitly asks to threat model a cod openai/skills $skill-installer security-threat-model devops-deploy codex"
+      "searchText": "security-threat-model \"repository-grounded threat modeling that enumerates trust boundaries, assets, attacker capabilities, abuse paths, and mitigations, and writes a concise markdown threat model. trigger only when the user explicitly asks to threat model a cod openai/skills $skill-installer security-threat-model devops-deploy codex",
+      "officialUrl": "https://platform.openai.com",
+      "pricing": "freemium",
+      "affiliateUrl": "https://platform.openai.com/signup?affiliation_code=YOUR_CODE",
+      "tags": [
+        "ai",
+        "api",
+        "codex",
+        "devops-deploy",
+        "gpt-4",
+        "llm",
+        "offensive",
+        "official",
+        "production"
+      ]
     },
     {
       "name": "vercel-deploy",
@@ -156,7 +265,26 @@
       "supportedAgents": [
         "codex"
       ],
-      "searchText": "vercel-deploy deploy applications and websites to vercel. use when the user requests deployment actions like \"deploy my app\", \"deploy and give me the link\", \"push this live\", or \"create a preview deployment\". openai/skills $skill-installer vercel-deploy devops-deploy codex"
+      "searchText": "vercel-deploy deploy applications and websites to vercel. use when the user requests deployment actions like \"deploy my app\", \"deploy and give me the link\", \"push this live\", or \"create a preview deployment\". openai/skills $skill-installer vercel-deploy devops-deploy codex",
+      "officialUrl": "https://vercel.com",
+      "pricing": "freemium",
+      "affiliateUrl": "https://vercel.com/partners",
+      "tags": [
+        "ai",
+        "api",
+        "codex",
+        "deploy",
+        "deployment",
+        "devops-deploy",
+        "frontend",
+        "gpt-4",
+        "hosting",
+        "llm",
+        "nextjs",
+        "official",
+        "production",
+        "serverless"
+      ]
     },
     {
       "name": "Claude-Code-Game-Studios",
@@ -174,7 +302,15 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "claude-code-game-studios turn claude code into a full game dev studio — 49 ai agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy. donchitos/claude-code-game-studios git clone https://github.com/donchitos/claude-code-game-studios.git devops-deploy claude"
+      "searchText": "claude-code-game-studios turn claude code into a full game dev studio — 49 ai agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy. donchitos/claude-code-game-studios git clone https://github.com/donchitos/claude-code-game-studios.git devops-deploy claude",
+      "officialUrl": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "pricing": "unknown",
+      "tags": [
+        "agents",
+        "claude",
+        "devops-deploy",
+        "general"
+      ]
     },
     {
       "name": "SkillOpt",
@@ -192,7 +328,15 @@
       "supportedAgents": [
         "other"
       ],
-      "searchText": "skillopt skillopt is a text-space optimizer that trains reusable natural-language skills for frozen llm agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts. microsoft/skillopt git clone https://github.com/microsoft/skillopt.git devops-deploy other"
+      "searchText": "skillopt skillopt is a text-space optimizer that trains reusable natural-language skills for frozen llm agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts. microsoft/skillopt git clone https://github.com/microsoft/skillopt.git devops-deploy other",
+      "officialUrl": "https://github.com/microsoft/SkillOpt",
+      "pricing": "unknown",
+      "tags": [
+        "coding",
+        "devops-deploy",
+        "general",
+        "other"
+      ]
     },
     {
       "name": "awesome-codex-subagents",
@@ -210,7 +354,19 @@
       "supportedAgents": [
         "codex"
       ],
-      "searchText": "awesome-codex-subagents a collection of 130+ specialized codex subagents covering a wide range of development use cases. voltagent/awesome-codex-subagents git clone https://github.com/voltagent/awesome-codex-subagents.git  # browse the awesome list devops-deploy codex"
+      "searchText": "awesome-codex-subagents a collection of 130+ specialized codex subagents covering a wide range of development use cases. voltagent/awesome-codex-subagents git clone https://github.com/voltagent/awesome-codex-subagents.git  # browse the awesome list devops-deploy codex",
+      "officialUrl": "https://openai.com/codex",
+      "pricing": "freemium",
+      "tags": [
+        "ai",
+        "awesome",
+        "codex",
+        "coding",
+        "community",
+        "devops-deploy",
+        "llm",
+        "openai"
+      ]
     },
     {
       "name": "openclaw-china-docker",
@@ -228,7 +384,19 @@
       "supportedAgents": [
         "openclaw"
       ],
-      "searchText": "openclaw-china-docker openclaw 的中国im平台整合docker版本，预装并配置了飞书、钉钉、qq机器人、企业微信等主流中国im软件的插件，让您可以快速部署一个支持多个中国im平台的 ai 机器人网关 justlovemaki/openclaw-china-docker git clone https://github.com/justlovemaki/openclaw-china-docker.git devops-deploy openclaw"
+      "searchText": "openclaw-china-docker openclaw 的中国im平台整合docker版本，预装并配置了飞书、钉钉、qq机器人、企业微信等主流中国im软件的插件，让您可以快速部署一个支持多个中国im平台的 ai 机器人网关 justlovemaki/openclaw-china-docker git clone https://github.com/justlovemaki/openclaw-china-docker.git devops-deploy openclaw",
+      "officialUrl": "https://openclaw.com",
+      "pricing": "free",
+      "tags": [
+        "agent",
+        "coding",
+        "devops-deploy",
+        "infra",
+        "llm",
+        "multi-platform",
+        "open-source",
+        "openclaw"
+      ]
     },
     {
       "name": "pinme",
@@ -246,7 +414,15 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "pinme deploy your frontend in a single command. claude code skills supported. glitternetwork/pinme npm i -g pinme devops-deploy claude"
+      "searchText": "pinme deploy your frontend in a single command. claude code skills supported. glitternetwork/pinme npm i -g pinme devops-deploy claude",
+      "officialUrl": "https://github.com/glitternetwork/pinme",
+      "pricing": "unknown",
+      "tags": [
+        "claude",
+        "deploy",
+        "devops-deploy",
+        "general"
+      ]
     },
     {
       "name": "pro-workflow",
@@ -264,7 +440,15 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "pro-workflow claude code learns from your corrections: self-correcting memory that compounds over 50+ sessions. context engineering, parallel worktrees, agent teams, and 17 battle-tested skills. rohitg00/pro-workflow npm i -g pro-workflow devops-deploy claude"
+      "searchText": "pro-workflow claude code learns from your corrections: self-correcting memory that compounds over 50+ sessions. context engineering, parallel worktrees, agent teams, and 17 battle-tested skills. rohitg00/pro-workflow npm i -g pro-workflow devops-deploy claude",
+      "officialUrl": "https://github.com/rohitg00/pro-workflow",
+      "pricing": "unknown",
+      "tags": [
+        "claude",
+        "coding",
+        "devops-deploy",
+        "general"
+      ]
     },
     {
       "name": "agent-rules-books",
@@ -284,7 +468,17 @@
         "codex",
         "cursor"
       ],
-      "searchText": "agent-rules-books agents.md rules / skills for ai coding agents: codex, cursor & claude code. inspired by clean code, refactoring, ddd, clean architecture and ddia programming books. ciembor/agent-rules-books git clone https://github.com/ciembor/agent-rules-books.git devops-deploy claude codex cursor"
+      "searchText": "agent-rules-books agents.md rules / skills for ai coding agents: codex, cursor & claude code. inspired by clean code, refactoring, ddd, clean architecture and ddia programming books. ciembor/agent-rules-books git clone https://github.com/ciembor/agent-rules-books.git devops-deploy claude codex cursor",
+      "officialUrl": "https://github.com/ciembor/agent-rules-books",
+      "pricing": "unknown",
+      "tags": [
+        "claude",
+        "codex",
+        "coding",
+        "cursor",
+        "devops-deploy",
+        "general"
+      ]
     },
     {
       "name": "Auto-Empirical-Research-Skills",
@@ -302,7 +496,15 @@
       "supportedAgents": [
         "other"
       ],
-      "searchText": "auto-empirical-research-skills 🔬 a curated collection of 23,000+ agent skills for empirical research across 8 social science disciplines. | 精选 23,000+ ai agent 技能库，覆盖8大社会科学学科的实证研究。copaper.ai 20分钟完成一篇可复现的规范实证论文，并支持用户上传 skills。-- maintained by copaper.ai from stanford reap brycewang-stanford/auto-empirical-research-skills git clone https://github.com/brycewang-stanford/auto-empirical-research-skills.git  # browse the awesome list devops-deploy other"
+      "searchText": "auto-empirical-research-skills 🔬 a curated collection of 23,000+ agent skills for empirical research across 8 social science disciplines. | 精选 23,000+ ai agent 技能库，覆盖8大社会科学学科的实证研究。copaper.ai 20分钟完成一篇可复现的规范实证论文，并支持用户上传 skills。-- maintained by copaper.ai from stanford reap brycewang-stanford/auto-empirical-research-skills git clone https://github.com/brycewang-stanford/auto-empirical-research-skills.git  # browse the awesome list devops-deploy other",
+      "officialUrl": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills",
+      "pricing": "unknown",
+      "tags": [
+        "devops-deploy",
+        "general",
+        "other",
+        "research"
+      ]
     },
     {
       "name": "chops",
@@ -322,7 +524,17 @@
         "codex",
         "cursor"
       ],
-      "searchText": "chops your ai agent skills, finally organized. a macos app to browse, edit, and manage skills across claude code, cursor, codex, windsurf, and amp. shpigford/chops git clone https://github.com/shpigford/chops.git devops-deploy claude codex cursor"
+      "searchText": "chops your ai agent skills, finally organized. a macos app to browse, edit, and manage skills across claude code, cursor, codex, windsurf, and amp. shpigford/chops git clone https://github.com/shpigford/chops.git devops-deploy claude codex cursor",
+      "officialUrl": "https://github.com/Shpigford/chops",
+      "pricing": "unknown",
+      "tags": [
+        "claude",
+        "codex",
+        "coding",
+        "cursor",
+        "devops-deploy",
+        "general"
+      ]
     },
     {
       "name": "n8n-as-code",
@@ -340,7 +552,19 @@
       "supportedAgents": [
         "other"
       ],
-      "searchText": "n8n-as-code give your ai agent n8n superpowers. 537 nodes with full schemas, 7,700+ templates, git-like sync, and typescript workflows. etiennelescot/n8n-as-code npm i -g n8n-as-code devops-deploy other"
+      "searchText": "n8n-as-code give your ai agent n8n superpowers. 537 nodes with full schemas, 7,700+ templates, git-like sync, and typescript workflows. etiennelescot/n8n-as-code npm i -g n8n-as-code devops-deploy other",
+      "officialUrl": "https://n8n.io",
+      "pricing": "freemium",
+      "affiliateUrl": "https://n8n.io/affiliates/",
+      "tags": [
+        "automation",
+        "devops-deploy",
+        "general",
+        "integration",
+        "no-code",
+        "other",
+        "workflow"
+      ]
     },
     {
       "name": "dbt-agent-skills",
@@ -358,7 +582,20 @@
       "supportedAgents": [
         "other"
       ],
-      "searchText": "dbt-agent-skills a curated collection of agent skills for working with dbt, to help ai agents understand and execute dbt workflows more effectively. dbt-labs/dbt-agent-skills git clone https://github.com/dbt-labs/dbt-agent-skills.git  # browse the awesome list devops-deploy other"
+      "searchText": "dbt-agent-skills a curated collection of agent skills for working with dbt, to help ai agents understand and execute dbt workflows more effectively. dbt-labs/dbt-agent-skills git clone https://github.com/dbt-labs/dbt-agent-skills.git  # browse the awesome list devops-deploy other",
+      "officialUrl": "https://www.getdbt.com",
+      "pricing": "freemium",
+      "tags": [
+        "analytics",
+        "data",
+        "devops",
+        "devops-deploy",
+        "etl",
+        "general",
+        "models",
+        "other",
+        "sql"
+      ]
     },
     {
       "name": "skill.color-expert",
@@ -379,7 +616,18 @@
         "cursor",
         "copilot"
       ],
-      "searchText": "skill.color-expert agent skill for color science expertise. many references covering color spaces, accessibility (apca, wcag), palette   generation, pigment mixing, and historical color theory. works with claude code, codex, cursor, copilot & others. meodai/skill.color-expert git clone https://github.com/meodai/skill.color-expert.git devops-deploy claude codex cursor copilot"
+      "searchText": "skill.color-expert agent skill for color science expertise. many references covering color spaces, accessibility (apca, wcag), palette   generation, pigment mixing, and historical color theory. works with claude code, codex, cursor, copilot & others. meodai/skill.color-expert git clone https://github.com/meodai/skill.color-expert.git devops-deploy claude codex cursor copilot",
+      "officialUrl": "https://github.com/meodai/skill.color-expert",
+      "pricing": "unknown",
+      "tags": [
+        "claude",
+        "codex",
+        "copilot",
+        "cursor",
+        "devops-deploy",
+        "general",
+        "visual"
+      ]
     },
     {
       "name": "armory",
@@ -397,7 +645,15 @@
       "supportedAgents": [
         "other"
       ],
-      "searchText": "armory curated, production-grade skills for ai coding agents. battle-tested workflows for developers who use ai seriously. mathews-tom/armory git clone https://github.com/mathews-tom/armory.git  # browse the awesome list devops-deploy other"
+      "searchText": "armory curated, production-grade skills for ai coding agents. battle-tested workflows for developers who use ai seriously. mathews-tom/armory git clone https://github.com/mathews-tom/armory.git  # browse the awesome list devops-deploy other",
+      "officialUrl": "https://github.com/Mathews-Tom/armory",
+      "pricing": "unknown",
+      "tags": [
+        "coding",
+        "devops-deploy",
+        "general",
+        "other"
+      ]
     },
     {
       "name": "ai-agents-skills",
@@ -417,7 +673,17 @@
         "cursor",
         "copilot"
       ],
-      "searchText": "ai-agents-skills 🧠 ai agent skills repository - a curated collection of specialized skills for ai coding agents (claude code, github copilot, cursor, windsurf). created by yuval avidani using github copilot via vs code insiders. hoodini/ai-agents-skills git clone https://github.com/hoodini/ai-agents-skills.git  # browse the awesome list devops-deploy claude cursor copilot"
+      "searchText": "ai-agents-skills 🧠 ai agent skills repository - a curated collection of specialized skills for ai coding agents (claude code, github copilot, cursor, windsurf). created by yuval avidani using github copilot via vs code insiders. hoodini/ai-agents-skills git clone https://github.com/hoodini/ai-agents-skills.git  # browse the awesome list devops-deploy claude cursor copilot",
+      "officialUrl": "https://github.com/hoodini/ai-agents-skills",
+      "pricing": "unknown",
+      "tags": [
+        "awesome",
+        "claude",
+        "copilot",
+        "cursor",
+        "devops-deploy",
+        "general"
+      ]
     },
     {
       "name": "qaskills",
@@ -437,7 +703,17 @@
         "cursor",
         "copilot"
       ],
-      "searchText": "qaskills qa skills directory qa skills is a curated directory of testing-specific skills for ai coding agents (claude code, cursor, copilot, etc.). pramoddutta/qaskills git clone https://github.com/pramoddutta/qaskills.git  # browse the awesome list devops-deploy claude cursor copilot"
+      "searchText": "qaskills qa skills directory qa skills is a curated directory of testing-specific skills for ai coding agents (claude code, cursor, copilot, etc.). pramoddutta/qaskills git clone https://github.com/pramoddutta/qaskills.git  # browse the awesome list devops-deploy claude cursor copilot",
+      "officialUrl": "https://github.com/PramodDutta/qaskills",
+      "pricing": "unknown",
+      "tags": [
+        "claude",
+        "copilot",
+        "cursor",
+        "devops-deploy",
+        "general",
+        "review"
+      ]
     }
   ]
 }

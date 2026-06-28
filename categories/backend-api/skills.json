@@ -5,7 +5,8 @@
     "subCategoryId": "api",
     "categoryPath": "backend-api",
     "count": 3,
-    "sourceData": "categories"
+    "sourceData": "categories",
+    "monetizationEnriched": true
   },
   "skills": [
     {
@@ -25,7 +26,22 @@
         "claude",
         "codex"
       ],
-      "searchText": "awesome-chatgpt-repositories a curated list of resources dedicated to open source github repositories related to chatgpt, openai api, and codex. searchable via claude code skills. taishi-i/awesome-chatgpt-repositories git clone https://github.com/taishi-i/awesome-chatgpt-repositories.git  # browse the awesome list backend-api claude codex"
+      "searchText": "awesome-chatgpt-repositories a curated list of resources dedicated to open source github repositories related to chatgpt, openai api, and codex. searchable via claude code skills. taishi-i/awesome-chatgpt-repositories git clone https://github.com/taishi-i/awesome-chatgpt-repositories.git  # browse the awesome list backend-api claude codex",
+      "officialUrl": "https://platform.openai.com",
+      "pricing": "freemium",
+      "tags": [
+        "ai",
+        "api",
+        "awesome",
+        "backend-api",
+        "claude",
+        "codex",
+        "community",
+        "gpt-4",
+        "llm",
+        "production"
+      ],
+      "affiliateUrl": "https://platform.openai.com/signup?affiliation_code=YOUR_CODE"
     },
     {
       "name": "pg-aiguide",
@@ -43,7 +59,15 @@
       "supportedAgents": [
         "claude"
       ],
-      "searchText": "pg-aiguide mcp server and claude plugin for postgres skills and documentation. helps ai coding tools generate better postgresql code. timescale/pg-aiguide pip install pg-aiguide backend-api claude"
+      "searchText": "pg-aiguide mcp server and claude plugin for postgres skills and documentation. helps ai coding tools generate better postgresql code. timescale/pg-aiguide pip install pg-aiguide backend-api claude",
+      "officialUrl": "https://github.com/timescale/pg-aiguide",
+      "pricing": "unknown",
+      "tags": [
+        "backend-api",
+        "claude",
+        "database",
+        "general"
+      ]
     },
     {
       "name": "yupi-hot-monitor",
@@ -62,7 +86,16 @@
         "copilot",
         "other"
       ],
-      "searchText": "yupi-hot-monitor 2026 年编程导航 ai 编程实战新项目，基于 node.js + express + react + openrouter 的 ai 热点监控工具，支持多信息源聚合抓取（twitter / bing / hackernews / b 站等 7+ 平台）、ai 查询扩展、ai 真假识别与相关性分析、websocket 实时推送、邮件通知、多维度筛选排序，并将热点监控能力封装为 agent skills 技能包。覆盖 prisma + sqlite 数据库、socket.io liyupi/yupi-hot-monitor npm i -g yupi-hot-monitor backend-api copilot other"
+      "searchText": "yupi-hot-monitor 2026 年编程导航 ai 编程实战新项目，基于 node.js + express + react + openrouter 的 ai 热点监控工具，支持多信息源聚合抓取（twitter / bing / hackernews / b 站等 7+ 平台）、ai 查询扩展、ai 真假识别与相关性分析、websocket 实时推送、邮件通知、多维度筛选排序，并将热点监控能力封装为 agent skills 技能包。覆盖 prisma + sqlite 数据库、socket.io liyupi/yupi-hot-monitor npm i -g yupi-hot-monitor backend-api copilot other",
+      "officialUrl": "https://github.com/liyupi/yupi-hot-monitor",
+      "pricing": "unknown",
+      "tags": [
+        "backend-api",
+        "copilot",
+        "other",
+        "publishing",
+        "tools"
+      ]
     }
   ]
 }

@@ -1,56 +1,56 @@
 {
-  "generatedAt": "2026-06-29T02:30:04.965080Z",
+  "generatedAt": "2026-06-29T03:13:35.990003Z",
   "sourceData": "categories",
-  "totalSkills": 2375,
+  "totalSkills": 2595,
   "categories": [
     {
       "id": "dev-tools",
       "path": "dev-tools",
       "groupId": "development",
       "subcategoryId": "tools",
-      "count": 633
+      "count": 732
     },
     {
       "id": "general",
       "path": "general",
       "groupId": "general",
       "subcategoryId": "general",
-      "count": 420
+      "count": 487
     },
     {
       "id": "design-ui",
       "path": "design-ui",
       "groupId": "design",
       "subcategoryId": "ui",
-      "count": 322
+      "count": 346
     },
     {
       "id": "data-ai",
       "path": "data-ai",
       "groupId": "data",
       "subcategoryId": "ai",
-      "count": 258
+      "count": 271
     },
     {
       "id": "docs-content",
       "path": "docs-content",
       "groupId": "docs",
       "subcategoryId": "content",
-      "count": 165
+      "count": 171
     },
     {
       "id": "automation-productivity",
       "path": "automation-productivity",
       "groupId": "automation",
       "subcategoryId": "productivity",
-      "count": 127
+      "count": 134
     },
     {
       "id": "devops-deploy",
       "path": "devops-deploy",
       "groupId": "devops",
       "subcategoryId": "deploy",
-      "count": 90
+      "count": 94
     },
     {
       "id": "security",
@@ -76,74 +76,74 @@
     {
       "id": "finance-crypto",
       "path": "finance-crypto",
-      "groupId": "finance-crypto",
-      "subcategoryId": "finance-crypto",
+      "groupId": "business",
+      "subcategoryId": "finance",
       "count": 37
     },
     {
       "id": "game-dev",
       "path": "game-dev",
-      "groupId": "game-dev",
-      "subcategoryId": "game-dev",
+      "groupId": "media-creation",
+      "subcategoryId": "game",
       "count": 28
     },
     {
       "id": "social-media",
       "path": "social-media",
-      "groupId": "social-media",
-      "subcategoryId": "social-media",
+      "groupId": "business",
+      "subcategoryId": "social",
       "count": 14
     },
     {
       "id": "education",
       "path": "education",
-      "groupId": "education",
+      "groupId": "business",
       "subcategoryId": "education",
       "count": 9
     },
     {
       "id": "video-multimedia",
       "path": "video-multimedia",
-      "groupId": "video-multimedia",
-      "subcategoryId": "video-multimedia",
+      "groupId": "media-creation",
+      "subcategoryId": "video",
       "count": 7
     },
     {
       "id": "health-medical",
       "path": "health-medical",
-      "groupId": "health-medical",
-      "subcategoryId": "health-medical",
+      "groupId": "lifestyle",
+      "subcategoryId": "health",
       "count": 1
     }
   ],
   "groups": [
     {
       "id": "development",
-      "count": 633
+      "count": 732
     },
     {
       "id": "general",
-      "count": 420
+      "count": 487
     },
     {
       "id": "design",
-      "count": 322
+      "count": 346
     },
     {
       "id": "data",
-      "count": 258
+      "count": 271
     },
     {
       "id": "docs",
-      "count": 165
+      "count": 171
     },
     {
       "id": "automation",
-      "count": 127
+      "count": 134
     },
     {
       "id": "devops",
-      "count": 90
+      "count": 94
     },
     {
       "id": "security",
@@ -158,27 +158,15 @@
       "count": 86
     },
     {
-      "id": "finance-crypto",
-      "count": 37
+      "id": "business",
+      "count": 60
     },
     {
-      "id": "game-dev",
-      "count": 28
+      "id": "media-creation",
+      "count": 35
     },
     {
-      "id": "social-media",
-      "count": 14
-    },
-    {
-      "id": "education",
-      "count": 9
-    },
-    {
-      "id": "video-multimedia",
-      "count": 7
-    },
-    {
-      "id": "health-medical",
+      "id": "lifestyle",
       "count": 1
     }
   ],
@@ -204,6 +192,10 @@
       "count": 1226
     },
     {
+      "id": "claude-code",
+      "count": 223
+    },
+    {
       "id": "opencode",
       "count": 110
     },
@@ -218,10 +210,6 @@
     {
       "id": "other",
       "count": 55
-    },
-    {
-      "id": "claude-code",
-      "count": 3
     },
     {
       "id": "agent-skills-compatible",

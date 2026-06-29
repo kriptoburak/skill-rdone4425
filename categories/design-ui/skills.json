@@ -4,7 +4,7 @@
     "topCategoryId": "design",
     "subCategoryId": "ui",
     "categoryPath": "design-ui",
-    "count": 322,
+    "count": 346,
     "sourceData": "categories"
   },
   "skills": [
@@ -6209,6 +6209,366 @@
         "claude"
       ],
       "searchText": "Vintage Design system skill: Vintage - AI-powered design tokens, component rules, accessibility constraints bergside/awesome-design-skills design-ui"
+    },
+    {
+      "name": "AB Method",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A principled, spec-driven workflow that transforms large problems into focused, incremental missions using Claude Code's specialized sub agents. Includes slash-commands, sub agents, and specialized workflows designed for specific parts of the SDLC.",
+      "url": "https://github.com/ayoubben18/ab-method",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "AB Method A principled, spec-driven workflow that transforms large problems into focused, incremental missions using Claude Code's specialized sub agents. Includes slash-commands, sub agents, and specialized workflows designed for specific parts of the SDLC. hesreallyhim"
+    },
+    {
+      "name": "Agentic Workflow Patterns",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A comprehensive and well-documented collection of agentic patterns from Anthropic docs, with colorful Mermaid diagrams and code examples for each pattern. Covers Subagent Orchestration, Progressive Skills, Parallel Tool Calling, Master-Clone Architecture, Wizard Workflows, and more. Also compatible with other providers.",
+      "url": "https://github.com/ThibautMelen/agentic-workflow-patterns",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Agentic Workflow Patterns A comprehensive and well-documented collection of agentic patterns from Anthropic docs, with colorful Mermaid diagrams and code examples for each pattern. Covers Subagent Orchestration, Progressive Skills, Parallel Tool Calling, Master-Clone Architecture, Wizard Workflows, and more. Also compatible with other providers. hesreallyhim"
+    },
+    {
+      "name": "Blogging Platform Instructions",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Provides a well-structured set of commands for publishing and maintaining a blogging platform, including commands for creating posts, managing categories, and handling media files.",
+      "url": "https://github.com/cloudartisan/cloudartisan.github.io/tree/main/.claude/commands",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Blogging Platform Instructions Provides a well-structured set of commands for publishing and maintaining a blogging platform, including commands for creating posts, managing categories, and handling media files. hesreallyhim"
+    },
+    {
+      "name": "ClaudoPro Directory",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Well-crafted, wide selection of Claude Code hooks, slash commands, subagent files, and more, covering a range of specialized tasks and workflows. Better resources than your average \"Claude-template-for-everything\" site.",
+      "url": "https://github.com/JSONbored/claudepro-directory",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "ClaudoPro Directory Well-crafted, wide selection of Claude Code hooks, slash commands, subagent files, and more, covering a range of specialized tasks and workflows. Better resources than your average \"Claude-template-for-everything\" site. hesreallyhim"
+    },
+    {
+      "name": "Context Priming",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Provides a systematic approach to priming Claude Code with comprehensive project context through specialized commands for different project scenarios and development contexts.",
+      "url": "https://github.com/disler/just-prompt/tree/main/.claude/commands",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Context Priming Provides a systematic approach to priming Claude Code with comprehensive project context through specialized commands for different project scenarios and development contexts. hesreallyhim"
+    },
+    {
+      "name": "Design Review Workflow",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A tailored workflow for enabling automated UI/UX design review, including specialized sub agents, slash commands, `CLAUDE.md` excerpts, and more. Covers a broad range of criteria from responsive design to accessibility.",
+      "url": "https://github.com/OneRedOak/claude-code-workflows/tree/main/design-review",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Design Review Workflow A tailored workflow for enabling automated UI/UX design review, including specialized sub agents, slash commands, `CLAUDE.md` excerpts, and more. Covers a broad range of criteria from responsive design to accessibility. hesreallyhim"
+    },
+    {
+      "name": "Encyclopedia of Agentic Coding Patterns",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A freely available reference covering 190+ patterns for AI-assisted software development (and actually a whole bunch of related technical topics) from foundational concepts through agentic construction patterns, governance, testing, and socio-technical systems. Each entry follows a consistent pattern-language format with Context, Problem, Forces, Solution, Consequences, and Related Patterns. Opinionated and erudiate, which is actually good for an \"encyclopedia\" in some ways.",
+      "url": "https://aipatternbook.com",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Encyclopedia of Agentic Coding Patterns A freely available reference covering 190+ patterns for AI-assisted software development (and actually a whole bunch of related technical topics) from foundational concepts through agentic construction patterns, governance, testing, and socio-technical systems. Each entry follows a consistent pattern-language format with Context, Problem, Forces, Solution, Consequences, and Related Patterns. Opinionated and erudiate, which is actually good for an \"encyclopedia\" in some ways. hesreallyhim"
+    },
+    {
+      "name": "learn-faster-kit",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A creative educational framework for Claude Code, inspired by the \"FASTER\" approach to self-teaching. Ships with a variety of agents, slash commands, and tools that enable Claude Code to help you progress at your own pace, employing well-established pedagogical techniques like active learning and spaced repetition.",
+      "url": "https://github.com/cheukyin175/learn-faster-kit",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "learn-faster-kit A creative educational framework for Claude Code, inspired by the \"FASTER\" approach to self-teaching. Ships with a variety of agents, slash commands, and tools that enable Claude Code to help you progress at your own pace, employing well-established pedagogical techniques like active learning and spaced repetition. hesreallyhim"
+    },
+    {
+      "name": "n8n_agent",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Amazing comprehensive set of comments for code analysis, QA, design, documentation, project structure, project management, optimization, and many more.",
+      "url": "https://github.com/kingler/n8n_agent/tree/main/.claude/commands",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "n8n_agent Amazing comprehensive set of comments for code analysis, QA, design, documentation, project structure, project management, optimization, and many more. hesreallyhim"
+    },
+    {
+      "name": "Project Bootstrapping and Task Management",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Provides a structured set of commands for bootstrapping and managing a new project, including meta-commands for creating and editing custom slash-commands.",
+      "url": "https://github.com/steadycursor/steadystart/tree/main/.claude/commands",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Project Bootstrapping and Task Management Provides a structured set of commands for bootstrapping and managing a new project, including meta-commands for creating and editing custom slash-commands. hesreallyhim"
+    },
+    {
+      "name": "Project Management, Implementation, Planning, and Release",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Really comprehensive set of commands for all aspects of SDLC.",
+      "url": "https://github.com/scopecraft/command/tree/main/.claude/commands",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Project Management, Implementation, Planning, and Release Really comprehensive set of commands for all aspects of SDLC. hesreallyhim"
+    },
+    {
+      "name": "Project Workflow System",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A set of commands that provide a comprehensive workflow system for managing projects, including task management, code review, and deployment processes.",
+      "url": "https://github.com/harperreed/dotfiles/tree/master/.claude/commands",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Project Workflow System A set of commands that provide a comprehensive workflow system for managing projects, including task management, code review, and deployment processes. hesreallyhim"
+    },
+    {
+      "name": "RIPER Workflow",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Structured development workflow enforcing separation between Research, Innovate, Plan, Execute, and Review phases. Features consolidated subagents for context-efficiency, branch-aware memory bank, and strict mode enforcement for guided development.",
+      "url": "https://github.com/tony/claude-code-riper-5",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "RIPER Workflow Structured development workflow enforcing separation between Research, Innovate, Plan, Execute, and Review phases. Features consolidated subagents for context-efficiency, branch-aware memory bank, and strict mode enforcement for guided development. hesreallyhim"
+    },
+    {
+      "name": "Simone",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A broader project management workflow for Claude Code that encompasses not just a set of commands, but a system of documents, guidelines, and processes to facilitate project planning and execution.",
+      "url": "https://github.com/Helmi/claude-simone",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Simone A broader project management workflow for Claude Code that encompasses not just a set of commands, but a system of documents, guidelines, and processes to facilitate project planning and execution. hesreallyhim"
+    },
+    {
+      "name": "Slash-commands megalist",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A pretty stunning list (88 at the time of this post!) of slash-commands ranging from agent orchestration, code review, project management, security, documentation, self-assessment, almost anything you can dream of.",
+      "url": "https://github.com/wcygan/dotfiles/tree/d8ab6b9f5a7a81007b7f5fa3025d4f83ce12cc02/claude/commands",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Slash-commands megalist A pretty stunning list (88 at the time of this post!) of slash-commands ranging from agent orchestration, code review, project management, security, documentation, self-assessment, almost anything you can dream of. hesreallyhim"
+    },
+    {
+      "name": "Harness",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use. Resources are in Korean but can produce high-quality English-language output.",
+      "url": "https://github.com/revfactory/harness",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Harness A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use. Resources are in Korean but can produce high-quality English-language output. hesreallyhim"
+    },
+    {
+      "name": "awesome-ralph",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A curated list of resources about Ralph, the AI coding technique that runs AI coding agents in automated loops until specifications are fulfilled.",
+      "url": "https://github.com/snwfdhmp/awesome-ralph",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "awesome-ralph A curated list of resources about Ralph, the AI coding technique that runs AI coding agents in automated loops until specifications are fulfilled. hesreallyhim"
+    },
+    {
+      "name": "Ralph Wiggum Marketer",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A Claude Code plugin that provides an autonomous AI copywriter,  integrating the Ralph loop with customized knowledge bases for market research agents. The agents do the research, Ralph writes the copy, you stay in bed. Whether or not you practice Ralph-Driven Development (RDD), I think these projects are interesting and creative explorations of general agentic patterns.",
+      "url": "https://github.com/muratcankoylan/ralph-wiggum-marketer",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Ralph Wiggum Marketer A Claude Code plugin that provides an autonomous AI copywriter,  integrating the Ralph loop with customized knowledge bases for market research agents. The agents do the research, Ralph writes the copy, you stay in bed. Whether or not you practice Ralph-Driven Development (RDD), I think these projects are interesting and creative explorations of general agentic patterns. hesreallyhim"
+    },
+    {
+      "name": "Ralph Wiggum Plugin",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "The official Anthropic implementation of the Ralph Wiggum technique for iterative, self-referential AI development loops in Claude Code.",
+      "url": "https://github.com/anthropics/claude-code/tree/4f18698a9ed25517861a75125b526e319bcf8354/plugins/ralph-wiggum",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Ralph Wiggum Plugin The official Anthropic implementation of the Ralph Wiggum technique for iterative, self-referential AI development loops in Claude Code. hesreallyhim"
+    },
+    {
+      "name": "ralph-orchestrator",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Ralph Orchestrator implements the simple but effective \"Ralph Wiggum\" technique for autonomous task completion, continuously running an AI agent against a prompt file until the task is marked as complete or limits are reached. This implementation provides a robust, well-tested, and feature-complete orchestration system for AI-driven development. Also cited in the Anthropic Ralph plugin documentation.",
+      "url": "https://github.com/mikeyobrien/ralph-orchestrator",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "ralph-orchestrator Ralph Orchestrator implements the simple but effective \"Ralph Wiggum\" technique for autonomous task completion, continuously running an AI agent against a prompt file until the task is marked as complete or limits are reached. This implementation provides a robust, well-tested, and feature-complete orchestration system for AI-driven development. Also cited in the Anthropic Ralph plugin documentation. hesreallyhim"
+    },
+    {
+      "name": "ralph-wiggum-bdd",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A standalone Bash script for Behavior-Driven Development with Ralph Wiggum Loop. In principle, while running unattended, the script can keep code and requirements in sync, but in practice it still requires interactive human supervision, so it supports both modes. The script is standalone and can be modified and committed into your project.",
+      "url": "https://github.com/marcindulak/ralph-wiggum-bdd",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "ralph-wiggum-bdd A standalone Bash script for Behavior-Driven Development with Ralph Wiggum Loop. In principle, while running unattended, the script can keep code and requirements in sync, but in practice it still requires interactive human supervision, so it supports both modes. The script is standalone and can be modified and committed into your project. hesreallyhim"
+    },
+    {
+      "name": "The Ralph Playbook",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A remarkably detailed and comprehensive guide to the Ralph Wiggum technique, featuring well-written theoretical commentary paired with practical guidelines and advice.",
+      "url": "https://github.com/ClaytonFarr/ralph-playbook",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "The Ralph Playbook A remarkably detailed and comprehensive guide to the Ralph Wiggum technique, featuring well-written theoretical commentary paired with practical guidelines and advice. hesreallyhim"
+    },
+    {
+      "name": "/build-react-app",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Builds React applications locally with intelligent error handling, creating specific tasks for build failures and providing appropriate server commands based on build results.",
+      "url": "https://github.com/wmjones/wyatt-personal-aws/blob/main/.claude/commands/build-react-app.md",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/build-react-app Builds React applications locally with intelligent error handling, creating specific tasks for build failures and providing appropriate server commands based on build results. hesreallyhim"
+    },
+    {
+      "name": "Anthropic Quickstarts",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Offers comprehensive development guides for three distinct AI-powered demo projects with standardized workflows, strict code style guidelines, and containerization instructions.",
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "install": "",
+      "functionCategory": "design-ui",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Anthropic Quickstarts Offers comprehensive development guides for three distinct AI-powered demo projects with standardized workflows, strict code style guidelines, and containerization instructions. hesreallyhim"
     }
   ]
 }

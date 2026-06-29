@@ -4,7 +4,7 @@
     "topCategoryId": "development",
     "subCategoryId": "tools",
     "categoryPath": "dev-tools",
-    "count": 633,
+    "count": 732,
     "sourceData": "categories"
   },
   "skills": [
@@ -13042,6 +13042,1491 @@
         "hermes"
       ],
       "searchText": "KubeStellar Console MCP server bridging AI agents to multi-cluster Kubernetes environments for cluster management, pod i Code-and-Sorts/awesome-copilot-agents dev-tools multi"
+    },
+    {
+      "name": "AgentSys",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Workflow automation system for Claude with a group of useful plugins, agents, and skills. Automates task-to-production workflows, PR management, code cleanup, performance investigation, drift detection, and multi-agent code review. Includes [agnix](https://github.com/avifenesh/agnix) for linting agent configurations. Built on thousands of lines of code with thousands of tests. Uses deterministic detection (regex, AST) with LLM judgment for efficiency. Used on many production systems.",
+      "url": "https://github.com/avifenesh/agentsys",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "AgentSys Workflow automation system for Claude with a group of useful plugins, agents, and skills. Automates task-to-production workflows, PR management, code cleanup, performance investigation, drift detection, and multi-agent code review. Includes [agnix](https://github.com/avifenesh/agnix) for linting agent configurations. Built on thousands of lines of code with thousands of tests. Uses deterministic detection (regex, AST) with LLM judgment for efficiency. Used on many production systems. hesreallyhim"
+    },
+    {
+      "name": "AI Agent, AI Spy",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Members from the Signal Foundation with some really great tips and tricks on how to turn your operating system into an instrument of total surveillance, and why some companies are doing this really awesome thing. [warning: YouTube link]",
+      "url": "https://youtu.be/0ANECpNdt-4",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "AI Agent, AI Spy Members from the Signal Foundation with some really great tips and tricks on how to turn your operating system into an instrument of total surveillance, and why some companies are doing this really awesome thing. [warning: YouTube link] hesreallyhim"
+    },
+    {
+      "name": "Book Factory",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A comprehensive pipeline of Skills that replicates traditional publishing infrastructure for nonfiction book creation using specialized Claude skills.",
+      "url": "https://github.com/robertguss/claude-skills",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Book Factory A comprehensive pipeline of Skills that replicates traditional publishing infrastructure for nonfiction book creation using specialized Claude skills. hesreallyhim"
+    },
+    {
+      "name": "cc-devops-skills",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Immensely detailed set of skills for DevOps Engineers (or anyone who has to deploy code, really). Works with validations, generators, shell scripts and CLI tools to create high quality IaC code for about any platform you've ever struggled painfully to work with. Worth downloading even just as a source of documentation.",
+      "url": "https://github.com/akin-ozer/cc-devops-skills",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "cc-devops-skills Immensely detailed set of skills for DevOps Engineers (or anyone who has to deploy code, really). Works with validations, generators, shell scripts and CLI tools to create high quality IaC code for about any platform you've ever struggled painfully to work with. Worth downloading even just as a source of documentation. hesreallyhim"
+    },
+    {
+      "name": "Claude Code Agents",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Comprehensive E2E development workflow with helpful Claude Code subagent prompts for solo devs. Run multiple auditors in parallel, automate fix cycles with micro-checkpoint protocols, and do browser-based QA. Includes strict protocols to prevent AI going rogue.",
+      "url": "https://github.com/undeadlist/claude-code-agents",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Claude Code Agents Comprehensive E2E development workflow with helpful Claude Code subagent prompts for solo devs. Run multiple auditors in parallel, automate fix cycles with micro-checkpoint protocols, and do browser-based QA. Includes strict protocols to prevent AI going rogue. hesreallyhim"
+    },
+    {
+      "name": "Claude Codex Settings",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A well-organized, well-written set of plugins covering core developer activities, such as working with common cloud platforms like GitHub, Azure, MongoDB, and popular services such as Tavily, Playwright, and more. Clear, not overly-opinionated, and compatible with a few other providers.",
+      "url": "https://github.com/fcakyon/claude-codex-settings",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Claude Codex Settings A well-organized, well-written set of plugins covering core developer activities, such as working with common cloud platforms like GitHub, Azure, MongoDB, and popular services such as Tavily, Playwright, and more. Clear, not overly-opinionated, and compatible with a few other providers. hesreallyhim"
+    },
+    {
+      "name": "Claude Mountaineering Skills",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Claude Code skill that automates mountain route research for North American peaks. Aggregates data from 10+ mountaineering sources like Mountaineers.org, PeakBagger.com and SummitPost.com to generate detailed route beta reports with weather, avalanche conditions, and trip reports.",
+      "url": "https://github.com/dreamiurg/claude-mountaineering-skills",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Claude Mountaineering Skills Claude Code skill that automates mountain route research for North American peaks. Aggregates data from 10+ mountaineering sources like Mountaineers.org, PeakBagger.com and SummitPost.com to generate detailed route beta reports with weather, avalanche conditions, and trip reports. hesreallyhim"
+    },
+    {
+      "name": "Claude Scientific Skills",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "\"A set of ready-to-use Agent Skills for research, science, engineering, analysis, finance and writing.\" That's their description - modest, simple. That's how you can tell this is really one of the best skills repos on GitHub. If you've ever thought about getting a PhD... just read all of these documents instead. Also I think it IS an AI agent or something? Awesome.",
+      "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Claude Scientific Skills \"A set of ready-to-use Agent Skills for research, science, engineering, analysis, finance and writing.\" That's their description - modest, simple. That's how you can tell this is really one of the best skills repos on GitHub. If you've ever thought about getting a PhD... just read all of these documents instead. Also I think it IS an AI agent or something? Awesome. hesreallyhim"
+    },
+    {
+      "name": "Codebase to Course",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course for non-technical vibe coders.",
+      "url": "https://github.com/zarazhangrui/codebase-to-course",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Codebase to Course A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course for non-technical vibe coders. hesreallyhim"
+    },
+    {
+      "name": "Compound Engineering Plugin",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A very pragmatic set of well-designed agents, skills, and commands, built around a discipline of turning past mistakes and errors into lessons and opportunities for future growth and improvement. Good documentation.",
+      "url": "https://github.com/EveryInc/compound-engineering-plugin",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Compound Engineering Plugin A very pragmatic set of well-designed agents, skills, and commands, built around a discipline of turning past mistakes and errors into lessons and opportunities for future growth and improvement. Good documentation. hesreallyhim"
+    },
+    {
+      "name": "Everything Claude Code",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Top-notch, well-written resources covering \"just about everything\" from core engineering domains. What's nice about this \"everything-\" store is most of the resources have significant standalone value and unlike some all-encompassing frameworks, although you can opt in to the author's own specific workflow patterns if you choose, the individual resources offer exemplary patterns in (just about) every Claude Code feature you can find (apologies to the Output Styles devotees).",
+      "url": "https://github.com/affaan-m/everything-claude-code",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Everything Claude Code Top-notch, well-written resources covering \"just about everything\" from core engineering domains. What's nice about this \"everything-\" store is most of the resources have significant standalone value and unlike some all-encompassing frameworks, although you can opt in to the author's own specific workflow patterns if you choose, the individual resources offer exemplary patterns in (just about) every Claude Code feature you can find (apologies to the Output Styles devotees). hesreallyhim"
+    },
+    {
+      "name": "Fullstack Dev Skills",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A comprehensive Claude Code plugin with 65 specialized skills covering full-stack development across a wide range of specific frameworks. Features 9 project workflow commands for Jira/Confluence integration and, notably, an interesting approach to context engineering via a  `/common-ground` command that surfaces Claude's hidden assumptions about your project. This is a smart thing to do.",
+      "url": "https://github.com/jeffallan/claude-skills",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Fullstack Dev Skills A comprehensive Claude Code plugin with 65 specialized skills covering full-stack development across a wide range of specific frameworks. Features 9 project workflow commands for Jira/Confluence integration and, notably, an interesting approach to context engineering via a  `/common-ground` command that surfaces Claude's hidden assumptions about your project. This is a smart thing to do. hesreallyhim"
+    },
+    {
+      "name": "read-only-postgres",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Read-only PostgreSQL query skill for Claude Code. Executes SELECT/SHOW/EXPLAIN/WITH queries across configured databases with strict validation, timeouts, and row limits. Supports multiple connections with descriptions for database selection.",
+      "url": "https://github.com/jawwadfirdousi/agent-skills",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "read-only-postgres Read-only PostgreSQL query skill for Claude Code. Executes SELECT/SHOW/EXPLAIN/WITH queries across configured databases with strict validation, timeouts, and row limits. Supports multiple connections with descriptions for database selection. hesreallyhim"
+    },
+    {
+      "name": "TÂCHES Claude Code Resources",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A well-balanced, \"down-to-Earth\" set of sub agents, skills, and commands,  that are well-organized, easy to read, and a healthy focus on \"meta\"-skills/agents, like \"skill-auditor\", hook creation, etc. - the kind of things you can adapt to your workflow, and not the other way around.",
+      "url": "https://github.com/glittercowboy/taches-cc-resources",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "TÂCHES Claude Code Resources A well-balanced, \"down-to-Earth\" set of sub agents, skills, and commands,  that are well-organized, easy to read, and a healthy focus on \"meta\"-skills/agents, like \"skill-auditor\", hook creation, etc. - the kind of things you can adapt to your workflow, and not the other way around. hesreallyhim"
+    },
+    {
+      "name": "Claude Code Documentation Mirror",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A mirror of the Anthropic &copy; PBC documentation pages for Claude Code, updated every few hours. Can come in handy when trying to stay on top of the ever-expanding feature-set of Dr. Claw D. Code, Ph.D.",
+      "url": "https://github.com/ericbuess/claude-code-docs",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Claude Code Documentation Mirror A mirror of the Anthropic &copy; PBC documentation pages for Claude Code, updated every few hours. Can come in handy when trying to stay on top of the ever-expanding feature-set of Dr. Claw D. Code, Ph.D. hesreallyhim"
+    },
+    {
+      "name": "Claude Code Handbook",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Collection of best practices, tips, and techniques for Claude Code development workflows, enhanced with distributable plugins",
+      "url": "https://nikiforovall.blog/claude-code-rules/",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Claude Code Handbook Collection of best practices, tips, and techniques for Claude Code development workflows, enhanced with distributable plugins hesreallyhim"
+    },
+    {
+      "name": "Claude Code Infrastructure Showcase",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A remarkably innovative approach to working with Skills, the centerpiece of which being a technique that leverages hooks to ensure that Claude intelligently selects and activates the appropriate Skill given the current context. Well-documented and adaptable to different projects and workflows.",
+      "url": "https://github.com/diet103/claude-code-infrastructure-showcase",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Claude Code Infrastructure Showcase A remarkably innovative approach to working with Skills, the centerpiece of which being a technique that leverages hooks to ensure that Claude intelligently selects and activates the appropriate Skill given the current context. Well-documented and adaptable to different projects and workflows. hesreallyhim"
+    },
+    {
+      "name": "Claude Code PM",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Really comprehensive and feature-packed project-management workflow for Claude Code. Numerous specialized agents, slash-commands, and strong documentation.",
+      "url": "https://github.com/automazeio/ccpm",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Claude Code PM Really comprehensive and feature-packed project-management workflow for Claude Code. Numerous specialized agents, slash-commands, and strong documentation. hesreallyhim"
+    },
+    {
+      "name": "Claude Code Repos Index",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "This is either the work of a prolific genius, or a very clever bot (or both), although it hardly matters because the quality is so good - an index of 75+ Claude Code repositories published by the author - and I'm not talking about slop. CMS, system design, deep research, IoT, agentic workflows, server management, personal health... If you spot the lie, let me know, otherwise please check these out.",
+      "url": "https://github.com/danielrosehill/Claude-Code-Repos-Index",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Claude Code Repos Index This is either the work of a prolific genius, or a very clever bot (or both), although it hardly matters because the quality is so good - an index of 75+ Claude Code repositories published by the author - and I'm not talking about slop. CMS, system design, deep research, IoT, agentic workflows, server management, personal health... If you spot the lie, let me know, otherwise please check these out. hesreallyhim"
+    },
+    {
+      "name": "Claude Code System Prompts",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "All parts of Claude Code's system prompt, including builtin tool descriptions, sub agent prompts (Plan/Explore/Task), utility prompts (CLAUDE.md, compact, Bash cmd, security review, agent creation, etc.). Updated for each Claude Code version.",
+      "url": "https://github.com/Piebald-AI/claude-code-system-prompts",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Claude Code System Prompts All parts of Claude Code's system prompt, including builtin tool descriptions, sub agent prompts (Plan/Explore/Task), utility prompts (CLAUDE.md, compact, Bash cmd, security review, agent creation, etc.). Updated for each Claude Code version. hesreallyhim"
+    },
+    {
+      "name": "Claude Code Tips",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A nice variety of 35+ brief but information-dense Claude Code tips covering voice input, system prompt patching, container workflows for risky tasks, conversation cloning(!), multi-model orchestration with Gemini CLI, and plenty more. Nice demos, working scripts, a plugin, I'd say this probably has a little something for everyone.",
+      "url": "https://github.com/ykdojo/claude-code-tips",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Claude Code Tips A nice variety of 35+ brief but information-dense Claude Code tips covering voice input, system prompt patching, container workflows for risky tasks, conversation cloning(!), multi-model orchestration with Gemini CLI, and plenty more. Nice demos, working scripts, a plugin, I'd say this probably has a little something for everyone. hesreallyhim"
+    },
+    {
+      "name": "Claude Code Ultimate Guide",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A tremendous feat of documentation, this guide covers Claude Code from beginner to power user, with production-ready templates for Claude Code features, guides on agentic workflows, and a lot of great learning materials, including quizzes and a handy \"cheatsheet\". Whether it's the \"ultimate\" guide to Claude Code will be up to the reader, but a valuable resource nonetheless (as with all documentation sites, make sure it's up to date before you bet the farm).",
+      "url": "https://github.com/FlorianBruniaux/claude-code-ultimate-guide",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Claude Code Ultimate Guide A tremendous feat of documentation, this guide covers Claude Code from beginner to power user, with production-ready templates for Claude Code features, guides on agentic workflows, and a lot of great learning materials, including quizzes and a handy \"cheatsheet\". Whether it's the \"ultimate\" guide to Claude Code will be up to the reader, but a valuable resource nonetheless (as with all documentation sites, make sure it's up to date before you bet the farm). hesreallyhim"
+    },
+    {
+      "name": "Claude CodePro",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Professional development environment for Claude Code with spec-driven workflow, TDD enforcement, cross-session memory, semantic search, quality hooks, and modular rules integration. A bit \"heavyweight\" but feature-packed and has wide coverage.",
+      "url": "https://github.com/maxritter/claude-codepro",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Claude CodePro Professional development environment for Claude Code with spec-driven workflow, TDD enforcement, cross-session memory, semantic search, quality hooks, and modular rules integration. A bit \"heavyweight\" but feature-packed and has wide coverage. hesreallyhim"
+    },
+    {
+      "name": "claude-code-docs",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A mirror of the Anthropic&copy; PBC documentation site for Claude/Code, but with bonus features like full-text search and query-time updates - a nice companion to `claude-code-docs` for up-to-the-minute, fully-indexed information so that Claude Code can read about itself.",
+      "url": "https://github.com/costiash/claude-code-docs",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "claude-code-docs A mirror of the Anthropic&copy; PBC documentation site for Claude/Code, but with bonus features like full-text search and query-time updates - a nice companion to `claude-code-docs` for up-to-the-minute, fully-indexed information so that Claude Code can read about itself. hesreallyhim"
+    },
+    {
+      "name": "Laravel TALL Stack AI Development Starter Kit",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Transform your Laravel TALL (Tailwind, AlpineJS, Laravel, Livewire) stack development with comprehensive Claude Code configurations that provide intelligent assistance, systematic workflows, and domain expert consultation.",
+      "url": "https://github.com/tott/laravel-tall-claude-ai-configs",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Laravel TALL Stack AI Development Starter Kit Transform your Laravel TALL (Tailwind, AlpineJS, Laravel, Livewire) stack development with comprehensive Claude Code configurations that provide intelligent assistance, systematic workflows, and domain expert consultation. hesreallyhim"
+    },
+    {
+      "name": "Learn Claude Code",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A really interesting analysis of how coding agents like Claude Code are designed. It attempts to break an agent down into its fundamental parts and reconstruct it with minimal code. Great learning resource. Final product is a rudimentary agent with skills, sub-agents, and a todo-list in roughly a few hundred lines of Python.",
+      "url": "https://github.com/shareAI-lab/learn-claude-code",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Learn Claude Code A really interesting analysis of how coding agents like Claude Code are designed. It attempts to break an agent down into its fundamental parts and reconstruct it with minimal code. Great learning resource. Final product is a rudimentary agent with skills, sub-agents, and a todo-list in roughly a few hundred lines of Python. hesreallyhim"
+    },
+    {
+      "name": "Shipping Real Code w/ Claude",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A detailed blog post explaining the author's process for shipping a product with Claude Code, including CLAUDE.md files and other interesting resources.",
+      "url": "https://diwank.space/field-notes-from-shipping-real-code-with-claude",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Shipping Real Code w/ Claude A detailed blog post explaining the author's process for shipping a product with Claude Code, including CLAUDE.md files and other interesting resources. hesreallyhim"
+    },
+    {
+      "name": "Claude Code Agent Teams: Exercises",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Practical exercises for Claude Code Agent Teams - 6 exercises + 2 capstones covering team creation, task coordination, quality hooks, and parallel code review - good learning resource.",
+      "url": "https://github.com/panaversity/claude-code-agent-teams-exercises",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Claude Code Agent Teams: Exercises Practical exercises for Claude Code Agent Teams - 6 exercises + 2 capstones covering team creation, task coordination, quality hooks, and parallel code review - good learning resource. hesreallyhim"
+    },
+    {
+      "name": "Ralph for Claude Code",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "An autonomous AI development framework that enables Claude Code to work iteratively on projects until completion. Features intelligent exit detection, rate limiting, circuit breaker patterns, and comprehensive safety guardrails to prevent infinite loops and API overuse. Built with Bash, integrated with tmux for live monitoring, and includes 75+ comprehensive tests.",
+      "url": "https://github.com/frankbria/ralph-claude-code",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Ralph for Claude Code An autonomous AI development framework that enables Claude Code to work iteratively on projects until completion. Features intelligent exit detection, rate limiting, circuit breaker patterns, and comprehensive safety guardrails to prevent infinite loops and API overuse. Built with Bash, integrated with tmux for live monitoring, and includes 75+ comprehensive tests. hesreallyhim"
+    },
+    {
+      "name": "Claude Code Templates",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Incredibly awesome collection of resources from every category in this list, presented with a neatly polished UI, great features like usage dashboard, analytics, and everything from slash commands to hooks to agents. An awesome companion for this awesome list.",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Claude Code Templates Incredibly awesome collection of resources from every category in this list, presented with a neatly polished UI, great features like usage dashboard, analytics, and everything from slash commands to hooks to agents. An awesome companion for this awesome list. hesreallyhim"
+    },
+    {
+      "name": "claude-code-tools",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Well-crafted toolset for session continuity, featuring skills/commands to avoid compaction and recover context across sessions with cross-agent handoff between Claude Code and Codex CLI. Includes a fast Rust/Tantivy-powered full-text session search (TUI for humans, skill/CLI for agents), tmux-cli skill + command for interacting with scripts and CLI agents, and safety hooks to block dangerous commands.",
+      "url": "https://github.com/pchalasani/claude-code-tools",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "claude-code-tools Well-crafted toolset for session continuity, featuring skills/commands to avoid compaction and recover context across sessions with cross-agent handoff between Claude Code and Codex CLI. Includes a fast Rust/Tantivy-powered full-text session search (TUI for humans, skill/CLI for agents), tmux-cli skill + command for interacting with scripts and CLI agents, and safety hooks to block dangerous commands. hesreallyhim"
+    },
+    {
+      "name": "claude-devtools",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A well-designed desktop app that provides detailed observability into your Claude Code sessions by analyzing the session logs. Provides turn-based context data across numerous categories, compaction visualization, subagent execution trees, and custom notification triggers. Easy to install, and nice visual design.",
+      "url": "https://github.com/matt1398/claude-devtools",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "claude-devtools A well-designed desktop app that provides detailed observability into your Claude Code sessions by analyzing the session logs. Provides turn-based context data across numerous categories, compaction visualization, subagent execution trees, and custom notification triggers. Easy to install, and nice visual design. hesreallyhim"
+    },
+    {
+      "name": "run-claude-docker",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A self-contained Docker runner that forwards your current workspace into a safe(r) isolated docker container, where you still have access to your Claude Code settings, authentication, ssh agent, pgp, optionally aws keys etc.",
+      "url": "https://github.com/icanhasjonas/run-claude-docker",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "run-claude-docker A self-contained Docker runner that forwards your current workspace into a safe(r) isolated docker container, where you still have access to your Claude Code settings, authentication, ssh agent, pgp, optionally aws keys etc. hesreallyhim"
+    },
+    {
+      "name": "viwo-cli",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Run Claude Code in a Docker container with git worktrees as volume mounts to enable safer usage of `--dangerously-skip-permissions` for frictionless one-shotting prompts. Allows users to spin up multiple instances of Claude Code in the background easily with reduced permission fatigue.",
+      "url": "https://github.com/OverseedAI/viwo",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "viwo-cli Run Claude Code in a Docker container with git worktrees as volume mounts to enable safer usage of `--dangerously-skip-permissions` for frictionless one-shotting prompts. Allows users to spin up multiple instances of Claude Code in the background easily with reduced permission fatigue. hesreallyhim"
+    },
+    {
+      "name": "Claude Code Chat",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "An elegant and user-friendly Claude Code chat interface for VS Code.",
+      "url": "https://marketplace.visualstudio.com/items?itemName=AndrePimenta.claude-code-chat",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Claude Code Chat An elegant and user-friendly Claude Code chat interface for VS Code. hesreallyhim"
+    },
+    {
+      "name": "claude-code-ide.el",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "claude-code-ide.el integrates Claude Code with Emacs, like Anthropic’s VS Code/IntelliJ extensions. It shows ediff-based code suggestions, pulls LSP/flymake/flycheck diagnostics, and tracks buffer context. It adds an extensible MCP tool support for symbol refs/defs, project metadata, and tree-sitter AST queries.",
+      "url": "https://github.com/manzaltu/claude-code-ide.el",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "claude-code-ide.el claude-code-ide.el integrates Claude Code with Emacs, like Anthropic’s VS Code/IntelliJ extensions. It shows ediff-based code suggestions, pulls LSP/flymake/flycheck diagnostics, and tracks buffer context. It adds an extensible MCP tool support for symbol refs/defs, project metadata, and tree-sitter AST queries. hesreallyhim"
+    },
+    {
+      "name": "claude-code.el",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "An Emacs interface for Claude Code CLI.",
+      "url": "https://github.com/stevemolitor/claude-code.el",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "claude-code.el An Emacs interface for Claude Code CLI. hesreallyhim"
+    },
+    {
+      "name": "claude-code.nvim",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A seamless integration between Claude Code AI assistant and Neovim.",
+      "url": "https://github.com/greggh/claude-code.nvim",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "claude-code.nvim A seamless integration between Claude Code AI assistant and Neovim. hesreallyhim"
+    },
+    {
+      "name": "Claudix - Claude Code for VSCode",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A VSCode extension that brings Claude Code directly into your editor with interactive chat interface, session management, intelligent file operations, terminal execution, and real-time streaming responses. Built with Vue 3, TypeScript.",
+      "url": "https://github.com/Haleclipse/Claudix",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Claudix - Claude Code for VSCode A VSCode extension that brings Claude Code directly into your editor with interactive chat interface, session management, intelligent file operations, terminal execution, and real-time streaming responses. Built with Vue 3, TypeScript. hesreallyhim"
+    },
+    {
+      "name": "Claude Code Usage Monitor",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A real-time terminal-based tool for monitoring Claude Code token usage. It shows live token consumption, burn rate, and predictions for token depletion. Features include visual progress bars, session-aware analytics, and support for multiple subscription plans.",
+      "url": "https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Claude Code Usage Monitor A real-time terminal-based tool for monitoring Claude Code token usage. It shows live token consumption, burn rate, and predictions for token depletion. Features include visual progress bars, session-aware analytics, and support for multiple subscription plans. hesreallyhim"
+    },
+    {
+      "name": "Claude Code Flow",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "This mode serves as a code-first orchestration layer, enabling Claude to write, edit, test, and optimize code autonomously across recursive agent cycles.",
+      "url": "https://github.com/ruvnet/claude-code-flow",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Claude Code Flow This mode serves as a code-first orchestration layer, enabling Claude to write, edit, test, and optimize code autonomously across recursive agent cycles. hesreallyhim"
+    },
+    {
+      "name": "Happy Coder",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Spawn and control multiple Claude Codes in parallel from your phone or desktop. Happy Coder runs Claude Code on your hardware, sends push notifications when Claude needs more input or permission, and costs nothing.",
+      "url": "https://github.com/slopus/happy",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Happy Coder Spawn and control multiple Claude Codes in parallel from your phone or desktop. Happy Coder runs Claude Code on your hardware, sends push notifications when Claude needs more input or permission, and costs nothing. hesreallyhim"
+    },
+    {
+      "name": "sudocode",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Lightweight agent orchestration dev tool that lives in your repo. Integrates with various specification frameworks. It's giving Jira.",
+      "url": "https://github.com/sudocode-ai/sudocode",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "sudocode Lightweight agent orchestration dev tool that lives in your repo. Integrates with various specification frameworks. It's giving Jira. hesreallyhim"
+    },
+    {
+      "name": "CCometixLine - Claude Code Statusline",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A high-performance Claude Code statusline tool written in Rust with Git integration, usage tracking, interactive TUI configuration, and Claude Code enhancement utilities.",
+      "url": "https://github.com/Haleclipse/CCometixLine",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "CCometixLine - Claude Code Statusline A high-performance Claude Code statusline tool written in Rust with Git integration, usage tracking, interactive TUI configuration, and Claude Code enhancement utilities. hesreallyhim"
+    },
+    {
+      "name": "ccstatusline",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A highly customizable status line formatter for Claude Code CLI that displays model info, git branch, token usage, and other metrics in your terminal.",
+      "url": "https://github.com/sirmalloc/ccstatusline",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "ccstatusline A highly customizable status line formatter for Claude Code CLI that displays model info, git branch, token usage, and other metrics in your terminal. hesreallyhim"
+    },
+    {
+      "name": "claude-code-statusline",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Enhanced 4-line statusline for Claude Code with themes, cost tracking, and MCP server monitoring",
+      "url": "https://github.com/rz1989s/claude-code-statusline",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "claude-code-statusline Enhanced 4-line statusline for Claude Code with themes, cost tracking, and MCP server monitoring hesreallyhim"
+    },
+    {
+      "name": "claude-pace",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A lightweight Bash + jq statusline for Claude Code that displays rate limit pace delta (burn rate vs. time remaining), 5h/7d usage percentage, context window usage, git branch and diff stats. Compares current consumption rate against time remaining in each rate limit window to indicate whether quota is being used faster or slower than the window allows. Single file with no external dependencies beyond jq.",
+      "url": "https://github.com/Astro-Han/claude-pace",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "claude-pace A lightweight Bash + jq statusline for Claude Code that displays rate limit pace delta (burn rate vs. time remaining), 5h/7d usage percentage, context window usage, git branch and diff stats. Compares current consumption rate against time remaining in each rate limit window to indicate whether quota is being used faster or slower than the window allows. Single file with no external dependencies beyond jq. hesreallyhim"
+    },
+    {
+      "name": "claude-powerline",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A vim-style powerline statusline for Claude Code with real-time usage tracking, git integration, custom themes, and more",
+      "url": "https://github.com/Owloops/claude-powerline",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "claude-powerline A vim-style powerline statusline for Claude Code with real-time usage tracking, git integration, custom themes, and more hesreallyhim"
+    },
+    {
+      "name": "claudia-statusline",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "High-performance Rust-based statusline for Claude Code with persistent stats tracking, progress bars, and optional cloud sync. Features SQLite-first persistence, git integration, context progress bars, burn rate calculation, XDG-compliant with theme support (dark/light, NO_COLOR).",
+      "url": "https://github.com/hagan/claudia-statusline",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "claudia-statusline High-performance Rust-based statusline for Claude Code with persistent stats tracking, progress bars, and optional cloud sync. Features SQLite-first persistence, git integration, context progress bars, burn rate calculation, XDG-compliant with theme support (dark/light, NO_COLOR). hesreallyhim"
+    },
+    {
+      "name": "Britfix",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Claude outputs American spellings by default, which can have an impact on: professional credibility, compliance, documentation, and more. Britfix converts to British English, with a Claude Code hook for automatic conversion as files are written. Context-aware: handles code files intelligently by only converting comments and docstrings, never identifiers or string literals.",
+      "url": "https://github.com/Talieisin/britfix",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Britfix Claude outputs American spellings by default, which can have an impact on: professional credibility, compliance, documentation, and more. Britfix converts to British English, with a Claude Code hook for automatic conversion as files are written. Context-aware: handles code files intelligently by only converting comments and docstrings, never identifiers or string literals. hesreallyhim"
+    },
+    {
+      "name": "CC Notify",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "CCNotify provides desktop notifications for Claude Code, alerting you to input needs or task completion, with one-click jumps back to VS Code and task duration display.",
+      "url": "https://github.com/dazuiba/CCNotify",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "CC Notify CCNotify provides desktop notifications for Claude Code, alerting you to input needs or task completion, with one-click jumps back to VS Code and task duration display. hesreallyhim"
+    },
+    {
+      "name": "cchooks",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A lightweight Python SDK with a clean API and good documentation; simplifies the process of writing hooks and integrating them into your codebase, providing a nice abstraction over the JSON configuration files.",
+      "url": "https://github.com/GowayLee/cchooks",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "cchooks A lightweight Python SDK with a clean API and good documentation; simplifies the process of writing hooks and integrating them into your codebase, providing a nice abstraction over the JSON configuration files. hesreallyhim"
+    },
+    {
+      "name": "Claude Code Hook Comms (HCOM)",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Lightweight CLI tool for real-time communication between Claude Code sub agents using hooks. Enables multi-agent collaboration with @-mention targeting, live dashboard monitoring, and zero-dependency implementation. [NOTE: At the time of posting, this resource is a little unstable - I'm sharing it anyway, because I think it's incredibly promising and creative. I hope by the time you read this, it is production-ready.]",
+      "url": "https://github.com/aannoo/claude-hook-comms",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Claude Code Hook Comms (HCOM) Lightweight CLI tool for real-time communication between Claude Code sub agents using hooks. Enables multi-agent collaboration with @-mention targeting, live dashboard monitoring, and zero-dependency implementation. [NOTE: At the time of posting, this resource is a little unstable - I'm sharing it anyway, because I think it's incredibly promising and creative. I hope by the time you read this, it is production-ready.] hesreallyhim"
+    },
+    {
+      "name": "claude-code-hooks-sdk",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A Laravel-inspired PHP SDK for building Claude Code hook responses with a clean, fluent API. This SDK makes it easy to create structured JSON responses for Claude Code hooks using an expressive, chainable interface.",
+      "url": "https://github.com/beyondcode/claude-hooks-sdk",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "claude-code-hooks-sdk A Laravel-inspired PHP SDK for building Claude Code hook responses with a clean, fluent API. This SDK makes it easy to create structured JSON responses for Claude Code hooks using an expressive, chainable interface. hesreallyhim"
+    },
+    {
+      "name": "claude-hooks",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A TypeScript-based system for configuring and customizing Claude Code hooks with a powerful and flexible interface.",
+      "url": "https://github.com/johnlindquist/claude-hooks",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "claude-hooks A TypeScript-based system for configuring and customizing Claude Code hooks with a powerful and flexible interface. hesreallyhim"
+    },
+    {
+      "name": "Claudio",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A no-frills little library that adds delightful OS-native sounds to Claude Code via simple hooks. It really sparks joy.",
+      "url": "https://github.com/ctoth/claudio",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Claudio A no-frills little library that adds delightful OS-native sounds to Claude Code via simple hooks. It really sparks joy. hesreallyhim"
+    },
+    {
+      "name": "Dippy",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Auto-approve safe bash commands using AST-based parsing, while prompting for destructive operations. Solves permission fatigue without disabling safety. Supports Claude Code, Gemini CLI, and Cursor.",
+      "url": "https://github.com/ldayton/Dippy",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Dippy Auto-approve safe bash commands using AST-based parsing, while prompting for destructive operations. Solves permission fatigue without disabling safety. Supports Claude Code, Gemini CLI, and Cursor. hesreallyhim"
+    },
+    {
+      "name": "fcakyon Collection (Code Quality and Tool Usage)",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Very well-written set of hooks for code quality and tool usage regulation (e.g. force Tavily over WebFetch tool).",
+      "url": "https://github.com/fcakyon/claude-codex-settings/tree/main/.claude/hooks",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "fcakyon Collection (Code Quality and Tool Usage) Very well-written set of hooks for code quality and tool usage regulation (e.g. force Tavily over WebFetch tool). hesreallyhim"
+    },
+    {
+      "name": "parry",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Prompt injection scanner for Claude Code hooks. Scans tool inputs and outputs for injection attacks, secrets, and data exfiltration attempts. [NOTE: Early development phase but worth a look.]",
+      "url": "https://github.com/vaporif/parry",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "parry Prompt injection scanner for Claude Code hooks. Scans tool inputs and outputs for injection attacks, secrets, and data exfiltration attempts. [NOTE: Early development phase but worth a look.] hesreallyhim"
+    },
+    {
+      "name": "TDD Guard",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A hooks-driven system that monitors file operations in real-time and blocks changes that violate TDD principles.",
+      "url": "https://github.com/nizos/tdd-guard",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "TDD Guard A hooks-driven system that monitors file operations in real-time and blocks changes that violate TDD principles. hesreallyhim"
+    },
+    {
+      "name": "TypeScript Quality Hooks",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Quality check hook for Node.js TypeScript projects with TypeScript compilation. ESLint auto-fixing, and Prettier formatting. Uses SHA256 config caching for < 5ms validation performance during real-time editing.",
+      "url": "https://github.com/bartolli/claude-code-typescript-hooks",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "TypeScript Quality Hooks Quality check hook for Node.js TypeScript projects with TypeScript compilation. ESLint auto-fixing, and Prettier formatting. Uses SHA256 config caching for < 5ms validation performance during real-time editing. hesreallyhim"
+    },
+    {
+      "name": "Plannotator",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Interactive plan review UI that intercepts ExitPlanMode via hooks, letting users visually annotate plans with comments, deletions, and replacements before approving or denying with detailed feedback.",
+      "url": "https://github.com/backnotprop/plannotator",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Plannotator Interactive plan review UI that intercepts ExitPlanMode via hooks, letting users visually annotate plans with comments, deletions, and replacements before approving or denying with detailed feedback. hesreallyhim"
+    },
+    {
+      "name": "/create-hook",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Slash command for hook creation - intelligently prompts you through the creation process with smart suggestions based on your project setup (TS, Prettier, ESLint...).",
+      "url": "https://github.com/omril321/automated-notebooklm/blob/main/.claude/commands/create-hook.md",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/create-hook Slash command for hook creation - intelligently prompts you through the creation process with smart suggestions based on your project setup (TS, Prettier, ESLint...). hesreallyhim"
+    },
+    {
+      "name": "/analyze-issue",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Fetches GitHub issue details to create comprehensive implementation specifications, analyzing requirements and planning structured approach with clear implementation steps.",
+      "url": "https://github.com/jerseycheese/Narraitor/blob/feature/issue-227-ai-suggestions/.claude/commands/analyze-issue.md",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/analyze-issue Fetches GitHub issue details to create comprehensive implementation specifications, analyzing requirements and planning structured approach with clear implementation steps. hesreallyhim"
+    },
+    {
+      "name": "/bug-fix",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Streamlines bug fixing by creating a GitHub issue first, then a feature branch for implementing and thoroughly testing the solution before merging.",
+      "url": "https://github.com/danielscholl/mvn-mcp-server/blob/main/.claude/commands/bug-fix.md",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/bug-fix Streamlines bug fixing by creating a GitHub issue first, then a feature branch for implementing and thoroughly testing the solution before merging. hesreallyhim"
+    },
+    {
+      "name": "/commit",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Creates git commits using conventional commit format with appropriate emojis, following project standards and creating descriptive messages that explain the purpose of changes.",
+      "url": "https://github.com/evmts/tevm-monorepo/blob/main/.claude/commands/commit.md",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/commit Creates git commits using conventional commit format with appropriate emojis, following project standards and creating descriptive messages that explain the purpose of changes. hesreallyhim"
+    },
+    {
+      "name": "/commit-fast",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Automates git commit process by selecting the first suggested message, generating structured commits with consistent formatting while skipping manual confirmation and removing Claude co-Contributorship footer",
+      "url": "https://github.com/steadycursor/steadystart/blob/main/.claude/commands/2-commit-fast.md",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/commit-fast Automates git commit process by selecting the first suggested message, generating structured commits with consistent formatting while skipping manual confirmation and removing Claude co-Contributorship footer hesreallyhim"
+    },
+    {
+      "name": "/create-pr",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Streamlines pull request creation by handling the entire workflow: creating a new branch, committing changes, formatting modified files with Biome, and submitting the PR.",
+      "url": "https://github.com/toyamarinyon/giselle/blob/main/.claude/commands/create-pr.md",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/create-pr Streamlines pull request creation by handling the entire workflow: creating a new branch, committing changes, formatting modified files with Biome, and submitting the PR. hesreallyhim"
+    },
+    {
+      "name": "/create-pull-request",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Provides comprehensive PR creation guidance with GitHub CLI, enforcing title conventions, following template structure, and offering concrete command examples with best practices.",
+      "url": "https://github.com/liam-hq/liam/blob/main/.claude/commands/create-pull-request.md",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/create-pull-request Provides comprehensive PR creation guidance with GitHub CLI, enforcing title conventions, following template structure, and offering concrete command examples with best practices. hesreallyhim"
+    },
+    {
+      "name": "/create-worktrees",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Creates git worktrees for all open PRs or specific branches, handling branches with slashes, cleaning up stale worktrees, and supporting custom branch creation for development.",
+      "url": "https://github.com/evmts/tevm-monorepo/blob/main/.claude/commands/create-worktrees.md",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/create-worktrees Creates git worktrees for all open PRs or specific branches, handling branches with slashes, cleaning up stale worktrees, and supporting custom branch creation for development. hesreallyhim"
+    },
+    {
+      "name": "/fix-github-issue",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Analyzes and fixes GitHub issues using a structured approach with GitHub CLI for issue details, implementing necessary code changes, running tests, and creating proper commit messages.",
+      "url": "https://github.com/jeremymailen/kotlinter-gradle/blob/master/.claude/commands/fix-github-issue.md",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/fix-github-issue Analyzes and fixes GitHub issues using a structured approach with GitHub CLI for issue details, implementing necessary code changes, running tests, and creating proper commit messages. hesreallyhim"
+    },
+    {
+      "name": "/fix-issue",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Addresses GitHub issues by taking issue number as parameter, analyzing context, implementing solution, and testing/validating the fix for proper integration.",
+      "url": "https://github.com/metabase/metabase/blob/master/.claude/commands/fix-issue.md",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/fix-issue Addresses GitHub issues by taking issue number as parameter, analyzing context, implementing solution, and testing/validating the fix for proper integration. hesreallyhim"
+    },
+    {
+      "name": "/fix-pr",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Fetches and fixes unresolved PR comments by automatically retrieving feedback, addressing reviewer concerns, making targeted code improvements, and streamlining the review process.",
+      "url": "https://github.com/metabase/metabase/blob/master/.claude/commands/fix-pr.md",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/fix-pr Fetches and fixes unresolved PR comments by automatically retrieving feedback, addressing reviewer concerns, making targeted code improvements, and streamlining the review process. hesreallyhim"
+    },
+    {
+      "name": "/husky",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Sets up and manages Husky Git hooks by configuring pre-commit hooks, establishing commit message standards, integrating with linting tools, and ensuring code quality on commits.",
+      "url": "https://github.com/evmts/tevm-monorepo/blob/main/.claude/commands/husky.md",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/husky Sets up and manages Husky Git hooks by configuring pre-commit hooks, establishing commit message standards, integrating with linting tools, and ensuring code quality on commits. hesreallyhim"
+    },
+    {
+      "name": "/pr-review",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Reviews pull request changes to provide feedback, check for issues, and suggest improvements before merging into the main codebase.",
+      "url": "https://github.com/hesreallyhim/awesome-claude-code/blob/923ddf1c3dba0413ecae1c6c2921a1607dc5911d/resources/slash-commands/pr-review/pr-review.md",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/pr-review Reviews pull request changes to provide feedback, check for issues, and suggest improvements before merging into the main codebase. hesreallyhim"
+    },
+    {
+      "name": "/update-branch-name",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Updates branch names with proper prefixes and formats, enforcing naming conventions, supporting semantic prefixes, and managing remote branch updates.",
+      "url": "https://github.com/giselles-ai/giselle/blob/main/.claude/commands/update-branch-name.md",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/update-branch-name Updates branch names with proper prefixes and formats, enforcing naming conventions, supporting semantic prefixes, and managing remote branch updates. hesreallyhim"
+    },
+    {
+      "name": "/analyze-code",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Reviews code structure and identifies key components, mapping relationships between elements and suggesting targeted improvements for better architecture and performance.",
+      "url": "https://github.com/Hkgstax/VALUGATOR/blob/main/.claude/commands/analyze-code.md",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/analyze-code Reviews code structure and identifies key components, mapping relationships between elements and suggesting targeted improvements for better architecture and performance. hesreallyhim"
+    },
+    {
+      "name": "/check",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Performs comprehensive code quality and security checks, featuring static analysis integration, security vulnerability scanning, code style enforcement, and detailed reporting.",
+      "url": "https://github.com/rygwdn/slack-tools/blob/main/.claude/commands/check.md",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/check Performs comprehensive code quality and security checks, featuring static analysis integration, security vulnerability scanning, code style enforcement, and detailed reporting. hesreallyhim"
+    },
+    {
+      "name": "/clean",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Addresses code formatting and quality issues by fixing black formatting problems, organizing imports with isort, resolving flake8 linting issues, and correcting mypy type errors.",
+      "url": "https://github.com/Graphlet-AI/eridu/blob/main/.claude/commands/clean.md",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/clean Addresses code formatting and quality issues by fixing black formatting problems, organizing imports with isort, resolving flake8 linting issues, and correcting mypy type errors. hesreallyhim"
+    },
+    {
+      "name": "/code_analysis",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Provides a menu of advanced code analysis commands for deep inspection, including knowledge graph generation, optimization suggestions, and quality evaluation.",
+      "url": "https://github.com/kingler/n8n_agent/blob/main/.claude/commands/code_analysis.md",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/code_analysis Provides a menu of advanced code analysis commands for deep inspection, including knowledge graph generation, optimization suggestions, and quality evaluation. hesreallyhim"
+    },
+    {
+      "name": "/implement-issue",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Implements GitHub issues following strict project guidelines, complete implementation checklists, variable naming conventions, testing procedures, and documentation requirements.",
+      "url": "https://github.com/cmxela/thinkube/blob/main/.claude/commands/implement-issue.md",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/implement-issue Implements GitHub issues following strict project guidelines, complete implementation checklists, variable naming conventions, testing procedures, and documentation requirements. hesreallyhim"
+    },
+    {
+      "name": "/implement-task",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Approaches task implementation methodically by thinking through strategy step-by-step, evaluating different approaches, considering tradeoffs, and implementing the best solution.",
+      "url": "https://github.com/Hkgstax/VALUGATOR/blob/main/.claude/commands/implement-task.md",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/implement-task Approaches task implementation methodically by thinking through strategy step-by-step, evaluating different approaches, considering tradeoffs, and implementing the best solution. hesreallyhim"
+    },
+    {
+      "name": "/optimize",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Analyzes code performance to identify bottlenecks, proposing concrete optimizations with implementation guidance for improved application performance.",
+      "url": "https://github.com/to4iki/ai-project-rules/blob/main/.claude/commands/optimize.md",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/optimize Analyzes code performance to identify bottlenecks, proposing concrete optimizations with implementation guidance for improved application performance. hesreallyhim"
+    },
+    {
+      "name": "/repro-issue",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Creates reproducible test cases for GitHub issues, ensuring tests fail reliably and documenting clear reproduction steps for developers.",
+      "url": "https://github.com/rzykov/metabase/blob/master/.claude/commands/repro-issue.md",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/repro-issue Creates reproducible test cases for GitHub issues, ensuring tests fail reliably and documenting clear reproduction steps for developers. hesreallyhim"
+    },
+    {
+      "name": "/task-breakdown",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Analyzes feature requirements, identifies components and dependencies, creates manageable tasks, and sets priorities for efficient feature implementation.",
+      "url": "https://github.com/Hkgstax/VALUGATOR/blob/main/.claude/commands/task-breakdown.md",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/task-breakdown Analyzes feature requirements, identifies components and dependencies, creates manageable tasks, and sets priorities for efficient feature implementation. hesreallyhim"
+    },
+    {
+      "name": "/tdd",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Guides development using Test-Driven Development principles, enforcing Red-Green-Refactor discipline, integrating with git workflow, and managing PR creation.",
+      "url": "https://github.com/zscott/pane/blob/main/.claude/commands/tdd.md",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/tdd Guides development using Test-Driven Development principles, enforcing Red-Green-Refactor discipline, integrating with git workflow, and managing PR creation. hesreallyhim"
+    },
+    {
+      "name": "/tdd-implement",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Implements Test-Driven Development by analyzing feature requirements, creating tests first (red), implementing minimal passing code (green), and refactoring while maintaining tests.",
+      "url": "https://github.com/jerseycheese/Narraitor/blob/feature/issue-227-ai-suggestions/.claude/commands/tdd-implement.md",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/tdd-implement Implements Test-Driven Development by analyzing feature requirements, creating tests first (red), implementing minimal passing code (green), and refactoring while maintaining tests. hesreallyhim"
+    },
+    {
+      "name": "/testing_plan_integration",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Creates inline Rust-style tests, suggests refactoring for testability, analyzes code challenges, and creates comprehensive test coverage for robust code.",
+      "url": "https://github.com/buster-so/buster/blob/main/api/.claude/commands/testing_plan_integration.md",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/testing_plan_integration Creates inline Rust-style tests, suggests refactoring for testability, analyzes code challenges, and creates comprehensive test coverage for robust code. hesreallyhim"
+    },
+    {
+      "name": "AVS Vibe Developer Guide",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Structures AI-assisted EigenLayer AVS development workflow with consistent naming conventions for prompt files and established terminology standards for blockchain concepts.",
+      "url": "https://github.com/Layr-Labs/avs-vibe-developer-guide/blob/master/CLAUDE.md",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "AVS Vibe Developer Guide Structures AI-assisted EigenLayer AVS development workflow with consistent naming conventions for prompt files and established terminology standards for blockchain concepts. hesreallyhim"
+    },
+    {
+      "name": "pre-commit-hooks",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "This repository is about pre-commit-hooks in general, but the `CLAUDE.md` and related `.claude/` documentation is exemplary. Thorough but not verbose. Unlike a lot of `CLAUDE.md`  files, it doesn't primarily consist in shouting at Claude in all-caps. Great learning resource. Also, hooks.",
+      "url": "https://github.com/aRustyDev/pre-commit-hooks",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "pre-commit-hooks This repository is about pre-commit-hooks in general, but the `CLAUDE.md` and related `.claude/` documentation is exemplary. Thorough but not verbose. Unlike a lot of `CLAUDE.md`  files, it doesn't primarily consist in shouting at Claude in all-caps. Great learning resource. Also, hooks. hesreallyhim"
+    },
+    {
+      "name": "claude-code-mcp-enhanced",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Provides detailed and emphatic instructions for Claude to follow as a coding agent, with testing guidance, code examples, and compliance checks.",
+      "url": "https://github.com/grahama1970/claude-code-mcp-enhanced/blob/main/CLAUDE.md",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "claude-code-mcp-enhanced Provides detailed and emphatic instructions for Claude to follow as a coding agent, with testing guidance, code examples, and compliance checks. hesreallyhim"
+    },
+    {
+      "name": "Claudable",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Claudable is an open-source web builder that leverages local CLI agents, such as Claude Code and Cursor Agent, to build and deploy products effortlessly.",
+      "url": "https://github.com/opactorai/Claudable",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Claudable Claudable is an open-source web builder that leverages local CLI agents, such as Claude Code and Cursor Agent, to build and deploy products effortlessly. hesreallyhim"
+    },
+    {
+      "name": "claude-esp",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Go-based TUI that streams Claude Code's hidden output (thinking, tool calls, subagents) to a separate terminal. Watch multiple sessions simultaneously, filter by content type, and track background tasks. Ideal for debugging or understanding what Claude is doing under the hood without interrupting your main session.",
+      "url": "https://github.com/phiat/claude-esp",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "claude-esp Go-based TUI that streams Claude Code's hidden output (thinking, tool calls, subagents) to a separate terminal. Watch multiple sessions simultaneously, filter by content type, and track background tasks. Ideal for debugging or understanding what Claude is doing under the hood without interrupting your main session. hesreallyhim"
+    },
+    {
+      "name": "claude-tmux",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Manage Claude Code within tmux. A tmux popup of all your Claude Code instances, enabling quick switching, status monitoring, session lifecycle management, with git worktree and pull request support.",
+      "url": "https://github.com/nielsgroen/claude-tmux",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "claude-tmux Manage Claude Code within tmux. A tmux popup of all your Claude Code instances, enabling quick switching, status monitoring, session lifecycle management, with git worktree and pull request support. hesreallyhim"
+    },
+    {
+      "name": "crystal",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A full-fledged desktop application for orchestrating, monitoring, and interacting with Claude Code agents.",
+      "url": "https://github.com/stravu/crystal",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "crystal A full-fledged desktop application for orchestrating, monitoring, and interacting with Claude Code agents. hesreallyhim"
+    },
+    {
+      "name": "Omnara",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A command center for AI agents that syncs Claude Code sessions across terminal, web, and mobile. Allows for remote monitoring, human-in-the-loop interaction, and team collaboration.",
+      "url": "https://github.com/omnara-ai/omnara",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Omnara A command center for AI agents that syncs Claude Code sessions across terminal, web, and mobile. Allows for remote monitoring, human-in-the-loop interaction, and team collaboration. hesreallyhim"
+    },
+    {
+      "name": "Claude Code GitHub Actions",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Official GitHub Actions integration for Claude Code with examples and documentation for automating AI-powered workflows in CI/CD pipelines.",
+      "url": "https://github.com/anthropics/claude-code-action/tree/main/examples",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Claude Code GitHub Actions Official GitHub Actions integration for Claude Code with examples and documentation for automating AI-powered workflows in CI/CD pipelines. hesreallyhim"
+    },
+    {
+      "name": "Awesome Claude Code Output Styles (That I Really Like)",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A fun and moderately amusing collection of experimental output styles.",
+      "url": "https://github.com/hesreallyhim/awesome-claude-code-output-styles-that-i-really-like",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Awesome Claude Code Output Styles (That I Really Like) A fun and moderately amusing collection of experimental output styles. hesreallyhim"
+    },
+    {
+      "name": "Claude Code Output Styles - Debugging",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A small set of well-written output styles, specifically focused on debugging - root cause analysis, systematic, methodical debugging, encouraging a more careful approach to bug-squashing from Claude Code.",
+      "url": "https://github.com/JamieM0/claude-output-styles",
+      "install": "",
+      "functionCategory": "dev-tools",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Claude Code Output Styles - Debugging A small set of well-written output styles, specifically focused on debugging - root cause analysis, systematic, methodical debugging, encouraging a more careful approach to bug-squashing from Claude Code. hesreallyhim"
     }
   ]
 }

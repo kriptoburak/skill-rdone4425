@@ -4,7 +4,7 @@
     "topCategoryId": "data",
     "subCategoryId": "ai",
     "categoryPath": "data-ai",
-    "count": 258,
+    "count": 271,
     "sourceData": "categories"
   },
   "skills": [
@@ -5451,6 +5451,201 @@
         "hermes"
       ],
       "searchText": "authsome Local credential broker for AI agents with encrypted local vault storage and proxy-based credential  JackyST0/awesome-agent-skills data-ai multi"
+    },
+    {
+      "name": "Container Use",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Development environments for coding agents. Enable multiple agents to work safely and independently with your preferred stack.",
+      "url": "https://github.com/dagger/container-use",
+      "install": "",
+      "functionCategory": "data-ai",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Container Use Development environments for coding agents. Enable multiple agents to work safely and independently with your preferred stack. hesreallyhim"
+    },
+    {
+      "name": "TSK - AI Agent Task Manager and Sandbox",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A Rust CLI tool that lets you delegate development tasks to AI agents running in sandboxed Docker environments. Multiple agents work in parallel, returning git branches for human review.",
+      "url": "https://github.com/dtormoen/tsk",
+      "install": "",
+      "functionCategory": "data-ai",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "TSK - AI Agent Task Manager and Sandbox A Rust CLI tool that lets you delegate development tasks to AI agents running in sandboxed Docker environments. Multiple agents work in parallel, returning git branches for human review. hesreallyhim"
+    },
+    {
+      "name": "/explain-issue-fix",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Documents solution approaches for GitHub issues, explaining technical decisions, detailing challenges overcome, and providing implementation context for better understanding.",
+      "url": "https://github.com/hackdays-io/toban-contribution-viewer/blob/main/.claude/commands/explain-issue-fix.md",
+      "install": "",
+      "functionCategory": "data-ai",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/explain-issue-fix Documents solution approaches for GitHub issues, explaining technical decisions, detailing challenges overcome, and providing implementation context for better understanding. hesreallyhim"
+    },
+    {
+      "name": "/mermaid",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Generates Mermaid diagrams from SQL schema files, creating entity relationship diagrams with table properties, validating diagram compilation, and ensuring complete entity coverage.",
+      "url": "https://github.com/GaloyMoney/lana-bank/blob/main/.claude/commands/mermaid.md",
+      "install": "",
+      "functionCategory": "data-ai",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/mermaid Generates Mermaid diagrams from SQL schema files, creating entity relationship diagrams with table properties, validating diagram compilation, and ensuring complete entity coverage. hesreallyhim"
+    },
+    {
+      "name": "AI IntelliJ Plugin",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Provides comprehensive Gradle commands for IntelliJ plugin development with platform-specific coding patterns, detailed package structure guidelines, and clear internationalization standards.",
+      "url": "https://github.com/didalgolab/ai-intellij-plugin/blob/main/CLAUDE.md",
+      "install": "",
+      "functionCategory": "data-ai",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "AI IntelliJ Plugin Provides comprehensive Gradle commands for IntelliJ plugin development with platform-specific coding patterns, detailed package structure guidelines, and clear internationalization standards. hesreallyhim"
+    },
+    {
+      "name": "Comm",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Serves as a development reference for E2E-encrypted messaging applications with code organization architecture, security implementation details, and testing procedures.",
+      "url": "https://github.com/CommE2E/comm/blob/master/AGENTS.md",
+      "install": "",
+      "functionCategory": "data-ai",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Comm Serves as a development reference for E2E-encrypted messaging applications with code organization architecture, security implementation details, and testing procedures. hesreallyhim"
+    },
+    {
+      "name": "Course Builder",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Enables real-time multiplayer capabilities for collaborative course creation with diverse tech stack integration and monorepo architecture using Turborepo.",
+      "url": "https://github.com/badass-courses/course-builder/blob/main/CLAUDE.md",
+      "install": "",
+      "functionCategory": "data-ai",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Course Builder Enables real-time multiplayer capabilities for collaborative course creation with diverse tech stack integration and monorepo architecture using Turborepo. hesreallyhim"
+    },
+    {
+      "name": "Cursor Tools",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Creates a versatile AI command interface supporting multiple providers and models with flexible command options and browser automation through \"Stagehand\" feature.",
+      "url": "https://github.com/eastlondoner/cursor-tools/blob/main/CLAUDE.md",
+      "install": "",
+      "functionCategory": "data-ai",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Cursor Tools Creates a versatile AI command interface supporting multiple providers and models with flexible command options and browser automation through \"Stagehand\" feature. hesreallyhim"
+    },
+    {
+      "name": "Guitar",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Serves as development guide for Guitar Git GUI Client with build commands for various platforms, code style guidelines for contributing, and project structure explanation.",
+      "url": "https://github.com/soramimi/Guitar/blob/master/CLAUDE.md",
+      "install": "",
+      "functionCategory": "data-ai",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Guitar Serves as development guide for Guitar Git GUI Client with build commands for various platforms, code style guidelines for contributing, and project structure explanation. hesreallyhim"
+    },
+    {
+      "name": "Network Chronicles",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Presents detailed implementation plan for AI-driven game characters with technical specifications for LLM integration, character guidelines, and service discovery mechanics.",
+      "url": "https://github.com/Fimeg/NetworkChronicles/blob/legacy-v1/CLAUDE.md",
+      "install": "",
+      "functionCategory": "data-ai",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Network Chronicles Presents detailed implementation plan for AI-driven game characters with technical specifications for LLM integration, character guidelines, and service discovery mechanics. hesreallyhim"
+    },
+    {
+      "name": "Note Companion",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Provides detailed styling isolation techniques for Obsidian plugins using Tailwind with custom prefix to prevent style conflicts and practical troubleshooting steps.",
+      "url": "https://github.com/different-ai/note-companion/blob/master/CLAUDE.md",
+      "install": "",
+      "functionCategory": "data-ai",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Note Companion Provides detailed styling isolation techniques for Obsidian plugins using Tailwind with custom prefix to prevent style conflicts and practical troubleshooting steps. hesreallyhim"
+    },
+    {
+      "name": "Pareto Mac",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Serves as development guide for Mac security audit tool with build instructions, contribution guidelines, testing procedures, and workflow documentation.",
+      "url": "https://github.com/ParetoSecurity/pareto-mac/blob/main/CLAUDE.md",
+      "install": "",
+      "functionCategory": "data-ai",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Pareto Mac Serves as development guide for Mac security audit tool with build instructions, contribution guidelines, testing procedures, and workflow documentation. hesreallyhim"
+    },
+    {
+      "name": "SteadyStart",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Clear and direct instructives about style, permissions, Claude's \"role\", communications, and documentation of Claude Code sessions for other team members to stay abreast.",
+      "url": "https://github.com/steadycursor/steadystart/blob/main/CLAUDE.md",
+      "install": "",
+      "functionCategory": "data-ai",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "SteadyStart Clear and direct instructives about style, permissions, Claude's \"role\", communications, and documentation of Claude Code sessions for other team members to stay abreast. hesreallyhim"
     }
   ]
 }

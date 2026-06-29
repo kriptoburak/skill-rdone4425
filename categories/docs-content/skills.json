@@ -4,7 +4,7 @@
     "topCategoryId": "docs",
     "subCategoryId": "content",
     "categoryPath": "docs-content",
-    "count": 165,
+    "count": 171,
     "sourceData": "categories"
   },
   "skills": [
@@ -3306,6 +3306,96 @@
         "hermes"
       ],
       "searchText": "api-doc-generator API documentation generator Skill. JackyST0/awesome-agent-skills docs-content multi"
+    },
+    {
+      "name": "claude-rules-doctor",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "CLI that detects dead `.claude/rules/` files by checking if `paths:` globs actually match files in your repo. Catches silent rule failures where renamed directories or typos in glob patterns cause rules to never apply. Features CI mode (exit 1 on dead rules), JSON output, and verbose mode showing matched files.",
+      "url": "https://github.com/nulone/claude-rules-doctor",
+      "install": "",
+      "functionCategory": "docs-content",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "claude-rules-doctor CLI that detects dead `.claude/rules/` files by checking if `paths:` globs actually match files in your repo. Catches silent rule failures where renamed directories or typos in glob patterns cause rules to never apply. Features CI mode (exit 1 on dead rules), JSON output, and verbose mode showing matched files. hesreallyhim"
+    },
+    {
+      "name": "/add-to-changelog",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Adds new entries to changelog files while maintaining format consistency, properly documenting changes, and following established project standards for version tracking.",
+      "url": "https://github.com/berrydev-ai/blockdoc-python/blob/main/.claude/commands/add-to-changelog.md",
+      "install": "",
+      "functionCategory": "docs-content",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/add-to-changelog Adds new entries to changelog files while maintaining format consistency, properly documenting changes, and following established project standards for version tracking. hesreallyhim"
+    },
+    {
+      "name": "/create-docs",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Analyzes code structure and purpose to create comprehensive documentation detailing inputs/outputs, behavior, user interaction flows, and edge cases with error handling.",
+      "url": "https://github.com/jerseycheese/Narraitor/blob/feature/issue-227-ai-suggestions/.claude/commands/create-docs.md",
+      "install": "",
+      "functionCategory": "docs-content",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/create-docs Analyzes code structure and purpose to create comprehensive documentation detailing inputs/outputs, behavior, user interaction flows, and edge cases with error handling. hesreallyhim"
+    },
+    {
+      "name": "/docs",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Generates comprehensive documentation that follows project structure, documenting APIs and usage patterns with consistent formatting for better user understanding.",
+      "url": "https://github.com/slunsford/coffee-analytics/blob/main/.claude/commands/docs.md",
+      "install": "",
+      "functionCategory": "docs-content",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/docs Generates comprehensive documentation that follows project structure, documenting APIs and usage patterns with consistent formatting for better user understanding. hesreallyhim"
+    },
+    {
+      "name": "/update-docs",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Reviews current documentation status, updates implementation progress, reviews phase documents, and maintains documentation consistency across the project.",
+      "url": "https://github.com/Consiliency/Flutter-Structurizr/blob/main/.claude/commands/update-docs.md",
+      "install": "",
+      "functionCategory": "docs-content",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/update-docs Reviews current documentation status, updates implementation progress, reviews phase documents, and maintains documentation consistency across the project. hesreallyhim"
+    },
+    {
+      "name": "Anthropic Documentation",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "The official documentation for Claude Code, including installation instructions, usage guidelines, API references, tutorials, examples, loads of information that I won't list individually. Like Claude Code, the documentation is frequently updated.",
+      "url": "https://docs.claude.com/en/home",
+      "install": "",
+      "functionCategory": "docs-content",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Anthropic Documentation The official documentation for Claude Code, including installation instructions, usage guidelines, API references, tutorials, examples, loads of information that I won't list individually. Like Claude Code, the documentation is frequently updated. hesreallyhim"
     }
   ]
 }

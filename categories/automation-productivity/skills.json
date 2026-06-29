@@ -4,7 +4,7 @@
     "topCategoryId": "automation",
     "subCategoryId": "productivity",
     "categoryPath": "automation-productivity",
-    "count": 127,
+    "count": 134,
     "sourceData": "categories"
   },
   "skills": [
@@ -2597,6 +2597,111 @@
         "hermes"
       ],
       "searchText": "gingiris-b2b-growth B2B SaaS growth playbook covering PLG, SLG, and go-to-market strategy. JackyST0/awesome-agent-skills automation-productivity multi"
+    },
+    {
+      "name": "Auto-Claude",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Autonomous multi-agent coding framework for Claude Code (Claude Agent SDK) that integrates the full SDLC - \"plans, builds, and validates software for you\". Features a slick kanban-style UI and a well-designed but not over-engineered agent orchestration system.",
+      "url": "https://github.com/AndyMik90/Auto-Claude",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Auto-Claude Autonomous multi-agent coding framework for Claude Code (Claude Agent SDK) that integrates the full SDLC - \"plans, builds, and validates software for you\". Features a slick kanban-style UI and a well-designed but not over-engineered agent orchestration system. hesreallyhim"
+    },
+    {
+      "name": "Claude Squad",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Claude Squad is a terminal app that manages multiple Claude Code, Codex (and other local agents including Aider) in separate workspaces, allowing you to work on multiple tasks simultaneously.",
+      "url": "https://github.com/smtg-ai/claude-squad",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Claude Squad Claude Squad is a terminal app that manages multiple Claude Code, Codex (and other local agents including Aider) in separate workspaces, allowing you to work on multiple tasks simultaneously. hesreallyhim"
+    },
+    {
+      "name": "Claude Swarm",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Launch Claude Code session that is connected to a swarm of Claude Code Agents.",
+      "url": "https://github.com/parruda/claude-swarm",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Claude Swarm Launch Claude Code session that is connected to a swarm of Claude Code Agents. hesreallyhim"
+    },
+    {
+      "name": "Claude Task Master",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A task management system for AI-driven development with Claude, designed to work seamlessly with Cursor AI.",
+      "url": "https://github.com/eyaltoledano/claude-task-master",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Claude Task Master A task management system for AI-driven development with Claude, designed to work seamlessly with Cursor AI. hesreallyhim"
+    },
+    {
+      "name": "Claude Task Runner",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "A specialized tool to manage context isolation and focused task execution with Claude Code, solving the critical challenge of context length limitations and task focus when working with Claude on complex, multi-step projects.",
+      "url": "https://github.com/grahama1970/claude-task-runner",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Claude Task Runner A specialized tool to manage context isolation and focused task execution with Claude Code, solving the critical challenge of context length limitations and task focus when working with Claude on complex, multi-step projects. hesreallyhim"
+    },
+    {
+      "name": "Ruflo",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "An orchestration platform for deploying and coordinating multi-agent swarms. If I tried to go into detail it would probably crash my browser. An impressive feat of engineering that tries to cover everything and actually does a good job. Self-learning, autonomous multi-agent swarms, vector-based multi-layered memory, systematic planning, security guardrails, and so on. It's a growing project, and YMMV, but even just studying the patterns is immensely valuable, and it's clearly well-engineered.",
+      "url": "https://github.com/ruvnet/ruflo",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "Ruflo An orchestration platform for deploying and coordinating multi-agent swarms. If I tried to go into detail it would probably crash my browser. An impressive feat of engineering that tries to cover everything and actually does a good job. Self-learning, autonomous multi-agent swarms, vector-based multi-layered memory, systematic planning, security guardrails, and so on. It's a growing project, and YMMV, but even just studying the patterns is immensely valuable, and it's clearly well-engineered. hesreallyhim"
+    },
+    {
+      "name": "The Agentic Startup",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Yet Another Claude Orchestrator - a collection of agents, commands, etc., for shipping production code - but I like this because it's comprehensive, well-written, and one of the few resources that actually uses Output Styles! +10 points!",
+      "url": "https://github.com/rsmdt/the-startup",
+      "install": "",
+      "functionCategory": "automation-productivity",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "The Agentic Startup Yet Another Claude Orchestrator - a collection of agents, commands, etc., for shipping production code - but I like this because it's comprehensive, well-written, and one of the few resources that actually uses Output Styles! +10 points! hesreallyhim"
     }
   ]
 }

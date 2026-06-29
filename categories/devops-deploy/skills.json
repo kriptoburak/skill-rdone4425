@@ -4,7 +4,7 @@
     "topCategoryId": "devops",
     "subCategoryId": "deploy",
     "categoryPath": "devops-deploy",
-    "count": 90,
+    "count": 94,
     "sourceData": "categories"
   },
   "skills": [
@@ -1800,6 +1800,66 @@
         "hermes"
       ],
       "searchText": "Agent Skills Specification SKILL.md format specification. JackyST0/awesome-agent-skills devops-deploy multi"
+    },
+    {
+      "name": "/release",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Manages software releases by updating changelogs, reviewing README changes, evaluating version increments, and documenting release changes for better version tracking.",
+      "url": "https://github.com/kelp/webdown/blob/main/.claude/commands/release.md",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/release Manages software releases by updating changelogs, reviewing README changes, evaluating version increments, and documenting release changes for better version tracking. hesreallyhim"
+    },
+    {
+      "name": "/run-ci",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Activates virtual environments, runs CI-compatible check scripts, iteratively fixes errors, and ensures all tests pass before completion.",
+      "url": "https://github.com/hackdays-io/toban-contribution-viewer/blob/main/.claude/commands/run-ci.md",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/run-ci Activates virtual environments, runs CI-compatible check scripts, iteratively fixes errors, and ensures all tests pass before completion. hesreallyhim"
+    },
+    {
+      "name": "/run-pre-commit",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Runs pre-commit checks with intelligent results handling, analyzing outputs, creating tasks for issue fixing, and integrating with task management systems.",
+      "url": "https://github.com/wmjones/wyatt-personal-aws/blob/main/.claude/commands/run-pre-commit.md",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "/run-pre-commit Runs pre-commit checks with intelligent results handling, analyzing outputs, creating tasks for issue fixing, and integrating with task management systems. hesreallyhim"
+    },
+    {
+      "name": "AWS MCP Server",
+      "source": "hesreallyhim/awesome-claude-code",
+      "sourceAgent": "claude-code",
+      "repo": "hesreallyhim/awesome-claude-code",
+      "stars": 47534,
+      "desc": "Features multiple Python environment setup options with detailed code style guidelines, comprehensive error handling recommendations, and security considerations for AWS CLI interactions.",
+      "url": "https://github.com/alexei-led/aws-mcp-server/blob/main/CLAUDE.md",
+      "install": "",
+      "functionCategory": "devops-deploy",
+      "supportedAgents": [
+        "claude-code"
+      ],
+      "searchText": "AWS MCP Server Features multiple Python environment setup options with detailed code style guidelines, comprehensive error handling recommendations, and security considerations for AWS CLI interactions. hesreallyhim"
     }
   ]
 }

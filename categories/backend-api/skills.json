@@ -1881,6 +1881,71 @@
         "igniter-js"
       ],
       "searchText": "igniter-js igniter is a modern, type-safe http framework designed to streamline the development of scalable typescript applications. felipebarcelospro/igniter-js backend-api igniter-js"
+    },
+    {
+      "name": "resend-agent-email-inbox",
+      "desc": "Use when building any system where email content triggers actions — AI agent inboxes, automated support handlers, email-to-task pipelines, or any workflow processing untrusted inbound email. Always us",
+      "repo": "resend/resend-skills",
+      "stars": 143,
+      "source": "resend",
+      "url": "https://github.com/resend/resend-skills/tree/main/skills/agent-email-inbox",
+      "functionCategory": "backend-api",
+      "supportedAgents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "resend-email-best-practices",
+      "desc": "Use when building email features, emails going to spam, high bounce rates, setting up SPF/DKIM/DMARC authentication, implementing email capture, ensuring compliance (CAN-SPAM, GDPR, CASL), handling we",
+      "repo": "resend/resend-skills",
+      "stars": 143,
+      "source": "resend",
+      "url": "https://github.com/resend/resend-skills/tree/main/skills/email-best-practices",
+      "functionCategory": "backend-api",
+      "supportedAgents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "resend-react-email",
+      "desc": "Use when building HTML email templates with React components, adding a visual email editor to an application using the React Email visual editor, rendering emails to HTML, or sending emails with Resen",
+      "repo": "resend/resend-skills",
+      "stars": 143,
+      "source": "resend",
+      "url": "https://github.com/resend/resend-skills/tree/main/skills/react-email",
+      "functionCategory": "backend-api",
+      "supportedAgents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "resend-resend-cli",
+      "desc": ">\n  Operate the Resend platform from the terminal — send emails (including React Email\n  .tsx templates via --react-email), manage domains, contacts, broadcasts, templates,\n  webhooks, API keys, logs,",
+      "repo": "resend/resend-skills",
+      "stars": 143,
+      "source": "resend",
+      "url": "https://github.com/resend/resend-skills/tree/main/skills/resend-cli",
+      "functionCategory": "backend-api",
+      "supportedAgents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "resend-resend",
+      "desc": "Use when working with the Resend email API — sending transactional emails (single or batch), receiving inbound emails via webhooks, managing email templates, tracking delivery events, managing domains",
+      "repo": "resend/resend-skills",
+      "stars": 143,
+      "source": "resend",
+      "url": "https://github.com/resend/resend-skills/tree/main/skills/resend",
+      "functionCategory": "backend-api",
+      "supportedAgents": [
+        "claude-code",
+        "codex"
+      ]
     }
   ]
 }

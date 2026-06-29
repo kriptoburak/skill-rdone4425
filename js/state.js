@@ -6,7 +6,7 @@
 
   const hub = window.SkillHub = window.SkillHub || {};
 
-  const PER_PAGE = 24;
+  const PER_PAGE = 100;
   const STATE_STORAGE_KEY = 'skill-hub.view-state';
   const STAR_FMT = (value) => value >= 1000 ? `${(value / 1000).toFixed(1).replace(/\.0$/, '')}k` : value.toLocaleString();
 
@@ -67,22 +67,22 @@
     browser: { zh: '\u6d4f\u89c8\u5668\u6d4b\u8bd5', en: 'Browser Testing' },
     review: { zh: '\u8bc4\u5ba1\u9a8c\u8bc1', en: 'Review / Validation' },
     qa: { zh: 'QA', en: 'QA' },
-        'media-creation': { zh: '媒体创作', en: 'Media Creation' },
-        'video-multimedia': { zh: '视频多媒体', en: 'Video & Multimedia' },
-        video: { zh: '视频处理', en: 'Video' },
-        game: { zh: '游戏开发', en: 'Game Dev' },
-        'game-dev': { zh: '游戏开发', en: 'Game Development' },
-        business: { zh: '商业', en: 'Business' },
-        'finance-crypto': { zh: '金融加密', en: 'Finance & Crypto' },
-        finance: { zh: '金融', en: 'Finance' },
-        education: { zh: '教育学习', en: 'Education' },
-        social: { zh: '社交', en: 'Social' },
-        'social-media': { zh: '社交媒体', en: 'Social Media' },
-        lifestyle: { zh: '生活方式', en: 'Lifestyle' },
-        health: { zh: '健康', en: 'Health' },
-        'health-medical': { zh: '健康医疗', en: 'Health & Medical' },
-      };
-      const AGENT_META = {
+    'media-creation': { zh: '媒体创作', en: 'Media Creation' },
+    'video-multimedia': { zh: '视频多媒体', en: 'Video & Multimedia' },
+    video: { zh: '视频处理', en: 'Video' },
+    game: { zh: '游戏开发', en: 'Game Dev' },
+    'game-dev': { zh: '游戏开发', en: 'Game Development' },
+    business: { zh: '商业', en: 'Business' },
+    'finance-crypto': { zh: '金融加密', en: 'Finance & Crypto' },
+    finance: { zh: '金融', en: 'Finance' },
+    education: { zh: '教育学习', en: 'Education' },
+    social: { zh: '社交', en: 'Social' },
+    'social-media': { zh: '社交媒体', en: 'Social Media' },
+    lifestyle: { zh: '生活方式', en: 'Lifestyle' },
+    health: { zh: '健康', en: 'Health' },
+    'health-medical': { zh: '健康医疗', en: 'Health & Medical' },
+  };
+  const AGENT_META = {
     codex: { icon: 'C', iconUrl: 'https://www.google.com/s2/favicons?domain=openai.com&sz=64', color: '#6366f1', order: 1, zh: 'Codex', en: 'Codex' },
     claude: { icon: 'A', iconUrl: 'https://www.google.com/s2/favicons?domain=anthropic.com&sz=64', color: '#fb923c', order: 2, zh: 'Claude Code', en: 'Claude Code' },
     hermes: { icon: 'H', iconUrl: 'https://www.google.com/s2/favicons?domain=nousresearch.com&sz=64', color: '#06b6d4', order: 3, zh: 'Hermes Agent', en: 'Hermes Agent' },

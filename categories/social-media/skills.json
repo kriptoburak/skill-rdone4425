@@ -1,8 +1,8 @@
 {
   "meta": {
     "functionCategory": "social-media",
-    "topCategoryId": "social-media",
-    "subCategoryId": "social-media",
+    "topCategoryId": "business",
+    "subCategoryId": "social",
     "categoryPath": "social-media",
     "count": 14,
     "sourceData": "categories"

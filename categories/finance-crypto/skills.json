@@ -1,8 +1,8 @@
 {
   "meta": {
     "functionCategory": "finance-crypto",
-    "topCategoryId": "finance-crypto",
-    "subCategoryId": "finance-crypto",
+    "topCategoryId": "business",
+    "subCategoryId": "finance",
     "categoryPath": "finance-crypto",
     "count": 25,
     "sourceData": "categories"

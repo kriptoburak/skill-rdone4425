@@ -1,8 +1,8 @@
 {
   "meta": {
     "functionCategory": "video-multimedia",
-    "topCategoryId": "video-multimedia",
-    "subCategoryId": "video-multimedia",
+    "topCategoryId": "media-creation",
+    "subCategoryId": "video",
     "categoryPath": "video-multimedia",
     "count": 7,
     "sourceData": "categories"

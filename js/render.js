@@ -473,17 +473,51 @@
   function renderPagination(totalPages) {
     const nav = dom.pagination;
     if (!nav) return;
-    nav.hidden = totalPages <= 1;
-    if (totalPages <= 1) return;
+    // ponytail: keep pagination UI but hidden, infinite scroll handles loading
+    nav.hidden = true;
     if (dom['page-info']) dom['page-info'].textContent = `${state.page} / ${totalPages}`;
     if (dom['page-prev']) dom['page-prev'].disabled = state.page <= 1;
     if (dom['page-next']) dom['page-next'].disabled = state.page >= totalPages;
+  }
+
+  /* ponytail: infinite scroll — IntersectionObserver on sentinel <div> */
+  let scrollObserver = null;
+  let scrollSentinel = null;
+  let scrollTotalPages = 0;
+
+  function setupInfiniteScroll() {
+    if (scrollObserver) scrollObserver.disconnect();
+    scrollSentinel = document.getElementById('scroll-sentinel');
+    if (!scrollSentinel) return;
+
+    scrollObserver = new IntersectionObserver(function(entries) {
+      if (entries[0].isIntersecting && state.page < scrollTotalPages) {
+        state.page += 1;
+        const filtered = getFiltered();
+        const start = (state.page - 1) * s.PER_PAGE;
+        const pageData = filtered.slice(start, start + s.PER_PAGE);
+        const sentinel = scrollSentinel;
+        if (sentinel && sentinel.parentNode) {
+          sentinel.parentNode.insertBefore(
+            renderFlatView(pageData),
+            sentinel
+          );
+        }
+        renderPagination(scrollTotalPages);
+        s.persistState();
+        if (state.page >= scrollTotalPages) {
+          scrollObserver.disconnect();
+        }
+      }
+    }, { rootMargin: '200px' });
+    scrollObserver.observe(scrollSentinel);
   }
 
   function render() {
     const filtered = getFiltered();
     const totalPages = Math.max(1, Math.ceil(filtered.length / s.PER_PAGE));
     if (state.page > totalPages) state.page = totalPages;
+    scrollTotalPages = totalPages;
 
     const start = (state.page - 1) * s.PER_PAGE;
     const pageData = filtered.slice(start, start + s.PER_PAGE);
@@ -493,10 +527,18 @@
       results.className = state.viewMode === 'flat' ? 'results card-grid' : 'results results-grouped';
       if (state.viewMode === 'grouped') {
         results.appendChild(renderGroupedView(filtered));
-        renderPagination(1, filtered.length);
+        renderPagination(1);
       } else {
         results.appendChild(renderFlatView(pageData));
-        renderPagination(totalPages, filtered.length);
+        // ponytail: add sentinel for infinite scroll
+        if (state.page < totalPages) {
+          var sentinel = document.createElement('div');
+          sentinel.id = 'scroll-sentinel';
+          sentinel.style.height = '1px';
+          results.appendChild(sentinel);
+        }
+        renderPagination(totalPages);
+        setupInfiniteScroll();
       }
     }
 

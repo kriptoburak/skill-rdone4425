@@ -1,8 +1,8 @@
 {
   "meta": {
     "functionCategory": "health-medical",
-    "topCategoryId": "health-medical",
-    "subCategoryId": "health-medical",
+    "topCategoryId": "lifestyle",
+    "subCategoryId": "health",
     "categoryPath": "health-medical",
     "count": 1,
     "sourceData": "categories"

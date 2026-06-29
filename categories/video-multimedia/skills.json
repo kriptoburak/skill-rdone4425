@@ -1,13 +1,217 @@
 {
   "meta": {
     "functionCategory": "video-multimedia",
-    "topCategoryId": "media-creation",
-    "subCategoryId": "video",
+    "topCategoryId": "video-multimedia",
+    "subCategoryId": "video-multimedia",
     "categoryPath": "video-multimedia",
-    "count": 7,
+    "count": 11,
     "sourceData": "categories"
   },
   "skills": [
+    {
+      "name": "hyperframes",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "heygen-com/hyperframes",
+      "stars": 32015,
+      "desc": "Write HTML. Render video. Built for agents. AI-native video production framework.",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video",
+      "subCategoryId": "video",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "hyperframes write html. render video. built for agents. ai-native video production framework. heygen-com/hyperframes video-multimedia general"
+    },
+    {
+      "name": "azure-eventhub-dotnet",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26760,
+      "desc": "High-throughput event streaming",
+      "url": "https://officialskills.sh/microsoft/skills/azure-eventhub-dotnet",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video",
+      "subCategoryId": "multimedia",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "azure-eventhub-dotnet high-throughput event streaming voltagent/awesome-agent-skills video-multimedia claude codex cursor hermes gemini"
+    },
+    {
+      "name": "azure-eventhub-java",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26760,
+      "desc": "Real-time high-throughput streaming",
+      "url": "https://officialskills.sh/microsoft/skills/azure-eventhub-java",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video",
+      "subCategoryId": "multimedia",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "azure-eventhub-java real-time high-throughput streaming voltagent/awesome-agent-skills video-multimedia claude codex cursor hermes gemini"
+    },
+    {
+      "name": "azure-eventhub-py",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26760,
+      "desc": "High-throughput event streaming",
+      "url": "https://officialskills.sh/microsoft/skills/azure-eventhub-py",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video",
+      "subCategoryId": "multimedia",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "azure-eventhub-py high-throughput event streaming voltagent/awesome-agent-skills video-multimedia claude codex cursor hermes gemini"
+    },
+    {
+      "name": "azure-eventhub-ts",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26760,
+      "desc": "High-throughput event streaming",
+      "url": "https://officialskills.sh/microsoft/skills/azure-eventhub-ts",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video",
+      "subCategoryId": "multimedia",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "azure-eventhub-ts high-throughput event streaming voltagent/awesome-agent-skills video-multimedia claude codex cursor hermes gemini"
+    },
+    {
+      "name": "venice-audio-music",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26760,
+      "desc": "Music generation queueing, retrieval, and completion endpoints",
+      "url": "https://github.com/veniceai/skills/tree/main/skills/venice-audio-music",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video",
+      "subCategoryId": "multimedia",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "venice-audio-music music generation queueing, retrieval, and completion endpoints voltagent/awesome-agent-skills video-multimedia claude codex cursor hermes gemini"
+    },
+    {
+      "name": "venice-chat",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26760,
+      "desc": "Chat completions, multimodal inputs, tools, and streaming",
+      "url": "https://github.com/veniceai/skills/tree/main/skills/venice-chat",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video",
+      "subCategoryId": "multimedia",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "venice-chat chat completions, multimodal inputs, tools, and streaming voltagent/awesome-agent-skills video-multimedia claude codex cursor hermes gemini"
+    },
+    {
+      "name": "waoowaoo",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "waooAI/waoowaoo",
+      "stars": 12963,
+      "desc": "首家工业级全流程 AI 影视生产平台。Industry-first professional AI Agent platform for controllable film & video production.",
+      "url": "https://github.com/waooAI/waoowaoo",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video",
+      "subCategoryId": "video",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "waoowaoo 首家工业级全流程 ai 影视生产平台。industry-first professional ai agent platform for controllable film & video production. waooai/waoowaoo video-multimedia general"
+    },
+    {
+      "name": "toonflow",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "HBAI-Ltd/Toonflow-app",
+      "stars": 10698,
+      "desc": "开源一站式 AI 短剧创作工具，将小说、剧本转化为动画短剧。集成 AI 编剧、智能分镜、角色与视频生成。",
+      "url": "https://github.com/HBAI-Ltd/Toonflow-app",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "video",
+      "subCategoryId": "video",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "toonflow 开源一站式 ai 短剧创作工具，将小说、剧本转化为动画短剧。集成 ai 编剧、智能分镜、角色与视频生成。 hbai-ltd/toonflow-app video-multimedia general"
+    },
+    {
+      "name": "riffusion",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "riffusion/riffusion-hobby",
+      "stars": 3897,
+      "desc": "Stable diffusion for real-time music generation. Generate AI music with text prompts in your browser.",
+      "url": "https://github.com/riffusion/riffusion-hobby",
+      "install": "",
+      "functionCategory": "video-multimedia",
+      "topCategoryId": "media-creation",
+      "subCategoryId": "audio",
+      "categoryPath": "video-multimedia",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "riffusion stable diffusion for real-time music generation. generate ai music with text prompts in your browser. riffusion/riffusion-hobby video-multimedia general"
+    },
     {
       "name": "astri",
       "source": "astri",
@@ -25,138 +229,6 @@
         "astri"
       ],
       "searchText": "astri astri is a multitool written in python, it contains tools with different applications and is an excellent resource to find reliable sites of different types. astros3x/astri video-multimedia astri"
-    },
-    {
-      "name": "venice-chat",
-      "source": "awesome-list",
-      "sourceAgent": "multi",
-      "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26750,
-      "desc": "Chat completions, multimodal inputs, tools, and streaming",
-      "url": "https://github.com/veniceai/skills/tree/main/skills/venice-chat",
-      "install": "",
-      "functionCategory": "video-multimedia",
-      "topCategoryId": "video",
-      "subCategoryId": "multimedia",
-      "categoryPath": "video-multimedia",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "codex",
-        "gemini",
-        "hermes"
-      ],
-      "searchText": "venice-chat Chat completions, multimodal inputs, tools, and streaming VoltAgent/awesome-agent-skills video-multimedia multi"
-    },
-    {
-      "name": "venice-audio-music",
-      "source": "awesome-list",
-      "sourceAgent": "multi",
-      "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26750,
-      "desc": "Music generation queueing, retrieval, and completion endpoints",
-      "url": "https://github.com/veniceai/skills/tree/main/skills/venice-audio-music",
-      "install": "",
-      "functionCategory": "video-multimedia",
-      "topCategoryId": "video",
-      "subCategoryId": "multimedia",
-      "categoryPath": "video-multimedia",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "codex",
-        "gemini",
-        "hermes"
-      ],
-      "searchText": "venice-audio-music Music generation queueing, retrieval, and completion endpoints VoltAgent/awesome-agent-skills video-multimedia multi"
-    },
-    {
-      "name": "azure-eventhub-dotnet",
-      "source": "awesome-list",
-      "sourceAgent": "multi",
-      "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26750,
-      "desc": "High-throughput event streaming",
-      "url": "https://officialskills.sh/microsoft/skills/azure-eventhub-dotnet",
-      "install": "",
-      "functionCategory": "video-multimedia",
-      "topCategoryId": "video",
-      "subCategoryId": "multimedia",
-      "categoryPath": "video-multimedia",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "codex",
-        "gemini",
-        "hermes"
-      ],
-      "searchText": "azure-eventhub-dotnet High-throughput event streaming VoltAgent/awesome-agent-skills video-multimedia multi"
-    },
-    {
-      "name": "azure-eventhub-java",
-      "source": "awesome-list",
-      "sourceAgent": "multi",
-      "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26750,
-      "desc": "Real-time high-throughput streaming",
-      "url": "https://officialskills.sh/microsoft/skills/azure-eventhub-java",
-      "install": "",
-      "functionCategory": "video-multimedia",
-      "topCategoryId": "video",
-      "subCategoryId": "multimedia",
-      "categoryPath": "video-multimedia",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "codex",
-        "gemini",
-        "hermes"
-      ],
-      "searchText": "azure-eventhub-java Real-time high-throughput streaming VoltAgent/awesome-agent-skills video-multimedia multi"
-    },
-    {
-      "name": "azure-eventhub-py",
-      "source": "awesome-list",
-      "sourceAgent": "multi",
-      "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26750,
-      "desc": "High-throughput event streaming",
-      "url": "https://officialskills.sh/microsoft/skills/azure-eventhub-py",
-      "install": "",
-      "functionCategory": "video-multimedia",
-      "topCategoryId": "video",
-      "subCategoryId": "multimedia",
-      "categoryPath": "video-multimedia",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "codex",
-        "gemini",
-        "hermes"
-      ],
-      "searchText": "azure-eventhub-py High-throughput event streaming VoltAgent/awesome-agent-skills video-multimedia multi"
-    },
-    {
-      "name": "azure-eventhub-ts",
-      "source": "awesome-list",
-      "sourceAgent": "multi",
-      "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26750,
-      "desc": "High-throughput event streaming",
-      "url": "https://officialskills.sh/microsoft/skills/azure-eventhub-ts",
-      "install": "",
-      "functionCategory": "video-multimedia",
-      "topCategoryId": "video",
-      "subCategoryId": "multimedia",
-      "categoryPath": "video-multimedia",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "codex",
-        "gemini",
-        "hermes"
-      ],
-      "searchText": "azure-eventhub-ts High-throughput event streaming VoltAgent/awesome-agent-skills video-multimedia multi"
     }
   ]
 }

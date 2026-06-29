@@ -1,13 +1,156 @@
 {
   "meta": {
     "functionCategory": "education",
-    "topCategoryId": "business",
+    "topCategoryId": "education",
     "subCategoryId": "education",
     "categoryPath": "education",
-    "count": 9,
+    "count": 16,
     "sourceData": "categories"
   },
   "skills": [
+    {
+      "name": "hello-agents",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "datawhalechina/hello-agents",
+      "stars": 62470,
+      "desc": "从零开始构建智能体 — principles and practice of building AI agents from scratch.",
+      "url": "https://github.com/datawhalechina/hello-agents",
+      "install": "",
+      "functionCategory": "education",
+      "topCategoryId": "education",
+      "subCategoryId": "education",
+      "categoryPath": "education",
+      "supportedAgents": [
+        "claude",
+        "codex"
+      ],
+      "searchText": "hello-agents 从零开始构建智能体 — principles and practice of building ai agents from scratch. datawhalechina/hello-agents education claude codex"
+    },
+    {
+      "name": "gws-classroom",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26760,
+      "desc": "Manage Google Classroom classes, rosters, and coursework",
+      "url": "https://officialskills.sh/googleworkspace/skills/gws-classroom",
+      "install": "",
+      "functionCategory": "education",
+      "topCategoryId": "education",
+      "subCategoryId": "general",
+      "categoryPath": "education",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "gws-classroom manage google classroom classes, rosters, and coursework voltagent/awesome-agent-skills education claude codex cursor hermes gemini"
+    },
+    {
+      "name": "skill-evolution",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26760,
+      "desc": "After solving a non-trivial problem, detect generalizable learnings and propose skill updates so future interactions benefit automatically.",
+      "url": "https://github.com/NVIDIA/skills/tree/main/skills/cuopt/skill-evolution",
+      "install": "",
+      "functionCategory": "education",
+      "topCategoryId": "education",
+      "subCategoryId": "general",
+      "categoryPath": "education",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "skill-evolution after solving a non-trivial problem, detect generalizable learnings and propose skill updates so future interactions benefit automatically. voltagent/awesome-agent-skills education claude codex cursor hermes gemini"
+    },
+    {
+      "name": "deeptutor",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "HKUDS/DeepTutor",
+      "stars": 25091,
+      "desc": "Agent-native Personalized Tutoring system. Adaptive AI tutoring tailored to each student's learning style.",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "install": "",
+      "functionCategory": "education",
+      "topCategoryId": "education",
+      "subCategoryId": "education",
+      "categoryPath": "education",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "deeptutor agent-native personalized tutoring system. adaptive ai tutoring tailored to each student's learning style. hkuds/deeptutor education general"
+    },
+    {
+      "name": "easy-vibe",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "datawhalechina/easy-vibe",
+      "stars": 17424,
+      "desc": "Vibe Coding 2026 — Your First Modern Coding course: from beginners to master step by step.",
+      "url": "https://github.com/datawhalechina/easy-vibe",
+      "install": "",
+      "functionCategory": "education",
+      "topCategoryId": "education",
+      "subCategoryId": "education",
+      "categoryPath": "education",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "easy-vibe vibe coding 2026 — your first modern coding course: from beginners to master step by step. datawhalechina/easy-vibe education general"
+    },
+    {
+      "name": "Claude Cookbooks - Skills",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "travisvn/awesome-claude-skills",
+      "stars": 13792,
+      "desc": "Example notebooks and tutorials",
+      "url": "https://github.com/anthropics/claude-cookbooks/tree/main/skills",
+      "install": "",
+      "functionCategory": "education",
+      "topCategoryId": "education",
+      "subCategoryId": "general",
+      "categoryPath": "education",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "claude cookbooks - skills example notebooks and tutorials travisvn/awesome-claude-skills education claude codex cursor hermes gemini"
+    },
+    {
+      "name": "How to Create Your First Claude Skill",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "travisvn/awesome-claude-skills",
+      "stars": 13792,
+      "desc": "Step-by-step tutorial with examples",
+      "url": "https://skywork.ai/blog/ai-agent/how-to-create-claude-skill-step-by-step-guide/",
+      "install": "",
+      "functionCategory": "education",
+      "topCategoryId": "education",
+      "subCategoryId": "general",
+      "categoryPath": "education",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "how to create your first claude skill step-by-step tutorial with examples travisvn/awesome-claude-skills education claude codex cursor hermes gemini"
+    },
     {
       "name": "classisland",
       "source": "classisland",
@@ -43,6 +186,60 @@
         "osint-cheat-sheet"
       ],
       "searchText": "osint-cheat-sheet osint cheat sheet, list osint tools, wiki, dataset, article, book , red team osint for hackers and osint tips and osint branch. this repository will grow every time will research, there is a research, jieyab89/osint-cheat-sheet education osint-cheat-sheet"
+    },
+    {
+      "name": "pagelm",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "CaviraOSS/PageLM",
+      "stars": 1669,
+      "desc": "Community-driven version of NotebookLM & education platform that transforms study materials into interactive AI notebooks.",
+      "url": "https://github.com/CaviraOSS/PageLM",
+      "install": "",
+      "functionCategory": "education",
+      "topCategoryId": "education",
+      "subCategoryId": "education",
+      "categoryPath": "education",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "pagelm community-driven version of notebooklm & education platform that transforms study materials into interactive ai notebooks. caviraoss/pagelm education general"
+    },
+    {
+      "name": "chattutor",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "HugeCatLab/ChatTutor",
+      "stars": 1229,
+      "desc": "Visual and Interactive AI Tutor with real-time feedback and adaptive questioning.",
+      "url": "https://github.com/HugeCatLab/ChatTutor",
+      "install": "",
+      "functionCategory": "education",
+      "topCategoryId": "education",
+      "subCategoryId": "education",
+      "categoryPath": "education",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "chattutor visual and interactive ai tutor with real-time feedback and adaptive questioning. hugecatlab/chattutor education general"
+    },
+    {
+      "name": "echo-loop",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "echo-loop/Echo-Loop",
+      "stars": 1128,
+      "desc": "AI-powered English listening & speaking training app with blind listening, shadowing, retelling, and spaced repetition.",
+      "url": "https://github.com/echo-loop/Echo-Loop",
+      "install": "",
+      "functionCategory": "education",
+      "topCategoryId": "education",
+      "subCategoryId": "education",
+      "categoryPath": "education",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "echo-loop ai-powered english listening & speaking training app with blind listening, shadowing, retelling, and spaced repetition. echo-loop/echo-loop education general"
     },
     {
       "name": "class-widgets",
@@ -81,6 +278,24 @@
       "searchText": "hypatia a javascript open source lms (elearning platform) for moocs and online courses gazpachu/hypatia education hypatia"
     },
     {
+      "name": "antivibe",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "mohi-devhub/antivibe",
+      "stars": 650,
+      "desc": "Learn what AI writes, not just accept it. A Claude Code skill that turns AI-generated code into educational material.",
+      "url": "https://github.com/mohi-devhub/antivibe",
+      "install": "",
+      "functionCategory": "education",
+      "topCategoryId": "education",
+      "subCategoryId": "education",
+      "categoryPath": "education",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "antivibe learn what ai writes, not just accept it. a claude code skill that turns ai-generated code into educational material. mohi-devhub/antivibe education claude"
+    },
+    {
       "name": "kicknosub",
       "source": "kicknosub",
       "sourceAgent": "kicknosub",
@@ -97,94 +312,6 @@
         "kicknosub"
       ],
       "searchText": "kicknosub extract direct stream urls from kick videos in your preferred quality for educational and research purposes. enmn/kicknosub education kicknosub"
-    },
-    {
-      "name": "gws-classroom",
-      "source": "awesome-list",
-      "sourceAgent": "multi",
-      "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26750,
-      "desc": "Manage Google Classroom classes, rosters, and coursework",
-      "url": "https://officialskills.sh/googleworkspace/skills/gws-classroom",
-      "install": "",
-      "functionCategory": "education",
-      "topCategoryId": "education",
-      "subCategoryId": "general",
-      "categoryPath": "education",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "codex",
-        "gemini",
-        "hermes"
-      ],
-      "searchText": "gws-classroom Manage Google Classroom classes, rosters, and coursework VoltAgent/awesome-agent-skills education multi"
-    },
-    {
-      "name": "skill-evolution",
-      "source": "awesome-list",
-      "sourceAgent": "multi",
-      "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26750,
-      "desc": "After solving a non-trivial problem, detect generalizable learnings and propose skill updates so future interactions benefit automatically.",
-      "url": "https://github.com/NVIDIA/skills/tree/main/skills/cuopt/skill-evolution",
-      "install": "",
-      "functionCategory": "education",
-      "topCategoryId": "education",
-      "subCategoryId": "general",
-      "categoryPath": "education",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "codex",
-        "gemini",
-        "hermes"
-      ],
-      "searchText": "skill-evolution After solving a non-trivial problem, detect generalizable learnings and propose skill updates so fut VoltAgent/awesome-agent-skills education multi"
-    },
-    {
-      "name": "Claude Cookbooks - Skills",
-      "source": "awesome-list",
-      "sourceAgent": "multi",
-      "repo": "travisvn/awesome-claude-skills",
-      "stars": 13792,
-      "desc": "Example notebooks and tutorials",
-      "url": "https://github.com/anthropics/claude-cookbooks/tree/main/skills",
-      "install": "",
-      "functionCategory": "education",
-      "topCategoryId": "education",
-      "subCategoryId": "general",
-      "categoryPath": "education",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "codex",
-        "gemini",
-        "hermes"
-      ],
-      "searchText": "Claude Cookbooks - Skills Example notebooks and tutorials travisvn/awesome-claude-skills education multi"
-    },
-    {
-      "name": "How to Create Your First Claude Skill",
-      "source": "awesome-list",
-      "sourceAgent": "multi",
-      "repo": "travisvn/awesome-claude-skills",
-      "stars": 13792,
-      "desc": "Step-by-step tutorial with examples",
-      "url": "https://skywork.ai/blog/ai-agent/how-to-create-claude-skill-step-by-step-guide/",
-      "install": "",
-      "functionCategory": "education",
-      "topCategoryId": "education",
-      "subCategoryId": "general",
-      "categoryPath": "education",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "codex",
-        "gemini",
-        "hermes"
-      ],
-      "searchText": "How to Create Your First Claude Skill Step-by-step tutorial with examples travisvn/awesome-claude-skills education multi"
     }
   ]
 }

@@ -1,13 +1,67 @@
 {
   "meta": {
     "functionCategory": "health-medical",
-    "topCategoryId": "lifestyle",
-    "subCategoryId": "health",
+    "topCategoryId": "health-medical",
+    "subCategoryId": "health-medical",
     "categoryPath": "health-medical",
-    "count": 1,
+    "count": 4,
     "sourceData": "categories"
   },
   "skills": [
+    {
+      "name": "sparkyfitness",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "CodeWithCJ/SparkyFitness",
+      "stars": 4461,
+      "desc": "Built for Families. Powered by AI. Track food, fitness, water, and health — together.",
+      "url": "https://github.com/CodeWithCJ/SparkyFitness",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health",
+      "subCategoryId": "health",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "sparkyfitness built for families. powered by ai. track food, fitness, water, and health — together. codewithcj/sparkyfitness health-medical general"
+    },
+    {
+      "name": "jarvis-health",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "isair/jarvis",
+      "stars": 1272,
+      "desc": "A 100% private AI voice assistant that lives on your computer. Track health, medication, and wellness — offline.",
+      "url": "https://github.com/isair/jarvis",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health",
+      "subCategoryId": "health",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "jarvis-health a 100% private ai voice assistant that lives on your computer. track health, medication, and wellness — offline. isair/jarvis health-medical general"
+    },
+    {
+      "name": "lotti",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "matthiasn/lotti",
+      "stars": 1134,
+      "desc": "Open-source private logbook with a local agentic layer. Long-living AI agents read what you record about your health.",
+      "url": "https://github.com/matthiasn/lotti",
+      "install": "",
+      "functionCategory": "health-medical",
+      "topCategoryId": "health",
+      "subCategoryId": "health",
+      "categoryPath": "health-medical",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "lotti open-source private logbook with a local agentic layer. long-living ai agents read what you record about your health. matthiasn/lotti health-medical general"
+    },
     {
       "name": "mostly-free-resources-for-almost-everyone",
       "source": "mostly-free-resources-for-almost-everyone",

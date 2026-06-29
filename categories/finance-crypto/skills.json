@@ -1,10 +1,10 @@
 {
   "meta": {
     "functionCategory": "finance-crypto",
-    "topCategoryId": "business",
-    "subCategoryId": "finance",
+    "topCategoryId": "finance-crypto",
+    "subCategoryId": "finance-crypto",
     "categoryPath": "finance-crypto",
-    "count": 37,
+    "count": 39,
     "sourceData": "categories"
   },
   "skills": [
@@ -27,6 +27,226 @@
       "searchText": "ccxt a cryptocurrency trading api with more than 100 exchanges in javascript / typescript / python / c# / php / go / java ccxt/ccxt finance-crypto ccxt"
     },
     {
+      "name": "copy-editing",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26760,
+      "desc": "Edit and improve existing marketing copy for clarity and impact",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/copy-editing",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "copy-editing edit and improve existing marketing copy for clarity and impact voltagent/awesome-agent-skills finance-crypto claude codex cursor hermes gemini"
+    },
+    {
+      "name": "feature-investment-advisor",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26760,
+      "desc": "Evaluate features using ROI and strategic value scoring",
+      "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/feature-investment-advisor",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "feature-investment-advisor evaluate features using roi and strategic value scoring voltagent/awesome-agent-skills finance-crypto claude codex cursor hermes gemini"
+    },
+    {
+      "name": "fund",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26760,
+      "desc": "Add USDC to a Coinbase-powered wallet through Coinbase Onramp",
+      "url": "https://officialskills.sh/coinbase/skills/fund",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "fund add usdc to a coinbase-powered wallet through coinbase onramp voltagent/awesome-agent-skills finance-crypto claude codex cursor hermes gemini"
+    },
+    {
+      "name": "market-sizing",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26760,
+      "desc": "Estimate TAM, SAM, SOM with top-down and bottom-up approaches",
+      "url": "https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/market-sizing",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "market-sizing estimate tam, sam, som with top-down and bottom-up approaches voltagent/awesome-agent-skills finance-crypto claude codex cursor hermes gemini"
+    },
+    {
+      "name": "north-star-metric",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26760,
+      "desc": "Define North Star Metric and input metrics constellation",
+      "url": "https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/skills/north-star-metric",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "north-star-metric define north star metric and input metrics constellation voltagent/awesome-agent-skills finance-crypto claude codex cursor hermes gemini"
+    },
+    {
+      "name": "page-cro",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26760,
+      "desc": "Improve conversion rates on any marketing page including homepages and landing pages",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/page-cro",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "page-cro improve conversion rates on any marketing page including homepages and landing pages voltagent/awesome-agent-skills finance-crypto claude codex cursor hermes gemini"
+    },
+    {
+      "name": "positioning-statement",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26760,
+      "desc": "Define target audience, problem solved, and differentiation using Geoffrey Moore's framework",
+      "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/positioning-statement",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "positioning-statement define target audience, problem solved, and differentiation using geoffrey moore's framework voltagent/awesome-agent-skills finance-crypto claude codex cursor hermes gemini"
+    },
+    {
+      "name": "query-address-info",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26760,
+      "desc": "Retrieve all token holdings and portfolio positions for any wallet address on BSC, Base, or Solana",
+      "url": "https://officialskills.sh/binance/skills/query-address-info",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "query-address-info retrieve all token holdings and portfolio positions for any wallet address on bsc, base, or solana voltagent/awesome-agent-skills finance-crypto claude codex cursor hermes gemini"
+    },
+    {
+      "name": "value-prop-statements",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26760,
+      "desc": "Generate value prop statements for marketing, sales, and onboarding",
+      "url": "https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/skills/value-prop-statements",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "value-prop-statements generate value prop statements for marketing, sales, and onboarding voltagent/awesome-agent-skills finance-crypto claude codex cursor hermes gemini"
+    },
+    {
+      "name": "venice-x402",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26760,
+      "desc": "Wallet credits and x402 payments on Base",
+      "url": "https://github.com/veniceai/skills/tree/main/skills/venice-x402",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "venice-x402 wallet credits and x402 payments on base voltagent/awesome-agent-skills finance-crypto claude codex cursor hermes gemini"
+    },
+    {
       "name": "hummingbot",
       "source": "hummingbot",
       "sourceAgent": "hummingbot",
@@ -43,6 +263,42 @@
         "hummingbot"
       ],
       "searchText": "hummingbot open source software that helps you create and deploy high-frequency crypto trading bots hummingbot/hummingbot finance-crypto hummingbot"
+    },
+    {
+      "name": "vibe-trading",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "HKUDS/Vibe-Trading",
+      "stars": 14497,
+      "desc": "Your Personal Trading Agent — AI-powered vibe-based trading analysis and execution.",
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "finance",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "vibe-trading your personal trading agent — ai-powered vibe-based trading analysis and execution. hkuds/vibe-trading finance-crypto general"
+    },
+    {
+      "name": "quantdinger",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "brokermr810/QuantDinger",
+      "stars": 8964,
+      "desc": "AI quantitative trading platform for crypto, stocks, and forex with backtesting, live trading, and market analysis.",
+      "url": "https://github.com/brokermr810/QuantDinger",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "quantdinger ai quantitative trading platform for crypto, stocks, and forex with backtesting, live trading, and market analysis. brokermr810/quantdinger finance-crypto general"
     },
     {
       "name": "jesse",
@@ -135,6 +391,204 @@
       "searchText": "opentrader 🤖 open-source crypto trading bot | 📈 dca & grid strategies | ✨ ui | ⭐ star to support the project! open-trader/opentrader finance-crypto opentrader"
     },
     {
+      "name": "✨ 核心亮点",
+      "source": "RKiding/Awesome-finance-skills",
+      "sourceAgent": "claude",
+      "repo": "RKiding/Awesome-finance-skills",
+      "stars": 2615,
+      "desc": "Finance AI skill: ✨ 核心亮点",
+      "url": "https://github.com/RKiding/Awesome-finance-skills",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "finance-crypto",
+      "categoryPath": "finance-crypto/finance-crypto",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "✨ 核心亮点 finance ai skill: ✨ 核心亮点 rkiding/awesome-finance-skills finance-crypto claude"
+    },
+    {
+      "name": "📦 Included Skills",
+      "source": "RKiding/Awesome-finance-skills",
+      "sourceAgent": "claude",
+      "repo": "RKiding/Awesome-finance-skills",
+      "stars": 2615,
+      "desc": "Finance AI skill: 📦 Included Skills",
+      "url": "https://github.com/RKiding/Awesome-finance-skills",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "finance-crypto",
+      "categoryPath": "finance-crypto/finance-crypto",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "📦 included skills finance ai skill: 📦 included skills rkiding/awesome-finance-skills finance-crypto claude"
+    },
+    {
+      "name": "📦 技能清单",
+      "source": "RKiding/Awesome-finance-skills",
+      "sourceAgent": "claude",
+      "repo": "RKiding/Awesome-finance-skills",
+      "stars": 2615,
+      "desc": "Finance AI skill: 📦 技能清单",
+      "url": "https://github.com/RKiding/Awesome-finance-skills",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "finance-crypto",
+      "categoryPath": "finance-crypto/finance-crypto",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "📦 技能清单 finance ai skill: 📦 技能清单 rkiding/awesome-finance-skills finance-crypto claude"
+    },
+    {
+      "name": "🔗 Related Project",
+      "source": "RKiding/Awesome-finance-skills",
+      "sourceAgent": "claude",
+      "repo": "RKiding/Awesome-finance-skills",
+      "stars": 2615,
+      "desc": "Finance AI skill: 🔗 Related Project",
+      "url": "https://github.com/RKiding/Awesome-finance-skills",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "finance-crypto",
+      "categoryPath": "finance-crypto/finance-crypto",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "🔗 related project finance ai skill: 🔗 related project rkiding/awesome-finance-skills finance-crypto claude"
+    },
+    {
+      "name": "🔗 完整框架",
+      "source": "RKiding/Awesome-finance-skills",
+      "sourceAgent": "claude",
+      "repo": "RKiding/Awesome-finance-skills",
+      "stars": 2615,
+      "desc": "Finance AI skill: 🔗 完整框架",
+      "url": "https://github.com/RKiding/Awesome-finance-skills",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "finance-crypto",
+      "categoryPath": "finance-crypto/finance-crypto",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "🔗 完整框架 finance ai skill: 🔗 完整框架 rkiding/awesome-finance-skills finance-crypto claude"
+    },
+    {
+      "name": "🔧 Integration Guide",
+      "source": "RKiding/Awesome-finance-skills",
+      "sourceAgent": "claude",
+      "repo": "RKiding/Awesome-finance-skills",
+      "stars": 2615,
+      "desc": "Finance AI skill: 🔧 Integration Guide",
+      "url": "https://github.com/RKiding/Awesome-finance-skills",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "finance-crypto",
+      "categoryPath": "finance-crypto/finance-crypto",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "🔧 integration guide finance ai skill: 🔧 integration guide rkiding/awesome-finance-skills finance-crypto claude"
+    },
+    {
+      "name": "🔧 技能接入指南",
+      "source": "RKiding/Awesome-finance-skills",
+      "sourceAgent": "claude",
+      "repo": "RKiding/Awesome-finance-skills",
+      "stars": 2615,
+      "desc": "Finance AI skill: 🔧 技能接入指南",
+      "url": "https://github.com/RKiding/Awesome-finance-skills",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "finance-crypto",
+      "categoryPath": "finance-crypto/finance-crypto",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "🔧 技能接入指南 finance ai skill: 🔧 技能接入指南 rkiding/awesome-finance-skills finance-crypto claude"
+    },
+    {
+      "name": "🚀 快速开始",
+      "source": "RKiding/Awesome-finance-skills",
+      "sourceAgent": "claude",
+      "repo": "RKiding/Awesome-finance-skills",
+      "stars": 2615,
+      "desc": "Finance AI skill: 🚀 快速开始",
+      "url": "https://github.com/RKiding/Awesome-finance-skills",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "finance-crypto",
+      "categoryPath": "finance-crypto/finance-crypto",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "🚀 快速开始 finance ai skill: 🚀 快速开始 rkiding/awesome-finance-skills finance-crypto claude"
+    },
+    {
+      "name": "alphaear-news",
+      "source": "RKiding/Awesome-finance-skills",
+      "sourceAgent": "claude",
+      "repo": "RKiding/Awesome-finance-skills",
+      "stars": 2615,
+      "desc": "Finance AI skill: alphaear-news",
+      "url": "https://github.com/RKiding/Awesome-finance-skills/tree/main/alphaear-news",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "finance-crypto",
+      "categoryPath": "finance-crypto/finance-crypto",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "alphaear-news finance ai skill: alphaear-news rkiding/awesome-finance-skills finance-crypto claude"
+    },
+    {
+      "name": "方式一：一键安装（推荐）",
+      "source": "RKiding/Awesome-finance-skills",
+      "sourceAgent": "claude",
+      "repo": "RKiding/Awesome-finance-skills",
+      "stars": 2615,
+      "desc": "Finance AI skill: 方式一：一键安装（推荐）",
+      "url": "https://github.com/RKiding/Awesome-finance-skills",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "finance-crypto",
+      "categoryPath": "finance-crypto/finance-crypto",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "方式一：一键安装（推荐） finance ai skill: 方式一：一键安装（推荐） rkiding/awesome-finance-skills finance-crypto claude"
+    },
+    {
+      "name": "方式二：手动安装",
+      "source": "RKiding/Awesome-finance-skills",
+      "sourceAgent": "claude",
+      "repo": "RKiding/Awesome-finance-skills",
+      "stars": 2615,
+      "desc": "Finance AI skill: 方式二：手动安装",
+      "url": "https://github.com/RKiding/Awesome-finance-skills",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance-crypto",
+      "subCategoryId": "finance-crypto",
+      "categoryPath": "finance-crypto/finance-crypto",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "方式二：手动安装 finance ai skill: 方式二：手动安装 rkiding/awesome-finance-skills finance-crypto claude"
+    },
+    {
       "name": "blankly",
       "source": "blankly",
       "sourceAgent": "blankly",
@@ -207,6 +661,24 @@
       "searchText": "ninjabot a fast trading bot platform for cryptocurrency in go (binance) rodrigo-brito/ninjabot finance-crypto ninjabot"
     },
     {
+      "name": "binance-skills-hub",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "binance/binance-skills-hub",
+      "stars": 919,
+      "desc": "Binance Skills Hub — open skills marketplace that gives AI agents native access to crypto trading and data APIs.",
+      "url": "https://github.com/binance/binance-skills-hub",
+      "install": "",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "binance-skills-hub binance skills hub — open skills marketplace that gives ai agents native access to crypto trading and data apis. binance/binance-skills-hub finance-crypto general"
+    },
+    {
       "name": "horus",
       "source": "horus",
       "sourceAgent": "horus",
@@ -277,406 +749,6 @@
         "dash-tools"
       ],
       "searchText": "dash-tools dashtools - plotly dash command line tools - create, run and deploy templated python apps from terminal andrew-hossack/dash-tools finance-crypto dash-tools"
-    },
-    {
-      "name": "venice-x402",
-      "source": "awesome-list",
-      "sourceAgent": "multi",
-      "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26750,
-      "desc": "Wallet credits and x402 payments on Base",
-      "url": "https://github.com/veniceai/skills/tree/main/skills/venice-x402",
-      "install": "",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance",
-      "subCategoryId": "crypto",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "codex",
-        "gemini",
-        "hermes"
-      ],
-      "searchText": "venice-x402 Wallet credits and x402 payments on Base VoltAgent/awesome-agent-skills finance-crypto multi"
-    },
-    {
-      "name": "copy-editing",
-      "source": "awesome-list",
-      "sourceAgent": "multi",
-      "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26750,
-      "desc": "Edit and improve existing marketing copy for clarity and impact",
-      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/copy-editing",
-      "install": "",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance",
-      "subCategoryId": "crypto",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "codex",
-        "gemini",
-        "hermes"
-      ],
-      "searchText": "copy-editing Edit and improve existing marketing copy for clarity and impact VoltAgent/awesome-agent-skills finance-crypto multi"
-    },
-    {
-      "name": "page-cro",
-      "source": "awesome-list",
-      "sourceAgent": "multi",
-      "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26750,
-      "desc": "Improve conversion rates on any marketing page including homepages and landing pages",
-      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/page-cro",
-      "install": "",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance",
-      "subCategoryId": "crypto",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "codex",
-        "gemini",
-        "hermes"
-      ],
-      "searchText": "page-cro Improve conversion rates on any marketing page including homepages and landing pages VoltAgent/awesome-agent-skills finance-crypto multi"
-    },
-    {
-      "name": "query-address-info",
-      "source": "awesome-list",
-      "sourceAgent": "multi",
-      "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26750,
-      "desc": "Retrieve all token holdings and portfolio positions for any wallet address on BSC, Base, or Solana",
-      "url": "https://officialskills.sh/binance/skills/query-address-info",
-      "install": "",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance",
-      "subCategoryId": "crypto",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "codex",
-        "gemini",
-        "hermes"
-      ],
-      "searchText": "query-address-info Retrieve all token holdings and portfolio positions for any wallet address on BSC, Base, or Solana VoltAgent/awesome-agent-skills finance-crypto multi"
-    },
-    {
-      "name": "fund",
-      "source": "awesome-list",
-      "sourceAgent": "multi",
-      "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26750,
-      "desc": "Add USDC to a Coinbase-powered wallet through Coinbase Onramp",
-      "url": "https://officialskills.sh/coinbase/skills/fund",
-      "install": "",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance",
-      "subCategoryId": "crypto",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "codex",
-        "gemini",
-        "hermes"
-      ],
-      "searchText": "fund Add USDC to a Coinbase-powered wallet through Coinbase Onramp VoltAgent/awesome-agent-skills finance-crypto multi"
-    },
-    {
-      "name": "positioning-statement",
-      "source": "awesome-list",
-      "sourceAgent": "multi",
-      "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26750,
-      "desc": "Define target audience, problem solved, and differentiation using Geoffrey Moore's framework",
-      "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/positioning-statement",
-      "install": "",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance",
-      "subCategoryId": "crypto",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "codex",
-        "gemini",
-        "hermes"
-      ],
-      "searchText": "positioning-statement Define target audience, problem solved, and differentiation using Geoffrey Moore's framework VoltAgent/awesome-agent-skills finance-crypto multi"
-    },
-    {
-      "name": "feature-investment-advisor",
-      "source": "awesome-list",
-      "sourceAgent": "multi",
-      "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26750,
-      "desc": "Evaluate features using ROI and strategic value scoring",
-      "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/feature-investment-advisor",
-      "install": "",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance",
-      "subCategoryId": "crypto",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "codex",
-        "gemini",
-        "hermes"
-      ],
-      "searchText": "feature-investment-advisor Evaluate features using ROI and strategic value scoring VoltAgent/awesome-agent-skills finance-crypto multi"
-    },
-    {
-      "name": "market-sizing",
-      "source": "awesome-list",
-      "sourceAgent": "multi",
-      "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26750,
-      "desc": "Estimate TAM, SAM, SOM with top-down and bottom-up approaches",
-      "url": "https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/market-sizing",
-      "install": "",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance",
-      "subCategoryId": "crypto",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "codex",
-        "gemini",
-        "hermes"
-      ],
-      "searchText": "market-sizing Estimate TAM, SAM, SOM with top-down and bottom-up approaches VoltAgent/awesome-agent-skills finance-crypto multi"
-    },
-    {
-      "name": "north-star-metric",
-      "source": "awesome-list",
-      "sourceAgent": "multi",
-      "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26750,
-      "desc": "Define North Star Metric and input metrics constellation",
-      "url": "https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/skills/north-star-metric",
-      "install": "",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance",
-      "subCategoryId": "crypto",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "codex",
-        "gemini",
-        "hermes"
-      ],
-      "searchText": "north-star-metric Define North Star Metric and input metrics constellation VoltAgent/awesome-agent-skills finance-crypto multi"
-    },
-    {
-      "name": "value-prop-statements",
-      "source": "awesome-list",
-      "sourceAgent": "multi",
-      "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26750,
-      "desc": "Generate value prop statements for marketing, sales, and onboarding",
-      "url": "https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/skills/value-prop-statements",
-      "install": "",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance",
-      "subCategoryId": "crypto",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "codex",
-        "gemini",
-        "hermes"
-      ],
-      "searchText": "value-prop-statements Generate value prop statements for marketing, sales, and onboarding VoltAgent/awesome-agent-skills finance-crypto multi"
-    },
-    {
-      "name": "alphaear-news",
-      "source": "RKiding/Awesome-finance-skills",
-      "sourceAgent": "claude",
-      "repo": "RKiding/Awesome-finance-skills",
-      "stars": 2615,
-      "desc": "Finance AI skill: alphaear-news",
-      "url": "https://github.com/RKiding/Awesome-finance-skills/tree/main/alphaear-news",
-      "install": "",
-      "functionCategory": "finance-crypto",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "alphaear-news Finance AI skill: alphaear-news RKiding/Awesome-finance-skills finance-crypto"
-    },
-    {
-      "name": "alphaear-news",
-      "source": "RKiding/Awesome-finance-skills",
-      "sourceAgent": "claude",
-      "repo": "RKiding/Awesome-finance-skills",
-      "stars": 2615,
-      "desc": "Finance AI skill: alphaear-news",
-      "url": "https://github.com/RKiding/Awesome-finance-skills/tree/main/alphaear-news",
-      "install": "",
-      "functionCategory": "finance-crypto",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "alphaear-news Finance AI skill: alphaear-news RKiding/Awesome-finance-skills finance-crypto"
-    },
-    {
-      "name": "📦 Included Skills",
-      "source": "RKiding/Awesome-finance-skills",
-      "sourceAgent": "claude",
-      "repo": "RKiding/Awesome-finance-skills",
-      "stars": 2615,
-      "desc": "Finance AI skill: 📦 Included Skills",
-      "url": "https://github.com/RKiding/Awesome-finance-skills",
-      "install": "",
-      "functionCategory": "finance-crypto",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "📦 Included Skills Finance AI skill: 📦 Included Skills RKiding/Awesome-finance-skills finance-crypto"
-    },
-    {
-      "name": "🔧 Integration Guide",
-      "source": "RKiding/Awesome-finance-skills",
-      "sourceAgent": "claude",
-      "repo": "RKiding/Awesome-finance-skills",
-      "stars": 2615,
-      "desc": "Finance AI skill: 🔧 Integration Guide",
-      "url": "https://github.com/RKiding/Awesome-finance-skills",
-      "install": "",
-      "functionCategory": "finance-crypto",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "🔧 Integration Guide Finance AI skill: 🔧 Integration Guide RKiding/Awesome-finance-skills finance-crypto"
-    },
-    {
-      "name": "🔗 Related Project",
-      "source": "RKiding/Awesome-finance-skills",
-      "sourceAgent": "claude",
-      "repo": "RKiding/Awesome-finance-skills",
-      "stars": 2615,
-      "desc": "Finance AI skill: 🔗 Related Project",
-      "url": "https://github.com/RKiding/Awesome-finance-skills",
-      "install": "",
-      "functionCategory": "finance-crypto",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "🔗 Related Project Finance AI skill: 🔗 Related Project RKiding/Awesome-finance-skills finance-crypto"
-    },
-    {
-      "name": "✨ 核心亮点",
-      "source": "RKiding/Awesome-finance-skills",
-      "sourceAgent": "claude",
-      "repo": "RKiding/Awesome-finance-skills",
-      "stars": 2615,
-      "desc": "Finance AI skill: ✨ 核心亮点",
-      "url": "https://github.com/RKiding/Awesome-finance-skills",
-      "install": "",
-      "functionCategory": "finance-crypto",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "✨ 核心亮点 Finance AI skill: ✨ 核心亮点 RKiding/Awesome-finance-skills finance-crypto"
-    },
-    {
-      "name": "🚀 快速开始",
-      "source": "RKiding/Awesome-finance-skills",
-      "sourceAgent": "claude",
-      "repo": "RKiding/Awesome-finance-skills",
-      "stars": 2615,
-      "desc": "Finance AI skill: 🚀 快速开始",
-      "url": "https://github.com/RKiding/Awesome-finance-skills",
-      "install": "",
-      "functionCategory": "finance-crypto",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "🚀 快速开始 Finance AI skill: 🚀 快速开始 RKiding/Awesome-finance-skills finance-crypto"
-    },
-    {
-      "name": "方式一：一键安装（推荐）",
-      "source": "RKiding/Awesome-finance-skills",
-      "sourceAgent": "claude",
-      "repo": "RKiding/Awesome-finance-skills",
-      "stars": 2615,
-      "desc": "Finance AI skill: 方式一：一键安装（推荐）",
-      "url": "https://github.com/RKiding/Awesome-finance-skills",
-      "install": "",
-      "functionCategory": "finance-crypto",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "方式一：一键安装（推荐） Finance AI skill: 方式一：一键安装（推荐） RKiding/Awesome-finance-skills finance-crypto"
-    },
-    {
-      "name": "方式二：手动安装",
-      "source": "RKiding/Awesome-finance-skills",
-      "sourceAgent": "claude",
-      "repo": "RKiding/Awesome-finance-skills",
-      "stars": 2615,
-      "desc": "Finance AI skill: 方式二：手动安装",
-      "url": "https://github.com/RKiding/Awesome-finance-skills",
-      "install": "",
-      "functionCategory": "finance-crypto",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "方式二：手动安装 Finance AI skill: 方式二：手动安装 RKiding/Awesome-finance-skills finance-crypto"
-    },
-    {
-      "name": "📦 技能清单",
-      "source": "RKiding/Awesome-finance-skills",
-      "sourceAgent": "claude",
-      "repo": "RKiding/Awesome-finance-skills",
-      "stars": 2615,
-      "desc": "Finance AI skill: 📦 技能清单",
-      "url": "https://github.com/RKiding/Awesome-finance-skills",
-      "install": "",
-      "functionCategory": "finance-crypto",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "📦 技能清单 Finance AI skill: 📦 技能清单 RKiding/Awesome-finance-skills finance-crypto"
-    },
-    {
-      "name": "🔧 技能接入指南",
-      "source": "RKiding/Awesome-finance-skills",
-      "sourceAgent": "claude",
-      "repo": "RKiding/Awesome-finance-skills",
-      "stars": 2615,
-      "desc": "Finance AI skill: 🔧 技能接入指南",
-      "url": "https://github.com/RKiding/Awesome-finance-skills",
-      "install": "",
-      "functionCategory": "finance-crypto",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "🔧 技能接入指南 Finance AI skill: 🔧 技能接入指南 RKiding/Awesome-finance-skills finance-crypto"
-    },
-    {
-      "name": "🔗 完整框架",
-      "source": "RKiding/Awesome-finance-skills",
-      "sourceAgent": "claude",
-      "repo": "RKiding/Awesome-finance-skills",
-      "stars": 2615,
-      "desc": "Finance AI skill: 🔗 完整框架",
-      "url": "https://github.com/RKiding/Awesome-finance-skills",
-      "install": "",
-      "functionCategory": "finance-crypto",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "🔗 完整框架 Finance AI skill: 🔗 完整框架 RKiding/Awesome-finance-skills finance-crypto"
     }
   ]
 }

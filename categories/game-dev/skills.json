@@ -1,10 +1,10 @@
 {
   "meta": {
     "functionCategory": "game-dev",
-    "topCategoryId": "media-creation",
-    "subCategoryId": "game",
+    "topCategoryId": "game-dev",
+    "subCategoryId": "game-dev",
     "categoryPath": "game-dev",
-    "count": 28,
+    "count": 31,
     "sourceData": "categories"
   },
   "skills": [
@@ -79,6 +79,50 @@
         "raylib"
       ],
       "searchText": "raylib a simple and easy-to-use library to enjoy videogames programming raysan5/raylib game-dev raylib"
+    },
+    {
+      "name": "gsap-scrolltrigger",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26760,
+      "desc": "ScrollTrigger for scroll-linked animations, pinning, scrub, and refresh handling",
+      "url": "https://officialskills.sh/greensock/skills/gsap-scrolltrigger",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "dev",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "gsap-scrolltrigger scrolltrigger for scroll-linked animations, pinning, scrub, and refresh handling voltagent/awesome-agent-skills game-dev claude codex cursor hermes gemini"
+    },
+    {
+      "name": "threejs-skills",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "stars": 26760,
+      "desc": "Three.js skills for creating 3D elements and interactive experiences",
+      "url": "https://github.com/CloudAI-X/threejs-skills",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "dev",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "threejs-skills three.js skills for creating 3d elements and interactive experiences voltagent/awesome-agent-skills game-dev claude codex cursor hermes gemini"
     },
     {
       "name": "babylon-js",
@@ -189,6 +233,46 @@
       "searchText": "aframe :a: web framework for building virtual reality experiences. aframevr/aframe game-dev aframe"
     },
     {
+      "name": "superpowers-skills",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "travisvn/awesome-claude-skills",
+      "stars": 13792,
+      "desc": "Community-editable skills repository",
+      "url": "https://github.com/obra/superpowers-skills",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "dev",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "superpowers-skills community-editable skills repository travisvn/awesome-claude-skills game-dev claude codex cursor hermes gemini"
+    },
+    {
+      "name": "inkos",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "Narcooo/inkos",
+      "stars": 7642,
+      "desc": "Story Creation AI Agent for novels, scripts, interactive games, and IP content generation.",
+      "url": "https://github.com/Narcooo/inkos",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "game",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "inkos story creation ai agent for novels, scripts, interactive games, and ip content generation. narcooo/inkos game-dev general"
+    },
+    {
       "name": "gamedevmind",
       "source": "gamedevmind",
       "sourceAgent": "gamedevmind",
@@ -241,6 +325,24 @@
         "mybox"
       ],
       "searchText": "mybox mybox is a set of attributes, tools and extensions for unity andrumak/mybox game-dev mybox"
+    },
+    {
+      "name": "cultivation-world-simulator",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "4thfever/cultivation-world-simulator",
+      "stars": 1902,
+      "desc": "基于 AI Agent 工作流的修仙世界模拟器 — An open-source Cultivation World Simulator using Agentic Workflow.",
+      "url": "https://github.com/4thfever/cultivation-world-simulator",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "game",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "cultivation-world-simulator 基于 ai agent 工作流的修仙世界模拟器 — an open-source cultivation world simulator using agentic workflow. 4thfever/cultivation-world-simulator game-dev general"
     },
     {
       "name": "duality",
@@ -315,6 +417,24 @@
       "searchText": "gdx-ai artificial intelligence framework for games based on libgdx or not. features: steering behaviors, formation motion, pathfinding, behavior trees and finite state machines libgdx/gdx-ai game-dev gdx-ai"
     },
     {
+      "name": "ai-moive-studio",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "869413421/ai-moive-studio",
+      "stars": 1279,
+      "desc": "自然语言驱动的无限画布工作流 Agent，让 AI 视频创作成为可编辑的工作流。",
+      "url": "https://github.com/869413421/ai-moive-studio",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "game",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ai-moive-studio 自然语言驱动的无限画布工作流 agent，让 ai 视频创作成为可编辑的工作流。 869413421/ai-moive-studio game-dev general"
+    },
+    {
       "name": "sidefxlabs",
       "source": "sidefxlabs",
       "sourceAgent": "sidefxlabs",
@@ -387,6 +507,28 @@
       "searchText": "imgui_test_engine dear imgui automation engine & test suite ocornut/imgui_test_engine game-dev imgui_test_engine"
     },
     {
+      "name": "Tencent SkillHub",
+      "source": "awesome-list",
+      "sourceAgent": "multi",
+      "repo": "JackyST0/awesome-agent-skills",
+      "stars": 576,
+      "desc": "Tencent's Skills community with 13k+ skills, optimized for Chinese users.",
+      "url": "https://skillhub.tencent.com/",
+      "install": "",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "dev",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "claude",
+        "codex",
+        "cursor",
+        "hermes",
+        "gemini"
+      ],
+      "searchText": "tencent skillhub tencent's skills community with 13k+ skills, optimized for chinese users. jackyst0/awesome-agent-skills game-dev claude codex cursor hermes gemini"
+    },
+    {
       "name": "ultimate-xr-dev-guide",
       "source": "ultimate-xr-dev-guide",
       "sourceAgent": "ultimate-xr-dev-guide",
@@ -439,94 +581,6 @@
         "unity_resources"
       ],
       "searchText": "unity_resources a list of resources and tutorials for those doing programming in unity. endarren/unity_resources game-dev unity_resources"
-    },
-    {
-      "name": "gsap-scrolltrigger",
-      "source": "awesome-list",
-      "sourceAgent": "multi",
-      "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26750,
-      "desc": "ScrollTrigger for scroll-linked animations, pinning, scrub, and refresh handling",
-      "url": "https://officialskills.sh/greensock/skills/gsap-scrolltrigger",
-      "install": "",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game",
-      "subCategoryId": "dev",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "codex",
-        "gemini",
-        "hermes"
-      ],
-      "searchText": "gsap-scrolltrigger ScrollTrigger for scroll-linked animations, pinning, scrub, and refresh handling VoltAgent/awesome-agent-skills game-dev multi"
-    },
-    {
-      "name": "threejs-skills",
-      "source": "awesome-list",
-      "sourceAgent": "multi",
-      "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26750,
-      "desc": "Three.js skills for creating 3D elements and interactive experiences",
-      "url": "https://github.com/CloudAI-X/threejs-skills",
-      "install": "",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game",
-      "subCategoryId": "dev",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "codex",
-        "gemini",
-        "hermes"
-      ],
-      "searchText": "threejs-skills Three.js skills for creating 3D elements and interactive experiences VoltAgent/awesome-agent-skills game-dev multi"
-    },
-    {
-      "name": "superpowers-skills",
-      "source": "awesome-list",
-      "sourceAgent": "multi",
-      "repo": "travisvn/awesome-claude-skills",
-      "stars": 13792,
-      "desc": "Community-editable skills repository",
-      "url": "https://github.com/obra/superpowers-skills",
-      "install": "",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game",
-      "subCategoryId": "dev",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "codex",
-        "gemini",
-        "hermes"
-      ],
-      "searchText": "superpowers-skills Community-editable skills repository travisvn/awesome-claude-skills game-dev multi"
-    },
-    {
-      "name": "Tencent SkillHub",
-      "source": "awesome-list",
-      "sourceAgent": "multi",
-      "repo": "JackyST0/awesome-agent-skills",
-      "stars": 576,
-      "desc": "Tencent's Skills community with 13k+ skills, optimized for Chinese users.",
-      "url": "https://skillhub.tencent.com/",
-      "install": "",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game",
-      "subCategoryId": "dev",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "claude",
-        "cursor",
-        "codex",
-        "gemini",
-        "hermes"
-      ],
-      "searchText": "Tencent SkillHub Tencent's Skills community with 13k+ skills, optimized for Chinese users. JackyST0/awesome-agent-skills game-dev multi"
     }
   ]
 }

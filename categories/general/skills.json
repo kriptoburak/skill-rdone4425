@@ -4,7 +4,7 @@
     "topCategoryId": "general",
     "subCategoryId": "general",
     "categoryPath": "general",
-    "count": 487,
+    "count": 567,
     "sourceData": "categories"
   },
   "skills": [
@@ -13,7 +13,7 @@
       "source": "claude",
       "sourceAgent": "claude",
       "repo": "anthropics/skills",
-      "stars": 156350,
+      "stars": 156452,
       "desc": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algor",
       "url": "https://github.com/anthropics/skills/tree/main/skills/algorithmic-art",
       "install": "$skill-installer algorithmic-art",
@@ -193,7 +193,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Generates React components with proper accessibility, creating ARIA-compliant components with keyboard navigation that follow React best practices and include comprehensive accessibility testing.",
       "url": "https://github.com/sotayamashita/dotfiles/blob/main/.claude/commands/act.md",
       "install": "",
@@ -211,7 +211,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Primes Claude with comprehensive project understanding by loading repository structure, setting development context, establishing project goals, and defining collaboration parameters.",
       "url": "https://github.com/elizaOS/elizaos.github.io/blob/main/.claude/commands/context-prime.md",
       "install": "",
@@ -229,7 +229,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Guides Claude through creating new custom commands with proper structure by analyzing requirements, templating commands by category, enforcing command standards, and creating supporting documentation.",
       "url": "https://github.com/scopecraft/command/blob/main/.claude/commands/create-command.md",
       "install": "",
@@ -247,7 +247,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Generates comprehensive product requirement documents outlining detailed specifications, requirements, and features following standardized document structure and format.",
       "url": "https://github.com/hesreallyhim/inkverse-fork/blob/preserve-claude-resources/.claude/commands/create-plan.md",
       "install": "",
@@ -265,7 +265,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Creates product requirement plans by reading PRP methodology, following template structure, creating comprehensive requirements, and structuring product definitions for development.",
       "url": "https://github.com/Wirasm/claudecode-utils/blob/main/.claude/commands/create-prp.md",
       "install": "",
@@ -283,7 +283,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Implements GitHub issues with manual review points, following a structured approach with issue number parameter and offering alternative automated mode for efficiency.",
       "url": "https://github.com/jerseycheese/Narraitor/blob/feature/issue-227-ai-suggestions/.claude/commands/do-issue.md",
       "install": "",
@@ -301,7 +301,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Dumps the current Claude Code conversation to a markdown file in `.claude/logs/` with timestamped files that include session details and preserve full conversation history.",
       "url": "https://gist.github.com/fumito-ito/77c308e0382e06a9c16b22619f8a2f83#file-dump-md",
       "install": "",
@@ -319,7 +319,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Applies the \"five whys\" methodology to perform root cause analysis, identify underlying issues, and create solution approaches for complex problems.",
       "url": "https://github.com/TuckerTucker/tkr-portfolio/blob/main/.claude/commands/five.md",
       "install": "",
@@ -337,7 +337,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Focuses on Gene Ontology annotation integration in graph databases, handling multiple data sources, addressing graph representation issues, and ensuring correct data incorporation.",
       "url": "https://github.com/Mjvolk3/torchcell/blob/main/.claude/commands/fixing_go_in_graph.md",
       "install": "",
@@ -355,7 +355,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Initializes reference documentation structure with standard doc templates, API reference setup, documentation conventions, and placeholder content generation.",
       "url": "https://github.com/okuvshynov/cubestat/blob/main/.claude/commands/initref.md",
       "install": "",
@@ -373,7 +373,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "A library of slash commands intended specifically to facilitate common and advanced operations on Linux desktop environments (although many would also be useful on Linux servers). Command groups include hardware benchmarking, filesystem organisation, and security posture validation.",
       "url": "https://github.com/danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands",
       "install": "",
@@ -391,7 +391,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "References specific files for sparse matrix operations, explains transform usage, compares with previous approaches, and sets data formatting context for development.",
       "url": "https://github.com/Mjvolk3/torchcell/blob/main/.claude/commands/load_coo_context.md",
       "install": "",
@@ -409,7 +409,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Sets context for model training by referencing pipeline files, establishing working context, and preparing for pipeline work with relevant documentation.",
       "url": "https://github.com/Mjvolk3/torchcell/blob/main/.claude/commands/load_dango_pipeline.md",
       "install": "",
@@ -427,7 +427,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Loads LLM configuration files to context, importing specific terminology, model configurations, and establishing baseline terminology for AI discussions.",
       "url": "https://github.com/ethpandaops/xatu-data/blob/master/.claude/commands/load-llms-txt.md",
       "install": "",
@@ -445,7 +445,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Gets the next task from TaskMaster and creates a branch for it, integrating with task management systems, automating branch creation, and enforcing naming conventions.",
       "url": "https://github.com/wmjones/wyatt-personal-aws/blob/main/.claude/commands/next-task.md",
       "install": "",
@@ -463,7 +463,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "A Claude Code plugin that generates comprehensive Product Requirements Documents (PRDs) from conversation context. Invoke `/create-prd` after discussing requirements and it produces a complete PRD with all standard sections including Executive Summary, User Stories, MVP Scope, Architecture, Success Criteria, and Implementation Phases.",
       "url": "https://github.com/dredozubov/prd-generator",
       "install": "",
@@ -481,7 +481,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Sets up initial project context by viewing directory structure and reading key files, creating standardized context with directory visualization and key documentation focus.",
       "url": "https://github.com/yzyydev/AI-Engineering-Structure/blob/main/.claude/commands/prime.md",
       "install": "",
@@ -499,7 +499,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Creates customizable greeting components with name input, demonstrating argument passing, component reusability, state management, and user input handling.",
       "url": "https://github.com/disler/just-prompt/blob/main/.claude/commands/project_hello_w_name.md",
       "install": "",
@@ -517,7 +517,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Re-establishes project context after conversation breaks or compaction, restoring context and fixing guideline inconsistencies for complex implementations.",
       "url": "https://github.com/cmxela/thinkube/blob/main/.claude/commands/reminder.md",
       "install": "",
@@ -535,7 +535,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Reviews old Dcell implementation files, comparing with newer Dango model, noting changes over time, and analyzing refactoring approaches for better code organization.",
       "url": "https://github.com/Mjvolk3/torchcell/blob/main/.claude/commands/review_dcell_model.md",
       "install": "",
@@ -553,7 +553,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Reads all commands and key project files to optimize AI-assisted development by streamlining the process, loading command context, and setting up for better development workflow.",
       "url": "https://github.com/ddisisto/si/blob/main/.claude/commands/rsi.md",
       "install": "",
@@ -571,7 +571,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "A convenient command to quickly manage project todo items without leaving the Claude Code interface, featuring due dates, sorting, task prioritization, and comprehensive todo list management.",
       "url": "https://github.com/chrisleyva/todo-slash-command/blob/main/todo.md",
       "install": "",
@@ -589,7 +589,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Reformats documentation to use React Stepper component, transforming heading formats, applying proper indentation, and maintaining markdown compatibility with admonition formatting.",
       "url": "https://github.com/zuplo/docs/blob/main/.claude/commands/use-stepper.md",
       "install": "",
@@ -607,7 +607,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "A comprehensive linter for Claude Code agent files. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP, and more. Plugin for all major IDEs included, with auto-fixes.",
       "url": "https://github.com/agent-sh/agnix",
       "install": "",
@@ -625,7 +625,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Presents an innovative AI-human collaboration framework with Model Context Protocol for bidirectional LLM-markdown communication and flexible knowledge structure for complex projects.",
       "url": "https://github.com/basicmachines-co/basic-memory/blob/main/CLAUDE.md",
       "install": "",
@@ -643,7 +643,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Handy CLI tool for managing and analyzing Claude Code usage, based on analyzing local Claude Code logs. Presents a nice dashboard regarding cost information, token consumption, etc.",
       "url": "https://github.com/ryoppippi/ccusage",
       "install": "",
@@ -661,7 +661,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "An opinionated approach to productive development with Claude Code",
       "url": "https://github.com/GWUDCAP/cc-sessions",
       "install": "",
@@ -679,7 +679,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "High-performance Go implementation of Claude Code hooks and utilities. Provides smart linting, testing, and statusline generation with minimal overhead.",
       "url": "https://github.com/Veraticus/cc-tools",
       "install": "",
@@ -697,7 +697,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Interactive CLI tool for discovering and managing Claude Code configuration files and slash commands with a beautiful terminal UI.",
       "url": "https://github.com/nyatinte/ccexp",
       "install": "",
@@ -715,7 +715,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Claude Code usage dashboard with a web-UI that would put Tableau to shame. Thoroughly comprehensive metrics, frictionless setup, detailed logging, really really nice UI.",
       "url": "https://github.com/snipeship/ccflare",
       "install": "",
@@ -733,7 +733,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "A well-maintained and feature-enhanced fork of the glorious `ccflare` usage dashboard by @snipeship (which at the time of writing has not had an update in a few months). `better-ccflare` builds on this foundation with some performance enhancements, extended provider support, bug fixes, Docker deployment, and more.",
       "url": "https://github.com/tombii/better-ccflare/",
       "install": "",
@@ -751,7 +751,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Like the shell history command but for your Claude Code sessions. Easily list all Bash or \"Bash-mode\" (`!`) commands Claude Code ran in a session for reference.",
       "url": "https://github.com/eckardt/cchistory",
       "install": "",
@@ -769,7 +769,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "A humble but handy utility for viewing Claude Code `.jsonl` conversation files in a pretty HTML UI.",
       "url": "https://github.com/Brads3290/cclogviewer",
       "install": "",
@@ -787,7 +787,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "CLI tool and template gallery for customizing Claude Code output styles with pre-built templates. Features over 15 templates at the time of writing!",
       "url": "https://github.com/viveknair/ccoutputstyles",
       "install": "",
@@ -805,7 +805,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "A transparent HTTP proxy and real-time dashboard that sits between Claude Code and the Anthropic API. Captures every request and response without configuration, presenting them in a Miller-column interface with session grouping, token/cost tracking, and context-window visualization.",
       "url": "https://github.com/lis186/ccxray",
       "install": "",
@@ -823,7 +823,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "A tool that adds small enhancements to Claude Code.",
       "url": "https://github.com/possibilities/claude-composer",
       "install": "",
@@ -841,7 +841,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "A webhook service that connects Claude Code to GitHub repositories, enabling AI-powered code assistance directly through pull requests and issues. This integration allows Claude to analyze repositories, answer technical questions, and help developers understand and improve their codebase through simple @mentions.",
       "url": "https://github.com/claude-did-this/claude-hub",
       "install": "",
@@ -859,7 +859,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Efficiently restore context from previous Claude Code sessions by analyzing session files and git history. Features multi-factor data collection across numerous Claude Code capacities with time-based filtering. Uses tail-based parsing for efficient handling of large session files up to 2GB. Includes both a CLI tool for manual analysis and a Claude Code skill for automatic session restoration.",
       "url": "https://github.com/ZENG3LD/claude-session-restore",
       "install": "",
@@ -877,7 +877,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "This is a starter template repository designed to provide a complete development environment for Claude-Code with pre-configured MCP servers and tools for AI-powered development workflows. The repository is intentionally minimal, containing only configuration templates for three primary systems: Claude Code, Serena, and Task Master.",
       "url": "https://github.com/serpro69/claude-toolbox",
       "install": "",
@@ -895,7 +895,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "claudectx lets you switch your entire Claude Code configuration with a single command.",
       "url": "https://github.com/foxj77/claudectx",
       "install": "",
@@ -913,7 +913,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Impressive CLI toolkit providing auto-save checkpointing, code quality hooks, specification generation and execution, and 20+ specialized subagents including oracle (gpt-5), code-reviewer (6-aspect deep analysis), ai-sdk-expert (Vercel AI SDK), typescript-expert and many more for Claude Code workflows.",
       "url": "https://github.com/carlrannaberg/claudekit",
       "install": "",
@@ -931,7 +931,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Claudex - A web-based browser for exploring your Claude Code conversation history across projects. Indexes your codebase for full-text search. Nice, easy-to-navigate UI. Simple dashboard interface for high-level analytics, and multiple export options as well. (And completely local w/ no telemetry!)",
       "url": "https://github.com/kunwar-shah/claudex",
       "install": "",
@@ -949,7 +949,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "A desktop pet that reacts to your Claude Code sessions in real-time — thinking, typing, juggling, sleeping, and more. Yep. It's undeniably endearing. And at the end of the day, isn't that what Claude Code is all about?",
       "url": "https://github.com/rullerzhou-afk/clawd-on-desk",
       "install": "",
@@ -967,7 +967,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "A systematic development framework that transforms Claude Code into a proactive development partner. Features 4-phase planning methodology, specialized quality agents, and structured workflows that help AI produce production-ready code on first try.",
       "url": "https://github.com/FlineDev/ContextKit",
       "install": "",
@@ -985,7 +985,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Delivers comprehensive Gradle commands for cross-platform Kotlin Multiplatform development with clear module structure and practical guidance for dependency injection.",
       "url": "https://github.com/touchlab/DroidconKotlin/blob/main/CLAUDE.md",
       "install": "",
@@ -1003,7 +1003,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Offers detailed build and test commands with strict code style enforcement, comprehensive testing requirements, and standardized development workflow using Black and mypy.",
       "url": "https://github.com/hesreallyhim/awesome-claude-code/blob/main/resources/claude.md-files/EDSL/CLAUDE.md",
       "install": "",
@@ -1021,7 +1021,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "This is really... different. I don't know what to say about this one. It does what it says on the tin. You might find it funny, you might want throw up. I'll just say candidly this is included strictly for its potentially comedic awesomeness.",
       "url": "https://github.com/sjnims/gen-alpha-output-style",
       "install": "",
@@ -1039,7 +1039,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Provides detailed build and test commands using pnpm and Vitest with strict code formatting requirements and comprehensive naming conventions for code consistency.",
       "url": "https://github.com/giselles-ai/giselle/blob/main/CLAUDE.md",
       "install": "",
@@ -1057,7 +1057,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Features comprehensive repository structure breakdown with strong emphasis on coding standards, detailed Rust documentation guidelines, and systematic PR review process.",
       "url": "https://github.com/hashintel/hash/blob/main/CLAUDE.md",
       "install": "",
@@ -1075,7 +1075,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Structures development workflow using pnpm with emphasis on TypeScript and Vue 3 Composition API, detailed component creation process, and comprehensive testing recommendations.",
       "url": "https://github.com/inkline/inkline/blob/main/CLAUDE.md",
       "install": "",
@@ -1093,7 +1093,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Provides development guide for JavaScript BBC Micro emulator with build and testing instructions, architecture documentation, and debugging workflows.",
       "url": "https://github.com/mattgodbolt/jsbeeb/blob/main/CLAUDE.md",
       "install": "",
@@ -1111,7 +1111,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Serves as reference for production prompt engineering library with load balancing of AI Models, API documentation, and usage patterns with examples.",
       "url": "https://github.com/LamoomAI/lamoom-python/blob/main/CLAUDE.md",
       "install": "",
@@ -1129,7 +1129,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Offers comprehensive build and test commands with detailed TypeScript style guidelines, layered library architecture, and monorepo structure using yarn workspaces.",
       "url": "https://github.com/langchain-ai/langgraphjs/blob/main/CLAUDE.md",
       "install": "",
@@ -1147,7 +1147,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Enforces strict package management with comprehensive type checking rules, explicit PR description guidelines, and systematic approach to resolving CI failures.",
       "url": "https://github.com/featureform/mcp-engine/blob/main/CLAUDE.md",
       "install": "",
@@ -1165,7 +1165,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Details workflow for REPL-driven development in Clojure/ClojureScript with emphasis on incremental development, testing, and step-by-step approach for feature implementation.",
       "url": "https://github.com/metabase/metabase/blob/master/CLAUDE.md",
       "install": "",
@@ -1183,7 +1183,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Offers clear step-by-step installation instructions with multiple configuration options, detailed troubleshooting guidance, and concise architecture overview of the MCP protocol.",
       "url": "https://github.com/Family-IT-Guy/perplexity-mcp/blob/main/CLAUDE.md",
       "install": "",
@@ -1201,7 +1201,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Full-text search your Claude Code sessions. Run `recall` in terminal, type to search, Enter to resume. Alternative to `claude --resume`.",
       "url": "https://github.com/zippoxer/recall",
       "install": "",
@@ -1219,7 +1219,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "A Node.js CLI tool that automatically generates configs (rules, ignore files, MCP servers, commands, and subagents) for various AI coding agents. Rulesync can convert configs between Claude Code and other AI agents in both directions.",
       "url": "https://github.com/dyoshikawa/rulesync",
       "install": "",
@@ -1237,7 +1237,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Provides comprehensive structure for TypeScript monorepo projects with detailed commands for development, testing, deployment, and AWS/Cloudflare integration.",
       "url": "https://github.com/sgcarstrends/backend/blob/main/CLAUDE.md",
       "install": "",
@@ -1255,7 +1255,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Enforces strict coding conventions with comprehensive testing guidelines, multiple code compilation options, and backend-specific test decorators for targeted filtering.",
       "url": "https://github.com/spylang/spy/blob/main/CLAUDE.md",
       "install": "",
@@ -1273,7 +1273,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "A push-to-talk speech transcription setup for Linux using a Python MCP server. Runs locally in Docker with no external API calls. Your speech is recorded, transcribed into text, and then sent to Claude running in a Tmux session.",
       "url": "https://github.com/marcindulak/stt-mcp-server-linux",
       "install": "",
@@ -1291,7 +1291,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "A versatile configuration framework that enhances Claude Code with specialized commands, cognitive personas, and development methodologies, such as \"Introspection\" and \"Orchestration\".",
       "url": "https://github.com/SuperClaude-Org/SuperClaude_Framework",
       "install": "",
@@ -1309,7 +1309,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Details Go project conventions with comprehensive error handling recommendations, table-driven testing approach guidelines, and modernization suggestions for latest Go features.",
       "url": "https://github.com/KarpelesLab/tpl/blob/master/CLAUDE.md",
       "install": "",
@@ -1327,7 +1327,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Command-line tool to customize your Claude Code styling.",
       "url": "https://github.com/Piebald-AI/tweakcc",
       "install": "",
@@ -1345,7 +1345,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "Analyzes your Claude Code prompts locally (using CC), provides intelligent session analysis and actionable strategic guidance - works in the statusline and produces very pretty HTML reports as well. Easy to install and remove.",
       "url": "https://github.com/vibe-log/vibe-log-cli",
       "install": "",
@@ -1363,7 +1363,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "A community-driven leaderboard tool that enables developers to visualize, track, and compete based on their Claude Code usage statistics. It features robust data analytics, GitHub OAuth, data validation, and user-friendly CLI/web submission methods.",
       "url": "https://github.com/sculptdotfun/viberank",
       "install": "",
@@ -1381,7 +1381,7 @@
       "source": "hesreallyhim/awesome-claude-code",
       "sourceAgent": "claude-code",
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 47550,
+      "stars": 47560,
       "desc": "VoiceMode MCP brings natural conversations to Claude Code. It supports any OpenAI API compatible voice services and installs free and open source voice services (Whisper.cpp and Kokoro-FastAPI).",
       "url": "https://github.com/mbailey/voicemode",
       "install": "",
@@ -1513,7 +1513,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Generate and iterate ad creative including headlines, descriptions, and primary text",
       "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/ad-creative",
       "install": "",
@@ -1535,7 +1535,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Add a new cuTile GPU kernel operator to TileGym.",
       "url": "https://github.com/NVIDIA/skills/tree/main/skills/TileGym/adding-cutile-kernel",
       "install": "",
@@ -1557,7 +1557,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Write Apollo Federation 2 subgraph schemas and compose them into a supergraph",
       "url": "https://officialskills.sh/apollographql/skills/apollo-federation",
       "install": "",
@@ -1579,7 +1579,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Version-aware configuration generator for the Rust-based Apollo Router",
       "url": "https://officialskills.sh/apollographql/skills/apollo-router",
       "install": "",
@@ -1601,7 +1601,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Centralized app configuration management",
       "url": "https://officialskills.sh/microsoft/skills/azure-appconfiguration-java",
       "install": "",
@@ -1623,7 +1623,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Feature flags and dynamic settings",
       "url": "https://officialskills.sh/microsoft/skills/azure-appconfiguration-py",
       "install": "",
@@ -1645,7 +1645,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "App config, feature flags, dynamic refresh",
       "url": "https://officialskills.sh/microsoft/skills/azure-appconfiguration-ts",
       "install": "",
@@ -1667,7 +1667,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Communication Services common utilities",
       "url": "https://officialskills.sh/microsoft/skills/azure-communication-common-java",
       "install": "",
@@ -1689,7 +1689,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "SMS sending and delivery reports",
       "url": "https://officialskills.sh/microsoft/skills/azure-communication-sms-java",
       "install": "",
@@ -1711,7 +1711,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Large-scale parallel and HPC batch jobs",
       "url": "https://officialskills.sh/microsoft/skills/azure-compute-batch-java",
       "install": "",
@@ -1733,7 +1733,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Event-driven pub/sub messaging",
       "url": "https://officialskills.sh/microsoft/skills/azure-eventgrid-java",
       "install": "",
@@ -1755,7 +1755,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Event-driven pub/sub routing",
       "url": "https://officialskills.sh/microsoft/skills/azure-eventgrid-py",
       "install": "",
@@ -1777,7 +1777,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Key Vault certificate management",
       "url": "https://officialskills.sh/microsoft/skills/azure-keyvault-certificates-rust",
       "install": "",
@@ -1799,7 +1799,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Secrets, keys, and certificate management",
       "url": "https://officialskills.sh/microsoft/skills/azure-keyvault-py",
       "install": "",
@@ -1821,7 +1821,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Real-time WebSocket messaging",
       "url": "https://officialskills.sh/microsoft/skills/azure-messaging-webpubsub-java",
       "install": "",
@@ -1843,7 +1843,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Real-time WebSocket messaging",
       "url": "https://officialskills.sh/microsoft/skills/azure-messaging-webpubsubservice-py",
       "install": "",
@@ -1865,7 +1865,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Application Insights resource management",
       "url": "https://officialskills.sh/microsoft/skills/azure-mgmt-applicationinsights-dotnet",
       "install": "",
@@ -1887,7 +1887,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Bot Service provisioning via ARM",
       "url": "https://officialskills.sh/microsoft/skills/azure-mgmt-botservice-dotnet",
       "install": "",
@@ -1909,7 +1909,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Bot Service resource management",
       "url": "https://officialskills.sh/microsoft/skills/azure-mgmt-botservice-py",
       "install": "",
@@ -1931,7 +1931,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "MongoDB Atlas as ARM resources",
       "url": "https://officialskills.sh/microsoft/skills/azure-mgmt-mongodbatlas-dotnet",
       "install": "",
@@ -1953,7 +1953,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Custom log ingestion to Azure Monitor",
       "url": "https://officialskills.sh/microsoft/skills/azure-monitor-ingestion-java",
       "install": "",
@@ -1975,7 +1975,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Custom log ingestion to Azure Monitor",
       "url": "https://officialskills.sh/microsoft/skills/azure-monitor-ingestion-py",
       "install": "",
@@ -1997,7 +1997,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "OpenTelemetry export to Azure Monitor",
       "url": "https://officialskills.sh/microsoft/skills/azure-monitor-opentelemetry-exporter-java",
       "install": "",
@@ -2019,7 +2019,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "OpenTelemetry export to Application Insights",
       "url": "https://officialskills.sh/microsoft/skills/azure-monitor-opentelemetry-exporter-py",
       "install": "",
@@ -2041,7 +2041,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "One-line Application Insights setup",
       "url": "https://officialskills.sh/microsoft/skills/azure-monitor-opentelemetry-py",
       "install": "",
@@ -2063,7 +2063,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Query Azure Monitor logs and metrics",
       "url": "https://officialskills.sh/microsoft/skills/azure-monitor-query-java",
       "install": "",
@@ -2085,7 +2085,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Query Azure Monitor logs and metrics",
       "url": "https://officialskills.sh/microsoft/skills/azure-monitor-query-py",
       "install": "",
@@ -2107,7 +2107,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Cosmos DB resource provisioning",
       "url": "https://officialskills.sh/microsoft/skills/azure-resource-manager-cosmosdb-dotnet",
       "install": "",
@@ -2129,7 +2129,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Enterprise messaging with queues and topics",
       "url": "https://officialskills.sh/microsoft/skills/azure-servicebus-dotnet",
       "install": "",
@@ -2151,7 +2151,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Enterprise messaging with queues and topics",
       "url": "https://officialskills.sh/microsoft/skills/azure-servicebus-py",
       "install": "",
@@ -2173,7 +2173,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Messaging with queues and topics",
       "url": "https://officialskills.sh/microsoft/skills/azure-servicebus-ts",
       "install": "",
@@ -2195,7 +2195,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Real-time WebSocket pub/sub messaging",
       "url": "https://officialskills.sh/microsoft/skills/azure-web-pubsub-ts",
       "install": "",
@@ -2217,7 +2217,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Performance Engineer: baseline page load times, Core Web Vitals, and resource sizes",
       "url": "https://officialskills.sh/garrytan/skills/benchmark",
       "install": "",
@@ -2239,7 +2239,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Ecommerce CSV to business review with KPI decomposition",
       "url": "https://github.com/takechanman1228/claude-ecom",
       "install": "",
@@ -2261,7 +2261,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Minimal, low-friction hierarchical memory system with background agents and filesystem-based persistence",
       "url": "https://github.com/hanfang/claude-memory-skill",
       "install": "",
@@ -2283,7 +2283,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Speed read Claude's responses at 600+ WPM using RSVP with Spritz-style ORP highlighting",
       "url": "https://github.com/SeanZoR/claude-speed-reader",
       "install": "",
@@ -2305,7 +2305,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Windows 11 system management",
       "url": "https://github.com/NotMyself/claude-win11-speckit-update-skill",
       "install": "",
@@ -2327,7 +2327,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "SMS messaging integration",
       "url": "https://github.com/jeffersonwarrior/claudisms",
       "install": "",
@@ -2349,7 +2349,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Manages Cloud Run services, jobs, and worker pools.",
       "url": "https://github.com/google/skills/tree/main/skills/cloud/cloud-run-basics",
       "install": "",
@@ -2371,7 +2371,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Cohort retention curves, feature adoption, and segment insights",
       "url": "https://github.com/phuryn/pm-skills/tree/main/pm-data-analytics/skills/cohort-analysis",
       "install": "",
@@ -2393,7 +2393,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Create and manage command structures",
       "url": "https://github.com/obra/superpowers/tree/main/skills/commands",
       "install": "",
@@ -2415,7 +2415,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Analyze competitors with strengths, weaknesses, and differentiation",
       "url": "https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/competitor-analysis",
       "install": "",
@@ -2437,7 +2437,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Configuration conventions for NeMo-RL.",
       "url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-RL/config-conventions",
       "install": "",
@@ -2459,7 +2459,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Understand what context is, why it matters, and the anatomy of context in agent systems",
       "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/context-fundamentals",
       "install": "",
@@ -2481,7 +2481,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Apply compaction, masking, and caching strategies",
       "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/context-optimization",
       "install": "",
@@ -2503,7 +2503,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Contribution conventions for NeMo-RL.",
       "url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-RL/contributing",
       "install": "",
@@ -2525,7 +2525,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Converts cuTile GPU kernels (@ct.kernel) to Triton (@triton.jit).",
       "url": "https://github.com/NVIDIA/skills/tree/main/skills/TileGym/converting-cutile-to-triton",
       "install": "",
@@ -2547,7 +2547,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Export cookies from local Chrome into a Browserbase persistent context",
       "url": "https://officialskills.sh/browserbase/skills/cookie-sync",
       "install": "",
@@ -2569,7 +2569,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Map customer experience across touchpoints using the NNGroup framework",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/customer-journey-map",
       "install": "",
@@ -2591,7 +2591,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Expert cuTile programming assistant.",
       "url": "https://github.com/NVIDIA/skills/tree/main/skills/TileGym/cutile-python",
       "install": "",
@@ -2613,7 +2613,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Coach the PM→Director transition across four key situations",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/director-readiness-advisor",
       "install": "",
@@ -2635,7 +2635,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Coordinate multiple simultaneous agents",
       "url": "https://github.com/obra/superpowers/blob/main/skills/dispatching-parallel-agents/SKILL.md",
       "install": "",
@@ -2657,7 +2657,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Draft NDAs covering information types, jurisdiction, and clauses",
       "url": "https://github.com/phuryn/pm-skills/tree/main/pm-toolkit/skills/draft-nda",
       "install": "",
@@ -2679,7 +2679,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Split epics into stories using Richard Lawrence's 9 splitting patterns",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/epic-breakdown-advisor",
       "install": "",
@@ -2701,7 +2701,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Implement and run strategic plans",
       "url": "https://github.com/obra/superpowers/blob/main/skills/executing-plans/SKILL.md",
       "install": "",
@@ -2723,7 +2723,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "30-60-90 day diagnostic playbook for VP/CPO onboarding transitions",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/executive-onboarding-playbook",
       "install": "",
@@ -2745,7 +2745,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Virtual try-on — see how clothes look on a person",
       "url": "https://officialskills.sh/fal-ai-community/skills/fal-tryon",
       "install": "",
@@ -2767,7 +2767,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Add home screen widgets to Flutter apps on Android and iOS",
       "url": "https://officialskills.sh/flutter/skills/flutter-adding-home-screen-widgets",
       "install": "",
@@ -2789,7 +2789,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Implement animated effects, transitions, and motion",
       "url": "https://officialskills.sh/flutter/skills/flutter-animating-apps",
       "install": "",
@@ -2811,7 +2811,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Structure a Flutter app using layered architecture",
       "url": "https://officialskills.sh/flutter/skills/flutter-architecting-apps",
       "install": "",
@@ -2833,7 +2833,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Embed native Android, iOS, and macOS views in Flutter widgets",
       "url": "https://officialskills.sh/flutter/skills/flutter-embedding-native-views",
       "install": "",
@@ -2855,7 +2855,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Handle HTTP requests and JSON serialization",
       "url": "https://officialskills.sh/flutter/skills/flutter-handling-http-and-json",
       "install": "",
@@ -2877,7 +2877,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Handle routing, navigation, and deep linking",
       "url": "https://officialskills.sh/flutter/skills/flutter-implementing-navigation-and-routing",
       "install": "",
@@ -2899,7 +2899,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Configure Flutter for screen readers and assistive tech",
       "url": "https://officialskills.sh/flutter/skills/flutter-improving-accessibility",
       "install": "",
@@ -2921,7 +2921,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Configure Flutter for multiple languages and regions",
       "url": "https://officialskills.sh/flutter/skills/flutter-localizing-apps",
       "install": "",
@@ -2943,7 +2943,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Manage local widget state and shared application state",
       "url": "https://officialskills.sh/flutter/skills/flutter-managing-state",
       "install": "",
@@ -2965,7 +2965,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Set up a macOS machine for Flutter development",
       "url": "https://officialskills.sh/flutter/skills/flutter-setting-up-on-macos",
       "install": "",
@@ -2987,7 +2987,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Set up a Windows machine for Flutter development",
       "url": "https://officialskills.sh/flutter/skills/flutter-setting-up-on-windows",
       "install": "",
@@ -3009,7 +3009,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Customize Flutter app appearance through the theming system",
       "url": "https://officialskills.sh/flutter/skills/flutter-theming-apps",
       "install": "",
@@ -3031,7 +3031,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Optimize lead capture and contact forms to improve conversion",
       "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/form-cro",
       "install": "",
@@ -3053,7 +3053,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Investigates Google Cloud networking issues by analyzing logs, metrics, and diagnostics.",
       "url": "https://github.com/google/skills/tree/main/skills/cloud/google-cloud-networking-observability",
       "install": "",
@@ -3075,7 +3075,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Vue, Svelte, and other frameworks with lifecycle, scoping, and cleanup patterns",
       "url": "https://officialskills.sh/greensock/skills/gsap-frameworks",
       "install": "",
@@ -3097,7 +3097,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Performance tips for transforms, will-change, batching, and ScrollTrigger optimization",
       "url": "https://officialskills.sh/greensock/skills/gsap-performance",
       "install": "",
@@ -3119,7 +3119,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Utility functions like clamp, mapRange, interpolate, snap, selector, and wrap",
       "url": "https://officialskills.sh/greensock/skills/gsap-utils",
       "install": "",
@@ -3141,7 +3141,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Full Safety: /careful + /freeze in one command for maximum safety",
       "url": "https://officialskills.sh/garrytan/skills/guard",
       "install": "",
@@ -3163,7 +3163,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Manage Google Chat spaces and messages",
       "url": "https://officialskills.sh/googleworkspace/skills/gws-chat",
       "install": "",
@@ -3185,7 +3185,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Manage Google Drive files, folders, and shared drives",
       "url": "https://officialskills.sh/googleworkspace/skills/gws-drive",
       "install": "",
@@ -3207,7 +3207,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Subscribe to Google Workspace events",
       "url": "https://officialskills.sh/googleworkspace/skills/gws-events",
       "install": "",
@@ -3229,7 +3229,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Read and write Google Forms",
       "url": "https://officialskills.sh/googleworkspace/skills/gws-forms",
       "install": "",
@@ -3251,7 +3251,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Manage Google Keep notes",
       "url": "https://officialskills.sh/googleworkspace/skills/gws-keep",
       "install": "",
@@ -3273,7 +3273,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Manage Google People contacts and profiles",
       "url": "https://officialskills.sh/googleworkspace/skills/gws-people",
       "install": "",
@@ -3295,7 +3295,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Read and write Google Sheets spreadsheets",
       "url": "https://officialskills.sh/googleworkspace/skills/gws-sheets",
       "install": "",
@@ -3317,7 +3317,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Manage Google Tasks task lists and tasks",
       "url": "https://officialskills.sh/googleworkspace/skills/gws-tasks",
       "install": "",
@@ -3339,7 +3339,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Create and manage paper pages on HF Hub",
       "url": "https://officialskills.sh/huggingface/skills/hugging-face-paper-pages",
       "install": "",
@@ -3361,7 +3361,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Iteratively optimize cuTile kernel performance through systematic profiling, bottleneck analysis, IR comparison, and targeted tuning.",
       "url": "https://github.com/NVIDIA/skills/tree/main/skills/TileGym/improve-cutile-kernel-perf",
       "install": "",
@@ -3383,7 +3383,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Create structured customer interview scripts with JTBD probing",
       "url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/interview-script",
       "install": "",
@@ -3405,7 +3405,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Control iOS Simulator",
       "url": "https://github.com/conorluddy/ios-simulator-skill",
       "install": "",
@@ -3427,7 +3427,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Create job stories with acceptance criteria in JTBD format",
       "url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/job-stories",
       "install": "",
@@ -3449,7 +3449,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Understand customer objectives using the JTBD framework",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/jobs-to-be-done",
       "install": "",
@@ -3471,7 +3471,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Manage Linear issues, projects, and teams",
       "url": "https://github.com/wrsmith108/linear-claude-skill",
       "install": "",
@@ -3493,7 +3493,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Translate natural language into MongoDB queries and aggregation pipelines",
       "url": "https://officialskills.sh/mongodb/skills/mongodb-natural-language-querying",
       "install": "",
@@ -3515,7 +3515,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Analyze and optimize query performance using Atlas Performance Advisor",
       "url": "https://officialskills.sh/mongodb/skills/mongodb-query-optimizer",
       "install": "",
@@ -3537,7 +3537,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Anti-over-engineering skill with 5 variants and 10 platforms",
       "url": "https://github.com/uucz/moyu",
       "install": "",
@@ -3559,7 +3559,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Master orchestrator, peer-to-peer, and hierarchical multi-agent architectures",
       "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/multi-agent-patterns",
       "install": "",
@@ -3581,7 +3581,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Interactive config wizard for NeMo Evaluator Launcher (NEL).",
       "url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-Evaluator-Launcher/nel-assistant",
       "install": "",
@@ -3603,7 +3603,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Describes the agent skills shipped with NemoClaw and how to access them by cloning the repository.",
       "url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-user-agent-skills",
       "install": "",
@@ -3625,7 +3625,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Next.js best practices and recommended patterns",
       "url": "https://officialskills.sh/vercel-labs/skills/next-best-practices",
       "install": "",
@@ -3647,7 +3647,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Upgrade Next.js projects to newer versions",
       "url": "https://officialskills.sh/vercel-labs/skills/next-upgrade",
       "install": "",
@@ -3669,7 +3669,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Numerical optimization (LP, MILP, QP) — concepts, problem-text parsing, and formulation patterns.",
       "url": "https://github.com/NVIDIA/skills/tree/main/skills/cuopt/numerical-optimization-formulation",
       "install": "",
@@ -3691,7 +3691,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Validate and use selective and full activation recompute in Megatron Bridge to reduce GPU memory usage at the cost of extra compute.",
       "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-activation-recompute",
       "install": "",
@@ -3713,7 +3713,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Validate and use CPU offloading in Megatron Bridge, including layer-level activation offloading and fractional optimizer state offloading with HybridDeviceOptimizer.",
       "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-cpu-offloading",
       "install": "",
@@ -3735,7 +3735,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "MoE expert-parallel communication overlap in Megatron Bridge.",
       "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-moe-comm-overlap",
       "install": "",
@@ -3757,7 +3757,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "> Analyze ncu (NVIDIA Nsight Compute) profiling output: SOL% bottleneck classification, roofline analysis, occupancy diagnosis, memory hierarchy analysis, warp stall analysis, metr...",
       "url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/perf-nsight-compute-analysis",
       "install": "",
@@ -3779,7 +3779,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "> Performance optimization coordination playbook.",
       "url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/perf-optimization",
       "install": "",
@@ -3801,7 +3801,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "CEO/Founder plan review with four modes: Expansion, Selective Expansion, Hold Scope, Reduction",
       "url": "https://officialskills.sh/garrytan/skills/plan-ceo-review",
       "install": "",
@@ -3823,7 +3823,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Recommend prototype type: Feasibility, Task-Focused, Narrative, Synthetic, or Vibe",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/pol-probe-advisor",
       "install": "",
@@ -3845,7 +3845,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Porter's Five Forces competitive analysis with strategic insights",
       "url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/porters-five-forces",
       "install": "",
@@ -3867,7 +3867,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Recommend the right prioritization framework (RICE, ICE, Kano, etc.) for your situation",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/prioritization-advisor",
       "install": "",
@@ -3889,7 +3889,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Prioritize backlog by impact, effort, risk, and strategic alignment",
       "url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/prioritize-features",
       "install": "",
@@ -3911,7 +3911,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Cherry-pick merged PRs labeled for a release branch into that branch, then open a PR and apply the cherry-pick-done label.",
       "url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/release-cherry-pick",
       "install": "",
@@ -3933,7 +3933,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Track revenue, retention, and growth metrics including MRR/ARR, churn, NRR, and expansion",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/saas-revenue-growth-metrics",
       "install": "",
@@ -3955,7 +3955,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Create ad concepts that stop attention in the first 3 seconds",
       "url": "https://github.com/realkimbarrett/advertising-skills/tree/main/skills/operator-os/scroll-stopping-creative",
       "install": "",
@@ -3977,7 +3977,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Send USDC to any Ethereum address or ENS name on Base",
       "url": "https://officialskills.sh/coinbase/skills/send-usdc",
       "install": "",
@@ -3999,7 +3999,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Analyze user feedback with sentiment scores and JTBD insights",
       "url": "https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/sentiment-analysis",
       "install": "",
@@ -4021,7 +4021,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Configure the OpenTelemetry Collector with Sentry Exporter",
       "url": "https://officialskills.sh/getsentry/skills/sentry-otel-exporter-setup",
       "install": "",
@@ -4043,7 +4043,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Manage durable working-session memory for coding agents.",
       "url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-RL/session-memory",
       "install": "",
@@ -4065,7 +4065,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Import cookies from your real browser into the headless session",
       "url": "https://officialskills.sh/garrytan/skills/setup-browser-cookies",
       "install": "",
@@ -4087,7 +4087,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Distribute and communicate capabilities",
       "url": "https://github.com/obra/superpowers/blob/main/skills/sharing-skills/SKILL.md",
       "install": "",
@@ -4109,7 +4109,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Development using multiple sub-agents",
       "url": "https://github.com/obra/superpowers/blob/main/skills/subagent-driven-development/SKILL.md",
       "install": "",
@@ -4131,7 +4131,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Summarize interview transcripts with JTBD and action items",
       "url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/summarize-interview",
       "install": "",
@@ -4153,7 +4153,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Summarize meeting transcripts into structured notes and actions",
       "url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/summarize-meeting",
       "install": "",
@@ -4175,7 +4175,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Lab environment for Claude superpowers",
       "url": "https://github.com/obra/superpowers-lab",
       "install": "",
@@ -4197,7 +4197,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "SWOT analysis with actionable recommendations per quadrant",
       "url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/swot-analysis",
       "install": "",
@@ -4219,7 +4219,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Basic template for creating new skills",
       "url": "https://officialskills.sh/anthropics/skills/template",
       "install": "",
@@ -4241,7 +4241,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Unlock: remove the /freeze boundary",
       "url": "https://officialskills.sh/garrytan/skills/unfreeze",
       "install": "",
@@ -4263,7 +4263,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Create INVEST-compliant user stories with 3 C's structure",
       "url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/user-stories",
       "install": "",
@@ -4285,7 +4285,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Write user stories with acceptance criteria using Mike Cohn and Gherkin formats",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/user-story",
       "install": "",
@@ -4307,7 +4307,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Walk through creating story maps with backbone and release slices",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/user-story-mapping-workshop",
       "install": "",
@@ -4329,7 +4329,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Break down large stories using 8 proven splitting patterns",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/user-story-splitting",
       "install": "",
@@ -4351,7 +4351,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Find similar vulnerabilities via pattern-based analysis",
       "url": "https://officialskills.sh/trailofbits/skills/variant-analysis",
       "install": "",
@@ -4373,7 +4373,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Character endpoints and `character_slug` usage",
       "url": "https://github.com/veniceai/skills/tree/main/skills/venice-characters",
       "install": "",
@@ -4395,7 +4395,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Image edits, upscaling, and background removal",
       "url": "https://github.com/veniceai/skills/tree/main/skills/venice-image-edit",
       "install": "",
@@ -4417,7 +4417,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Validate work before finalizing",
       "url": "https://github.com/obra/superpowers/blob/main/skills/verification-before-completion/SKILL.md",
       "install": "",
@@ -4439,7 +4439,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Reference for the VoltAgent class options and lifecycle methods",
       "url": "https://officialskills.sh/voltagent/skills/voltagent-core-reference",
       "install": "",
@@ -4461,7 +4461,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Coach the Director→VP/CPO transition including a CEO interview framework",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/vp-cpo-readiness-advisor",
       "install": "",
@@ -4483,7 +4483,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Audit Core Web Vitals and render-blocking resources",
       "url": "https://officialskills.sh/cloudflare/skills/web-perf",
       "install": "",
@@ -4505,7 +4505,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Gutenberg blocks: block.json, attributes, rendering, deprecations",
       "url": "https://officialskills.sh/WordPress/skills/wp-block-development",
       "install": "",
@@ -4527,7 +4527,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "PHPStan static analysis for WordPress projects",
       "url": "https://officialskills.sh/WordPress/skills/wp-phpstan",
       "install": "",
@@ -4549,7 +4549,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "WordPress Playground for instant local environments",
       "url": "https://officialskills.sh/WordPress/skills/wp-playground",
       "install": "",
@@ -4571,7 +4571,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Detects project type, tooling, and versions automatically",
       "url": "https://officialskills.sh/WordPress/skills/wp-project-triage",
       "install": "",
@@ -4593,7 +4593,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Create backlog items in Why-What-Acceptance format",
       "url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/wwas",
       "install": "",
@@ -4615,7 +4615,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Zustand stores with middleware patterns",
       "url": "https://officialskills.sh/microsoft/skills/zustand-store-ts",
       "install": "",
@@ -4653,6 +4653,24 @@
         "gemini"
       ],
       "searchText": "using skills in claude how to enable and use skills travisvn/awesome-claude-skills general claude codex cursor hermes gemini"
+    },
+    {
+      "name": "bytebot",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "bytebot-ai/bytebot",
+      "stars": 11060,
+      "desc": "Bytebot is a self-hosted AI desktop agent that automates computer tasks",
+      "url": "https://github.com/bytebot-ai/bytebot",
+      "install": "$skill-installer bytebot",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "bytebot bytebot is a self-hosted ai desktop agent that automates computer tasks bytebot-ai/bytebot $skill-installer bytebot general claude"
     },
     {
       "name": "claude-skills",
@@ -5407,6 +5425,24 @@
       "searchText": "harbor stop configuring your ai stack. start using it. one command brings a complete pre-wired llm stack with hundreds of services to explore. av/harbor general harbor"
     },
     {
+      "name": "openrecall",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "openrecall/openrecall",
+      "stars": 2872,
+      "desc": "Fully open-source, privacy-first alternative to proprietary recall solutions",
+      "url": "https://github.com/openrecall/openrecall",
+      "install": "$skill-installer openrecall",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "openrecall fully open-source, privacy-first alternative to proprietary recall solutions openrecall/openrecall $skill-installer openrecall general claude"
+    },
+    {
       "name": "anysearch-skill",
       "source": "general",
       "sourceAgent": "multi",
@@ -5467,6 +5503,24 @@
       "searchText": "openclaw-master-skills 🧠 curated collection of 1209+ best openclaw skills — weekly updated by myclaw.ai leoyeai/openclaw-master-skills git clone https://github.com/leoyeai/openclaw-master-skills.git general openclaw"
     },
     {
+      "name": "py-gpt",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "szczyglis-dev/py-gpt",
+      "stars": 1836,
+      "desc": "Desktop AI Assistant powered by GPT-5, GPT-4, Gemini, Claude, local LLMs",
+      "url": "https://github.com/szczyglis-dev/py-gpt",
+      "install": "$skill-installer py-gpt",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "py-gpt desktop ai assistant powered by gpt-5, gpt-4, gemini, claude, local llms szczyglis-dev/py-gpt $skill-installer py-gpt general claude"
+    },
+    {
       "name": "awesome-hermes-agent-samurai",
       "source": "community",
       "sourceAgent": "hermes",
@@ -5503,6 +5557,24 @@
       "searchText": "jql a json query language cli tool yamafaktory/jql general jql"
     },
     {
+      "name": "phantom",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "ghostwright/phantom",
+      "stars": 1436,
+      "desc": "An AI co-worker with its own computer. Self-evolving, persistent memory.",
+      "url": "https://github.com/ghostwright/phantom",
+      "install": "$skill-installer phantom",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "phantom an ai co-worker with its own computer. self-evolving, persistent memory. ghostwright/phantom $skill-installer phantom general claude"
+    },
+    {
       "name": "ibackupextractor",
       "source": "ibackupextractor",
       "sourceAgent": "ibackupextractor",
@@ -5519,6 +5591,24 @@
         "ibackupextractor"
       ],
       "searchText": "ibackupextractor a simple tool for extracting files from ios backup archive. unixzii/ibackupextractor general ibackupextractor"
+    },
+    {
+      "name": "row-bot",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "siddsachar/row-bot",
+      "stars": 1314,
+      "desc": "Row-Bot - Personal AI Sovereignty. Local-first AI assistant with integrated tools",
+      "url": "https://github.com/siddsachar/row-bot",
+      "install": "$skill-installer row-bot",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "row-bot row-bot - personal ai sovereignty. local-first ai assistant with integrated tools siddsachar/row-bot $skill-installer row-bot general claude"
     },
     {
       "name": "claude-code-skills",
@@ -5610,6 +5700,24 @@
         "hermes"
       ],
       "searchText": "hermes-ecosystem 🗺️ hermes atlas — the community map of every tool, skill, and integration for hermes agent by nous research. live at hermesatlas.com ksimback/hermes-ecosystem git clone https://github.com/ksimback/hermes-ecosystem.git general hermes"
+    },
+    {
+      "name": "AI-Account-Toolkit",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "adminlove520/AI-Account-Toolkit",
+      "stars": 963,
+      "desc": "AI账号注册与管理一站式工具集：ChatGPT/Claude/Gemini批量注册、Token管理",
+      "url": "https://github.com/adminlove520/AI-Account-Toolkit",
+      "install": "$skill-installer AI-Account-Toolkit",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "ai-account-toolkit ai账号注册与管理一站式工具集：chatgpt/claude/gemini批量注册、token管理 adminlove520/ai-account-toolkit $skill-installer ai-account-toolkit general claude"
     },
     {
       "name": "claude-skills",
@@ -5808,6 +5916,24 @@
         "gemini"
       ],
       "searchText": "skills leaderboard open agent skills ecosystem directory. jackyst0/awesome-agent-skills general claude codex cursor hermes gemini"
+    },
+    {
+      "name": "mnehmos.multi-agent.framework--agent-framework",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "Mnehmos/mnehmos.multi-agent.framework",
+      "stars": 535,
+      "desc": "",
+      "url": "https://github.com/Mnehmos/mnehmos.multi-agent.framework",
+      "install": "git clone https://github.com/Mnehmos/mnehmos.multi-agent.framework.git",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "mnehmos.multi-agent.framework--agent-framework mnehmos/mnehmos.multi-agent.framework git clone https://github.com/mnehmos/mnehmos.multi-agent.framework.git general general"
     },
     {
       "name": "opencode-skills",
@@ -6132,6 +6258,24 @@
       "searchText": "opencode-skills-chinese 一个存放终端ai skills 的仓库, 语言为中文 linxuan-sys/opencode-skills-chinese git clone https://github.com/linxuan-sys/opencode-skills-chinese.git general opencode"
     },
     {
+      "name": "interview-coach-agent-framework--agent-framework",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "Azure-Samples/interview-coach-agent-framework",
+      "stars": 149,
+      "desc": "Interview coach application using Microsoft Agent Framework | https://aka.ms/agentframework/interviewcoach",
+      "url": "https://github.com/Azure-Samples/interview-coach-agent-framework",
+      "install": "git clone https://github.com/Azure-Samples/interview-coach-agent-framework.git",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "interview-coach-agent-framework--agent-framework interview coach application using microsoft agent framework | https://aka.ms/agentframework/interviewcoach azure-samples/interview-coach-agent-framework git clone https://github.com/azure-samples/interview-coach-agent-framework.git general general"
+    },
+    {
       "name": "openclaw-chat-history-import",
       "source": "general",
       "sourceAgent": "openclaw",
@@ -6167,6 +6311,24 @@
         "openclaw"
       ],
       "searchText": "awesome-skills-cn 热门skills中文cn学习版+教程，提供7000+skills，集成claude skills (11w+star) | awesome-openclaw-skills (4w+star) | ui-ux-pro-max-skill (4w+star)等10余个热门skill项目 lingxling/awesome-skills-cn git clone https://github.com/lingxling/awesome-skills-cn.git general claude openclaw"
+    },
+    {
+      "name": "frameworks--agent-framework",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "open-policy-agent/frameworks",
+      "stars": 126,
+      "desc": "",
+      "url": "https://github.com/open-policy-agent/frameworks",
+      "install": "go install github.com/open-policy-agent/frameworks@latest",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "general",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "frameworks--agent-framework open-policy-agent/frameworks go install github.com/open-policy-agent/frameworks@latest general general"
     },
     {
       "name": "awesome-agent-skills",
@@ -6341,6 +6503,24 @@
         "claude"
       ],
       "searchText": "airtable automation automate airtable: records, tables, bases, views, and field management. composiohq/awesome-claude-skills general claude"
+    },
+    {
+      "name": "aiweizhou-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "terrytian-tech/aiweizhou-skill",
+      "stars": 0,
+      "desc": "AI 维舟.skill",
+      "url": "https://github.com/TerryTian-tech/AIWeiZhou-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "aiweizhou-skill ai 维舟.skill terrytian-tech/aiweizhou-skill general generic"
     },
     {
       "name": "Amplitude Automation",
@@ -6523,6 +6703,42 @@
       "searchText": "basecamp automation automate basecamp: to-do lists, messages, people, groups, and projects. composiohq/awesome-claude-skills general claude"
     },
     {
+      "name": "bazi-persona-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "cantian-ai/bazi-persona-skill",
+      "stars": 0,
+      "desc": "八字人格",
+      "url": "https://github.com/cantian-ai/bazi-persona-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "bazi-persona-skill 八字人格 cantian-ai/bazi-persona-skill general generic"
+    },
+    {
+      "name": "bazi-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "jinchenma94/bazi-skill",
+      "stars": 0,
+      "desc": "赛博算命 Skill",
+      "url": "https://github.com/jinchenma94/bazi-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "bazi-skill 赛博算命 skill jinchenma94/bazi-skill general generic"
+    },
+    {
       "name": "Bitbucket Automation",
       "source": "ComposioHQ/awesome-claude-skills",
       "sourceAgent": "claude",
@@ -6539,6 +6755,24 @@
         "claude"
       ],
       "searchText": "bitbucket automation automate bitbucket: repos, prs, branches, issues, and workspaces. composiohq/awesome-claude-skills general claude"
+    },
+    {
+      "name": "boss-skills",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "vogtsw/boss-skills",
+      "stars": 0,
+      "desc": "老板.skill",
+      "url": "https://github.com/vogtsw/boss-skills",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "boss-skills 老板.skill vogtsw/boss-skills general generic"
     },
     {
       "name": "Box Automation",
@@ -6629,6 +6863,42 @@
         "claude"
       ],
       "searchText": "brevo automation automate brevo: contacts, email campaigns, transactional emails, and lists. composiohq/awesome-claude-skills general claude"
+    },
+    {
+      "name": "brother-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "realteamprinz/brother-skill",
+      "stars": 0,
+      "desc": "兄弟.skill",
+      "url": "https://github.com/realteamprinz/brother-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "brother-skill 兄弟.skill realteamprinz/brother-skill general generic"
+    },
+    {
+      "name": "buffett-perspective",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "will2025btc/buffett-perspective",
+      "stars": 0,
+      "desc": "巴菲特思维操作系统",
+      "url": "https://github.com/will2025btc/buffett-perspective",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "buffett-perspective 巴菲特思维操作系统 will2025btc/buffett-perspective general generic"
     },
     {
       "name": "building-blog",
@@ -6737,6 +7007,42 @@
         "claude"
       ],
       "searchText": "changelog generator automatically creates user-facing changelogs from git commits by analyzing history and transforming technical commits into customer-friendly release notes. composiohq/awesome-claude-skills general claude"
+    },
+    {
+      "name": "changshu-anuo",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "ricardo-vv/changshu-anuo",
+      "stars": 0,
+      "desc": "常熟阿诺（加州盛亦陶） Skill",
+      "url": "https://github.com/Ricardo-Vv/changshu-anuo",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "changshu-anuo 常熟阿诺（加州盛亦陶） skill ricardo-vv/changshu-anuo general generic"
+    },
+    {
+      "name": "chenze-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "fisher-yu-like/chenze-skill",
+      "stars": 0,
+      "desc": "陈泽.skill",
+      "url": "https://github.com/fisher-yu-like/chenze-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "chenze-skill 陈泽.skill fisher-yu-like/chenze-skill general generic"
     },
     {
       "name": "Chrome Relay",
@@ -6883,6 +7189,24 @@
       "searchText": "coda automation automate coda: docs, tables, rows, formulas, and automations. composiohq/awesome-claude-skills general claude"
     },
     {
+      "name": "colleague-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "titanwings/colleague-skill",
+      "stars": 0,
+      "desc": "同事.skill",
+      "url": "https://github.com/titanwings/colleague-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "colleague-skill 同事.skill titanwings/colleague-skill general generic"
+    },
+    {
       "name": "Competitive Ads Extractor",
       "source": "ComposioHQ/awesome-claude-skills",
       "sourceAgent": "claude",
@@ -7009,6 +7333,24 @@
       "searchText": "creating custom skills skill development guide composiohq/awesome-claude-skills general claude"
     },
     {
+      "name": "crush-skills",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "xiaoheizi8/crush-skills",
+      "stars": 0,
+      "desc": "暗恋对象.skill",
+      "url": "https://github.com/xiaoheizi8/crush-skills",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "crush-skills 暗恋对象.skill xiaoheizi8/crush-skills general generic"
+    },
+    {
       "name": "CSV Data Summarizer",
       "source": "ComposioHQ/awesome-claude-skills",
       "sourceAgent": "claude",
@@ -7025,6 +7367,24 @@
         "claude"
       ],
       "searchText": "csv data summarizer automatically analyzes csv files and generates comprehensive insights with visualizations without requiring user prompts. *by [@coffeefuelbump](https://github.com/coffeefuelbump)* composiohq/awesome-claude-skills general claude"
+    },
+    {
+      "name": "curator-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "aar0npb/curator-skill",
+      "stars": 0,
+      "desc": "图鉴.skill",
+      "url": "https://github.com/Aar0nPB/curator-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "curator-skill 图鉴.skill aar0npb/curator-skill general generic"
     },
     {
       "name": "D3.js Visualization",
@@ -7079,6 +7439,42 @@
         "gemini"
       ],
       "searchText": "deep-research execute autonomous multi-step research using gemini deep research agent for market analysis, competitive landscaping, and literature reviews. *by [@sanjay3290](https://github.com/sanjay3290)* composiohq/awesome-claude-skills general gemini"
+    },
+    {
+      "name": "diamond-sutra-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "dull-bird/diamond-sutra-skill",
+      "stars": 0,
+      "desc": "金刚经.skill",
+      "url": "https://github.com/dull-bird/diamond-sutra-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "diamond-sutra-skill 金刚经.skill dull-bird/diamond-sutra-skill general generic"
+    },
+    {
+      "name": "digital-life",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "wildbyteai/digital-life",
+      "stars": 0,
+      "desc": "数字人生.skills",
+      "url": "https://github.com/wildbyteai/digital-life",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "digital-life 数字人生.skills wildbyteai/digital-life general generic"
     },
     {
       "name": "Discord Automation",
@@ -7171,6 +7567,42 @@
       "searchText": "dropbox automation automate dropbox: files, folders, search, sharing, and batch operations. composiohq/awesome-claude-skills general claude"
     },
     {
+      "name": "elon-musk-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "alchaincyf/elon-musk-skill",
+      "stars": 0,
+      "desc": "马斯克.skill",
+      "url": "https://github.com/alchaincyf/elon-musk-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "elon-musk-skill 马斯克.skill alchaincyf/elon-musk-skill general generic"
+    },
+    {
+      "name": "ex-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "therealxiaomanchu/ex-skill",
+      "stars": 0,
+      "desc": "前任.skill",
+      "url": "https://github.com/therealXiaomanChu/ex-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "ex-skill 前任.skill therealxiaomanchu/ex-skill general generic"
+    },
+    {
       "name": "family-history-research",
       "source": "ComposioHQ/awesome-claude-skills",
       "sourceAgent": "claude",
@@ -7187,6 +7619,60 @@
         "claude"
       ],
       "searchText": "family-history-research provides assistance with planning family history and genealogy research projects. composiohq/awesome-claude-skills general claude"
+    },
+    {
+      "name": "fengge-wangmingtianya-perspective",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "rottenpen/fengge-wangmingtianya-perspective",
+      "stars": 0,
+      "desc": "峰哥亡命天涯 Skill",
+      "url": "https://github.com/rottenpen/fengge-wangmingtianya-perspective",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "fengge-wangmingtianya-perspective 峰哥亡命天涯 skill rottenpen/fengge-wangmingtianya-perspective general generic"
+    },
+    {
+      "name": "fengshui.skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "voidforall/fengshui.skill",
+      "stars": 0,
+      "desc": "堪舆子",
+      "url": "https://github.com/voidforall/fengshui.skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "fengshui.skill 堪舆子 voidforall/fengshui.skill general generic"
+    },
+    {
+      "name": "feynman-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "alchaincyf/feynman-skill",
+      "stars": 0,
+      "desc": "费曼.skill",
+      "url": "https://github.com/alchaincyf/feynman-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "feynman-skill 费曼.skill alchaincyf/feynman-skill general generic"
     },
     {
       "name": "FFUF Web Fuzzing",
@@ -7295,6 +7781,24 @@
         "claude"
       ],
       "searchText": "follow on twitter/x stay updated on new skills and features composiohq/awesome-claude-skills general claude"
+    },
+    {
+      "name": "forge-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "yikuaibanzi/forge-skill",
+      "stars": 0,
+      "desc": "Forge Skill",
+      "url": "https://github.com/YIKUAIBANZI/forge-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "forge-skill forge skill yikuaibanzi/forge-skill general generic"
     },
     {
       "name": "Freshdesk Automation",
@@ -7549,6 +8053,24 @@
       "searchText": "great_cto claude code plugin: 7 specialised subagents (tech-lead, senior-dev, qa-engineer, security-officer, devops, l3-support, project-auditor) orchestrating a full sdlc pipeline — architecture, tdd, 12-angle composiohq/awesome-claude-skills general claude"
     },
     {
+      "name": "guodegang-skills",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "byterax/guodegang-skills",
+      "stars": 0,
+      "desc": "郭德纲.skill",
+      "url": "https://github.com/ByteRax/guodegang-skills",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "guodegang-skills 郭德纲.skill byterax/guodegang-skills general generic"
+    },
+    {
       "name": "Help Scout Automation",
       "source": "ComposioHQ/awesome-claude-skills",
       "sourceAgent": "claude",
@@ -7567,6 +8089,42 @@
       "searchText": "help scout automation automate help scout: conversations, customers, mailboxes, and tags. composiohq/awesome-claude-skills general claude"
     },
     {
+      "name": "hr-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "schlaflied/hr-skill",
+      "stars": 0,
+      "desc": "HR.skill",
+      "url": "https://github.com/Schlaflied/hr-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "hr-skill hr.skill schlaflied/hr-skill general generic"
+    },
+    {
+      "name": "hu-chenfeng-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "janlaywss/hu-chenfeng-skill",
+      "stars": 0,
+      "desc": "户晨风.skill",
+      "url": "https://github.com/Janlaywss/hu-chenfeng-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "hu-chenfeng-skill 户晨风.skill janlaywss/hu-chenfeng-skill general generic"
+    },
+    {
       "name": "HubSpot Automation",
       "source": "ComposioHQ/awesome-claude-skills",
       "sourceAgent": "claude",
@@ -7583,6 +8141,24 @@
         "claude"
       ],
       "searchText": "hubspot automation automate hubspot crm: contacts, deals, companies, tickets, and email engagement. composiohq/awesome-claude-skills general claude"
+    },
+    {
+      "name": "ilya-sutskever-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "alchaincyf/ilya-sutskever-skill",
+      "stars": 0,
+      "desc": "Ilya.skill",
+      "url": "https://github.com/alchaincyf/ilya-sutskever-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "ilya-sutskever-skill ilya.skill alchaincyf/ilya-sutskever-skill general generic"
     },
     {
       "name": "Image Enhancer",
@@ -7619,6 +8195,24 @@
         "gemini"
       ],
       "searchText": "imagen generate images using google gemini's image generation api for ui mockups, icons, illustrations, and visual assets. *by [@sanjay3290](https://github.com/sanjay3290)* composiohq/awesome-claude-skills general gemini"
+    },
+    {
+      "name": "immortal-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "agenmod/immortal-skill",
+      "stars": 0,
+      "desc": "永生.skill",
+      "url": "https://github.com/agenmod/immortal-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "immortal-skill 永生.skill agenmod/immortal-skill general generic"
     },
     {
       "name": "Instagram Automation",
@@ -7747,6 +8341,24 @@
       "searchText": "jules delegate coding tasks to google jules ai agent for async bug fixes, documentation, tests, and feature implementation on github repos. *by [@sanjay3290](https://github.com/sanjay3290)* composiohq/awesome-claude-skills general claude"
     },
     {
+      "name": "justin-bieber-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "fisher-yu-like/justin-bieber-skill",
+      "stars": 0,
+      "desc": "Justin Bieber ·Skill",
+      "url": "https://github.com/fisher-yu-like/justin-bieber-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "justin-bieber-skill justin bieber ·skill fisher-yu-like/justin-bieber-skill general generic"
+    },
+    {
       "name": "kaizen",
       "source": "ComposioHQ/awesome-claude-skills",
       "sourceAgent": "claude",
@@ -7763,6 +8375,60 @@
         "claude"
       ],
       "searchText": "kaizen applies continuous improvement methodology with multiple analytical approaches, based on japanese kaizen philosophy and lean methodology. composiohq/awesome-claude-skills general claude"
+    },
+    {
+      "name": "karl-marx-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "youaifuou/karl-marx-skill",
+      "stars": 0,
+      "desc": "卡尔·马克思的思维框架与批判方法",
+      "url": "https://github.com/youaifuou/karl-marx-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "karl-marx-skill 卡尔·马克思的思维框架与批判方法 youaifuou/karl-marx-skill general generic"
+    },
+    {
+      "name": "karlmarx-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "baojiachen0214/karlmarx-skill",
+      "stars": 0,
+      "desc": "KarlMarx Skill",
+      "url": "https://github.com/baojiachen0214/karlmarx-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "karlmarx-skill karlmarx skill baojiachen0214/karlmarx-skill general generic"
+    },
+    {
+      "name": "karpathy-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "alchaincyf/karpathy-skill",
+      "stars": 0,
+      "desc": "Karpathy.skill",
+      "url": "https://github.com/alchaincyf/karpathy-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "karpathy-skill karpathy.skill alchaincyf/karpathy-skill general generic"
     },
     {
       "name": "Klaviyo Automation",
@@ -7855,6 +8521,24 @@
       "searchText": "lenny's newsletter 50 ways people use claude code composiohq/awesome-claude-skills general claude"
     },
     {
+      "name": "liangxi-skills",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "1sh1ro/liangxi-skills",
+      "stars": 0,
+      "desc": "liangxi-skills",
+      "url": "https://github.com/1sh1ro/liangxi-skills",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "liangxi-skills liangxi-skills 1sh1ro/liangxi-skills general generic"
+    },
+    {
       "name": "Linear Automation",
       "source": "ComposioHQ/awesome-claude-skills",
       "sourceAgent": "claude",
@@ -7889,6 +8573,24 @@
         "claude"
       ],
       "searchText": "linkedin automation automate linkedin: posts, profiles, companies, images, and comments. composiohq/awesome-claude-skills general claude"
+    },
+    {
+      "name": "luxun-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "youaifuou/luxun-skill",
+      "stars": 0,
+      "desc": "鲁迅的思维框架与反讽笔法",
+      "url": "https://github.com/youaifuou/luxun-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "luxun-skill 鲁迅的思维框架与反讽笔法 youaifuou/luxun-skill general generic"
     },
     {
       "name": "Mailchimp Automation",
@@ -7927,6 +8629,60 @@
       "searchText": "make automation automate make (integromat): scenarios, connections, and execution management. composiohq/awesome-claude-skills general claude"
     },
     {
+      "name": "mamaskill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "jiangziyan-693/mamaskill",
+      "stars": 0,
+      "desc": "MamaSkill",
+      "url": "https://github.com/jiangziyan-693/MamaSkill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "mamaskill mamaskill jiangziyan-693/mamaskill general generic"
+    },
+    {
+      "name": "mao-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "wwwaapplleecu-source/mao-skill",
+      "stars": 0,
+      "desc": "毛泽东.skill",
+      "url": "https://github.com/wwwaapplleecu-source/mao-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "mao-skill 毛泽东.skill wwwaapplleecu-source/mao-skill general generic"
+    },
+    {
+      "name": "maoxuan-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "leezythu/maoxuan-skill",
+      "stars": 0,
+      "desc": "毛选.skill",
+      "url": "https://github.com/leezythu/maoxuan-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "maoxuan-skill 毛选.skill leezythu/maoxuan-skill general generic"
+    },
+    {
       "name": "Markdown to EPUB Converter",
       "source": "ComposioHQ/awesome-claude-skills",
       "sourceAgent": "claude",
@@ -7961,6 +8717,42 @@
         "claude"
       ],
       "searchText": "master claude for legal skill pack for legal teams. nda triage, multi-party version diff, citation verifier, meeting brief, and the friday-newsletter status synthesis pattern. includes 10 reference docs (privilege, verificat composiohq/awesome-claude-skills general claude"
+    },
+    {
+      "name": "master-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "swaylq/master-skill",
+      "stars": 0,
+      "desc": "大师.skill",
+      "url": "https://github.com/swaylq/master-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "master-skill 大师.skill swaylq/master-skill general generic"
+    },
+    {
+      "name": "master-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "xr843/master-skill",
+      "stars": 0,
+      "desc": "Master-skill",
+      "url": "https://github.com/xr843/Master-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "master-skill master-skill xr843/master-skill general generic"
     },
     {
       "name": "MCP Builder",
@@ -8053,6 +8845,24 @@
       "searchText": "microsoft teams automation automate teams: messages, channels, teams, chats, and meetings. composiohq/awesome-claude-skills general claude"
     },
     {
+      "name": "midas-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "realteamprinz/midas-skill",
+      "stars": 0,
+      "desc": "midas.skill",
+      "url": "https://github.com/realteamprinz/midas-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "midas-skill midas.skill realteamprinz/midas-skill general generic"
+    },
+    {
       "name": "Miro Automation",
       "source": "ComposioHQ/awesome-claude-skills",
       "sourceAgent": "claude",
@@ -8069,6 +8879,24 @@
         "claude"
       ],
       "searchText": "miro automation automate miro: boards, sticky notes, shapes, connectors, and items. composiohq/awesome-claude-skills general claude"
+    },
+    {
+      "name": "mises-perspective",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "lijiayudeng/mises-perspective",
+      "stars": 0,
+      "desc": "米塞斯方法论",
+      "url": "https://github.com/LijiayuDeng/mises-perspective",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "mises-perspective 米塞斯方法论 lijiayudeng/mises-perspective general generic"
     },
     {
       "name": "Mixpanel Automation",
@@ -8125,6 +8953,78 @@
       "searchText": "move-code-quality-skill analyzes move language packages against the official move book code quality checklist for move 2024 edition compliance and best practices. composiohq/awesome-claude-skills general claude"
     },
     {
+      "name": "mrbeast-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "alchaincyf/mrbeast-skill",
+      "stars": 0,
+      "desc": "MrBeast.skill",
+      "url": "https://github.com/alchaincyf/mrbeast-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "mrbeast-skill mrbeast.skill alchaincyf/mrbeast-skill general generic"
+    },
+    {
+      "name": "munger-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "alchaincyf/munger-skill",
+      "stars": 0,
+      "desc": "芒格.skill",
+      "url": "https://github.com/alchaincyf/munger-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "munger-skill 芒格.skill alchaincyf/munger-skill general generic"
+    },
+    {
+      "name": "my-anti-distill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "lcmomo/my-anti-distill",
+      "stars": 0,
+      "desc": "反蒸馏 Skill",
+      "url": "https://github.com/lcmomo/my-anti-distill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "my-anti-distill 反蒸馏 skill lcmomo/my-anti-distill general generic"
+    },
+    {
+      "name": "my-digital-life",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "weixr18/my-digital-life",
+      "stars": 0,
+      "desc": "数字生命开源计划",
+      "url": "https://github.com/weixr18/my-digital-life",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "my-digital-life 数字生命开源计划 weixr18/my-digital-life general generic"
+    },
+    {
       "name": "n8n-skills",
       "source": "ComposioHQ/awesome-claude-skills",
       "sourceAgent": "claude",
@@ -8141,6 +9041,24 @@
         "claude"
       ],
       "searchText": "n8n-skills enables ai assistants to directly understand and operate n8n workflows. composiohq/awesome-claude-skills general claude"
+    },
+    {
+      "name": "naval-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "alchaincyf/naval-skill",
+      "stars": 0,
+      "desc": "纳瓦尔.skill",
+      "url": "https://github.com/alchaincyf/naval-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "naval-skill 纳瓦尔.skill alchaincyf/naval-skill general generic"
     },
     {
       "name": "NotebookLM Integration",
@@ -8195,6 +9113,42 @@
         "claude"
       ],
       "searchText": "notion skills notion integration skills composiohq/awesome-claude-skills general claude"
+    },
+    {
+      "name": "numerologist_skills",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "fanzr-arch/numerologist_skills",
+      "stars": 0,
+      "desc": "Numerologist Skills",
+      "url": "https://github.com/FANzR-arch/Numerologist_skills",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "numerologist_skills numerologist skills fanzr-arch/numerologist_skills general generic"
+    },
+    {
+      "name": "nuwa-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "alchaincyf/nuwa-skill",
+      "stars": 0,
+      "desc": "女娲.skill",
+      "url": "https://github.com/alchaincyf/nuwa-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "nuwa-skill 女娲.skill alchaincyf/nuwa-skill general generic"
     },
     {
       "name": "OneDrive Automation",
@@ -8323,6 +9277,42 @@
       "searchText": "pagerduty automation automate pagerduty: incidents, services, schedules, escalation policies, and on-call. composiohq/awesome-claude-skills general claude"
     },
     {
+      "name": "parents-skills",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "xiaoheizi8/parents-skills",
+      "stars": 0,
+      "desc": "父母.skill",
+      "url": "https://github.com/xiaoheizi8/parents-skills",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "parents-skills 父母.skill xiaoheizi8/parents-skills general generic"
+    },
+    {
+      "name": "paul-graham-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "alchaincyf/paul-graham-skill",
+      "stars": 0,
+      "desc": "PG.skill",
+      "url": "https://github.com/alchaincyf/paul-graham-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "paul-graham-skill pg.skill alchaincyf/paul-graham-skill general generic"
+    },
+    {
       "name": "pdf",
       "source": "ComposioHQ/awesome-claude-skills",
       "sourceAgent": "claude",
@@ -8339,6 +9329,24 @@
         "claude"
       ],
       "searchText": "pdf extract text, tables, metadata, merge & annotate pdfs. composiohq/awesome-claude-skills general claude"
+    },
+    {
+      "name": "persona-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "tomsawyerhu/persona-skill",
+      "stars": 0,
+      "desc": "Persona Skill",
+      "url": "https://github.com/Tomsawyerhu/Persona-Skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "agent",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "persona-skill persona skill tomsawyerhu/persona-skill general generic"
     },
     {
       "name": "Pipedrive Automation",
@@ -8467,6 +9475,24 @@
       "searchText": "pptx read, generate, and adjust slides, layouts, templates. composiohq/awesome-claude-skills general claude"
     },
     {
+      "name": "professor-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "commithu502craft/professor-skill",
+      "stars": 0,
+      "desc": "大学老师.skill",
+      "url": "https://github.com/CommitHu502Craft/professor-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "professor-skill 大学老师.skill commithu502craft/professor-skill general generic"
+    },
+    {
       "name": "prompt-engineering",
       "source": "ComposioHQ/awesome-claude-skills",
       "sourceAgent": "claude",
@@ -8501,6 +9527,24 @@
         "claude"
       ],
       "searchText": "pypict-claude-skill design comprehensive test cases using pict (pairwise independent combinatorial testing) for requirements or code, generating optimized test suites with pairwise coverage. composiohq/awesome-claude-skills general claude"
+    },
+    {
+      "name": "qiushi-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "hughyau/qiushi-skill",
+      "stars": 0,
+      "desc": "求是 Skill",
+      "url": "https://github.com/HughYau/qiushi-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "qiushi-skill 求是 skill hughyau/qiushi-skill general generic"
     },
     {
       "name": "Raffle Winner Picker",
@@ -8575,6 +9619,24 @@
       "searchText": "reddit-fetch fetches reddit content via gemini cli when webfetch is blocked or returns 403 errors. composiohq/awesome-claude-skills general gemini"
     },
     {
+      "name": "relationship-training-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "tammytan516/relationship-training-skill",
+      "stars": 0,
+      "desc": "恋爱训练营.skill",
+      "url": "https://github.com/TammyTan516/relationship-training-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "relationship-training-skill 恋爱训练营.skill tammytan516/relationship-training-skill general generic"
+    },
+    {
       "name": "Render Automation",
       "source": "ComposioHQ/awesome-claude-skills",
       "sourceAgent": "claude",
@@ -8593,6 +9655,24 @@
       "searchText": "render automation automate render: services, deploys, and project management. composiohq/awesome-claude-skills general claude"
     },
     {
+      "name": "reunion-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "yangdongchen66-boop/reunion-skill",
+      "stars": 0,
+      "desc": "Reunion Skill",
+      "url": "https://github.com/yangdongchen66-boop/reunion-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "reunion-skill reunion skill yangdongchen66-boop/reunion-skill general generic"
+    },
+    {
       "name": "review-implementing",
       "source": "ComposioHQ/awesome-claude-skills",
       "sourceAgent": "claude",
@@ -8609,6 +9689,42 @@
         "claude"
       ],
       "searchText": "review-implementing evaluate code implementation plans and align with specs. composiohq/awesome-claude-skills general claude"
+    },
+    {
+      "name": "roast-cold-email-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "schlaflied/roast-cold-email-skill",
+      "stars": 0,
+      "desc": "roast-cold-email-skill",
+      "url": "https://github.com/Schlaflied/roast-cold-email-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "roast-cold-email-skill roast-cold-email-skill schlaflied/roast-cold-email-skill general generic"
+    },
+    {
+      "name": "rob-pike-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "smallnest/rob-pike-skill",
+      "stars": 0,
+      "desc": "罗布派克.skill",
+      "url": "https://github.com/smallnest/rob-pike-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "rob-pike-skill 罗布派克.skill smallnest/rob-pike-skill general generic"
     },
     {
       "name": "root-cause-tracing",
@@ -8681,6 +9797,24 @@
         "claude"
       ],
       "searchText": "sendgrid automation automate sendgrid: emails, templates, contacts, lists, and campaign stats. composiohq/awesome-claude-skills general claude"
+    },
+    {
+      "name": "senpai-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "zhanghaichao520/senpai-skill",
+      "stars": 0,
+      "desc": "师兄.skill",
+      "url": "https://github.com/zhanghaichao520/senpai-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "senpai-skill 师兄.skill zhanghaichao520/senpai-skill general generic"
     },
     {
       "name": "Sentry Automation",
@@ -8789,6 +9923,24 @@
         "claude"
       ],
       "searchText": "skill seekers automatically converts any documentation website into a claude ai skill in minutes. *by [@yusufkaraaslan](https://github.com/yusufkaraaslan)* composiohq/awesome-claude-skills general claude"
+    },
+    {
+      "name": "skill-fidelity-bench",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "c0ffee-milk/skill-fidelity-bench",
+      "stars": 0,
+      "desc": "Skill Fidelity Bench",
+      "url": "https://github.com/c0ffee-milk/skill-fidelity-bench",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "skill-fidelity-bench skill fidelity bench c0ffee-milk/skill-fidelity-bench general generic"
     },
     {
       "name": "Skills API Documentation",
@@ -8917,6 +10069,42 @@
       "searchText": "square automation automate square: payments, customers, catalog, orders, and locations. composiohq/awesome-claude-skills general claude"
     },
     {
+      "name": "star-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "yanghaoraneve/star-skill",
+      "stars": 0,
+      "desc": "内娱.skill",
+      "url": "https://github.com/yanghaoraneve/star-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "star-skill 内娱.skill yanghaoraneve/star-skill general generic"
+    },
+    {
+      "name": "steve-jobs-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "alchaincyf/steve-jobs-skill",
+      "stars": 0,
+      "desc": "乔布斯.skill",
+      "url": "https://github.com/alchaincyf/steve-jobs-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "steve-jobs-skill 乔布斯.skill alchaincyf/steve-jobs-skill general generic"
+    },
+    {
       "name": "Stripe Automation",
       "source": "ComposioHQ/awesome-claude-skills",
       "sourceAgent": "claude",
@@ -8953,6 +10141,24 @@
       "searchText": "supabase automation automate supabase: sql queries, table schemas, edge functions, and storage. composiohq/awesome-claude-skills general claude"
     },
     {
+      "name": "supervisor",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "ybq22/supervisor",
+      "stars": 0,
+      "desc": "导师.skill",
+      "url": "https://github.com/ybq22/supervisor",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "supervisor 导师.skill ybq22/supervisor general generic"
+    },
+    {
       "name": "swiftui-design-skill",
       "source": "ComposioHQ/awesome-claude-skills",
       "sourceAgent": "claude",
@@ -8987,6 +10193,24 @@
         "claude"
       ],
       "searchText": "tailored resume generator analyzes job descriptions and generates tailored resumes that highlight relevant experience, skills, and achievements to maximize interview chances. composiohq/awesome-claude-skills general claude"
+    },
+    {
+      "name": "taleb-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "alchaincyf/taleb-skill",
+      "stars": 0,
+      "desc": "塔勒布.skill",
+      "url": "https://github.com/alchaincyf/taleb-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "taleb-skill 塔勒布.skill alchaincyf/taleb-skill general generic"
     },
     {
       "name": "tapestry",
@@ -9115,6 +10339,24 @@
       "searchText": "todoist automation automate todoist: tasks, projects, sections, labels, and filters. composiohq/awesome-claude-skills general claude"
     },
     {
+      "name": "tong-jincheng-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "hotcoffeeshake/tong-jincheng-skill",
+      "stars": 0,
+      "desc": "童锦程.skill",
+      "url": "https://github.com/hotcoffeeshake/tong-jincheng-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "tong-jincheng-skill 童锦程.skill hotcoffeeshake/tong-jincheng-skill general generic"
+    },
+    {
       "name": "Trello Automation",
       "source": "ComposioHQ/awesome-claude-skills",
       "sourceAgent": "claude",
@@ -9131,6 +10373,24 @@
         "claude"
       ],
       "searchText": "trello automation automate trello: boards, cards, lists, members, and checklists. composiohq/awesome-claude-skills general claude"
+    },
+    {
+      "name": "trump-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "alchaincyf/trump-skill",
+      "stars": 0,
+      "desc": "特朗普.skill",
+      "url": "https://github.com/alchaincyf/trump-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "trump-skill 特朗普.skill alchaincyf/trump-skill general generic"
     },
     {
       "name": "Twitter Algorithm Optimizer",
@@ -9205,6 +10465,24 @@
       "searchText": "vercel automation automate vercel: deployments, projects, domains, environment variables, and logs. composiohq/awesome-claude-skills general claude"
     },
     {
+      "name": "vibeportrait",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "dadwadw233/vibeportrait",
+      "stars": 0,
+      "desc": "VibePortrait",
+      "url": "https://github.com/dadwadw233/VibePortrait",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "vibeportrait vibeportrait dadwadw233/vibeportrait general generic"
+    },
+    {
       "name": "Video Downloader",
       "source": "ComposioHQ/awesome-claude-skills",
       "sourceAgent": "claude",
@@ -9221,6 +10499,24 @@
         "claude"
       ],
       "searchText": "video downloader downloads videos from youtube and other platforms for offline viewing, editing, or archival with support for various formats and quality options. composiohq/awesome-claude-skills general claude"
+    },
+    {
+      "name": "wang-er-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "fisher-yu-like/wang-er-skill",
+      "stars": 0,
+      "desc": "王二.skill",
+      "url": "https://github.com/fisher-yu-like/wang-er-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "wang-er-skill 王二.skill fisher-yu-like/wang-er-skill general generic"
     },
     {
       "name": "Webapp Testing",
@@ -9313,6 +10609,42 @@
       "searchText": "wrike automation automate wrike: tasks, folders, projects, comments, and workflows. composiohq/awesome-claude-skills general claude"
     },
     {
+      "name": "x-mentor-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "alchaincyf/x-mentor-skill",
+      "stars": 0,
+      "desc": "X 导师.skill",
+      "url": "https://github.com/alchaincyf/x-mentor-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "x-mentor-skill x 导师.skill alchaincyf/x-mentor-skill general generic"
+    },
+    {
+      "name": "xinqingnian-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "samadhifire/xinqingnian-skill",
+      "stars": 0,
+      "desc": "新青年.Skill",
+      "url": "https://github.com/SamadhiFire/xinqingnian-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "xinqingnian-skill 新青年.skill samadhifire/xinqingnian-skill general generic"
+    },
+    {
       "name": "xlsx",
       "source": "ComposioHQ/awesome-claude-skills",
       "sourceAgent": "claude",
@@ -9329,6 +10661,42 @@
         "claude"
       ],
       "searchText": "xlsx spreadsheet manipulation: formulas, charts, data transformations. composiohq/awesome-claude-skills general claude"
+    },
+    {
+      "name": "yinyuan-skills",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "ming-h/yinyuan-skills",
+      "stars": 0,
+      "desc": "月老·姻缘测算 Skills",
+      "url": "https://github.com/Ming-H/yinyuan-skills",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "yinyuan-skills 月老·姻缘测算 skills ming-h/yinyuan-skills general generic"
+    },
+    {
+      "name": "yourself-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "notdog1998/yourself-skill",
+      "stars": 0,
+      "desc": "自己.skill",
+      "url": "https://github.com/notdog1998/yourself-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "yourself-skill 自己.skill notdog1998/yourself-skill general generic"
     },
     {
       "name": "YouTube Automation",
@@ -9385,6 +10753,78 @@
       "searchText": "zendesk automation automate zendesk: tickets, users, organizations, search, and macros. composiohq/awesome-claude-skills general claude"
     },
     {
+      "name": "zhang-yiming-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "alchaincyf/zhang-yiming-skill",
+      "stars": 0,
+      "desc": "张一鸣.skill",
+      "url": "https://github.com/alchaincyf/zhang-yiming-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "zhang-yiming-skill 张一鸣.skill alchaincyf/zhang-yiming-skill general generic"
+    },
+    {
+      "name": "zhangxuefeng-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "alchaincyf/zhangxuefeng-skill",
+      "stars": 0,
+      "desc": "张雪峰.skill",
+      "url": "https://github.com/alchaincyf/zhangxuefeng-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "zhangxuefeng-skill 张雪峰.skill alchaincyf/zhangxuefeng-skill general generic"
+    },
+    {
+      "name": "zhuzi-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "linzzzzzz/zhuzi-skill",
+      "stars": 0,
+      "desc": "诸子.skill",
+      "url": "https://github.com/linzzzzzz/zhuzi-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "zhuzi-skill 诸子.skill linzzzzzz/zhuzi-skill general generic"
+    },
+    {
+      "name": "zizek-skill",
+      "source": "xixu-me",
+      "sourceAgent": "generic",
+      "repo": "jikunr/zizek-skill",
+      "stars": 0,
+      "desc": "zizek-skill",
+      "url": "https://github.com/JikunR/zizek-skill",
+      "install": "",
+      "functionCategory": "general",
+      "topCategoryId": "general",
+      "subCategoryId": "utility",
+      "categoryPath": "general",
+      "supportedAgents": [
+        "generic"
+      ],
+      "searchText": "zizek-skill zizek-skill jikunr/zizek-skill general generic"
+    },
+    {
       "name": "Zoho CRM Automation",
       "source": "ComposioHQ/awesome-claude-skills",
       "sourceAgent": "claude",
@@ -9419,1463 +10859,6 @@
         "claude"
       ],
       "searchText": "zoom automation automate zoom: meetings, recordings, participants, webinars, and reports. composiohq/awesome-claude-skills general claude"
-    },
-    {
-      "name": "bazi-persona-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "cantian-ai/bazi-persona-skill",
-      "stars": 0,
-      "desc": "八字人格",
-      "url": "https://github.com/cantian-ai/bazi-persona-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "八字人格 cantian-ai/bazi-persona-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "curator-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "aar0npb/curator-skill",
-      "stars": 0,
-      "desc": "图鉴.skill",
-      "url": "https://github.com/Aar0nPB/curator-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "图鉴.skill aar0npb/curator-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "digital-life",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "wildbyteai/digital-life",
-      "stars": 0,
-      "desc": "数字人生.skills",
-      "url": "https://github.com/wildbyteai/digital-life",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "数字人生.skills wildbyteai/digital-life",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "forge-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "yikuaibanzi/forge-skill",
-      "stars": 0,
-      "desc": "Forge Skill",
-      "url": "https://github.com/YIKUAIBANZI/forge-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "Forge Skill yikuaibanzi/forge-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "immortal-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "agenmod/immortal-skill",
-      "stars": 0,
-      "desc": "永生.skill",
-      "url": "https://github.com/agenmod/immortal-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "永生.skill agenmod/immortal-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "master-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "swaylq/master-skill",
-      "stars": 0,
-      "desc": "大师.skill",
-      "url": "https://github.com/swaylq/master-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "大师.skill swaylq/master-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "midas-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "realteamprinz/midas-skill",
-      "stars": 0,
-      "desc": "midas.skill",
-      "url": "https://github.com/realteamprinz/midas-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "midas.skill realteamprinz/midas-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "my-anti-distill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "lcmomo/my-anti-distill",
-      "stars": 0,
-      "desc": "反蒸馏 Skill",
-      "url": "https://github.com/lcmomo/my-anti-distill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "反蒸馏 Skill lcmomo/my-anti-distill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "my-digital-life",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "weixr18/my-digital-life",
-      "stars": 0,
-      "desc": "数字生命开源计划",
-      "url": "https://github.com/weixr18/my-digital-life",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "数字生命开源计划 weixr18/my-digital-life",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "nuwa-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "alchaincyf/nuwa-skill",
-      "stars": 0,
-      "desc": "女娲.skill",
-      "url": "https://github.com/alchaincyf/nuwa-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "女娲.skill alchaincyf/nuwa-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "persona-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "tomsawyerhu/persona-skill",
-      "stars": 0,
-      "desc": "Persona Skill",
-      "url": "https://github.com/Tomsawyerhu/Persona-Skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "agent",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "Persona Skill tomsawyerhu/persona-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "skill-fidelity-bench",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "c0ffee-milk/skill-fidelity-bench",
-      "stars": 0,
-      "desc": "Skill Fidelity Bench",
-      "url": "https://github.com/c0ffee-milk/skill-fidelity-bench",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "Skill Fidelity Bench c0ffee-milk/skill-fidelity-bench",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "vibeportrait",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "dadwadw233/vibeportrait",
-      "stars": 0,
-      "desc": "VibePortrait",
-      "url": "https://github.com/dadwadw233/VibePortrait",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "VibePortrait dadwadw233/vibeportrait",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "yourself-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "notdog1998/yourself-skill",
-      "stars": 0,
-      "desc": "自己.skill",
-      "url": "https://github.com/notdog1998/yourself-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "自己.skill notdog1998/yourself-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "zhuzi-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "linzzzzzz/zhuzi-skill",
-      "stars": 0,
-      "desc": "诸子.skill",
-      "url": "https://github.com/linzzzzzz/zhuzi-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "诸子.skill linzzzzzz/zhuzi-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "boss-skills",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "vogtsw/boss-skills",
-      "stars": 0,
-      "desc": "老板.skill",
-      "url": "https://github.com/vogtsw/boss-skills",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "老板.skill vogtsw/boss-skills",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "colleague-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "titanwings/colleague-skill",
-      "stars": 0,
-      "desc": "同事.skill",
-      "url": "https://github.com/titanwings/colleague-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "同事.skill titanwings/colleague-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "hr-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "schlaflied/hr-skill",
-      "stars": 0,
-      "desc": "HR.skill",
-      "url": "https://github.com/Schlaflied/hr-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "HR.skill schlaflied/hr-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "professor-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "commithu502craft/professor-skill",
-      "stars": 0,
-      "desc": "大学老师.skill",
-      "url": "https://github.com/CommitHu502Craft/professor-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "大学老师.skill commithu502craft/professor-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "roast-cold-email-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "schlaflied/roast-cold-email-skill",
-      "stars": 0,
-      "desc": "roast-cold-email-skill",
-      "url": "https://github.com/Schlaflied/roast-cold-email-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "roast-cold-email-skill schlaflied/roast-cold-email-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "senpai-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "zhanghaichao520/senpai-skill",
-      "stars": 0,
-      "desc": "师兄.skill",
-      "url": "https://github.com/zhanghaichao520/senpai-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "师兄.skill zhanghaichao520/senpai-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "supervisor",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "ybq22/supervisor",
-      "stars": 0,
-      "desc": "导师.skill",
-      "url": "https://github.com/ybq22/supervisor",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "导师.skill ybq22/supervisor",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "brother-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "realteamprinz/brother-skill",
-      "stars": 0,
-      "desc": "兄弟.skill",
-      "url": "https://github.com/realteamprinz/brother-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "兄弟.skill realteamprinz/brother-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "crush-skills",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "xiaoheizi8/crush-skills",
-      "stars": 0,
-      "desc": "暗恋对象.skill",
-      "url": "https://github.com/xiaoheizi8/crush-skills",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "暗恋对象.skill xiaoheizi8/crush-skills",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "ex-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "therealxiaomanchu/ex-skill",
-      "stars": 0,
-      "desc": "前任.skill",
-      "url": "https://github.com/therealXiaomanChu/ex-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "前任.skill therealxiaomanchu/ex-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "mamaskill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "jiangziyan-693/mamaskill",
-      "stars": 0,
-      "desc": "MamaSkill",
-      "url": "https://github.com/jiangziyan-693/MamaSkill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "MamaSkill jiangziyan-693/mamaskill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "parents-skills",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "xiaoheizi8/parents-skills",
-      "stars": 0,
-      "desc": "父母.skill",
-      "url": "https://github.com/xiaoheizi8/parents-skills",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "父母.skill xiaoheizi8/parents-skills",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "relationship-training-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "tammytan516/relationship-training-skill",
-      "stars": 0,
-      "desc": "恋爱训练营.skill",
-      "url": "https://github.com/TammyTan516/relationship-training-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "恋爱训练营.skill tammytan516/relationship-training-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "reunion-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "yangdongchen66-boop/reunion-skill",
-      "stars": 0,
-      "desc": "Reunion Skill",
-      "url": "https://github.com/yangdongchen66-boop/reunion-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "Reunion Skill yangdongchen66-boop/reunion-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "aiweizhou-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "terrytian-tech/aiweizhou-skill",
-      "stars": 0,
-      "desc": "AI 维舟.skill",
-      "url": "https://github.com/TerryTian-tech/AIWeiZhou-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "AI 维舟.skill terrytian-tech/aiweizhou-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "buffett-perspective",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "will2025btc/buffett-perspective",
-      "stars": 0,
-      "desc": "巴菲特思维操作系统",
-      "url": "https://github.com/will2025btc/buffett-perspective",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "巴菲特思维操作系统 will2025btc/buffett-perspective",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "changshu-anuo",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "ricardo-vv/changshu-anuo",
-      "stars": 0,
-      "desc": "常熟阿诺（加州盛亦陶） Skill",
-      "url": "https://github.com/Ricardo-Vv/changshu-anuo",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "常熟阿诺（加州盛亦陶） Skill ricardo-vv/changshu-anuo",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "chenze-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "fisher-yu-like/chenze-skill",
-      "stars": 0,
-      "desc": "陈泽.skill",
-      "url": "https://github.com/fisher-yu-like/chenze-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "陈泽.skill fisher-yu-like/chenze-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "elon-musk-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "alchaincyf/elon-musk-skill",
-      "stars": 0,
-      "desc": "马斯克.skill",
-      "url": "https://github.com/alchaincyf/elon-musk-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "马斯克.skill alchaincyf/elon-musk-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "fengge-wangmingtianya-perspective",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "rottenpen/fengge-wangmingtianya-perspective",
-      "stars": 0,
-      "desc": "峰哥亡命天涯 Skill",
-      "url": "https://github.com/rottenpen/fengge-wangmingtianya-perspective",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "峰哥亡命天涯 Skill rottenpen/fengge-wangmingtianya-perspective",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "feynman-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "alchaincyf/feynman-skill",
-      "stars": 0,
-      "desc": "费曼.skill",
-      "url": "https://github.com/alchaincyf/feynman-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "费曼.skill alchaincyf/feynman-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "guodegang-skills",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "byterax/guodegang-skills",
-      "stars": 0,
-      "desc": "郭德纲.skill",
-      "url": "https://github.com/ByteRax/guodegang-skills",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "郭德纲.skill byterax/guodegang-skills",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "hu-chenfeng-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "janlaywss/hu-chenfeng-skill",
-      "stars": 0,
-      "desc": "户晨风.skill",
-      "url": "https://github.com/Janlaywss/hu-chenfeng-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "户晨风.skill janlaywss/hu-chenfeng-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "ilya-sutskever-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "alchaincyf/ilya-sutskever-skill",
-      "stars": 0,
-      "desc": "Ilya.skill",
-      "url": "https://github.com/alchaincyf/ilya-sutskever-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "Ilya.skill alchaincyf/ilya-sutskever-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "justin-bieber-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "fisher-yu-like/justin-bieber-skill",
-      "stars": 0,
-      "desc": "Justin Bieber ·Skill",
-      "url": "https://github.com/fisher-yu-like/justin-bieber-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "Justin Bieber ·Skill fisher-yu-like/justin-bieber-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "karl-marx-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "youaifuou/karl-marx-skill",
-      "stars": 0,
-      "desc": "卡尔·马克思的思维框架与批判方法",
-      "url": "https://github.com/youaifuou/karl-marx-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "卡尔·马克思的思维框架与批判方法 youaifuou/karl-marx-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "karlmarx-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "baojiachen0214/karlmarx-skill",
-      "stars": 0,
-      "desc": "KarlMarx Skill",
-      "url": "https://github.com/baojiachen0214/karlmarx-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "KarlMarx Skill baojiachen0214/karlmarx-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "karpathy-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "alchaincyf/karpathy-skill",
-      "stars": 0,
-      "desc": "Karpathy.skill",
-      "url": "https://github.com/alchaincyf/karpathy-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "Karpathy.skill alchaincyf/karpathy-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "liangxi-skills",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "1sh1ro/liangxi-skills",
-      "stars": 0,
-      "desc": "liangxi-skills",
-      "url": "https://github.com/1sh1ro/liangxi-skills",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "liangxi-skills 1sh1ro/liangxi-skills",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "luxun-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "youaifuou/luxun-skill",
-      "stars": 0,
-      "desc": "鲁迅的思维框架与反讽笔法",
-      "url": "https://github.com/youaifuou/luxun-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "鲁迅的思维框架与反讽笔法 youaifuou/luxun-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "mao-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "wwwaapplleecu-source/mao-skill",
-      "stars": 0,
-      "desc": "毛泽东.skill",
-      "url": "https://github.com/wwwaapplleecu-source/mao-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "毛泽东.skill wwwaapplleecu-source/mao-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "maoxuan-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "leezythu/maoxuan-skill",
-      "stars": 0,
-      "desc": "毛选.skill",
-      "url": "https://github.com/leezythu/maoxuan-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "毛选.skill leezythu/maoxuan-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "mises-perspective",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "lijiayudeng/mises-perspective",
-      "stars": 0,
-      "desc": "米塞斯方法论",
-      "url": "https://github.com/LijiayuDeng/mises-perspective",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "米塞斯方法论 lijiayudeng/mises-perspective",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "mrbeast-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "alchaincyf/mrbeast-skill",
-      "stars": 0,
-      "desc": "MrBeast.skill",
-      "url": "https://github.com/alchaincyf/mrbeast-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "MrBeast.skill alchaincyf/mrbeast-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "munger-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "alchaincyf/munger-skill",
-      "stars": 0,
-      "desc": "芒格.skill",
-      "url": "https://github.com/alchaincyf/munger-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "芒格.skill alchaincyf/munger-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "naval-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "alchaincyf/naval-skill",
-      "stars": 0,
-      "desc": "纳瓦尔.skill",
-      "url": "https://github.com/alchaincyf/naval-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "纳瓦尔.skill alchaincyf/naval-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "paul-graham-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "alchaincyf/paul-graham-skill",
-      "stars": 0,
-      "desc": "PG.skill",
-      "url": "https://github.com/alchaincyf/paul-graham-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "PG.skill alchaincyf/paul-graham-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "qiushi-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "hughyau/qiushi-skill",
-      "stars": 0,
-      "desc": "求是 Skill",
-      "url": "https://github.com/HughYau/qiushi-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "求是 Skill hughyau/qiushi-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "rob-pike-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "smallnest/rob-pike-skill",
-      "stars": 0,
-      "desc": "罗布派克.skill",
-      "url": "https://github.com/smallnest/rob-pike-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "罗布派克.skill smallnest/rob-pike-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "star-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "yanghaoraneve/star-skill",
-      "stars": 0,
-      "desc": "内娱.skill",
-      "url": "https://github.com/yanghaoraneve/star-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "内娱.skill yanghaoraneve/star-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "steve-jobs-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "alchaincyf/steve-jobs-skill",
-      "stars": 0,
-      "desc": "乔布斯.skill",
-      "url": "https://github.com/alchaincyf/steve-jobs-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "乔布斯.skill alchaincyf/steve-jobs-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "taleb-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "alchaincyf/taleb-skill",
-      "stars": 0,
-      "desc": "塔勒布.skill",
-      "url": "https://github.com/alchaincyf/taleb-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "塔勒布.skill alchaincyf/taleb-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "tong-jincheng-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "hotcoffeeshake/tong-jincheng-skill",
-      "stars": 0,
-      "desc": "童锦程.skill",
-      "url": "https://github.com/hotcoffeeshake/tong-jincheng-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "童锦程.skill hotcoffeeshake/tong-jincheng-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "trump-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "alchaincyf/trump-skill",
-      "stars": 0,
-      "desc": "特朗普.skill",
-      "url": "https://github.com/alchaincyf/trump-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "特朗普.skill alchaincyf/trump-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "wang-er-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "fisher-yu-like/wang-er-skill",
-      "stars": 0,
-      "desc": "王二.skill",
-      "url": "https://github.com/fisher-yu-like/wang-er-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "王二.skill fisher-yu-like/wang-er-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "x-mentor-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "alchaincyf/x-mentor-skill",
-      "stars": 0,
-      "desc": "X 导师.skill",
-      "url": "https://github.com/alchaincyf/x-mentor-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "X 导师.skill alchaincyf/x-mentor-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "xinqingnian-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "samadhifire/xinqingnian-skill",
-      "stars": 0,
-      "desc": "新青年.Skill",
-      "url": "https://github.com/SamadhiFire/xinqingnian-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "新青年.Skill samadhifire/xinqingnian-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "zhang-yiming-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "alchaincyf/zhang-yiming-skill",
-      "stars": 0,
-      "desc": "张一鸣.skill",
-      "url": "https://github.com/alchaincyf/zhang-yiming-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "张一鸣.skill alchaincyf/zhang-yiming-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "zhangxuefeng-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "alchaincyf/zhangxuefeng-skill",
-      "stars": 0,
-      "desc": "张雪峰.skill",
-      "url": "https://github.com/alchaincyf/zhangxuefeng-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "张雪峰.skill alchaincyf/zhangxuefeng-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "zizek-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "jikunr/zizek-skill",
-      "stars": 0,
-      "desc": "zizek-skill",
-      "url": "https://github.com/JikunR/zizek-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "zizek-skill jikunr/zizek-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "bazi-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "jinchenma94/bazi-skill",
-      "stars": 0,
-      "desc": "赛博算命 Skill",
-      "url": "https://github.com/jinchenma94/bazi-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "赛博算命 Skill jinchenma94/bazi-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "diamond-sutra-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "dull-bird/diamond-sutra-skill",
-      "stars": 0,
-      "desc": "金刚经.skill",
-      "url": "https://github.com/dull-bird/diamond-sutra-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "金刚经.skill dull-bird/diamond-sutra-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "fengshui.skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "voidforall/fengshui.skill",
-      "stars": 0,
-      "desc": "堪舆子",
-      "url": "https://github.com/voidforall/fengshui.skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "堪舆子 voidforall/fengshui.skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "master-skill",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "xr843/master-skill",
-      "stars": 0,
-      "desc": "Master-skill",
-      "url": "https://github.com/xr843/Master-skill",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "Master-skill xr843/master-skill",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "numerologist_skills",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "fanzr-arch/numerologist_skills",
-      "stars": 0,
-      "desc": "Numerologist Skills",
-      "url": "https://github.com/FANzR-arch/Numerologist_skills",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "Numerologist Skills fanzr-arch/numerologist_skills",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "yinyuan-skills",
-      "source": "xixu-me",
-      "sourceAgent": "generic",
-      "repo": "ming-h/yinyuan-skills",
-      "stars": 0,
-      "desc": "月老·姻缘测算 Skills",
-      "url": "https://github.com/Ming-H/yinyuan-skills",
-      "install": "",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "utility",
-      "categoryPath": "general",
-      "supportedAgents": [],
-      "searchText": "月老·姻缘测算 Skills ming-h/yinyuan-skills",
-      "sources": [
-        "xixu-me/awesome-persona-distill-skills"
-      ]
-    },
-    {
-      "name": "openrecall",
-      "source": "claude",
-      "sourceAgent": "claude",
-      "repo": "openrecall/openrecall",
-      "stars": 2872,
-      "desc": "Fully open-source, privacy-first alternative to proprietary recall solutions",
-      "url": "https://github.com/openrecall/openrecall",
-      "install": "$skill-installer openrecall",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "general",
-      "categoryPath": "general",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "openrecall fully open-source, privacy-first alternative to proprietary recall solutions openrecall/openrecall $skill-installer openrecall general claude"
-    },
-    {
-      "name": "row-bot",
-      "source": "claude",
-      "sourceAgent": "claude",
-      "repo": "siddsachar/row-bot",
-      "stars": 1314,
-      "desc": "Row-Bot - Personal AI Sovereignty. Local-first AI assistant with integrated tools",
-      "url": "https://github.com/siddsachar/row-bot",
-      "install": "$skill-installer row-bot",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "general",
-      "categoryPath": "general",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "row-bot row-bot - personal ai sovereignty. local-first ai assistant with integrated tools siddsachar/row-bot $skill-installer row-bot general claude"
-    },
-    {
-      "name": "AI-Account-Toolkit",
-      "source": "claude",
-      "sourceAgent": "claude",
-      "repo": "adminlove520/AI-Account-Toolkit",
-      "stars": 963,
-      "desc": "AI账号注册与管理一站式工具集：ChatGPT/Claude/Gemini批量注册、Token管理",
-      "url": "https://github.com/adminlove520/AI-Account-Toolkit",
-      "install": "$skill-installer AI-Account-Toolkit",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "general",
-      "categoryPath": "general",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "AI-Account-Toolkit ai账号注册与管理一站式工具集：chatgpt/claude/gemini批量注册、token管理 adminlove520/ai-account-toolkit $skill-installer AI-Account-Toolkit general claude"
-    },
-    {
-      "name": "py-gpt",
-      "source": "claude",
-      "sourceAgent": "claude",
-      "repo": "szczyglis-dev/py-gpt",
-      "stars": 1836,
-      "desc": "Desktop AI Assistant powered by GPT-5, GPT-4, Gemini, Claude, local LLMs",
-      "url": "https://github.com/szczyglis-dev/py-gpt",
-      "install": "$skill-installer py-gpt",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "general",
-      "categoryPath": "general",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "py-gpt desktop ai assistant powered by gpt-5, gpt-4, gemini, claude, local llms szczyglis-dev/py-gpt $skill-installer py-gpt general claude"
-    },
-    {
-      "name": "phantom",
-      "source": "claude",
-      "sourceAgent": "claude",
-      "repo": "ghostwright/phantom",
-      "stars": 1436,
-      "desc": "An AI co-worker with its own computer. Self-evolving, persistent memory.",
-      "url": "https://github.com/ghostwright/phantom",
-      "install": "$skill-installer phantom",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "general",
-      "categoryPath": "general",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "phantom an ai co-worker with its own computer. self-evolving, persistent memory. ghostwright/phantom $skill-installer phantom general claude"
-    },
-    {
-      "name": "bytebot",
-      "source": "claude",
-      "sourceAgent": "claude",
-      "repo": "bytebot-ai/bytebot",
-      "stars": 11060,
-      "desc": "Bytebot is a self-hosted AI desktop agent that automates computer tasks",
-      "url": "https://github.com/bytebot-ai/bytebot",
-      "install": "$skill-installer bytebot",
-      "functionCategory": "general",
-      "topCategoryId": "general",
-      "subCategoryId": "general",
-      "categoryPath": "general",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "bytebot bytebot is a self-hosted ai desktop agent that automates computer tasks bytebot-ai/bytebot $skill-installer bytebot general claude"
     }
   ]
 }

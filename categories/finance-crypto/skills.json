@@ -4,10 +4,28 @@
     "topCategoryId": "finance-crypto",
     "subCategoryId": "finance-crypto",
     "categoryPath": "finance-crypto",
-    "count": 39,
+    "count": 43,
     "sourceData": "categories"
   },
   "skills": [
+    {
+      "name": "TradingAgents--llm",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "TauricResearch/TradingAgents",
+      "stars": 89604,
+      "desc": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "install": "pip install TradingAgents",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "tradingagents--llm tradingagents: multi-agents llm financial trading framework tauricresearch/tradingagents pip install tradingagents finance-crypto general"
+    },
     {
       "name": "ccxt",
       "source": "ccxt",
@@ -31,7 +49,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Edit and improve existing marketing copy for clarity and impact",
       "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/copy-editing",
       "install": "",
@@ -53,7 +71,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Evaluate features using ROI and strategic value scoring",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/feature-investment-advisor",
       "install": "",
@@ -75,7 +93,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Add USDC to a Coinbase-powered wallet through Coinbase Onramp",
       "url": "https://officialskills.sh/coinbase/skills/fund",
       "install": "",
@@ -97,7 +115,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Estimate TAM, SAM, SOM with top-down and bottom-up approaches",
       "url": "https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/market-sizing",
       "install": "",
@@ -119,7 +137,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Define North Star Metric and input metrics constellation",
       "url": "https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/skills/north-star-metric",
       "install": "",
@@ -141,7 +159,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Improve conversion rates on any marketing page including homepages and landing pages",
       "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/page-cro",
       "install": "",
@@ -163,7 +181,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Define target audience, problem solved, and differentiation using Geoffrey Moore's framework",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/positioning-statement",
       "install": "",
@@ -185,7 +203,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Retrieve all token holdings and portfolio positions for any wallet address on BSC, Base, or Solana",
       "url": "https://officialskills.sh/binance/skills/query-address-info",
       "install": "",
@@ -207,7 +225,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Generate value prop statements for marketing, sales, and onboarding",
       "url": "https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/skills/value-prop-statements",
       "install": "",
@@ -229,7 +247,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Wallet credits and x402 payments on Base",
       "url": "https://github.com/veniceai/skills/tree/main/skills/venice-x402",
       "install": "",
@@ -283,6 +301,24 @@
       "searchText": "vibe-trading your personal trading agent — ai-powered vibe-based trading analysis and execution. hkuds/vibe-trading finance-crypto general"
     },
     {
+      "name": "valuecell",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "ValueCell-ai/valuecell",
+      "stars": 10872,
+      "desc": "Community-driven multi-agent platform for financial applications",
+      "url": "https://github.com/ValueCell-ai/valuecell",
+      "install": "$skill-installer valuecell",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "valuecell community-driven multi-agent platform for financial applications valuecell-ai/valuecell $skill-installer valuecell finance-crypto claude"
+    },
+    {
       "name": "quantdinger",
       "source": "general",
       "sourceAgent": "general",
@@ -290,12 +326,13 @@
       "stars": 8964,
       "desc": "AI quantitative trading platform for crypto, stocks, and forex with backtesting, live trading, and market analysis.",
       "url": "https://github.com/brokermr810/QuantDinger",
-      "install": "",
+      "install": "$skill-installer QuantDinger",
       "functionCategory": "finance-crypto",
       "topCategoryId": "finance",
       "subCategoryId": "crypto",
       "categoryPath": "finance-crypto",
       "supportedAgents": [
+        "claude",
         "general"
       ],
       "searchText": "quantdinger ai quantitative trading platform for crypto, stocks, and forex with backtesting, live trading, and market analysis. brokermr810/quantdinger finance-crypto general"
@@ -335,6 +372,42 @@
         "trump2cash"
       ],
       "searchText": "trump2cash a stock trading bot powered by trump tweets maxbbraun/trump2cash finance-crypto trump2cash"
+    },
+    {
+      "name": "tradingview-mcp",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "tradesdontlie/tradingview-mcp",
+      "stars": 4036,
+      "desc": "AI-assisted TradingView chart analysis — connect Claude Code to your TradingView",
+      "url": "https://github.com/tradesdontlie/tradingview-mcp",
+      "install": "$skill-installer tradingview-mcp",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "tradingview-mcp ai-assisted tradingview chart analysis — connect claude code to your tradingview tradesdontlie/tradingview-mcp $skill-installer tradingview-mcp finance-crypto claude"
+    },
+    {
+      "name": "AutoHedge",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "The-Swarm-Corporation/AutoHedge",
+      "stars": 3619,
+      "desc": "Build your autonomous hedge fund in minutes with AI trading strategies",
+      "url": "https://github.com/The-Swarm-Corporation/AutoHedge",
+      "install": "$skill-installer AutoHedge",
+      "functionCategory": "finance-crypto",
+      "topCategoryId": "finance",
+      "subCategoryId": "crypto",
+      "categoryPath": "finance-crypto",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "autohedge build your autonomous hedge fund in minutes with ai trading strategies the-swarm-corporation/autohedge $skill-installer autohedge finance-crypto claude"
     },
     {
       "name": "crypto-trading-bot",
@@ -749,78 +822,6 @@
         "dash-tools"
       ],
       "searchText": "dash-tools dashtools - plotly dash command line tools - create, run and deploy templated python apps from terminal andrew-hossack/dash-tools finance-crypto dash-tools"
-    },
-    {
-      "name": "tradingview-mcp",
-      "source": "claude",
-      "sourceAgent": "claude",
-      "repo": "tradesdontlie/tradingview-mcp",
-      "stars": 4036,
-      "desc": "AI-assisted TradingView chart analysis — connect Claude Code to your TradingView",
-      "url": "https://github.com/tradesdontlie/tradingview-mcp",
-      "install": "$skill-installer tradingview-mcp",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance",
-      "subCategoryId": "crypto",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "tradingview-mcp ai-assisted tradingview chart analysis — connect claude code to your tradingview tradesdontlie/tradingview-mcp $skill-installer tradingview-mcp finance-crypto claude"
-    },
-    {
-      "name": "valuecell",
-      "source": "claude",
-      "sourceAgent": "claude",
-      "repo": "ValueCell-ai/valuecell",
-      "stars": 10872,
-      "desc": "Community-driven multi-agent platform for financial applications",
-      "url": "https://github.com/ValueCell-ai/valuecell",
-      "install": "$skill-installer valuecell",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance",
-      "subCategoryId": "crypto",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "valuecell community-driven multi-agent platform for financial applications valuecell-ai/valuecell $skill-installer valuecell finance-crypto claude"
-    },
-    {
-      "name": "QuantDinger",
-      "source": "claude",
-      "sourceAgent": "claude",
-      "repo": "brokermr810/QuantDinger",
-      "stars": 8964,
-      "desc": "AI quantitative trading platform for crypto, stocks, and forex with backtesting",
-      "url": "https://github.com/brokermr810/QuantDinger",
-      "install": "$skill-installer QuantDinger",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance",
-      "subCategoryId": "crypto",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "QuantDinger ai quantitative trading platform for crypto, stocks, and forex with backtesting brokermr810/quantdinger $skill-installer QuantDinger finance-crypto claude"
-    },
-    {
-      "name": "AutoHedge",
-      "source": "claude",
-      "sourceAgent": "claude",
-      "repo": "The-Swarm-Corporation/AutoHedge",
-      "stars": 3619,
-      "desc": "Build your autonomous hedge fund in minutes with AI trading strategies",
-      "url": "https://github.com/The-Swarm-Corporation/AutoHedge",
-      "install": "$skill-installer AutoHedge",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance",
-      "subCategoryId": "crypto",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "AutoHedge build your autonomous hedge fund in minutes with ai trading strategies the-swarm-corporation/autohedge $skill-installer AutoHedge finance-crypto claude"
     }
   ]
 }

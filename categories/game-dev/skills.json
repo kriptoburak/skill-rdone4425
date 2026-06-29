@@ -4,7 +4,7 @@
     "topCategoryId": "game-dev",
     "subCategoryId": "game-dev",
     "categoryPath": "game-dev",
-    "count": 31,
+    "count": 32,
     "sourceData": "categories"
   },
   "skills": [
@@ -85,7 +85,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "ScrollTrigger for scroll-linked animations, pinning, scrub, and refresh handling",
       "url": "https://officialskills.sh/greensock/skills/gsap-scrolltrigger",
       "install": "",
@@ -107,7 +107,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Three.js skills for creating 3D elements and interactive experiences",
       "url": "https://github.com/CloudAI-X/threejs-skills",
       "install": "",
@@ -435,6 +435,24 @@
       "searchText": "ai-moive-studio 自然语言驱动的无限画布工作流 agent，让 ai 视频创作成为可编辑的工作流。 869413421/ai-moive-studio game-dev general"
     },
     {
+      "name": "ai-game-devtools",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "Yuan-ManX/ai-game-devtools",
+      "stars": 1239,
+      "desc": "Your AI Game Dev Hub - ultimate resource hub for AI-powered game development",
+      "url": "https://github.com/Yuan-ManX/ai-game-devtools",
+      "install": "$skill-installer ai-game-devtools",
+      "functionCategory": "game-dev",
+      "topCategoryId": "game",
+      "subCategoryId": "dev",
+      "categoryPath": "game-dev",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "ai-game-devtools your ai game dev hub - ultimate resource hub for ai-powered game development yuan-manx/ai-game-devtools $skill-installer ai-game-devtools game-dev claude"
+    },
+    {
       "name": "sidefxlabs",
       "source": "sidefxlabs",
       "sourceAgent": "sidefxlabs",
@@ -581,24 +599,6 @@
         "unity_resources"
       ],
       "searchText": "unity_resources a list of resources and tutorials for those doing programming in unity. endarren/unity_resources game-dev unity_resources"
-    },
-    {
-      "name": "ai-game-devtools",
-      "source": "claude",
-      "sourceAgent": "claude",
-      "repo": "Yuan-ManX/ai-game-devtools",
-      "stars": 1239,
-      "desc": "Your AI Game Dev Hub - ultimate resource hub for AI-powered game development",
-      "url": "https://github.com/Yuan-ManX/ai-game-devtools",
-      "install": "$skill-installer ai-game-devtools",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game",
-      "subCategoryId": "dev",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "ai-game-devtools your ai game dev hub - ultimate resource hub for ai-powered game development yuan-manx/ai-game-devtools $skill-installer ai-game-devtools game-dev claude"
     }
   ]
 }

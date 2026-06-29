@@ -1,86 +1,2025 @@
 {
+  "generatedAt": "2026-06-29T09:25:40.287Z",
+  "sourceData": "categories",
+  "totalSkills": 3167,
   "categories": [
     {
-      "path": "automation-productivity",
-      "name": "Automation / Productivity",
-      "count": 138
-    },
-    {
-      "path": "backend-api",
-      "name": "Backend / Api",
-      "count": 88
-    },
-    {
-      "path": "data-ai",
-      "name": "Data / Ai",
-      "count": 278
-    },
-    {
-      "path": "design-ui",
-      "name": "Design / Ui",
-      "count": 348
-    },
-    {
+      "id": "dev-tools",
       "path": "dev-tools",
-      "name": "Dev / Tools",
-      "count": 906
+      "groupId": "development",
+      "subcategoryId": "tools",
+      "count": 965
     },
     {
-      "path": "devops-deploy",
-      "name": "Devops / Deploy",
-      "count": 96
-    },
-    {
-      "path": "docs-content",
-      "name": "Docs / Content",
-      "count": 173
-    },
-    {
-      "path": "education",
-      "name": "Education",
-      "count": 16
-    },
-    {
-      "path": "finance-crypto",
-      "name": "Finance / Crypto",
-      "count": 39
-    },
-    {
-      "path": "game-dev",
-      "name": "Game / Dev",
-      "count": 31
-    },
-    {
+      "id": "general",
       "path": "general",
-      "name": "General",
-      "count": 558
+      "groupId": "general",
+      "subcategoryId": "general",
+      "count": 567
     },
     {
-      "path": "health-medical",
-      "name": "Health / Medical",
-      "count": 4
+      "id": "data-ai",
+      "path": "data-ai",
+      "groupId": "data",
+      "subcategoryId": "ai",
+      "count": 391
     },
     {
+      "id": "design-ui",
+      "path": "design-ui",
+      "groupId": "design",
+      "subcategoryId": "ui",
+      "count": 354
+    },
+    {
+      "id": "docs-content",
+      "path": "docs-content",
+      "groupId": "docs",
+      "subcategoryId": "content",
+      "count": 181
+    },
+    {
+      "id": "automation-productivity",
+      "path": "automation-productivity",
+      "groupId": "automation",
+      "subcategoryId": "productivity",
+      "count": 161
+    },
+    {
+      "id": "security",
       "path": "security",
-      "name": "Security",
-      "count": 131
+      "groupId": "security",
+      "subcategoryId": "general",
+      "count": 141
     },
     {
-      "path": "social-media",
-      "name": "Social / Media",
-      "count": 17
+      "id": "devops-deploy",
+      "path": "devops-deploy",
+      "groupId": "devops",
+      "subcategoryId": "deploy",
+      "count": 98
     },
     {
+      "id": "testing-qa",
       "path": "testing-qa",
-      "name": "Testing / Qa",
+      "groupId": "testing",
+      "subcategoryId": "qa",
+      "count": 92
+    },
+    {
+      "id": "backend-api",
+      "path": "backend-api",
+      "groupId": "backend",
+      "subcategoryId": "api",
       "count": 89
     },
     {
+      "id": "finance-crypto",
+      "path": "finance-crypto",
+      "groupId": "finance-crypto",
+      "subcategoryId": "finance-crypto",
+      "count": 43
+    },
+    {
+      "id": "game-dev",
+      "path": "game-dev",
+      "groupId": "game-dev",
+      "subcategoryId": "game-dev",
+      "count": 32
+    },
+    {
+      "id": "social-media",
+      "path": "social-media",
+      "groupId": "social-media",
+      "subcategoryId": "social-media",
+      "count": 20
+    },
+    {
+      "id": "education",
+      "path": "education",
+      "groupId": "education",
+      "subcategoryId": "education",
+      "count": 17
+    },
+    {
+      "id": "video-multimedia",
       "path": "video-multimedia",
-      "name": "Video / Multimedia",
-      "count": 11
+      "groupId": "video-multimedia",
+      "subcategoryId": "video-multimedia",
+      "count": 12
+    },
+    {
+      "id": "health-medical",
+      "path": "health-medical",
+      "groupId": "health-medical",
+      "subcategoryId": "health-medical",
+      "count": 4
     }
   ],
-  "totalSkills": 2923,
-  "lastUpdated": "2026-06-29T05:19:13.383455Z"
+  "groups": [
+    {
+      "id": "dev",
+      "count": 597,
+      "subcategories": [
+        {
+          "id": "dev/tools",
+          "path": "dev/tools",
+          "subcategoryId": "tools",
+          "count": 427
+        },
+        {
+          "id": "dev/framework",
+          "path": "dev/framework",
+          "subcategoryId": "framework",
+          "count": 107
+        },
+        {
+          "id": "dev/skills",
+          "path": "dev/skills",
+          "subcategoryId": "skills",
+          "count": 38
+        },
+        {
+          "id": "dev/agent",
+          "path": "dev/agent",
+          "subcategoryId": "agent",
+          "count": 14
+        },
+        {
+          "id": "dev/ios",
+          "path": "dev/ios",
+          "subcategoryId": "ios",
+          "count": 8
+        },
+        {
+          "id": "dev/ide",
+          "path": "dev/ide",
+          "subcategoryId": "ide",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "general",
+      "count": 530,
+      "subcategories": [
+        {
+          "id": "general/general",
+          "path": "general/general",
+          "subcategoryId": "general",
+          "count": 429
+        },
+        {
+          "id": "general/utility",
+          "path": "general/utility",
+          "subcategoryId": "utility",
+          "count": 70
+        },
+        {
+          "id": "general/tools",
+          "path": "general/tools",
+          "subcategoryId": "tools",
+          "count": 30
+        },
+        {
+          "id": "general/agent",
+          "path": "general/agent",
+          "subcategoryId": "agent",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "development",
+      "count": 401,
+      "subcategories": [
+        {
+          "id": "development/coding",
+          "path": "development/coding",
+          "subcategoryId": "coding",
+          "count": 104
+        },
+        {
+          "id": "development/tools",
+          "path": "development/tools",
+          "subcategoryId": "tools",
+          "count": 100
+        },
+        {
+          "id": "development/plugins",
+          "path": "development/plugins",
+          "subcategoryId": "plugins",
+          "count": 93
+        },
+        {
+          "id": "development/platforms",
+          "path": "development/platforms",
+          "subcategoryId": "platforms",
+          "count": 40
+        },
+        {
+          "id": "development/tooling",
+          "path": "development/tooling",
+          "subcategoryId": "tooling",
+          "count": 36
+        },
+        {
+          "id": "development/agents",
+          "path": "development/agents",
+          "subcategoryId": "agents",
+          "count": 28
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "count": 390,
+      "subcategories": [
+        {
+          "id": "data/ai",
+          "path": "data/ai",
+          "subcategoryId": "ai",
+          "count": 344
+        },
+        {
+          "id": "data/models",
+          "path": "data/models",
+          "subcategoryId": "models",
+          "count": 20
+        },
+        {
+          "id": "data/memory",
+          "path": "data/memory",
+          "subcategoryId": "memory",
+          "count": 12
+        },
+        {
+          "id": "data/research",
+          "path": "data/research",
+          "subcategoryId": "research",
+          "count": 10
+        },
+        {
+          "id": "data/analytics",
+          "path": "data/analytics",
+          "subcategoryId": "analytics",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "count": 310,
+      "subcategories": [
+        {
+          "id": "design/ui",
+          "path": "design/ui",
+          "subcategoryId": "ui",
+          "count": 289
+        },
+        {
+          "id": "design/figma",
+          "path": "design/figma",
+          "subcategoryId": "figma",
+          "count": 8
+        },
+        {
+          "id": "design/deck",
+          "path": "design/deck",
+          "subcategoryId": "deck",
+          "count": 6
+        },
+        {
+          "id": "design/media",
+          "path": "design/media",
+          "subcategoryId": "media",
+          "count": 4
+        },
+        {
+          "id": "design/visual",
+          "path": "design/visual",
+          "subcategoryId": "visual",
+          "count": 2
+        },
+        {
+          "id": "design/tools",
+          "path": "design/tools",
+          "subcategoryId": "tools",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "docs",
+      "count": 228,
+      "subcategories": [
+        {
+          "id": "docs/content",
+          "path": "docs/content",
+          "subcategoryId": "content",
+          "count": 109
+        },
+        {
+          "id": "docs/awesome",
+          "path": "docs/awesome",
+          "subcategoryId": "awesome",
+          "count": 66
+        },
+        {
+          "id": "docs/libraries",
+          "path": "docs/libraries",
+          "subcategoryId": "libraries",
+          "count": 22
+        },
+        {
+          "id": "docs/references",
+          "path": "docs/references",
+          "subcategoryId": "references",
+          "count": 21
+        },
+        {
+          "id": "docs/guides",
+          "path": "docs/guides",
+          "subcategoryId": "guides",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "id": "automation",
+      "count": 165,
+      "subcategories": [
+        {
+          "id": "automation/productivity",
+          "path": "automation/productivity",
+          "subcategoryId": "productivity",
+          "count": 129
+        },
+        {
+          "id": "automation/workflow",
+          "path": "automation/workflow",
+          "subcategoryId": "workflow",
+          "count": 11
+        },
+        {
+          "id": "automation/publishing",
+          "path": "automation/publishing",
+          "subcategoryId": "publishing",
+          "count": 10
+        },
+        {
+          "id": "automation/ops",
+          "path": "automation/ops",
+          "subcategoryId": "ops",
+          "count": 9
+        },
+        {
+          "id": "automation/office",
+          "path": "automation/office",
+          "subcategoryId": "office",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "count": 149,
+      "subcategories": [
+        {
+          "id": "security/general",
+          "path": "security/general",
+          "subcategoryId": "general",
+          "count": 49
+        },
+        {
+          "id": "security/tools",
+          "path": "security/tools",
+          "subcategoryId": "tools",
+          "count": 34
+        },
+        {
+          "id": "security/audit",
+          "path": "security/audit",
+          "subcategoryId": "audit",
+          "count": 33
+        },
+        {
+          "id": "security/defensive",
+          "path": "security/defensive",
+          "subcategoryId": "defensive",
+          "count": 13
+        },
+        {
+          "id": "security/offensive",
+          "path": "security/offensive",
+          "subcategoryId": "offensive",
+          "count": 10
+        },
+        {
+          "id": "security/defense",
+          "path": "security/defense",
+          "subcategoryId": "defense",
+          "count": 7
+        },
+        {
+          "id": "security/governance",
+          "path": "security/governance",
+          "subcategoryId": "governance",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "testing",
+      "count": 96,
+      "subcategories": [
+        {
+          "id": "testing/qa",
+          "path": "testing/qa",
+          "subcategoryId": "qa",
+          "count": 88
+        },
+        {
+          "id": "testing/browser",
+          "path": "testing/browser",
+          "subcategoryId": "browser",
+          "count": 5
+        },
+        {
+          "id": "testing/review",
+          "path": "testing/review",
+          "subcategoryId": "review",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "backend",
+      "count": 90,
+      "subcategories": [
+        {
+          "id": "backend/api",
+          "path": "backend/api",
+          "subcategoryId": "api",
+          "count": 87
+        },
+        {
+          "id": "backend/integration",
+          "path": "backend/integration",
+          "subcategoryId": "integration",
+          "count": 2
+        },
+        {
+          "id": "backend/database",
+          "path": "backend/database",
+          "subcategoryId": "database",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "devops",
+      "count": 83,
+      "subcategories": [
+        {
+          "id": "devops/deploy",
+          "path": "devops/deploy",
+          "subcategoryId": "deploy",
+          "count": 79
+        },
+        {
+          "id": "devops/infra",
+          "path": "devops/infra",
+          "subcategoryId": "infra",
+          "count": 3
+        },
+        {
+          "id": "devops/ci",
+          "path": "devops/ci",
+          "subcategoryId": "ci",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "count": 32,
+      "subcategories": [
+        {
+          "id": "finance/crypto",
+          "path": "finance/crypto",
+          "subcategoryId": "crypto",
+          "count": 31
+        },
+        {
+          "id": "finance/finance",
+          "path": "finance/finance",
+          "subcategoryId": "finance",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "game",
+      "count": 32,
+      "subcategories": [
+        {
+          "id": "game/dev",
+          "path": "game/dev",
+          "subcategoryId": "dev",
+          "count": 29
+        },
+        {
+          "id": "game/game",
+          "path": "game/game",
+          "subcategoryId": "game",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "social",
+      "count": 20,
+      "subcategories": [
+        {
+          "id": "social/media",
+          "path": "social/media",
+          "subcategoryId": "media",
+          "count": 17
+        },
+        {
+          "id": "social/social",
+          "path": "social/social",
+          "subcategoryId": "social",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "count": 17,
+      "subcategories": [
+        {
+          "id": "education/education",
+          "path": "education/education",
+          "subcategoryId": "education",
+          "count": 7
+        },
+        {
+          "id": "education/general",
+          "path": "education/general",
+          "subcategoryId": "general",
+          "count": 5
+        },
+        {
+          "id": "education/tools",
+          "path": "education/tools",
+          "subcategoryId": "tools",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "finance-crypto",
+      "count": 11,
+      "subcategories": [
+        {
+          "id": "finance-crypto/finance-crypto",
+          "path": "finance-crypto/finance-crypto",
+          "subcategoryId": "finance-crypto",
+          "count": 11
+        }
+      ]
+    },
+    {
+      "id": "video",
+      "count": 11,
+      "subcategories": [
+        {
+          "id": "video/multimedia",
+          "path": "video/multimedia",
+          "subcategoryId": "multimedia",
+          "count": 8
+        },
+        {
+          "id": "video/video",
+          "path": "video/video",
+          "subcategoryId": "video",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "count": 4,
+      "subcategories": [
+        {
+          "id": "health/health",
+          "path": "health/health",
+          "subcategoryId": "health",
+          "count": 3
+        },
+        {
+          "id": "health/medical",
+          "path": "health/medical",
+          "subcategoryId": "medical",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "media-creation",
+      "count": 1,
+      "subcategories": [
+        {
+          "id": "media-creation/audio",
+          "path": "media-creation/audio",
+          "subcategoryId": "audio",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "platforms": [
+    {
+      "id": "claude",
+      "count": 1892
+    },
+    {
+      "id": "codex",
+      "count": 1339
+    },
+    {
+      "id": "hermes",
+      "count": 1279
+    },
+    {
+      "id": "cursor",
+      "count": 1270
+    },
+    {
+      "id": "gemini",
+      "count": 1233
+    },
+    {
+      "id": "claude-code",
+      "count": 223
+    },
+    {
+      "id": "generic",
+      "count": 209
+    },
+    {
+      "id": "general",
+      "count": 159
+    },
+    {
+      "id": "openclaw",
+      "count": 138
+    },
+    {
+      "id": "opencode",
+      "count": 110
+    },
+    {
+      "id": "copilot",
+      "count": 60
+    },
+    {
+      "id": "other",
+      "count": 55
+    },
+    {
+      "id": "agent-skills-compatible",
+      "count": 2
+    },
+    {
+      "id": "404starlink",
+      "count": 1
+    },
+    {
+      "id": "aci",
+      "count": 1
+    },
+    {
+      "id": "actionhero",
+      "count": 1
+    },
+    {
+      "id": "aframe",
+      "count": 1
+    },
+    {
+      "id": "agent-device",
+      "count": 1
+    },
+    {
+      "id": "agent-reach",
+      "count": 1
+    },
+    {
+      "id": "agentation",
+      "count": 1
+    },
+    {
+      "id": "agno",
+      "count": 1
+    },
+    {
+      "id": "air",
+      "count": 1
+    },
+    {
+      "id": "airtest",
+      "count": 1
+    },
+    {
+      "id": "algotrading",
+      "count": 1
+    },
+    {
+      "id": "allsketchs",
+      "count": 1
+    },
+    {
+      "id": "anteon",
+      "count": 1
+    },
+    {
+      "id": "antigravity",
+      "count": 1
+    },
+    {
+      "id": "apisix",
+      "count": 1
+    },
+    {
+      "id": "appinfoscanner",
+      "count": 1
+    },
+    {
+      "id": "appium",
+      "count": 1
+    },
+    {
+      "id": "argo-cd",
+      "count": 1
+    },
+    {
+      "id": "artemis-odb",
+      "count": 1
+    },
+    {
+      "id": "artillery",
+      "count": 1
+    },
+    {
+      "id": "astri",
+      "count": 1
+    },
+    {
+      "id": "atomize",
+      "count": 1
+    },
+    {
+      "id": "atscan",
+      "count": 1
+    },
+    {
+      "id": "authentik",
+      "count": 1
+    },
+    {
+      "id": "auto-copilot-cli",
+      "count": 1
+    },
+    {
+      "id": "awesome-ai-persona-skills",
+      "count": 1
+    },
+    {
+      "id": "awesome-ai-sdks",
+      "count": 1
+    },
+    {
+      "id": "awesome-aitools",
+      "count": 1
+    },
+    {
+      "id": "awesome-cloud-security",
+      "count": 1
+    },
+    {
+      "id": "awesome-data-centric-ai",
+      "count": 1
+    },
+    {
+      "id": "awesome-docker",
+      "count": 1
+    },
+    {
+      "id": "awesome-emu-resources",
+      "count": 1
+    },
+    {
+      "id": "awesome-game-engine-dev",
+      "count": 1
+    },
+    {
+      "id": "awesome-gbdev",
+      "count": 1
+    },
+    {
+      "id": "awesome-http-benchmark",
+      "count": 1
+    },
+    {
+      "id": "awesome-list-of-awesomes",
+      "count": 1
+    },
+    {
+      "id": "awesome-llm4security",
+      "count": 1
+    },
+    {
+      "id": "awesome-n64-development",
+      "count": 1
+    },
+    {
+      "id": "awesome-product-design",
+      "count": 1
+    },
+    {
+      "id": "awesome-quality-assurance-roadmap",
+      "count": 1
+    },
+    {
+      "id": "awesome-startup-tools-list",
+      "count": 1
+    },
+    {
+      "id": "awesome-test-automation",
+      "count": 1
+    },
+    {
+      "id": "awesome-web-you-should-know",
+      "count": 1
+    },
+    {
+      "id": "awesome-webdesign-tools",
+      "count": 1
+    },
+    {
+      "id": "babylon-js",
+      "count": 1
+    },
+    {
+      "id": "bearer",
+      "count": 1
+    },
+    {
+      "id": "bevy",
+      "count": 1
+    },
+    {
+      "id": "biobakery",
+      "count": 1
+    },
+    {
+      "id": "bitdowntoc",
+      "count": 1
+    },
+    {
+      "id": "blackarch",
+      "count": 1
+    },
+    {
+      "id": "blankly",
+      "count": 1
+    },
+    {
+      "id": "blinc",
+      "count": 1
+    },
+    {
+      "id": "bombardier",
+      "count": 1
+    },
+    {
+      "id": "bootstrap",
+      "count": 1
+    },
+    {
+      "id": "bootstrap-table",
+      "count": 1
+    },
+    {
+      "id": "bootstrap-vue",
+      "count": 1
+    },
+    {
+      "id": "bootswatch",
+      "count": 1
+    },
+    {
+      "id": "boxer",
+      "count": 1
+    },
+    {
+      "id": "browser-fingerprinting",
+      "count": 1
+    },
+    {
+      "id": "bruno",
+      "count": 1
+    },
+    {
+      "id": "bulma",
+      "count": 1
+    },
+    {
+      "id": "calvinball",
+      "count": 1
+    },
+    {
+      "id": "casbin",
+      "count": 1
+    },
+    {
+      "id": "ccxt",
+      "count": 1
+    },
+    {
+      "id": "chatgpt-on-cs",
+      "count": 1
+    },
+    {
+      "id": "class-widgets",
+      "count": 1
+    },
+    {
+      "id": "classisland",
+      "count": 1
+    },
+    {
+      "id": "cloudflare-worker-router",
+      "count": 1
+    },
+    {
+      "id": "cocos2d-x",
+      "count": 1
+    },
+    {
+      "id": "code2prompt",
+      "count": 1
+    },
+    {
+      "id": "computer-use-linux",
+      "count": 1
+    },
+    {
+      "id": "conductor",
+      "count": 1
+    },
+    {
+      "id": "connery-sdk",
+      "count": 1
+    },
+    {
+      "id": "consul",
+      "count": 1
+    },
+    {
+      "id": "copilotkit",
+      "count": 1
+    },
+    {
+      "id": "cot",
+      "count": 1
+    },
+    {
+      "id": "cova",
+      "count": 1
+    },
+    {
+      "id": "cpplangnet",
+      "count": 1
+    },
+    {
+      "id": "crypto_info",
+      "count": 1
+    },
+    {
+      "id": "crypto-trading-bot",
+      "count": 1
+    },
+    {
+      "id": "cybersources",
+      "count": 1
+    },
+    {
+      "id": "dagger",
+      "count": 1
+    },
+    {
+      "id": "daily_stock_analysis",
+      "count": 1
+    },
+    {
+      "id": "daisyui",
+      "count": 1
+    },
+    {
+      "id": "dash-tools",
+      "count": 1
+    },
+    {
+      "id": "databasus",
+      "count": 1
+    },
+    {
+      "id": "daytona",
+      "count": 1
+    },
+    {
+      "id": "deepaudit",
+      "count": 1
+    },
+    {
+      "id": "deepseek",
+      "count": 1
+    },
+    {
+      "id": "detox",
+      "count": 1
+    },
+    {
+      "id": "dev-resources",
+      "count": 1
+    },
+    {
+      "id": "devops-bootcamp",
+      "count": 1
+    },
+    {
+      "id": "devsecops",
+      "count": 1
+    },
+    {
+      "id": "devtron",
+      "count": 1
+    },
+    {
+      "id": "differencify",
+      "count": 1
+    },
+    {
+      "id": "distrobox",
+      "count": 1
+    },
+    {
+      "id": "docs",
+      "count": 1
+    },
+    {
+      "id": "dokit",
+      "count": 1
+    },
+    {
+      "id": "dotnet-adr",
+      "count": 1
+    },
+    {
+      "id": "dotnet9-com",
+      "count": 1
+    },
+    {
+      "id": "drash",
+      "count": 1
+    },
+    {
+      "id": "drops",
+      "count": 1
+    },
+    {
+      "id": "duality",
+      "count": 1
+    },
+    {
+      "id": "dubbo",
+      "count": 1
+    },
+    {
+      "id": "dumpall",
+      "count": 1
+    },
+    {
+      "id": "dvwa",
+      "count": 1
+    },
+    {
+      "id": "eat",
+      "count": 1
+    },
+    {
+      "id": "element-plus",
+      "count": 1
+    },
+    {
+      "id": "emora-project",
+      "count": 1
+    },
+    {
+      "id": "evalplus",
+      "count": 1
+    },
+    {
+      "id": "evergreen",
+      "count": 1
+    },
+    {
+      "id": "f2",
+      "count": 1
+    },
+    {
+      "id": "fairygui-unity",
+      "count": 1
+    },
+    {
+      "id": "fastapi-vscode",
+      "count": 1
+    },
+    {
+      "id": "figma-graphql",
+      "count": 1
+    },
+    {
+      "id": "files",
+      "count": 1
+    },
+    {
+      "id": "finatra",
+      "count": 1
+    },
+    {
+      "id": "fissure",
+      "count": 1
+    },
+    {
+      "id": "flatbuffers",
+      "count": 1
+    },
+    {
+      "id": "flowbite",
+      "count": 1
+    },
+    {
+      "id": "flyonui",
+      "count": 1
+    },
+    {
+      "id": "flyway",
+      "count": 1
+    },
+    {
+      "id": "foal",
+      "count": 1
+    },
+    {
+      "id": "fortran-tools",
+      "count": 1
+    },
+    {
+      "id": "front-end-checklist",
+      "count": 1
+    },
+    {
+      "id": "fscan",
+      "count": 1
+    },
+    {
+      "id": "fxgl",
+      "count": 1
+    },
+    {
+      "id": "gamedevmind",
+      "count": 1
+    },
+    {
+      "id": "games",
+      "count": 1
+    },
+    {
+      "id": "gatling",
+      "count": 1
+    },
+    {
+      "id": "gdevelop",
+      "count": 1
+    },
+    {
+      "id": "gdx-ai",
+      "count": 1
+    },
+    {
+      "id": "gea",
+      "count": 1
+    },
+    {
+      "id": "geo-aeo-tracker",
+      "count": 1
+    },
+    {
+      "id": "githubdaily",
+      "count": 1
+    },
+    {
+      "id": "gitlab-watchman",
+      "count": 1
+    },
+    {
+      "id": "go-mygen",
+      "count": 1
+    },
+    {
+      "id": "go-zero",
+      "count": 1
+    },
+    {
+      "id": "gocd",
+      "count": 1
+    },
+    {
+      "id": "gock",
+      "count": 1
+    },
+    {
+      "id": "godot",
+      "count": 1
+    },
+    {
+      "id": "godot-card-game-framework",
+      "count": 1
+    },
+    {
+      "id": "gohacktools",
+      "count": 1
+    },
+    {
+      "id": "golang-tls",
+      "count": 1
+    },
+    {
+      "id": "graphql-framework-experiment",
+      "count": 1
+    },
+    {
+      "id": "grype",
+      "count": 1
+    },
+    {
+      "id": "hacker101",
+      "count": 1
+    },
+    {
+      "id": "harbor",
+      "count": 1
+    },
+    {
+      "id": "harmony",
+      "count": 1
+    },
+    {
+      "id": "heroui",
+      "count": 1
+    },
+    {
+      "id": "higress",
+      "count": 1
+    },
+    {
+      "id": "hivisionidphotos",
+      "count": 1
+    },
+    {
+      "id": "hoppscotch",
+      "count": 1
+    },
+    {
+      "id": "horus",
+      "count": 1
+    },
+    {
+      "id": "houdini",
+      "count": 1
+    },
+    {
+      "id": "hoverfly",
+      "count": 1
+    },
+    {
+      "id": "http-prompt",
+      "count": 1
+    },
+    {
+      "id": "hummingbot",
+      "count": 1
+    },
+    {
+      "id": "hurl",
+      "count": 1
+    },
+    {
+      "id": "hydra",
+      "count": 1
+    },
+    {
+      "id": "hygen",
+      "count": 1
+    },
+    {
+      "id": "hypatia",
+      "count": 1
+    },
+    {
+      "id": "hyperf",
+      "count": 1
+    },
+    {
+      "id": "ibackupextractor",
+      "count": 1
+    },
+    {
+      "id": "ics-security-tools",
+      "count": 1
+    },
+    {
+      "id": "igniter-js",
+      "count": 1
+    },
+    {
+      "id": "iii",
+      "count": 1
+    },
+    {
+      "id": "imgui",
+      "count": 1
+    },
+    {
+      "id": "imgui_test_engine",
+      "count": 1
+    },
+    {
+      "id": "insomnia",
+      "count": 1
+    },
+    {
+      "id": "instapy",
+      "count": 1
+    },
+    {
+      "id": "ios",
+      "count": 1
+    },
+    {
+      "id": "j-a-r-v-i-s-2-0",
+      "count": 1
+    },
+    {
+      "id": "jenkins",
+      "count": 1
+    },
+    {
+      "id": "jesse",
+      "count": 1
+    },
+    {
+      "id": "jobs_applier_ai_agent_aihawk",
+      "count": 1
+    },
+    {
+      "id": "joko-ui",
+      "count": 1
+    },
+    {
+      "id": "jql",
+      "count": 1
+    },
+    {
+      "id": "jsonschema",
+      "count": 1
+    },
+    {
+      "id": "k6",
+      "count": 1
+    },
+    {
+      "id": "karate",
+      "count": 1
+    },
+    {
+      "id": "keploy",
+      "count": 1
+    },
+    {
+      "id": "kicknosub",
+      "count": 1
+    },
+    {
+      "id": "kitajs",
+      "count": 1
+    },
+    {
+      "id": "kitex",
+      "count": 1
+    },
+    {
+      "id": "kong",
+      "count": 1
+    },
+    {
+      "id": "kratos",
+      "count": 1
+    },
+    {
+      "id": "kubernetes-icons",
+      "count": 1
+    },
+    {
+      "id": "kubevpn",
+      "count": 1
+    },
+    {
+      "id": "ladon",
+      "count": 1
+    },
+    {
+      "id": "layui",
+      "count": 1
+    },
+    {
+      "id": "learn-claude-code",
+      "count": 1
+    },
+    {
+      "id": "lego-ai-parser",
+      "count": 1
+    },
+    {
+      "id": "leon",
+      "count": 1
+    },
+    {
+      "id": "libgdx",
+      "count": 1
+    },
+    {
+      "id": "lilipod",
+      "count": 1
+    },
+    {
+      "id": "linux-bash-commands",
+      "count": 1
+    },
+    {
+      "id": "liquibase",
+      "count": 1
+    },
+    {
+      "id": "lit-bb-hack-tools",
+      "count": 1
+    },
+    {
+      "id": "llm-calc",
+      "count": 1
+    },
+    {
+      "id": "localstack",
+      "count": 1
+    },
+    {
+      "id": "locust",
+      "count": 1
+    },
+    {
+      "id": "loki",
+      "count": 1
+    },
+    {
+      "id": "loopback-next",
+      "count": 1
+    },
+    {
+      "id": "markdownify-mcp",
+      "count": 1
+    },
+    {
+      "id": "material-colors-native",
+      "count": 1
+    },
+    {
+      "id": "materialize",
+      "count": 1
+    },
+    {
+      "id": "mcp-context-forge",
+      "count": 1
+    },
+    {
+      "id": "mcpm-sh",
+      "count": 1
+    },
+    {
+      "id": "metersphere",
+      "count": 1
+    },
+    {
+      "id": "mewui",
+      "count": 1
+    },
+    {
+      "id": "micro-dev",
+      "count": 1
+    },
+    {
+      "id": "ml4se",
+      "count": 1
+    },
+    {
+      "id": "mlnotify",
+      "count": 1
+    },
+    {
+      "id": "mobile-security-framework-mobsf",
+      "count": 1
+    },
+    {
+      "id": "mockery",
+      "count": 1
+    },
+    {
+      "id": "mockito",
+      "count": 1
+    },
+    {
+      "id": "modern-fluid-typography-editor",
+      "count": 1
+    },
+    {
+      "id": "modern-unix",
+      "count": 1
+    },
+    {
+      "id": "moq",
+      "count": 1
+    },
+    {
+      "id": "mostly-free-resources-for-almost-everyone",
+      "count": 1
+    },
+    {
+      "id": "mybox",
+      "count": 1
+    },
+    {
+      "id": "naive-ui",
+      "count": 1
+    },
+    {
+      "id": "nameko",
+      "count": 1
+    },
+    {
+      "id": "nanobot",
+      "count": 1
+    },
+    {
+      "id": "nes-css",
+      "count": 1
+    },
+    {
+      "id": "nest",
+      "count": 1
+    },
+    {
+      "id": "ninjabot",
+      "count": 1
+    },
+    {
+      "id": "nsubstitute",
+      "count": 1
+    },
+    {
+      "id": "nuclei",
+      "count": 1
+    },
+    {
+      "id": "nuclei-templates",
+      "count": 1
+    },
+    {
+      "id": "oha",
+      "count": 1
+    },
+    {
+      "id": "one-api",
+      "count": 1
+    },
+    {
+      "id": "openclaude",
+      "count": 1
+    },
+    {
+      "id": "openhands",
+      "count": 1
+    },
+    {
+      "id": "openlab",
+      "count": 1
+    },
+    {
+      "id": "openomnibot",
+      "count": 1
+    },
+    {
+      "id": "openoutreach",
+      "count": 1
+    },
+    {
+      "id": "opentrader",
+      "count": 1
+    },
+    {
+      "id": "openzeppelin-relayer",
+      "count": 1
+    },
+    {
+      "id": "origin",
+      "count": 1
+    },
+    {
+      "id": "osint-cheat-sheet",
+      "count": 1
+    },
+    {
+      "id": "panther",
+      "count": 1
+    },
+    {
+      "id": "patchright",
+      "count": 1
+    },
+    {
+      "id": "payloadsallthethings",
+      "count": 1
+    },
+    {
+      "id": "penetration-testing-tools",
+      "count": 1
+    },
+    {
+      "id": "pester",
+      "count": 1
+    },
+    {
+      "id": "phoronix-test-suite",
+      "count": 1
+    },
+    {
+      "id": "pico",
+      "count": 1
+    },
+    {
+      "id": "plus-pro-components",
+      "count": 1
+    },
+    {
+      "id": "podinfo",
+      "count": 1
+    },
+    {
+      "id": "pokemongo-bot",
+      "count": 1
+    },
+    {
+      "id": "ponytail",
+      "count": 1
+    },
+    {
+      "id": "powermock",
+      "count": 1
+    },
+    {
+      "id": "ppt-master",
+      "count": 1
+    },
+    {
+      "id": "primitives",
+      "count": 1
+    },
+    {
+      "id": "protolock",
+      "count": 1
+    },
+    {
+      "id": "puppeteer",
+      "count": 1
+    },
+    {
+      "id": "puppeteer-sharp",
+      "count": 1
+    },
+    {
+      "id": "qiankun",
+      "count": 1
+    },
+    {
+      "id": "rapidview",
+      "count": 1
+    },
+    {
+      "id": "raudi",
+      "count": 1
+    },
+    {
+      "id": "raylib",
+      "count": 1
+    },
+    {
+      "id": "react-bits",
+      "count": 1
+    },
+    {
+      "id": "react-daisyui",
+      "count": 1
+    },
+    {
+      "id": "react-native-dom",
+      "count": 1
+    },
+    {
+      "id": "repo-to-text",
+      "count": 1
+    },
+    {
+      "id": "rspec-benchmark",
+      "count": 1
+    },
+    {
+      "id": "rtk",
+      "count": 1
+    },
+    {
+      "id": "sa-token",
+      "count": 1
+    },
+    {
+      "id": "safeline",
+      "count": 1
+    },
+    {
+      "id": "seleniumbase",
+      "count": 1
+    },
+    {
+      "id": "semantic-ui",
+      "count": 1
+    },
+    {
+      "id": "semantic-ui-react",
+      "count": 1
+    },
+    {
+      "id": "semgrep",
+      "count": 1
+    },
+    {
+      "id": "sh",
+      "count": 1
+    },
+    {
+      "id": "shenyu",
+      "count": 1
+    },
+    {
+      "id": "sherlock",
+      "count": 1
+    },
+    {
+      "id": "shortest",
+      "count": 1
+    },
+    {
+      "id": "sidefxlabs",
+      "count": 1
+    },
+    {
+      "id": "sikulix1",
+      "count": 1
+    },
+    {
+      "id": "siyuan",
+      "count": 1
+    },
+    {
+      "id": "slack-watchman",
+      "count": 1
+    },
+    {
+      "id": "slash",
+      "count": 1
+    },
+    {
+      "id": "spinnaker",
+      "count": 1
+    },
+    {
+      "id": "startuptoolbox",
+      "count": 1
+    },
+    {
+      "id": "static-analysis",
+      "count": 1
+    },
+    {
+      "id": "static-to-dynamic-llmeval",
+      "count": 1
+    },
+    {
+      "id": "stitch",
+      "count": 1
+    },
+    {
+      "id": "storycap",
+      "count": 1
+    },
+    {
+      "id": "streamlit",
+      "count": 1
+    },
+    {
+      "id": "strix",
+      "count": 1
+    },
+    {
+      "id": "stup",
+      "count": 1
+    },
+    {
+      "id": "supervizer",
+      "count": 1
+    },
+    {
+      "id": "swiftinfo",
+      "count": 1
+    },
+    {
+      "id": "tailwindcss",
+      "count": 1
+    },
+    {
+      "id": "teleconsole",
+      "count": 1
+    },
+    {
+      "id": "telegram-instapy-scheduling",
+      "count": 1
+    },
+    {
+      "id": "terrascan",
+      "count": 1
+    },
+    {
+      "id": "testcafe",
+      "count": 1
+    },
+    {
+      "id": "testify",
+      "count": 1
+    },
+    {
+      "id": "tiger",
+      "count": 1
+    },
+    {
+      "id": "tmux2k",
+      "count": 1
+    },
+    {
+      "id": "tools",
+      "count": 1
+    },
+    {
+      "id": "tradingview-webhook-bot",
+      "count": 1
+    },
+    {
+      "id": "trivy",
+      "count": 1
+    },
+    {
+      "id": "trivy-action",
+      "count": 1
+    },
+    {
+      "id": "trump2cash",
+      "count": 1
+    },
+    {
+      "id": "twitter-api-client",
+      "count": 1
+    },
+    {
+      "id": "tyk",
+      "count": 1
+    },
+    {
+      "id": "tyra",
+      "count": 1
+    },
+    {
+      "id": "ui-testing-best-practices",
+      "count": 1
+    },
+    {
+      "id": "ultimate-xr-dev-guide",
+      "count": 1
+    },
+    {
+      "id": "unity_resources",
+      "count": 1
+    },
+    {
+      "id": "unleash",
+      "count": 1
+    },
+    {
+      "id": "up",
+      "count": 1
+    },
+    {
+      "id": "userver",
+      "count": 1
+    },
+    {
+      "id": "van",
+      "count": 1
+    },
+    {
+      "id": "van-gonography",
+      "count": 1
+    },
+    {
+      "id": "vcrpy",
+      "count": 1
+    },
+    {
+      "id": "vegeta",
+      "count": 1
+    },
+    {
+      "id": "vfox",
+      "count": 1
+    },
+    {
+      "id": "visual-regression-tracker",
+      "count": 1
+    },
+    {
+      "id": "w5",
+      "count": 1
+    },
+    {
+      "id": "wa-automate-nodejs",
+      "count": 1
+    },
+    {
+      "id": "web3-security-tools",
+      "count": 1
+    },
+    {
+      "id": "webhackersweapons",
+      "count": 1
+    },
+    {
+      "id": "wppconnect",
+      "count": 1
+    },
+    {
+      "id": "wtx",
+      "count": 1
+    },
+    {
+      "id": "xh",
+      "count": 1
+    },
+    {
+      "id": "zappa",
+      "count": 1
+    },
+    {
+      "id": "zitadel",
+      "count": 1
+    }
+  ]
 }

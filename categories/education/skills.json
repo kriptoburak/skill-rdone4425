@@ -4,10 +4,28 @@
     "topCategoryId": "education",
     "subCategoryId": "education",
     "categoryPath": "education",
-    "count": 16,
+    "count": 17,
     "sourceData": "categories"
   },
   "skills": [
+    {
+      "name": "ML-For-Beginners--machine-learning",
+      "source": "general",
+      "sourceAgent": "general",
+      "repo": "microsoft/ML-For-Beginners",
+      "stars": 87491,
+      "desc": "12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all",
+      "url": "https://github.com/microsoft/ML-For-Beginners",
+      "install": "pip install ML-For-Beginners",
+      "functionCategory": "education",
+      "topCategoryId": "education",
+      "subCategoryId": "general",
+      "categoryPath": "education",
+      "supportedAgents": [
+        "general"
+      ],
+      "searchText": "ml-for-beginners--machine-learning 12 weeks, 26 lessons, 52 quizzes, classic machine learning for all microsoft/ml-for-beginners pip install ml-for-beginners education general"
+    },
     {
       "name": "hello-agents",
       "source": "general",
@@ -32,7 +50,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Manage Google Classroom classes, rosters, and coursework",
       "url": "https://officialskills.sh/googleworkspace/skills/gws-classroom",
       "install": "",
@@ -54,7 +72,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "After solving a non-trivial problem, detect generalizable learnings and propose skill updates so future interactions benefit automatically.",
       "url": "https://github.com/NVIDIA/skills/tree/main/skills/cuopt/skill-evolution",
       "install": "",

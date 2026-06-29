@@ -4,7 +4,7 @@
     "topCategoryId": "social-media",
     "subCategoryId": "social-media",
     "categoryPath": "social-media",
-    "count": 17,
+    "count": 20,
     "sourceData": "categories"
   },
   "skills": [
@@ -13,7 +13,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Real-time chat with threads and receipts",
       "url": "https://officialskills.sh/microsoft/skills/azure-communication-chat-java",
       "install": "",
@@ -35,7 +35,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Audit logs and usage reports for Workspace",
       "url": "https://officialskills.sh/googleworkspace/skills/gws-admin-reports",
       "install": "",
@@ -57,7 +57,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Generate high-performing headline variations across different angles",
       "url": "https://github.com/realkimbarrett/advertising-skills/tree/main/skills/copy-chief/headline-matrix",
       "install": "",
@@ -79,7 +79,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "n8n expression syntax with {{}} and $json/$node variables",
       "url": "https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-expression-syntax",
       "install": "",
@@ -101,7 +101,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Fix n8n validation errors with error catalog",
       "url": "https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-validation-expert",
       "install": "",
@@ -123,7 +123,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Adds, removes, or modifies allowed endpoints in the sandbox policy.",
       "url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-user-manage-policy",
       "install": "",
@@ -145,7 +145,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Inspects sandbox health, traces agent behavior, and diagnoses problems.",
       "url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-user-monitor-sandbox",
       "install": "",
@@ -167,7 +167,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "371 tax classification skills across 134 countries",
       "url": "https://github.com/openaccountants/openaccountants",
       "install": "",
@@ -189,7 +189,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26760,
+      "stars": 26782,
       "desc": "Prioritize assumptions with Impact × Risk matrix and experiments",
       "url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/prioritize-assumptions",
       "install": "",
@@ -247,6 +247,24 @@
       "searchText": "redink red ink — a one-stop xiaohongshu (小红书) image-and-text generator based on nano banana pro for ai content creation. hismax/redink social-media general"
     },
     {
+      "name": "linkedin-mcp-server",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "stickerdaniel/linkedin-mcp-server",
+      "stars": 2552,
+      "desc": "Open-source MCP server for LinkedIn for Claude and MCP-compatible AI agents",
+      "url": "https://github.com/stickerdaniel/linkedin-mcp-server",
+      "install": "$skill-installer linkedin-mcp-server",
+      "functionCategory": "social-media",
+      "topCategoryId": "social",
+      "subCategoryId": "media",
+      "categoryPath": "social-media",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "linkedin-mcp-server open-source mcp server for linkedin for claude and mcp-compatible ai agents stickerdaniel/linkedin-mcp-server $skill-installer linkedin-mcp-server social-media claude"
+    },
+    {
       "name": "f2",
       "source": "f2",
       "sourceAgent": "f2",
@@ -265,6 +283,24 @@
       "searchText": "f2 high-speed downloader for multiple platforms johnserf-seed/f2 social-media f2"
     },
     {
+      "name": "xhs_ai_publisher",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "BetaStreetOmnis/xhs_ai_publisher",
+      "stars": 1999,
+      "desc": "AI-powered Xiaohongshu/Rednote content creation and publishing tool with PyQt",
+      "url": "https://github.com/BetaStreetOmnis/xhs_ai_publisher",
+      "install": "$skill-installer xhs_ai_publisher",
+      "functionCategory": "social-media",
+      "topCategoryId": "social",
+      "subCategoryId": "media",
+      "categoryPath": "social-media",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "xhs_ai_publisher ai-powered xiaohongshu/rednote content creation and publishing tool with pyqt betastreetomnis/xhs_ai_publisher $skill-installer xhs_ai_publisher social-media claude"
+    },
+    {
       "name": "aliens-eye",
       "source": "general",
       "sourceAgent": "general",
@@ -281,6 +317,24 @@
         "general"
       ],
       "searchText": "aliens-eye hunt down 840+ social media accounts using ai-powered osint techniques. arxhr007/aliens_eye social-media general"
+    },
+    {
+      "name": "x-tweet-fetcher",
+      "source": "claude",
+      "sourceAgent": "claude",
+      "repo": "ythx-101/x-tweet-fetcher",
+      "stars": 888,
+      "desc": "Fetch X/Twitter tweets, replies, timelines, and articles without login or API key",
+      "url": "https://github.com/ythx-101/x-tweet-fetcher",
+      "install": "$skill-installer x-tweet-fetcher",
+      "functionCategory": "social-media",
+      "topCategoryId": "social",
+      "subCategoryId": "media",
+      "categoryPath": "social-media",
+      "supportedAgents": [
+        "claude"
+      ],
+      "searchText": "x-tweet-fetcher fetch x/twitter tweets, replies, timelines, and articles without login or api key ythx-101/x-tweet-fetcher $skill-installer x-tweet-fetcher social-media claude"
     },
     {
       "name": "slash",
@@ -353,60 +407,6 @@
         "telegram-instapy-scheduling"
       ],
       "searchText": "telegram-instapy-scheduling a telegram bot for scheduling instapy tkd-alex/telegram-instapy-scheduling social-media telegram-instapy-scheduling"
-    },
-    {
-      "name": "xhs_ai_publisher",
-      "source": "claude",
-      "sourceAgent": "claude",
-      "repo": "BetaStreetOmnis/xhs_ai_publisher",
-      "stars": 1999,
-      "desc": "AI-powered Xiaohongshu/Rednote content creation and publishing tool with PyQt",
-      "url": "https://github.com/BetaStreetOmnis/xhs_ai_publisher",
-      "install": "$skill-installer xhs_ai_publisher",
-      "functionCategory": "social-media",
-      "topCategoryId": "social",
-      "subCategoryId": "media",
-      "categoryPath": "social-media",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "xhs_ai_publisher ai-powered xiaohongshu/rednote content creation and publishing tool with pyqt betastreetomnis/xhs_ai_publisher $skill-installer xhs_ai_publisher social-media claude"
-    },
-    {
-      "name": "x-tweet-fetcher",
-      "source": "claude",
-      "sourceAgent": "claude",
-      "repo": "ythx-101/x-tweet-fetcher",
-      "stars": 888,
-      "desc": "Fetch X/Twitter tweets, replies, timelines, and articles without login or API key",
-      "url": "https://github.com/ythx-101/x-tweet-fetcher",
-      "install": "$skill-installer x-tweet-fetcher",
-      "functionCategory": "social-media",
-      "topCategoryId": "social",
-      "subCategoryId": "media",
-      "categoryPath": "social-media",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "x-tweet-fetcher fetch x/twitter tweets, replies, timelines, and articles without login or api key ythx-101/x-tweet-fetcher $skill-installer x-tweet-fetcher social-media claude"
-    },
-    {
-      "name": "linkedin-mcp-server",
-      "source": "claude",
-      "sourceAgent": "claude",
-      "repo": "stickerdaniel/linkedin-mcp-server",
-      "stars": 2552,
-      "desc": "Open-source MCP server for LinkedIn for Claude and MCP-compatible AI agents",
-      "url": "https://github.com/stickerdaniel/linkedin-mcp-server",
-      "install": "$skill-installer linkedin-mcp-server",
-      "functionCategory": "social-media",
-      "topCategoryId": "social",
-      "subCategoryId": "media",
-      "categoryPath": "social-media",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "linkedin-mcp-server open-source mcp server for linkedin for claude and mcp-compatible ai agents stickerdaniel/linkedin-mcp-server $skill-installer linkedin-mcp-server social-media claude"
     }
   ]
 }

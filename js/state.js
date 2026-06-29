@@ -81,6 +81,10 @@
     lifestyle: { zh: '生活方式', en: 'Lifestyle' },
     health: { zh: '健康', en: 'Health' },
     'health-medical': { zh: '健康医疗', en: 'Health & Medical' },
+    // ponytail: P4 new categories
+    audio: { zh: '音频', en: 'Audio' },
+    '3d': { zh: '3D', en: '3D' },
+    ecommerce: { zh: '电商', en: 'E-commerce' },
     'agent-framework': { zh: 'Agent 框架', en: 'Agent Framework' },
     'multi-modal': { zh: '多模态', en: 'Multi-modal' },
     'video-gen': { zh: '视频生成', en: 'Video Generation' },

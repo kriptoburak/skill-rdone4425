@@ -58,7 +58,7 @@
 
     if (dom['category-tabs']) {
       dom['category-tabs'].addEventListener('click', async (event) => {
-        const expandButton = event.target.closest('.cat-expand');
+        const expandButton = event.target.closest('.sidebar-expand-btn');
         if (expandButton) {
           event.preventDefault();
           event.stopPropagation();
@@ -67,11 +67,11 @@
           return;
         }
 
-        const subgroupButton = event.target.closest('.subgroup-tab');
+        const subgroupButton = event.target.closest('.sidebar-sub-btn');
         if (subgroupButton) {
           event.preventDefault();
-          const parentItem = subgroupButton.closest('.category-item');
-          const parentCategoryButton = parentItem ? parentItem.querySelector('.category-row .cat-tab') : null;
+          const parentGroup = subgroupButton.closest('.sidebar-group');
+          const parentCategoryButton = parentGroup ? parentGroup.querySelector('.sidebar-group-header .sidebar-cat-btn') : null;
           if (parentCategoryButton && parentCategoryButton.dataset.id) {
             s.selectCategory(parentCategoryButton.dataset.id);
           }
@@ -81,8 +81,8 @@
           return;
         }
 
-        const button = event.target.closest('.cat-tab');
-        if (!button || button.closest('.subgroup-tabs-inline')) return;
+        const button = event.target.closest('.sidebar-cat-btn');
+        if (!button || button.closest('.sidebar-sub-list')) return;
         event.preventDefault();
         s.selectCategory(button.dataset.id);
         await s.ensureDataForCurrentState();

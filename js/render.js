@@ -48,6 +48,13 @@
     fallbackCopyText(text);
   }
 
+  // ponytail: P4 search result highlighting — wraps keyword matches in <mark>
+  function highlightText(text, keyword) {
+    if (!keyword || !text) return text;
+    const escaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    return text.replace(new RegExp(`(${escaped})`, 'gi'), '<mark>$1</mark>');
+  }
+
   function getFiltered() {
     const cacheKey = [
       state.dataVersion,
@@ -127,67 +134,90 @@
     if (!wrap) return;
     wrap.innerHTML = '';
 
+    // ponytail: vertical sidebar tree — one column, accordion-style
+    // "全部" at top
     const allItem = document.createElement('div');
-    allItem.className = 'category-item';
-
+    allItem.className = 'sidebar-item sidebar-item-all';
     const allButton = document.createElement('button');
     allButton.type = 'button';
-    allButton.className = `cat-tab${state.category === 'all' ? ' active' : ''}`;
+    allButton.className = `sidebar-cat-btn${state.category === 'all' ? ' active' : ''}`;
     allButton.dataset.id = 'all';
     allButton.innerHTML = `
-      <span class="cat-tab-label">${hub.i18n.t('categoryAll')}</span>
-      <span class="cat-tab-count">${state.meta.totalCount || state.data.length}</span>
+      <span class="sidebar-cat-icon" aria-hidden="true">☰</span>
+      <span class="sidebar-cat-label">${hub.i18n.t('categoryAll')}</span>
+      <span class="sidebar-cat-count">${state.meta.totalCount || state.data.length}</span>
     `;
     allItem.appendChild(allButton);
     wrap.appendChild(allItem);
 
+    // Category groups as collapsible sections
     state.categories.forEach((category) => {
-      const item = document.createElement('div');
       const isActive = state.category === category.id;
       const isExpanded = state.expandedCategory === category.id;
-      const subcategories = category.id === state.category
-        ? (state.subcategories || [])
-        : (s.sortSubcategories(category.subcategories || []));
-      const hasSubcategories = subcategories.length > 0;
+      const subcats = s.sortSubcategories(category.subcategories || []);
+      const hasSubs = subcats.length > 0;
 
-      item.className = `category-item${isActive ? ' active' : ''}${isExpanded ? ' expanded' : ''}`;
+      const item = document.createElement('div');
+      item.className = `sidebar-group${isActive ? ' sidebar-group-active' : ''}${isExpanded ? ' expanded' : ''}`;
 
+      // Header row
       const row = document.createElement('div');
-      row.className = 'category-row';
+      row.className = 'sidebar-group-header';
 
       const button = document.createElement('button');
       button.type = 'button';
-      button.className = `cat-tab${isActive ? ' active' : ''}`;
+      button.className = `sidebar-cat-btn${isActive ? ' active' : ''}`;
       button.dataset.id = category.id;
       button.innerHTML = `
-        <span class="cat-tab-label">${s.getCategoryLabel(category.id)}</span>
-        <span class="cat-tab-count">${category.count || 0}</span>
+        <span class="sidebar-cat-label">${s.getCategoryLabel(category.id)}</span>
+        <span class="sidebar-cat-count">${category.count || 0}</span>
       `;
       row.appendChild(button);
 
-      if (hasSubcategories) {
+      // Expand toggle
+      if (hasSubs) {
         const toggle = document.createElement('button');
         toggle.type = 'button';
-        toggle.className = `cat-expand${isExpanded ? ' active' : ''}`;
+        toggle.className = `sidebar-expand-btn${isExpanded ? ' active' : ''}`;
         toggle.dataset.expandId = category.id;
         toggle.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
-        toggle.setAttribute(
-          'aria-label',
-          isExpanded
-            ? getLabelWithFallback('collapseCategory', '收起子分类', 'Collapse subcategories')
-            : getLabelWithFallback('expandCategory', '展开子分类', 'Expand subcategories'),
-        );
-        toggle.innerHTML = '<span class="cat-expand-icon" aria-hidden="true">+</span>'; 
+        toggle.setAttribute('aria-label', isExpanded
+          ? getLabelWithFallback('collapseCategory', '收起', 'Collapse')
+          : getLabelWithFallback('expandCategory', '展开', 'Expand'));
+        toggle.innerHTML = '<span class="sidebar-expand-icon" aria-hidden="true">›</span>';
         row.appendChild(toggle);
       }
 
       item.appendChild(row);
 
-      if (isExpanded && hasSubcategories) {
-        const inlineSubgroups = createInlineSubgroupTabs(category.id, subcategories);
-        if (inlineSubgroups) {
-          item.appendChild(inlineSubgroups);
-        }
+      // Subcategories as nested tree
+      if (isExpanded && hasSubs) {
+        const subList = document.createElement('div');
+        subList.className = 'sidebar-sub-list';
+
+        const allSubButton = document.createElement('button');
+        allSubButton.type = 'button';
+        allSubButton.className = `sidebar-sub-btn${!state.subcategory ? ' active' : ''}`;
+        allSubButton.dataset.subcategoryId = '';
+        allSubButton.innerHTML = `
+          <span class="sidebar-cat-label">${hub.i18n.t('categoryAll')}</span>
+          <span class="sidebar-cat-count">${subcats.reduce((sum, s) => sum + (s.count || 0), 0)}</span>
+        `;
+        subList.appendChild(allSubButton);
+
+        subcats.forEach((sub) => {
+          const subBtn = document.createElement('button');
+          subBtn.type = 'button';
+          subBtn.className = `sidebar-sub-btn${state.subcategory === sub.subcategoryId ? ' active' : ''}`;
+          subBtn.dataset.subcategoryId = sub.subcategoryId;
+          subBtn.innerHTML = `
+            <span class="sidebar-cat-label">${s.getCategoryLabel(sub.subcategoryId)}</span>
+            <span class="sidebar-cat-count">${sub.count || 0}</span>
+          `;
+          subList.appendChild(subBtn);
+        });
+
+        item.appendChild(subList);
       }
 
       wrap.appendChild(item);
@@ -311,14 +341,14 @@
             : `<span class="card-emoji">${primaryMeta.icon || '?'}</span>`}
         </div>
         <div class="card-title-wrap">
-          <div class="card-name">${skill.name}</div>
+          <div class="card-name">${highlightText(skill.name, state.keyword)}</div>
           <div class="card-repo">
             <a href="https://github.com/${skill.repo}" target="_blank" rel="noopener">${skill.repo}</a>
             <span class="card-stars" title="${Number(skill.stars || 0).toLocaleString()}">★ ${s.STAR_FMT(Number(skill.stars || 0))}</span>
           </div>
         </div>
       </div>
-      <p class="card-desc">${skill.desc || ''}</p>
+      <p class="card-desc">${highlightText(skill.desc || '', state.keyword)}</p>
       <div class="card-meta">
         <span class="card-group">${getSkillCategoryDisplay(skill)}</span>
         ${pricingLabel ? `<span class="card-pricing pricing-${String(skill.pricing || 'free').toLowerCase()}">${pricingLabel}</span>` : ''}
@@ -475,7 +505,32 @@
     if (!nav) return;
     // ponytail: keep pagination UI but hidden, infinite scroll handles loading
     nav.hidden = true;
-    if (dom['page-info']) dom['page-info'].textContent = `${state.page} / ${totalPages}`;
+
+    // ponytail: P4 show recent updates section
+    const recentSection = document.getElementById('recent-section');
+    if (recentSection && state.meta.lastUpdated) {
+      recentSection.hidden = false;
+      const timeline = document.getElementById('recent-timeline');
+      if (timeline) {
+        const date = new Date(state.meta.lastUpdated);
+        const formatted = date.toLocaleDateString(hub.i18n.getLang() === 'zh' ? 'zh-CN' : 'en-US', {
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric',
+          hour: '2-digit',
+          minute: '2-digit',
+        });
+        const totalSkills = state.meta.totalCount || 0;
+        const categoryCount = state.meta.categoryCount || state.categories.length;
+        timeline.innerHTML = `
+          <div class="recent-item">
+            <span class="recent-date">${formatted}</span>
+            <span class="recent-desc">${hub.i18n.getLang() === 'zh' ? `收录 ${totalSkills} 个 Skills，覆盖 ${categoryCount} 个分类` : `${totalSkills} skills across ${categoryCount} categories`}</span>
+          </div>
+        `;
+      }
+    }
+
     if (dom['page-prev']) dom['page-prev'].disabled = state.page <= 1;
     if (dom['page-next']) dom['page-next'].disabled = state.page >= totalPages;
   }

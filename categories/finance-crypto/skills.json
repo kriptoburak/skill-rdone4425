@@ -1,217 +1,19 @@
 {
   "meta": {
     "functionCategory": "finance-crypto",
-    "topCategoryId": "finance-crypto",
-    "subCategoryId": "finance-crypto",
+    "topCategoryId": "business",
+    "subCategoryId": "finance",
     "categoryPath": "finance-crypto",
-    "count": 110,
+    "count": 36,
     "sourceData": "categories"
   },
   "skills": [
-    {
-      "name": "yahoo-finance",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "finance.yahoo.com",
-      "stars": 100000,
-      "desc": "Stock quotes, news, financial data and analysis",
-      "url": "https://finance.yahoo.com",
-      "install": "web https://finance.yahoo.com",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "yahoo-finance stock quotes, news, financial data and analysis finance.yahoo.com web https://finance.yahoo.com finance-crypto general"
-    },
-    {
-      "name": "TradingAgents--llm",
-      "source": "general",
-      "sourceAgent": "general",
-      "repo": "TauricResearch/TradingAgents",
-      "stars": 89604,
-      "desc": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-      "url": "https://github.com/TauricResearch/TradingAgents",
-      "install": "pip install TradingAgents",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance",
-      "subCategoryId": "crypto",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "tradingagents--llm tradingagents: multi-agents llm financial trading framework tauricresearch/tradingagents pip install tradingagents finance-crypto general"
-    },
-    {
-      "name": "tradingview",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "tradingview.com",
-      "stars": 85000,
-      "desc": "Financial charts, technical analysis and trading community",
-      "url": "https://www.tradingview.com",
-      "install": "web https://www.tradingview.com",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "tradingview financial charts, technical analysis and trading community tradingview.com web https://www.tradingview.com finance-crypto general"
-    },
-    {
-      "name": "chainlink",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "chain.link",
-      "stars": 60000,
-      "desc": "Decentralized oracle network for smart contract data",
-      "url": "https://chain.link",
-      "install": "web https://chain.link",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "chainlink decentralized oracle network for smart contract data chain.link web https://chain.link finance-crypto general"
-    },
-    {
-      "name": "etherscan",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "etherscan.io",
-      "stars": 50000,
-      "desc": "Ethereum block explorer and smart contract explorer",
-      "url": "https://etherscan.io",
-      "install": "web https://etherscan.io",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "etherscan ethereum block explorer and smart contract explorer etherscan.io web https://etherscan.io finance-crypto general"
-    },
-    {
-      "name": "infura",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "infura.io",
-      "stars": 50000,
-      "desc": "Ethereum and IPFS API gateway for dApps",
-      "url": "https://www.infura.io",
-      "install": "web https://www.infura.io",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "infura ethereum and ipfs api gateway for dapps infura.io web https://www.infura.io finance-crypto general"
-    },
-    {
-      "name": "openzeppelin-contracts",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "openzeppelin.com/contracts",
-      "stars": 50000,
-      "desc": "Audited Solidity smart contract library",
-      "url": "https://www.openzeppelin.com/contracts",
-      "install": "web https://www.openzeppelin.com/contracts",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "openzeppelin-contracts audited solidity smart contract library openzeppelin.com/contracts web https://www.openzeppelin.com/contracts finance-crypto general"
-    },
-    {
-      "name": "alchemy",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "alchemy.com",
-      "stars": 45000,
-      "desc": "Ethereum developer platform — APIs, nodes, and tooling",
-      "url": "https://www.alchemy.com",
-      "install": "web https://www.alchemy.com",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "alchemy ethereum developer platform — apis, nodes, and tooling alchemy.com web https://www.alchemy.com finance-crypto general"
-    },
-    {
-      "name": "coinmarketcap-api",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "coinmarketcap.com/api",
-      "stars": 45000,
-      "desc": "Crypto market cap, price and exchange data API",
-      "url": "https://coinmarketcap.com/api",
-      "install": "web https://coinmarketcap.com/api",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "coinmarketcap-api crypto market cap, price and exchange data api coinmarketcap.com/api web https://coinmarketcap.com/api finance-crypto general"
-    },
-    {
-      "name": "ethers-js",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "docs.ethers.org",
-      "stars": 45000,
-      "desc": "Ethereum library and wallet implementation in JS",
-      "url": "https://docs.ethers.org",
-      "install": "web https://docs.ethers.org",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "ethers-js ethereum library and wallet implementation in js docs.ethers.org web https://docs.ethers.org finance-crypto general"
-    },
-    {
-      "name": "hardhat",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "hardhat.org",
-      "stars": 45000,
-      "desc": "Ethereum development environment and testing framework",
-      "url": "https://hardhat.org",
-      "install": "web https://hardhat.org",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "hardhat ethereum development environment and testing framework hardhat.org web https://hardhat.org finance-crypto general"
-    },
     {
       "name": "ccxt",
       "source": "ccxt",
       "sourceAgent": "ccxt",
       "repo": "ccxt/ccxt",
-      "stars": 43103,
+      "stars": 43109,
       "desc": "A cryptocurrency trading API with more than 100 exchanges in JavaScript / TypeScript / Python / C# / PHP / Go / Java",
       "url": "https://github.com/ccxt/ccxt",
       "install": "",
@@ -225,191 +27,11 @@
       "searchText": "ccxt a cryptocurrency trading api with more than 100 exchanges in javascript / typescript / python / c# / php / go / java ccxt/ccxt finance-crypto ccxt"
     },
     {
-      "name": "aave-protocol",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "aave.com",
-      "stars": 40000,
-      "desc": "Decentralized lending and borrowing protocol",
-      "url": "https://aave.com",
-      "install": "web https://aave.com",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "aave-protocol decentralized lending and borrowing protocol aave.com web https://aave.com finance-crypto general"
-    },
-    {
-      "name": "dune-analytics",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "dune.com",
-      "stars": 40000,
-      "desc": "SQL-based blockchain data platform for DeFi analytics",
-      "url": "https://dune.com",
-      "install": "web https://dune.com",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "dune-analytics sql-based blockchain data platform for defi analytics dune.com web https://dune.com finance-crypto general"
-    },
-    {
-      "name": "coingecko-api",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "coingecko.com/en/api",
-      "stars": 35000,
-      "desc": "Cryptocurrency price data and market analytics API",
-      "url": "https://www.coingecko.com/en/api",
-      "install": "web https://www.coingecko.com/en/api",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "coingecko-api cryptocurrency price data and market analytics api coingecko.com/en/api web https://www.coingecko.com/en/api finance-crypto general"
-    },
-    {
-      "name": "the-graph",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "thegraph.com",
-      "stars": 35000,
-      "desc": "Indexing protocol for querying blockchain data",
-      "url": "https://thegraph.com",
-      "install": "web https://thegraph.com",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "the-graph indexing protocol for querying blockchain data thegraph.com web https://thegraph.com finance-crypto general"
-    },
-    {
-      "name": "uniswap",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "uniswap.org",
-      "stars": 35000,
-      "desc": "Decentralized exchange (DEX) protocol on Ethereum",
-      "url": "https://uniswap.org",
-      "install": "web https://uniswap.org",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "uniswap decentralized exchange (dex) protocol on ethereum uniswap.org web https://uniswap.org finance-crypto general"
-    },
-    {
-      "name": "web3-js",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "web3js.readthedocs.io",
-      "stars": 35000,
-      "desc": "Ethereum JavaScript API for dApp development",
-      "url": "https://web3js.readthedocs.io",
-      "install": "web https://web3js.readthedocs.io",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "web3-js ethereum javascript api for dapp development web3js.readthedocs.io web https://web3js.readthedocs.io finance-crypto general"
-    },
-    {
-      "name": "alpha-vantage",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "alphavantage.co",
-      "stars": 30000,
-      "desc": "Free stock and crypto API for financial data",
-      "url": "https://www.alphavantage.co",
-      "install": "web https://www.alphavantage.co",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "alpha-vantage free stock and crypto api for financial data alphavantage.co web https://www.alphavantage.co finance-crypto general"
-    },
-    {
-      "name": "foundry",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "getfoundry.sh",
-      "stars": 30000,
-      "desc": "Ethereum development toolkit written in Rust",
-      "url": "https://getfoundry.sh",
-      "install": "web https://getfoundry.sh",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "foundry ethereum development toolkit written in rust getfoundry.sh web https://getfoundry.sh finance-crypto general"
-    },
-    {
-      "name": "makerdao",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "makerdao.com",
-      "stars": 30000,
-      "desc": "Decentralized stablecoin (DAI) and lending platform",
-      "url": "https://makerdao.com",
-      "install": "web https://makerdao.com",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "makerdao decentralized stablecoin (dai) and lending platform makerdao.com web https://makerdao.com finance-crypto general"
-    },
-    {
-      "name": "quantconnect",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "quantconnect.com",
-      "stars": 30000,
-      "desc": "Algorithmic trading platform with LEAN engine",
-      "url": "https://www.quantconnect.com",
-      "install": "web https://www.quantconnect.com",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "quantconnect algorithmic trading platform with lean engine quantconnect.com web https://www.quantconnect.com finance-crypto general"
-    },
-    {
       "name": "copy-editing",
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26782,
+      "stars": 26791,
       "desc": "Edit and improve existing marketing copy for clarity and impact",
       "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/copy-editing",
       "install": "",
@@ -431,7 +53,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26782,
+      "stars": 26791,
       "desc": "Evaluate features using ROI and strategic value scoring",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/feature-investment-advisor",
       "install": "",
@@ -453,7 +75,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26782,
+      "stars": 26791,
       "desc": "Add USDC to a Coinbase-powered wallet through Coinbase Onramp",
       "url": "https://officialskills.sh/coinbase/skills/fund",
       "install": "",
@@ -475,7 +97,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26782,
+      "stars": 26791,
       "desc": "Estimate TAM, SAM, SOM with top-down and bottom-up approaches",
       "url": "https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/market-sizing",
       "install": "",
@@ -497,7 +119,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26782,
+      "stars": 26791,
       "desc": "Define North Star Metric and input metrics constellation",
       "url": "https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/skills/north-star-metric",
       "install": "",
@@ -519,7 +141,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26782,
+      "stars": 26791,
       "desc": "Improve conversion rates on any marketing page including homepages and landing pages",
       "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/page-cro",
       "install": "",
@@ -541,7 +163,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26782,
+      "stars": 26791,
       "desc": "Define target audience, problem solved, and differentiation using Geoffrey Moore's framework",
       "url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/positioning-statement",
       "install": "",
@@ -563,7 +185,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26782,
+      "stars": 26791,
       "desc": "Retrieve all token holdings and portfolio positions for any wallet address on BSC, Base, or Solana",
       "url": "https://officialskills.sh/binance/skills/query-address-info",
       "install": "",
@@ -585,7 +207,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26782,
+      "stars": 26791,
       "desc": "Generate value prop statements for marketing, sales, and onboarding",
       "url": "https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/skills/value-prop-statements",
       "install": "",
@@ -607,7 +229,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26782,
+      "stars": 26791,
       "desc": "Wallet credits and x402 payments on Base",
       "url": "https://github.com/veniceai/skills/tree/main/skills/venice-x402",
       "install": "",
@@ -625,281 +247,11 @@
       "searchText": "venice-x402 wallet credits and x402 payments on base voltagent/awesome-agent-skills finance-crypto claude codex cursor hermes gemini"
     },
     {
-      "name": "compound-finance",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "compound.finance",
-      "stars": 25000,
-      "desc": "Algorithmic money market protocol for lending",
-      "url": "https://compound.finance",
-      "install": "web https://compound.finance",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "compound-finance algorithmic money market protocol for lending compound.finance web https://compound.finance finance-crypto general"
-    },
-    {
-      "name": "curve-finance",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "curve.fi",
-      "stars": 25000,
-      "desc": "Stablecoin and asset-exchange AMM protocol",
-      "url": "https://curve.fi",
-      "install": "web https://curve.fi",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "curve-finance stablecoin and asset-exchange amm protocol curve.fi web https://curve.fi finance-crypto general"
-    },
-    {
-      "name": "defi-llama",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "defillama.com",
-      "stars": 25000,
-      "desc": "Total value locked (TVL) aggregator for DeFi protocols",
-      "url": "https://defillama.com",
-      "install": "web https://defillama.com",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "defi-llama total value locked (tvl) aggregator for defi protocols defillama.com web https://defillama.com finance-crypto general"
-    },
-    {
-      "name": "finnhub",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "finnhub.io",
-      "stars": 25000,
-      "desc": "Stock API with news, fundamentals and sentiment",
-      "url": "https://finnhub.io",
-      "install": "web https://finnhub.io",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "finnhub stock api with news, fundamentals and sentiment finnhub.io web https://finnhub.io finance-crypto general"
-    },
-    {
-      "name": "freqtrade",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "freqtrade.io",
-      "stars": 25000,
-      "desc": "Open-source crypto trading bot in Python",
-      "url": "https://www.freqtrade.io",
-      "install": "web https://www.freqtrade.io",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "freqtrade open-source crypto trading bot in python freqtrade.io web https://www.freqtrade.io finance-crypto general"
-    },
-    {
-      "name": "nansen",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "nansen.ai",
-      "stars": 25000,
-      "desc": "Blockchain analytics platform for wallet tracking",
-      "url": "https://www.nansen.ai",
-      "install": "web https://www.nansen.ai",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "nansen blockchain analytics platform for wallet tracking nansen.ai web https://www.nansen.ai finance-crypto general"
-    },
-    {
-      "name": "pionex",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "pionex.com",
-      "stars": 25000,
-      "desc": "Crypto exchange with built-in trading bots",
-      "url": "https://www.pionex.com",
-      "install": "web https://www.pionex.com",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "pionex crypto exchange with built-in trading bots pionex.com web https://www.pionex.com finance-crypto general"
-    },
-    {
-      "name": "trading-economics",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "tradingeconomics.com",
-      "stars": 25000,
-      "desc": "Economic indicators and market data for 200+ countries",
-      "url": "https://tradingeconomics.com",
-      "install": "web https://tradingeconomics.com",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "trading-economics economic indicators and market data for 200+ countries tradingeconomics.com web https://tradingeconomics.com finance-crypto general"
-    },
-    {
-      "name": "walletconnect",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "walletconnect.com",
-      "stars": 25000,
-      "desc": "Open protocol for connecting wallets to dApps",
-      "url": "https://walletconnect.com",
-      "install": "web https://walletconnect.com",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "walletconnect open protocol for connecting wallets to dapps walletconnect.com web https://walletconnect.com finance-crypto general"
-    },
-    {
-      "name": "iex-cloud",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "iexcloud.io",
-      "stars": 20000,
-      "desc": "Financial data API — stocks, crypto, forex, commodities",
-      "url": "https://www.iexcloud.io",
-      "install": "web https://www.iexcloud.io",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "iex-cloud financial data api — stocks, crypto, forex, commodities iexcloud.io web https://www.iexcloud.io finance-crypto general"
-    },
-    {
-      "name": "messari-api",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "messari.io/api",
-      "stars": 20000,
-      "desc": "Institutional-grade crypto data and research API",
-      "url": "https://messari.io/api",
-      "install": "web https://messari.io/api",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "messari-api institutional-grade crypto data and research api messari.io/api web https://messari.io/api finance-crypto general"
-    },
-    {
-      "name": "polygon-io",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "polygon.io",
-      "stars": 20000,
-      "desc": "Real-time and historical financial market data API",
-      "url": "https://polygon.io",
-      "install": "web https://polygon.io",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "polygon-io real-time and historical financial market data api polygon.io web https://polygon.io finance-crypto general"
-    },
-    {
-      "name": "quicknode",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "quicknode.com",
-      "stars": 20000,
-      "desc": "Blockchain infrastructure and API platform",
-      "url": "https://www.quicknode.com",
-      "install": "web https://www.quicknode.com",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "quicknode blockchain infrastructure and api platform quicknode.com web https://www.quicknode.com finance-crypto general"
-    },
-    {
-      "name": "scaffold-eth",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "github.com/scaffold-eth/scaffold-eth-2",
-      "stars": 20000,
-      "desc": "Quick start for Ethereum dApp development",
-      "url": "https://github.com/scaffold-eth/scaffold-eth-2",
-      "install": "web https://github.com/scaffold-eth/scaffold-eth-2",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "scaffold-eth quick start for ethereum dapp development github.com/scaffold-eth/scaffold-eth-2 web https://github.com/scaffold-eth/scaffold-eth-2 finance-crypto general"
-    },
-    {
-      "name": "yearn-finance",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "yearn.finance",
-      "stars": 20000,
-      "desc": "Automated DeFi yield aggregation",
-      "url": "https://yearn.finance",
-      "install": "web https://yearn.finance",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "yearn-finance automated defi yield aggregation yearn.finance web https://yearn.finance finance-crypto general"
-    },
-    {
       "name": "hummingbot",
       "source": "hummingbot",
       "sourceAgent": "hummingbot",
       "repo": "hummingbot/hummingbot",
-      "stars": 19014,
+      "stars": 19020,
       "desc": "Open source software that helps you create and deploy high-frequency crypto trading bots",
       "url": "https://github.com/hummingbot/hummingbot",
       "install": "",
@@ -913,426 +265,11 @@
       "searchText": "hummingbot open source software that helps you create and deploy high-frequency crypto trading bots hummingbot/hummingbot finance-crypto hummingbot"
     },
     {
-      "name": "3commas",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "3commas.io",
-      "stars": 18000,
-      "desc": "Crypto trading bot platform with DCA and grid strategies",
-      "url": "https://3commas.io",
-      "install": "web https://3commas.io",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "3commas crypto trading bot platform with dca and grid strategies 3commas.io web https://3commas.io finance-crypto general"
-    },
-    {
-      "name": "zapper",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "zapper.fi",
-      "stars": 18000,
-      "desc": "DeFi portfolio dashboard and liquidity tracker",
-      "url": "https://zapper.fi",
-      "install": "web https://zapper.fi",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "zapper defi portfolio dashboard and liquidity tracker zapper.fi web https://zapper.fi finance-crypto general"
-    },
-    {
-      "name": "anchor",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "anchor-lang.com",
-      "stars": 15000,
-      "desc": "Solana smart contract framework in Rust",
-      "url": "https://www.anchor-lang.com",
-      "install": "web https://www.anchor-lang.com",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "anchor solana smart contract framework in rust anchor-lang.com web https://www.anchor-lang.com finance-crypto general"
-    },
-    {
-      "name": "dapp-store",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "stateofthedapps.com",
-      "stars": 15000,
-      "desc": "Curated directory of decentralized applications",
-      "url": "https://stateofthedapps.com",
-      "install": "web https://stateofthedapps.com",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "dapp-store curated directory of decentralized applications stateofthedapps.com web https://stateofthedapps.com finance-crypto general"
-    },
-    {
-      "name": "debank",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "debank.com",
-      "stars": 15000,
-      "desc": "DeFi portfolio tracker and protocol analytics",
-      "url": "https://debank.com",
-      "install": "web https://debank.com",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "debank defi portfolio tracker and protocol analytics debank.com web https://debank.com finance-crypto general"
-    },
-    {
-      "name": "dextools",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "dextools.io",
-      "stars": 15000,
-      "desc": "Real-time DEX trading data and analytics",
-      "url": "https://www.dextools.io",
-      "install": "web https://www.dextools.io",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "dextools real-time dex trading data and analytics dextools.io web https://www.dextools.io finance-crypto general"
-    },
-    {
-      "name": "dydx",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "dydx.exchange",
-      "stars": 15000,
-      "desc": "Decentralized perpetual futures exchange",
-      "url": "https://dydx.exchange",
-      "install": "web https://dydx.exchange",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "dydx decentralized perpetual futures exchange dydx.exchange web https://dydx.exchange finance-crypto general"
-    },
-    {
-      "name": "glassnode",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "glassnode.com",
-      "stars": 15000,
-      "desc": "On-chain analytics and market intelligence for Bitcoin",
-      "url": "https://glassnode.com",
-      "install": "web https://glassnode.com",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "glassnode on-chain analytics and market intelligence for bitcoin glassnode.com web https://glassnode.com finance-crypto general"
-    },
-    {
-      "name": "intrinio",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "intrinio.com",
-      "stars": 15000,
-      "desc": "Institutional financial data — real-time and historical",
-      "url": "https://intrinio.com",
-      "install": "web https://intrinio.com",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "intrinio institutional financial data — real-time and historical intrinio.com web https://intrinio.com finance-crypto general"
-    },
-    {
-      "name": "nexus-mutual",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "nexusmutual.io",
-      "stars": 15000,
-      "desc": "Decentralized insurance protocol for DeFi",
-      "url": "https://nexusmutual.io",
-      "install": "web https://nexusmutual.io",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "nexus-mutual decentralized insurance protocol for defi nexusmutual.io web https://nexusmutual.io finance-crypto general"
-    },
-    {
-      "name": "viem",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "viem.sh",
-      "stars": 15000,
-      "desc": "Ethereum library for TypeScript (from wagmi team)",
-      "url": "https://viem.sh",
-      "install": "web https://viem.sh",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "viem ethereum library for typescript (from wagmi team) viem.sh web https://viem.sh finance-crypto general"
-    },
-    {
-      "name": "vibe-trading",
-      "source": "general",
-      "sourceAgent": "general",
-      "repo": "HKUDS/Vibe-Trading",
-      "stars": 14497,
-      "desc": "Your Personal Trading Agent — AI-powered vibe-based trading analysis and execution.",
-      "url": "https://github.com/HKUDS/Vibe-Trading",
-      "install": "",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance",
-      "subCategoryId": "finance",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "vibe-trading your personal trading agent — ai-powered vibe-based trading analysis and execution. hkuds/vibe-trading finance-crypto general"
-    },
-    {
-      "name": "balancer",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "balancer.fi",
-      "stars": 12000,
-      "desc": "Automated portfolio manager and AMM on Ethereum",
-      "url": "https://balancer.fi",
-      "install": "web https://balancer.fi",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "balancer automated portfolio manager and amm on ethereum balancer.fi web https://balancer.fi finance-crypto general"
-    },
-    {
-      "name": "flipside-crypto",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "flipsidecrypto.com",
-      "stars": 12000,
-      "desc": "Community-powered crypto analytics with API access",
-      "url": "https://flipsidecrypto.com",
-      "install": "web https://flipsidecrypto.com",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "flipside-crypto community-powered crypto analytics with api access flipsidecrypto.com web https://flipsidecrypto.com finance-crypto general"
-    },
-    {
-      "name": "geckoterminal",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "geckoterminal.com",
-      "stars": 12000,
-      "desc": "Decentralized exchange (DEX) data and analytics",
-      "url": "https://www.geckoterminal.com",
-      "install": "web https://www.geckoterminal.com",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "geckoterminal decentralized exchange (dex) data and analytics geckoterminal.com web https://www.geckoterminal.com finance-crypto general"
-    },
-    {
-      "name": "gmx",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "gmx.io",
-      "stars": 12000,
-      "desc": "Decentralized perpetuals on Arbitrum and Avalanche",
-      "url": "https://gmx.io",
-      "install": "web https://gmx.io",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "gmx decentralized perpetuals on arbitrum and avalanche gmx.io web https://gmx.io finance-crypto general"
-    },
-    {
-      "name": "pinata",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "pinata.cloud",
-      "stars": 12000,
-      "desc": "IPFS pinning and file management service",
-      "url": "https://www.pinata.cloud",
-      "install": "web https://www.pinata.cloud",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "pinata ipfs pinning and file management service pinata.cloud web https://www.pinata.cloud finance-crypto general"
-    },
-    {
-      "name": "pinata-cloud",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "pinata.cloud",
-      "stars": 12000,
-      "desc": "IPFS file infrastructure for NFT and Web3 apps",
-      "url": "https://www.pinata.cloud",
-      "install": "web https://www.pinata.cloud",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "pinata-cloud ipfs file infrastructure for nft and web3 apps pinata.cloud web https://www.pinata.cloud finance-crypto general"
-    },
-    {
-      "name": "quandl",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "quandl.com",
-      "stars": 12000,
-      "desc": "Financial and alternative data marketplace",
-      "url": "https://www.quandl.com",
-      "install": "web https://www.quandl.com",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "quandl financial and alternative data marketplace quandl.com web https://www.quandl.com finance-crypto general"
-    },
-    {
-      "name": "solana-program-library",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "github.com/solana-labs/solana-program-library",
-      "stars": 12000,
-      "desc": "Reference implementations for Solana programs",
-      "url": "https://github.com/solana-labs/solana-program-library",
-      "install": "web https://github.com/solana-labs/solana-program-library",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "solana-program-library reference implementations for solana programs github.com/solana-labs/solana-program-library web https://github.com/solana-labs/solana-program-library finance-crypto general"
-    },
-    {
-      "name": "zerion",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "zerion.io",
-      "stars": 12000,
-      "desc": "DeFi and NFT portfolio management interface",
-      "url": "https://zerion.io",
-      "install": "web https://zerion.io",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "zerion defi and nft portfolio management interface zerion.io web https://zerion.io finance-crypto general"
-    },
-    {
-      "name": "valuecell",
-      "source": "claude",
-      "sourceAgent": "claude",
-      "repo": "ValueCell-ai/valuecell",
-      "stars": 10872,
-      "desc": "Community-driven multi-agent platform for financial applications",
-      "url": "https://github.com/ValueCell-ai/valuecell",
-      "install": "$skill-installer valuecell",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance",
-      "subCategoryId": "crypto",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "valuecell community-driven multi-agent platform for financial applications valuecell-ai/valuecell $skill-installer valuecell finance-crypto claude"
-    },
-    {
-      "name": "quantdinger",
-      "source": "general",
-      "sourceAgent": "general",
-      "repo": "brokermr810/QuantDinger",
-      "stars": 8964,
-      "desc": "AI quantitative trading platform for crypto, stocks, and forex with backtesting, live trading, and market analysis.",
-      "url": "https://github.com/brokermr810/QuantDinger",
-      "install": "$skill-installer QuantDinger",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance",
-      "subCategoryId": "crypto",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "claude",
-        "general"
-      ],
-      "searchText": "quantdinger ai quantitative trading platform for crypto, stocks, and forex with backtesting, live trading, and market analysis. brokermr810/quantdinger $skill-installer quantdinger finance-crypto claude general"
-    },
-    {
       "name": "jesse",
       "source": "jesse",
       "sourceAgent": "jesse",
       "repo": "jesse-ai/jesse",
-      "stars": 8116,
+      "stars": 8119,
       "desc": "An advanced crypto trading bot written in Python",
       "url": "https://github.com/jesse-ai/jesse",
       "install": "",
@@ -1344,168 +281,6 @@
         "jesse"
       ],
       "searchText": "jesse an advanced crypto trading bot written in python jesse-ai/jesse finance-crypto jesse"
-    },
-    {
-      "name": "3ac-three-arrows",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "threearrows.capital",
-      "stars": 8000,
-      "desc": "Crypto hedge fund data (archived)",
-      "url": "https://www.threearrows.capital",
-      "install": "web https://www.threearrows.capital",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "3ac-three-arrows crypto hedge fund data (archived) threearrows.capital web https://www.threearrows.capital finance-crypto general"
-    },
-    {
-      "name": "brownie",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "github.com/eth-brownie/brownie",
-      "stars": 8000,
-      "desc": "Python framework for Ethereum smart contract development",
-      "url": "https://github.com/eth-brownie/brownie",
-      "install": "web https://github.com/eth-brownie/brownie",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "brownie python framework for ethereum smart contract development github.com/eth-brownie/brownie web https://github.com/eth-brownie/brownie finance-crypto general"
-    },
-    {
-      "name": "catalyst",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "github.com/catalyst-team/catalyst",
-      "stars": 8000,
-      "desc": "Algorithmic trading library for crypto in Python",
-      "url": "https://github.com/catalyst-team/catalyst",
-      "install": "web https://github.com/catalyst-team/catalyst",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "catalyst algorithmic trading library for crypto in python github.com/catalyst-team/catalyst web https://github.com/catalyst-team/catalyst finance-crypto general"
-    },
-    {
-      "name": "maple-finance",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "maple.finance",
-      "stars": 8000,
-      "desc": "Institutional crypto lending protocol",
-      "url": "https://www.maple.finance",
-      "install": "web https://www.maple.finance",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "maple-finance institutional crypto lending protocol maple.finance web https://www.maple.finance finance-crypto general"
-    },
-    {
-      "name": "rainbowkit",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "rainbowkit.com",
-      "stars": 8000,
-      "desc": "React library for beautiful Ethereum wallet connections",
-      "url": "https://www.rainbowkit.com",
-      "install": "web https://www.rainbowkit.com",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "rainbowkit react library for beautiful ethereum wallet connections rainbowkit.com web https://www.rainbowkit.com finance-crypto general"
-    },
-    {
-      "name": "ribbon-finance",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "ribbon.finance",
-      "stars": 8000,
-      "desc": "Structured products and options vault protocol",
-      "url": "https://www.ribbon.finance",
-      "install": "web https://www.ribbon.finance",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "ribbon-finance structured products and options vault protocol ribbon.finance web https://www.ribbon.finance finance-crypto general"
-    },
-    {
-      "name": "solders",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "github.com/a01690128/solders",
-      "stars": 8000,
-      "desc": "Solana RPC client Python library",
-      "url": "https://github.com/a01690128/solders",
-      "install": "web https://github.com/a01690128/solders",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "solders solana rpc client python library github.com/a01690128/solders web https://github.com/a01690128/solders finance-crypto general"
-    },
-    {
-      "name": "token-terminal",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "tokenterminal.com",
-      "stars": 8000,
-      "desc": "Financial metrics for crypto protocols — revenue, P/E ratio",
-      "url": "https://tokenterminal.com",
-      "install": "web https://tokenterminal.com",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "token-terminal financial metrics for crypto protocols — revenue, p/e ratio tokenterminal.com web https://tokenterminal.com finance-crypto general"
-    },
-    {
-      "name": "trading-systems",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "github.com/nicholaspcrack/algorithmic-trading-systems",
-      "stars": 8000,
-      "desc": "Open-source algorithmic trading system implementations",
-      "url": "https://github.com/nicholaspcrack/algorithmic-trading-systems",
-      "install": "web https://github.com/nicholaspcrack/algorithmic-trading-systems",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "trading-systems open-source algorithmic trading system implementations github.com/nicholaspcrack/algorithmic-trading-systems web https://github.com/nicholaspcrack/algorithmic-trading-systems finance-crypto general"
     },
     {
       "name": "trump2cash",
@@ -1524,96 +299,6 @@
         "trump2cash"
       ],
       "searchText": "trump2cash a stock trading bot powered by trump tweets maxbbraun/trump2cash finance-crypto trump2cash"
-    },
-    {
-      "name": "dhedge",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "dhedge.org",
-      "stars": 6000,
-      "desc": "Decentralized hedge fund protocol on Synthetix",
-      "url": "https://www.dhedge.org",
-      "install": "web https://www.dhedge.org",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "dhedge decentralized hedge fund protocol on synthetix dhedge.org web https://www.dhedge.org finance-crypto general"
-    },
-    {
-      "name": "gains-network",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "gainsnetwork.io",
-      "stars": 6000,
-      "desc": "Decentralized trading with gTrade protocol",
-      "url": "https://gainsnetwork.io",
-      "install": "web https://gainsnetwork.io",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "gains-network decentralized trading with gtrade protocol gainsnetwork.io web https://gainsnetwork.io finance-crypto general"
-    },
-    {
-      "name": "opyn",
-      "source": "finance-crypto",
-      "sourceAgent": "finance-crypto",
-      "repo": "opyn.co",
-      "stars": 5000,
-      "desc": "DeFi options protocol on Ethereum",
-      "url": "https://www.opyn.co",
-      "install": "web https://www.opyn.co",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "general",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "opyn defi options protocol on ethereum opyn.co web https://www.opyn.co finance-crypto general"
-    },
-    {
-      "name": "tradingview-mcp",
-      "source": "claude",
-      "sourceAgent": "claude",
-      "repo": "tradesdontlie/tradingview-mcp",
-      "stars": 4036,
-      "desc": "AI-assisted TradingView chart analysis — connect Claude Code to your TradingView",
-      "url": "https://github.com/tradesdontlie/tradingview-mcp",
-      "install": "$skill-installer tradingview-mcp",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance",
-      "subCategoryId": "crypto",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "tradingview-mcp ai-assisted tradingview chart analysis — connect claude code to your tradingview tradesdontlie/tradingview-mcp $skill-installer tradingview-mcp finance-crypto claude"
-    },
-    {
-      "name": "AutoHedge",
-      "source": "claude",
-      "sourceAgent": "claude",
-      "repo": "The-Swarm-Corporation/AutoHedge",
-      "stars": 3619,
-      "desc": "Build your autonomous hedge fund in minutes with AI trading strategies",
-      "url": "https://github.com/The-Swarm-Corporation/AutoHedge",
-      "install": "$skill-installer AutoHedge",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance",
-      "subCategoryId": "crypto",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "autohedge build your autonomous hedge fund in minutes with ai trading strategies the-swarm-corporation/autohedge $skill-installer autohedge finance-crypto claude"
     },
     {
       "name": "crypto-trading-bot",
@@ -1638,7 +323,7 @@
       "source": "crypto_info",
       "sourceAgent": "crypto_info",
       "repo": "Tangent-Wei/crypto_info",
-      "stars": 2737,
+      "stars": 2739,
       "desc": "（原创）全网最全-币圈区块链各类常用工具与相关信息资料大全-虚拟加密货币-欧易OKX币安Binace芝麻开门Gate-交易所App注册-NFT-Defi-加密钱包-比特币-新手入门教程 -持续更新",
       "url": "https://github.com/Tangent-Wei/crypto_info",
       "install": "",
@@ -1656,7 +341,7 @@
       "source": "opentrader",
       "sourceAgent": "opentrader",
       "repo": "Open-Trader/opentrader",
-      "stars": 2724,
+      "stars": 2727,
       "desc": "🤖 Open-source crypto trading bot | 📈 DCA & GRID strategies | ✨ UI | ⭐ Star to support the project!",
       "url": "https://github.com/Open-Trader/opentrader",
       "install": "",
@@ -1674,14 +359,14 @@
       "source": "RKiding/Awesome-finance-skills",
       "sourceAgent": "claude",
       "repo": "RKiding/Awesome-finance-skills",
-      "stars": 2615,
+      "stars": 2622,
       "desc": "Finance AI skill: ✨ 核心亮点",
       "url": "https://github.com/RKiding/Awesome-finance-skills",
       "install": "",
       "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "finance-crypto",
-      "categoryPath": "finance-crypto/finance-crypto",
+      "topCategoryId": "business",
+      "subCategoryId": "finance",
+      "categoryPath": "business/finance",
       "supportedAgents": [
         "claude"
       ],
@@ -1692,14 +377,14 @@
       "source": "RKiding/Awesome-finance-skills",
       "sourceAgent": "claude",
       "repo": "RKiding/Awesome-finance-skills",
-      "stars": 2615,
+      "stars": 2622,
       "desc": "Finance AI skill: 📦 Included Skills",
       "url": "https://github.com/RKiding/Awesome-finance-skills",
       "install": "",
       "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "finance-crypto",
-      "categoryPath": "finance-crypto/finance-crypto",
+      "topCategoryId": "business",
+      "subCategoryId": "finance",
+      "categoryPath": "business/finance",
       "supportedAgents": [
         "claude"
       ],
@@ -1710,14 +395,14 @@
       "source": "RKiding/Awesome-finance-skills",
       "sourceAgent": "claude",
       "repo": "RKiding/Awesome-finance-skills",
-      "stars": 2615,
+      "stars": 2622,
       "desc": "Finance AI skill: 📦 技能清单",
       "url": "https://github.com/RKiding/Awesome-finance-skills",
       "install": "",
       "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "finance-crypto",
-      "categoryPath": "finance-crypto/finance-crypto",
+      "topCategoryId": "business",
+      "subCategoryId": "finance",
+      "categoryPath": "business/finance",
       "supportedAgents": [
         "claude"
       ],
@@ -1728,14 +413,14 @@
       "source": "RKiding/Awesome-finance-skills",
       "sourceAgent": "claude",
       "repo": "RKiding/Awesome-finance-skills",
-      "stars": 2615,
+      "stars": 2622,
       "desc": "Finance AI skill: 🔗 Related Project",
       "url": "https://github.com/RKiding/Awesome-finance-skills",
       "install": "",
       "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "finance-crypto",
-      "categoryPath": "finance-crypto/finance-crypto",
+      "topCategoryId": "business",
+      "subCategoryId": "finance",
+      "categoryPath": "business/finance",
       "supportedAgents": [
         "claude"
       ],
@@ -1746,14 +431,14 @@
       "source": "RKiding/Awesome-finance-skills",
       "sourceAgent": "claude",
       "repo": "RKiding/Awesome-finance-skills",
-      "stars": 2615,
+      "stars": 2622,
       "desc": "Finance AI skill: 🔗 完整框架",
       "url": "https://github.com/RKiding/Awesome-finance-skills",
       "install": "",
       "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "finance-crypto",
-      "categoryPath": "finance-crypto/finance-crypto",
+      "topCategoryId": "business",
+      "subCategoryId": "finance",
+      "categoryPath": "business/finance",
       "supportedAgents": [
         "claude"
       ],
@@ -1764,14 +449,14 @@
       "source": "RKiding/Awesome-finance-skills",
       "sourceAgent": "claude",
       "repo": "RKiding/Awesome-finance-skills",
-      "stars": 2615,
+      "stars": 2622,
       "desc": "Finance AI skill: 🔧 Integration Guide",
       "url": "https://github.com/RKiding/Awesome-finance-skills",
       "install": "",
       "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "finance-crypto",
-      "categoryPath": "finance-crypto/finance-crypto",
+      "topCategoryId": "business",
+      "subCategoryId": "finance",
+      "categoryPath": "business/finance",
       "supportedAgents": [
         "claude"
       ],
@@ -1782,14 +467,14 @@
       "source": "RKiding/Awesome-finance-skills",
       "sourceAgent": "claude",
       "repo": "RKiding/Awesome-finance-skills",
-      "stars": 2615,
+      "stars": 2622,
       "desc": "Finance AI skill: 🔧 技能接入指南",
       "url": "https://github.com/RKiding/Awesome-finance-skills",
       "install": "",
       "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "finance-crypto",
-      "categoryPath": "finance-crypto/finance-crypto",
+      "topCategoryId": "business",
+      "subCategoryId": "finance",
+      "categoryPath": "business/finance",
       "supportedAgents": [
         "claude"
       ],
@@ -1800,14 +485,14 @@
       "source": "RKiding/Awesome-finance-skills",
       "sourceAgent": "claude",
       "repo": "RKiding/Awesome-finance-skills",
-      "stars": 2615,
+      "stars": 2622,
       "desc": "Finance AI skill: 🚀 快速开始",
       "url": "https://github.com/RKiding/Awesome-finance-skills",
       "install": "",
       "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "finance-crypto",
-      "categoryPath": "finance-crypto/finance-crypto",
+      "topCategoryId": "business",
+      "subCategoryId": "finance",
+      "categoryPath": "business/finance",
       "supportedAgents": [
         "claude"
       ],
@@ -1818,14 +503,14 @@
       "source": "RKiding/Awesome-finance-skills",
       "sourceAgent": "claude",
       "repo": "RKiding/Awesome-finance-skills",
-      "stars": 2615,
+      "stars": 2622,
       "desc": "Finance AI skill: alphaear-news",
       "url": "https://github.com/RKiding/Awesome-finance-skills/tree/main/alphaear-news",
       "install": "",
       "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "finance-crypto",
-      "categoryPath": "finance-crypto/finance-crypto",
+      "topCategoryId": "business",
+      "subCategoryId": "finance",
+      "categoryPath": "business/finance",
       "supportedAgents": [
         "claude"
       ],
@@ -1836,14 +521,14 @@
       "source": "RKiding/Awesome-finance-skills",
       "sourceAgent": "claude",
       "repo": "RKiding/Awesome-finance-skills",
-      "stars": 2615,
+      "stars": 2622,
       "desc": "Finance AI skill: 方式一：一键安装（推荐）",
       "url": "https://github.com/RKiding/Awesome-finance-skills",
       "install": "",
       "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "finance-crypto",
-      "categoryPath": "finance-crypto/finance-crypto",
+      "topCategoryId": "business",
+      "subCategoryId": "finance",
+      "categoryPath": "business/finance",
       "supportedAgents": [
         "claude"
       ],
@@ -1854,14 +539,14 @@
       "source": "RKiding/Awesome-finance-skills",
       "sourceAgent": "claude",
       "repo": "RKiding/Awesome-finance-skills",
-      "stars": 2615,
+      "stars": 2622,
       "desc": "Finance AI skill: 方式二：手动安装",
       "url": "https://github.com/RKiding/Awesome-finance-skills",
       "install": "",
       "functionCategory": "finance-crypto",
-      "topCategoryId": "finance-crypto",
-      "subCategoryId": "finance-crypto",
-      "categoryPath": "finance-crypto/finance-crypto",
+      "topCategoryId": "business",
+      "subCategoryId": "finance",
+      "categoryPath": "business/finance",
       "supportedAgents": [
         "claude"
       ],
@@ -1872,7 +557,7 @@
       "source": "blankly",
       "sourceAgent": "blankly",
       "repo": "blankly-finance/blankly",
-      "stars": 2451,
+      "stars": 2452,
       "desc": "🚀 💸  Easily build, backtest and deploy your algo in just a few lines of code. Trade stocks, cryptos, and forex across exchanges w/ one package.",
       "url": "https://github.com/blankly-finance/blankly",
       "install": "",
@@ -1890,7 +575,7 @@
       "source": "tradingview-webhook-bot",
       "sourceAgent": "tradingview-webhook-bot",
       "repo": "fabston/TradingView-Webhook-Bot",
-      "stars": 1797,
+      "stars": 1798,
       "desc": "📊 Send TradingView alerts to Telegram, Discord, Slack, Twitter and Email.",
       "url": "https://github.com/fabston/TradingView-Webhook-Bot",
       "install": "",
@@ -1938,24 +623,6 @@
         "ninjabot"
       ],
       "searchText": "ninjabot a fast trading bot platform for cryptocurrency in go (binance) rodrigo-brito/ninjabot finance-crypto ninjabot"
-    },
-    {
-      "name": "binance-skills-hub",
-      "source": "general",
-      "sourceAgent": "general",
-      "repo": "binance/binance-skills-hub",
-      "stars": 919,
-      "desc": "Binance Skills Hub — open skills marketplace that gives AI agents native access to crypto trading and data APIs.",
-      "url": "https://github.com/binance/binance-skills-hub",
-      "install": "",
-      "functionCategory": "finance-crypto",
-      "topCategoryId": "finance",
-      "subCategoryId": "crypto",
-      "categoryPath": "finance-crypto",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "binance-skills-hub binance skills hub — open skills marketplace that gives ai agents native access to crypto trading and data apis. binance/binance-skills-hub finance-crypto general"
     },
     {
       "name": "horus",

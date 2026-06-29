@@ -1,37 +1,19 @@
 {
   "meta": {
     "functionCategory": "game-dev",
-    "topCategoryId": "game-dev",
-    "subCategoryId": "game-dev",
+    "topCategoryId": "media-creation",
+    "subCategoryId": "game",
     "categoryPath": "game-dev",
-    "count": 93,
+    "count": 28,
     "sourceData": "categories"
   },
   "skills": [
-    {
-      "name": "chatgpt-for-games",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "openai.com/chatgpt",
-      "stars": 200000,
-      "desc": "NPC dialogue and quest generation via LLMs",
-      "url": "https://openai.com/chatgpt",
-      "install": "web https://openai.com/chatgpt",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "chatgpt-for-games npc dialogue and quest generation via llms openai.com/chatgpt web https://openai.com/chatgpt game-dev general"
-    },
     {
       "name": "godot",
       "source": "godot",
       "sourceAgent": "godot",
       "repo": "godotengine/godot",
-      "stars": 113262,
+      "stars": 113286,
       "desc": "Godot Engine – Multi-platform 2D and 3D game engine",
       "url": "https://github.com/godotengine/godot",
       "install": "",
@@ -45,83 +27,11 @@
       "searchText": "godot godot engine – multi-platform 2d and 3d game engine godotengine/godot game-dev godot"
     },
     {
-      "name": "three-js-game",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "threejs.org",
-      "stars": 100000,
-      "desc": "JavaScript 3D game framework built on Three.js",
-      "url": "https://threejs.org",
-      "install": "web https://threejs.org",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "three-js-game javascript 3d game framework built on three.js threejs.org web https://threejs.org game-dev general"
-    },
-    {
-      "name": "godot-4-ai",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "godotengine.org",
-      "stars": 90000,
-      "desc": "Open-source game engine with AI-enhanced features",
-      "url": "https://godotengine.org",
-      "install": "web https://godotengine.org",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "godot-4-ai open-source game engine with ai-enhanced features godotengine.org web https://godotengine.org game-dev general"
-    },
-    {
-      "name": "godot-gdscript",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "docs.godotengine.org/en/stable/tutorials/scripting/gdscript",
-      "stars": 90000,
-      "desc": "Python-like scripting for Godot games",
-      "url": "https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript",
-      "install": "web https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "godot-gdscript python-like scripting for godot games docs.godotengine.org/en/stable/tutorials/scripting/gdscript web https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript game-dev general"
-    },
-    {
-      "name": "roblox-studio",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "roblox.com/create",
-      "stars": 80000,
-      "desc": "Game creation platform for Roblox with Lua scripting",
-      "url": "https://www.roblox.com/create",
-      "install": "web https://www.roblox.com/create",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "roblox-studio game creation platform for roblox with lua scripting roblox.com/create web https://www.roblox.com/create game-dev general"
-    },
-    {
       "name": "imgui",
       "source": "imgui",
       "sourceAgent": "imgui",
       "repo": "ocornut/imgui",
-      "stars": 74181,
+      "stars": 74184,
       "desc": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies",
       "url": "https://github.com/ocornut/imgui",
       "install": "",
@@ -135,83 +45,11 @@
       "searchText": "imgui dear imgui: bloat-free graphical user interface for c++ with minimal dependencies ocornut/imgui game-dev imgui"
     },
     {
-      "name": "unreal-engine-metahumans",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "unrealengine.com/metahumans",
-      "stars": 60000,
-      "desc": "Photorealistic AI-generated human characters",
-      "url": "https://www.unrealengine.com/metahumans",
-      "install": "web https://www.unrealengine.com/metahumans",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "unreal-engine-metahumans photorealistic ai-generated human characters unrealengine.com/metahumans web https://www.unrealengine.com/metahumans game-dev general"
-    },
-    {
-      "name": "leonardo-ai-game",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "leonardo.ai",
-      "stars": 50000,
-      "desc": "Game art asset generator with style consistency",
-      "url": "https://leonardo.ai",
-      "install": "web https://leonardo.ai",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "leonardo-ai-game game art asset generator with style consistency leonardo.ai web https://leonardo.ai game-dev general"
-    },
-    {
-      "name": "mixamo",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "mixamo.com",
-      "stars": 50000,
-      "desc": "Adobe's free character animation — auto-rigging and motion",
-      "url": "https://www.mixamo.com",
-      "install": "web https://www.mixamo.com",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "mixamo adobe's free character animation — auto-rigging and motion mixamo.com web https://www.mixamo.com game-dev general"
-    },
-    {
-      "name": "unreal-engine-nanite",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "unrealengine.com/nanite",
-      "stars": 50000,
-      "desc": "Virtualized geometry system for film-quality meshes",
-      "url": "https://www.unrealengine.com/nanite",
-      "install": "web https://www.unrealengine.com/nanite",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "unreal-engine-nanite virtualized geometry system for film-quality meshes unrealengine.com/nanite web https://www.unrealengine.com/nanite game-dev general"
-    },
-    {
       "name": "bevy",
       "source": "bevy",
       "sourceAgent": "bevy",
       "repo": "bevyengine/bevy",
-      "stars": 46910,
+      "stars": 46920,
       "desc": "A refreshingly simple data-driven game engine built in Rust",
       "url": "https://github.com/bevyengine/bevy",
       "install": "",
@@ -225,137 +63,11 @@
       "searchText": "bevy a refreshingly simple data-driven game engine built in rust bevyengine/bevy game-dev bevy"
     },
     {
-      "name": "lumen-unreal",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "unrealengine.com/lumen",
-      "stars": 40000,
-      "desc": "Global illumination system for real-time lighting",
-      "url": "https://www.unrealengine.com/lumen",
-      "install": "web https://www.unrealengine.com/lumen",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "lumen-unreal global illumination system for real-time lighting unrealengine.com/lumen web https://www.unrealengine.com/lumen game-dev general"
-    },
-    {
-      "name": "a-frame",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "aframe.io",
-      "stars": 35000,
-      "desc": "WebVR framework for browser-based 3D/VR games",
-      "url": "https://aframe.io",
-      "install": "web https://aframe.io",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "a-frame webvr framework for browser-based 3d/vr games aframe.io web https://aframe.io game-dev general"
-    },
-    {
-      "name": "inworld",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "inworld.ai",
-      "stars": 35000,
-      "desc": "AI NPC platform with emotional intelligence",
-      "url": "https://www.inworld.ai",
-      "install": "web https://www.inworld.ai",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "inworld ai npc platform with emotional intelligence inworld.ai web https://www.inworld.ai game-dev general"
-    },
-    {
-      "name": "inworld-ai",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "inworld.ai",
-      "stars": 35000,
-      "desc": "AI NPCs with real-time conversation and memory",
-      "url": "https://www.inworld.ai",
-      "install": "web https://www.inworld.ai",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "inworld-ai ai npcs with real-time conversation and memory inworld.ai web https://www.inworld.ai game-dev general"
-    },
-    {
-      "name": "phaser",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "phaser.io",
-      "stars": 35000,
-      "desc": "JavaScript 2D game framework for web games",
-      "url": "https://phaser.io",
-      "install": "web https://phaser.io",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "phaser javascript 2d game framework for web games phaser.io web https://phaser.io game-dev general"
-    },
-    {
-      "name": "photon-engine",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "photonengine.com",
-      "stars": 35000,
-      "desc": "Real-time multiplayer networking and PUN",
-      "url": "https://www.photonengine.com",
-      "install": "web https://www.photonengine.com",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "photon-engine real-time multiplayer networking and pun photonengine.com web https://www.photonengine.com game-dev general"
-    },
-    {
-      "name": "pixijs-game",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "pixijs.com",
-      "stars": 35000,
-      "desc": "WebGL 2D renderer for browser games",
-      "url": "https://pixijs.com",
-      "install": "web https://pixijs.com",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "pixijs-game webgl 2d renderer for browser games pixijs.com web https://pixijs.com game-dev general"
-    },
-    {
       "name": "raylib",
       "source": "raylib",
       "sourceAgent": "raylib",
       "repo": "raysan5/raylib",
-      "stars": 33633,
+      "stars": 33634,
       "desc": "A simple and easy-to-use library to enjoy videogames programming",
       "url": "https://github.com/raysan5/raylib",
       "install": "",
@@ -369,29 +81,11 @@
       "searchText": "raylib a simple and easy-to-use library to enjoy videogames programming raysan5/raylib game-dev raylib"
     },
     {
-      "name": "gamemaker",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "gamemaker.io",
-      "stars": 30000,
-      "desc": "2D game engine with drag-drop and GML scripting",
-      "url": "https://www.gamemaker.io",
-      "install": "web https://www.gamemaker.io",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "gamemaker 2d game engine with drag-drop and gml scripting gamemaker.io web https://www.gamemaker.io game-dev general"
-    },
-    {
       "name": "gsap-scrolltrigger",
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26782,
+      "stars": 26791,
       "desc": "ScrollTrigger for scroll-linked animations, pinning, scrub, and refresh handling",
       "url": "https://officialskills.sh/greensock/skills/gsap-scrolltrigger",
       "install": "",
@@ -413,7 +107,7 @@
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 26782,
+      "stars": 26791,
       "desc": "Three.js skills for creating 3D elements and interactive experiences",
       "url": "https://github.com/CloudAI-X/threejs-skills",
       "install": "",
@@ -435,7 +129,7 @@
       "source": "babylon-js",
       "sourceAgent": "babylon-js",
       "repo": "BabylonJS/Babylon.js",
-      "stars": 25707,
+      "stars": 25711,
       "desc": "Babylon.js is a powerful, beautiful, simple, and open game and rendering engine packed into a friendly JavaScript framework.",
       "url": "https://github.com/BabylonJS/Babylon.js",
       "install": "",
@@ -453,7 +147,7 @@
       "source": "libgdx",
       "sourceAgent": "libgdx",
       "repo": "libgdx/libgdx",
-      "stars": 25182,
+      "stars": 25181,
       "desc": "Desktop/Android/HTML5/iOS Java game development framework",
       "url": "https://github.com/libgdx/libgdx",
       "install": "",
@@ -467,137 +161,11 @@
       "searchText": "libgdx desktop/android/html5/ios java game development framework libgdx/libgdx game-dev libgdx"
     },
     {
-      "name": "-latitude-io",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "latitude.io",
-      "stars": 25000,
-      "desc": "AI-generated game platform — create games with prompts",
-      "url": "https://latitude.io",
-      "install": "web https://latitude.io",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "-latitude-io ai-generated game platform — create games with prompts latitude.io web https://latitude.io game-dev general"
-    },
-    {
-      "name": "babylon-js-game",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "babylonjs.com",
-      "stars": 25000,
-      "desc": "Microsoft's WebGL game engine with physics",
-      "url": "https://www.babylonjs.com",
-      "install": "web https://www.babylonjs.com",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "babylon-js-game microsoft's webgl game engine with physics babylonjs.com web https://www.babylonjs.com game-dev general"
-    },
-    {
-      "name": "construct-3",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "construct.net",
-      "stars": 25000,
-      "desc": "No-code 2D game engine for HTML5 games",
-      "url": "https://www.construct.net",
-      "install": "web https://www.construct.net",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "construct-3 no-code 2d game engine for html5 games construct.net web https://www.construct.net game-dev general"
-    },
-    {
-      "name": "playfab",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "playfab.com",
-      "stars": 25000,
-      "desc": "Microsoft's multiplayer game backend-as-a-service",
-      "url": "https://playfab.com",
-      "install": "web https://playfab.com",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "playfab microsoft's multiplayer game backend-as-a-service playfab.com web https://playfab.com game-dev general"
-    },
-    {
-      "name": "rpg-maker",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "rpgmakerweb.com",
-      "stars": 25000,
-      "desc": "RPG creation suite for non-programmers",
-      "url": "https://www.rpgmakerweb.com",
-      "install": "web https://www.rpgmakerweb.com",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "rpg-maker rpg creation suite for non-programmers rpgmakerweb.com web https://www.rpgmakerweb.com game-dev general"
-    },
-    {
-      "name": "unity-muse",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "unity.com/ai",
-      "stars": 25000,
-      "desc": "AI game development assistant for Unity engine",
-      "url": "https://unity.com/ai",
-      "install": "web https://unity.com/ai",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "unity-muse ai game development assistant for unity engine unity.com/ai web https://unity.com/ai game-dev general"
-    },
-    {
-      "name": "wwise",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "audiokinetic.com/wwise",
-      "stars": 25000,
-      "desc": "Adaptive game audio engine with ML integration",
-      "url": "https://www.audiokinetic.com/wwise",
-      "install": "web https://www.audiokinetic.com/wwise",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "wwise adaptive game audio engine with ml integration audiokinetic.com/wwise web https://www.audiokinetic.com/wwise game-dev general"
-    },
-    {
       "name": "games",
       "source": "games",
       "sourceAgent": "games",
       "repo": "leereilly/games",
-      "stars": 24860,
+      "stars": 24865,
       "desc": "Archived — A list of games, add-ons, maps, etc. hosted on GitHub. Any genre. Any platform. Any engine.",
       "url": "https://github.com/leereilly/games",
       "install": "",
@@ -615,7 +183,7 @@
       "source": "gdevelop",
       "sourceAgent": "gdevelop",
       "repo": "4ian/GDevelop",
-      "stars": 24221,
+      "stars": 24229,
       "desc": "🎮 Open-source, cross-platform 2D/3D/multiplayer game engine designed for everyone.",
       "url": "https://github.com/4ian/GDevelop",
       "install": "",
@@ -627,114 +195,6 @@
         "gdevelop"
       ],
       "searchText": "gdevelop 🎮 open-source, cross-platform 2d/3d/multiplayer game engine designed for everyone. 4ian/gdevelop game-dev gdevelop"
-    },
-    {
-      "name": "cocos-creator",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "cocos.com/creator",
-      "stars": 20000,
-      "desc": "Cross-platform 2D/3D game engine popular in Asia",
-      "url": "https://www.cocos.com/creator",
-      "install": "web https://www.cocos.com/creator",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "cocos-creator cross-platform 2d/3d game engine popular in asia cocos.com/creator web https://www.cocos.com/creator game-dev general"
-    },
-    {
-      "name": "convai",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "convai.com",
-      "stars": 20000,
-      "desc": "AI character platform for conversational NPCs",
-      "url": "https://www.convai.com",
-      "install": "web https://www.convai.com",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "convai ai character platform for conversational npcs convai.com web https://www.convai.com game-dev general"
-    },
-    {
-      "name": "fmod",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "fmod.com",
-      "stars": 20000,
-      "desc": "Real-time audio middleware for interactive games",
-      "url": "https://www.fmod.com",
-      "install": "web https://www.fmod.com",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "fmod real-time audio middleware for interactive games fmod.com web https://www.fmod.com game-dev general"
-    },
-    {
-      "name": "live-link-face",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "developer.apple.com/augmented-reality/live-link",
-      "stars": 20000,
-      "desc": "Apple ARKit face tracking for live game streaming",
-      "url": "https://developer.apple.com/augmented-reality/live-link",
-      "install": "web https://developer.apple.com/augmented-reality/live-link",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "live-link-face apple arkit face tracking for live game streaming developer.apple.com/augmented-reality/live-link web https://developer.apple.com/augmented-reality/live-link game-dev general"
-    },
-    {
-      "name": "polycam-game-assets",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "poly.cam",
-      "stars": 20000,
-      "desc": "3D scanning for game asset creation",
-      "url": "https://poly.cam",
-      "install": "web https://poly.cam",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "polycam-game-assets 3d scanning for game asset creation poly.cam web https://poly.cam game-dev general"
-    },
-    {
-      "name": "unity-cloud-build",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "unity.com/cloud-build",
-      "stars": 20000,
-      "desc": "CI/CD for Unity games with multi-platform builds",
-      "url": "https://unity.com/cloud-build",
-      "install": "web https://unity.com/cloud-build",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "unity-cloud-build ci/cd for unity games with multi-platform builds unity.com/cloud-build web https://unity.com/cloud-build game-dev general"
     },
     {
       "name": "cocos2d-x",
@@ -755,47 +215,11 @@
       "searchText": "cocos2d-x cocos2d-x is a suite of open-source, cross-platform, game-development tools utilized by millions of developers across the globe. its core has evolved to serve as the foundation for cocos creator 1.x & cocos2d/cocos2d-x game-dev cocos2d-x"
     },
     {
-      "name": "ren'py",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "renpy.org",
-      "stars": 18000,
-      "desc": "Visual novel engine with Python scripting",
-      "url": "https://www.renpy.org",
-      "install": "web https://www.renpy.org",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "ren'py visual novel engine with python scripting renpy.org web https://www.renpy.org game-dev general"
-    },
-    {
-      "name": "scenario",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "scenario.com",
-      "stars": 18000,
-      "desc": "AI game asset generation for environments and characters",
-      "url": "https://www.scenario.com",
-      "install": "web https://www.scenario.com",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "scenario ai game asset generation for environments and characters scenario.com web https://www.scenario.com game-dev general"
-    },
-    {
       "name": "aframe",
       "source": "aframe",
       "sourceAgent": "aframe",
       "repo": "aframevr/aframe",
-      "stars": 17571,
+      "stars": 17572,
       "desc": ":a: Web framework for building virtual reality experiences.",
       "url": "https://github.com/aframevr/aframe",
       "install": "",
@@ -809,119 +233,11 @@
       "searchText": "aframe :a: web framework for building virtual reality experiences. aframevr/aframe game-dev aframe"
     },
     {
-      "name": "gamelift",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "aws.amazon.com/gamelift",
-      "stars": 15000,
-      "desc": "AWS managed game server hosting for multiplayer",
-      "url": "https://aws.amazon.com/gamelift",
-      "install": "web https://aws.amazon.com/gamelift",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "gamelift aws managed game server hosting for multiplayer aws.amazon.com/gamelift web https://aws.amazon.com/gamelift game-dev general"
-    },
-    {
-      "name": "houdini-engine",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "sidefx.com/houdini/engine",
-      "stars": 15000,
-      "desc": "Procedural asset generation for Unity/Unreal via Houdini",
-      "url": "https://www.sidefx.com/houdini/engine",
-      "install": "web https://www.sidefx.com/houdini/engine",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "houdini-engine procedural asset generation for unity/unreal via houdini sidefx.com/houdini/engine web https://www.sidefx.com/houdini/engine game-dev general"
-    },
-    {
-      "name": "pure-data",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "puredata.info",
-      "stars": 15000,
-      "desc": "Open-source visual programming for game audio",
-      "url": "https://puredata.info",
-      "install": "web https://puredata.info",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "pure-data open-source visual programming for game audio puredata.info web https://puredata.info game-dev general"
-    },
-    {
-      "name": "source-2-engine",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "valvesoftware.com/source2",
-      "stars": 15000,
-      "desc": "Valve's next-gen engine for games and VR",
-      "url": "https://www.valvesoftware.com/source2",
-      "install": "web https://www.valvesoftware.com/source2",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "source-2-engine valve's next-gen engine for games and vr valvesoftware.com/source2 web https://www.valvesoftware.com/source2 game-dev general"
-    },
-    {
-      "name": "twine",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "twinery.org",
-      "stars": 15000,
-      "desc": "Interactive fiction game authoring tool",
-      "url": "https://twinery.org",
-      "install": "web https://twinery.org",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "twine interactive fiction game authoring tool twinery.org web https://twinery.org game-dev general"
-    },
-    {
-      "name": "unity-sentis",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "unity.com/sentis",
-      "stars": 15000,
-      "desc": "AI inference runtime for real-time game intelligence",
-      "url": "https://unity.com/sentis",
-      "install": "web https://unity.com/sentis",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "unity-sentis ai inference runtime for real-time game intelligence unity.com/sentis web https://unity.com/sentis game-dev general"
-    },
-    {
       "name": "superpowers-skills",
       "source": "awesome-list",
       "sourceAgent": "multi",
       "repo": "travisvn/awesome-claude-skills",
-      "stars": 13792,
+      "stars": 13801,
       "desc": "Community-editable skills repository",
       "url": "https://github.com/obra/superpowers-skills",
       "install": "",
@@ -939,317 +255,11 @@
       "searchText": "superpowers-skills community-editable skills repository travisvn/awesome-claude-skills game-dev claude codex cursor hermes gemini"
     },
     {
-      "name": "a*-pathfinding",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "github.com/Astar-Platform/AStar",
-      "stars": 12000,
-      "desc": "A* algorithm implementations for game AI",
-      "url": "https://github.com/Astar-Platform/AStar",
-      "install": "web https://github.com/Astar-Platform/AStar",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "a*-pathfinding a* algorithm implementations for game ai github.com/astar-platform/astar web https://github.com/astar-platform/astar game-dev general"
-    },
-    {
-      "name": "defold",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "defold.com",
-      "stars": 12000,
-      "desc": "Lightweight 2D game engine for mobile and web",
-      "url": "https://defold.com",
-      "install": "web https://defold.com",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "defold lightweight 2d game engine for mobile and web defold.com web https://defold.com game-dev general"
-    },
-    {
-      "name": "meshy-game",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "meshy.ai",
-      "stars": 12000,
-      "desc": "AI 3D asset generation for game developers",
-      "url": "https://www.meshy.ai",
-      "install": "web https://www.meshy.ai",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "meshy-game ai 3d asset generation for game developers meshy.ai web https://www.meshy.ai game-dev general"
-    },
-    {
-      "name": "mirror-networking",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "mirror-networking.com",
-      "stars": 12000,
-      "desc": "Unity networking for MMO and multiplayer games",
-      "url": "https://mirror-networking.com",
-      "install": "web https://mirror-networking.com",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "mirror-networking unity networking for mmo and multiplayer games mirror-networking.com web https://mirror-networking.com game-dev general"
-    },
-    {
-      "name": "o3de-game-engine",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "o3de.org",
-      "stars": 12000,
-      "desc": "Open 3D Engine — open-source AAA game engine",
-      "url": "https://o3de.org",
-      "install": "web https://o3de.org",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "o3de-game-engine open 3d engine — open-source aaa game engine o3de.org web https://o3de.org game-dev general"
-    },
-    {
-      "name": "stencyl",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "stencyl.com",
-      "stars": 12000,
-      "desc": "No-code 2D game creation tool",
-      "url": "https://www.stencyl.com",
-      "install": "web https://www.stencyl.com",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "stencyl no-code 2d game creation tool stencyl.com web https://www.stencyl.com game-dev general"
-    },
-    {
-      "name": "fishnet",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "fish-networking.github.io",
-      "stars": 10000,
-      "desc": "High-performance Unity networking solution",
-      "url": "https://fish-networking.github.io",
-      "install": "web https://fish-networking.github.io",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "fishnet high-performance unity networking solution fish-networking.github.io web https://fish-networking.github.io game-dev general"
-    },
-    {
-      "name": "kinetix",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "kinetix.tech",
-      "stars": 10000,
-      "desc": "AI animation generation for game characters",
-      "url": "https://www.kinetix.tech",
-      "install": "web https://www.kinetix.tech",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "kinetix ai animation generation for game characters kinetix.tech web https://www.kinetix.tech game-dev general"
-    },
-    {
-      "name": "nakama",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "heroiclabs.com/nakama",
-      "stars": 10000,
-      "desc": "Open-source multiplayer game server with matchmaking",
-      "url": "https://heroiclabs.com/nakama",
-      "install": "web https://heroiclabs.com/nakama",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "nakama open-source multiplayer game server with matchmaking heroiclabs.com/nakama web https://heroiclabs.com/nakama game-dev general"
-    },
-    {
-      "name": "cascadeur-game",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "cascadeur.com",
-      "stars": 8000,
-      "desc": "AI-assisted character keyframe animation",
-      "url": "https://cascadeur.com",
-      "install": "web https://cascadeur.com",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "cascadeur-game ai-assisted character keyframe animation cascadeur.com web https://cascadeur.com game-dev general"
-    },
-    {
-      "name": "core",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "coregames.com",
-      "stars": 8000,
-      "desc": "Cross-platform game creator with Lua scripting",
-      "url": "https://www.coregames.com",
-      "install": "web https://www.coregames.com",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "core cross-platform game creator with lua scripting coregames.com web https://www.coregames.com game-dev general"
-    },
-    {
-      "name": "cryengine",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "cryengine.com",
-      "stars": 8000,
-      "desc": "AAA game engine with photorealistic rendering",
-      "url": "https://www.cryengine.com",
-      "install": "web https://www.cryengine.com",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "cryengine aaa game engine with photorealistic rendering cryengine.com web https://www.cryengine.com game-dev general"
-    },
-    {
-      "name": "playcanvas-game",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "playcanvas.com",
-      "stars": 8000,
-      "desc": "Cloud-based WebGL game engine with collaboration",
-      "url": "https://playcanvas.com",
-      "install": "web https://playcanvas.com",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "playcanvas-game cloud-based webgl game engine with collaboration playcanvas.com web https://playcanvas.com game-dev general"
-    },
-    {
-      "name": "procedural-cave-gen",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "github.com/ProceduralCaveGeneration",
-      "stars": 8000,
-      "desc": "Open-source procedural dungeon generation",
-      "url": "https://github.com/ProceduralCaveGeneration",
-      "install": "web https://github.com/ProceduralCaveGeneration",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "procedural-cave-gen open-source procedural dungeon generation github.com/proceduralcavegeneration web https://github.com/proceduralcavegeneration game-dev general"
-    },
-    {
-      "name": "recast-navigation",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "github.com/recastnavigation/recastnavigation",
-      "stars": 8000,
-      "desc": "Industry-standard pathfinding and navigation mesh",
-      "url": "https://github.com/recastnavigation/recastnavigation",
-      "install": "web https://github.com/recastnavigation/recastnavigation",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "recast-navigation industry-standard pathfinding and navigation mesh github.com/recastnavigation/recastnavigation web https://github.com/recastnavigation/recastnavigation game-dev general"
-    },
-    {
-      "name": "replicate-gamegen-o",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "replicate.com/gamegen",
-      "stars": 8000,
-      "desc": "Open AI game generation from text",
-      "url": "https://replicate.com/gamegen",
-      "install": "web https://replicate.com/gamegen",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "replicate-gamegen-o open ai game generation from text replicate.com/gamegen web https://replicate.com/gamegen game-dev general"
-    },
-    {
-      "name": "inkos",
-      "source": "general",
-      "sourceAgent": "general",
-      "repo": "Narcooo/inkos",
-      "stars": 7642,
-      "desc": "Story Creation AI Agent for novels, scripts, interactive games, and IP content generation.",
-      "url": "https://github.com/Narcooo/inkos",
-      "install": "",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game",
-      "subCategoryId": "game",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "inkos story creation ai agent for novels, scripts, interactive games, and ip content generation. narcooo/inkos game-dev general"
-    },
-    {
       "name": "gamedevmind",
       "source": "gamedevmind",
       "sourceAgent": "gamedevmind",
       "repo": "gonglei007/GameDevMind",
-      "stars": 6380,
+      "stars": 6382,
       "desc": "最全面的游戏开发技术图谱(Game Development Map)。帮助游戏开发者们在已知问题上节省时间，省出更多的精力投入到更有创造性的工作中去。",
       "url": "https://github.com/gonglei007/GameDevMind",
       "install": "",
@@ -1261,78 +271,6 @@
         "gamedevmind"
       ],
       "searchText": "gamedevmind 最全面的游戏开发技术图谱(game development map)。帮助游戏开发者们在已知问题上节省时间，省出更多的精力投入到更有创造性的工作中去。 gonglei007/gamedevmind game-dev gamedevmind"
-    },
-    {
-      "name": "colyseus",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "colyseus.io",
-      "stars": 6000,
-      "desc": "Node.js multiplayer game server framework",
-      "url": "https://www.colyseus.io",
-      "install": "web https://www.colyseus.io",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "colyseus node.js multiplayer game server framework colyseus.io web https://www.colyseus.io game-dev general"
-    },
-    {
-      "name": "gamenetworking",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "github.com/ValveSoftware/GameNetworkingSockets",
-      "stars": 6000,
-      "desc": "Steam's game networking layer for multiplayer",
-      "url": "https://github.com/ValveSoftware/GameNetworkingSockets",
-      "install": "web https://github.com/ValveSoftware/GameNetworkingSockets",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "gamenetworking steam's game networking layer for multiplayer github.com/valvesoftware/gamenetworkingsockets web https://github.com/valvesoftware/gamenetworkingsockets game-dev general"
-    },
-    {
-      "name": "forge",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "developer.valvesoftware.com/wiki/Forge",
-      "stars": 5000,
-      "desc": "Dota 2 modding engine with Valve support",
-      "url": "https://developer.valvesoftware.com/wiki/Forge",
-      "install": "web https://developer.valvesoftware.com/wiki/Forge",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "forge dota 2 modding engine with valve support developer.valvesoftware.com/wiki/forge web https://developer.valvesoftware.com/wiki/forge game-dev general"
-    },
-    {
-      "name": "gameaipro",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "gameaipro.com",
-      "stars": 5000,
-      "desc": "Procedural content generation techniques for games",
-      "url": "https://www.gameaipro.com",
-      "install": "web https://www.gameaipro.com",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "gameaipro procedural content generation techniques for games gameaipro.com web https://www.gameaipro.com game-dev general"
     },
     {
       "name": "fxgl",
@@ -1353,60 +291,6 @@
       "searchText": "fxgl java / javafx / kotlin game library (engine) almasb/fxgl game-dev fxgl"
     },
     {
-      "name": "navmesh-js",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "github.com/nickswalker/navmesh-js",
-      "stars": 4000,
-      "desc": "JavaScript navigation mesh for web game AI",
-      "url": "https://github.com/nickswalker/navmesh-js",
-      "install": "web https://github.com/nickswalker/navmesh-js",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "navmesh-js javascript navigation mesh for web game ai github.com/nickswalker/navmesh-js web https://github.com/nickswalker/navmesh-js game-dev general"
-    },
-    {
-      "name": "dungeon-generator",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "github.com/danielscherzer/SHGD",
-      "stars": 3000,
-      "desc": "Procedural dungeon algorithm implementations",
-      "url": "https://github.com/danielscherzer/SHGD",
-      "install": "web https://github.com/danielscherzer/SHGD",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "dungeon-generator procedural dungeon algorithm implementations github.com/danielscherzer/shgd web https://github.com/danielscherzer/shgd game-dev general"
-    },
-    {
-      "name": "radical-game-motion",
-      "source": "game-dev",
-      "sourceAgent": "game-dev",
-      "repo": "radicalmotion.com",
-      "stars": 3000,
-      "desc": "AI motion capture for game animation (archived)",
-      "url": "https://radicalmotion.com",
-      "install": "web https://radicalmotion.com",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game-dev",
-      "subCategoryId": "general",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "radical-game-motion ai motion capture for game animation (archived) radicalmotion.com web https://radicalmotion.com game-dev general"
-    },
-    {
       "name": "mybox",
       "source": "mybox",
       "sourceAgent": "mybox",
@@ -1423,24 +307,6 @@
         "mybox"
       ],
       "searchText": "mybox mybox is a set of attributes, tools and extensions for unity andrumak/mybox game-dev mybox"
-    },
-    {
-      "name": "cultivation-world-simulator",
-      "source": "general",
-      "sourceAgent": "general",
-      "repo": "4thfever/cultivation-world-simulator",
-      "stars": 1902,
-      "desc": "基于 AI Agent 工作流的修仙世界模拟器 — An open-source Cultivation World Simulator using Agentic Workflow.",
-      "url": "https://github.com/4thfever/cultivation-world-simulator",
-      "install": "",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game",
-      "subCategoryId": "game",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "cultivation-world-simulator 基于 ai agent 工作流的修仙世界模拟器 — an open-source cultivation world simulator using agentic workflow. 4thfever/cultivation-world-simulator game-dev general"
     },
     {
       "name": "duality",
@@ -1465,7 +331,7 @@
       "source": "awesome-game-engine-dev",
       "sourceAgent": "awesome-game-engine-dev",
       "repo": "stevinz/awesome-game-engine-dev",
-      "stars": 1379,
+      "stars": 1380,
       "desc": "Awesome list of resources for Game Engine Development.",
       "url": "https://github.com/stevinz/awesome-game-engine-dev",
       "install": "",
@@ -1483,7 +349,7 @@
       "source": "godot-card-game-framework",
       "sourceAgent": "godot-card-game-framework",
       "repo": "db0/godot-card-game-framework",
-      "stars": 1349,
+      "stars": 1350,
       "desc": "A framework which comes with prepared scenes and classes to kickstart your card game, as well as a powerful scripting engine to use to provide full rules enforcement.",
       "url": "https://github.com/db0/godot-card-game-framework",
       "install": "",
@@ -1513,42 +379,6 @@
         "gdx-ai"
       ],
       "searchText": "gdx-ai artificial intelligence framework for games based on libgdx or not. features: steering behaviors, formation motion, pathfinding, behavior trees and finite state machines libgdx/gdx-ai game-dev gdx-ai"
-    },
-    {
-      "name": "ai-moive-studio",
-      "source": "general",
-      "sourceAgent": "general",
-      "repo": "869413421/ai-moive-studio",
-      "stars": 1279,
-      "desc": "自然语言驱动的无限画布工作流 Agent，让 AI 视频创作成为可编辑的工作流。",
-      "url": "https://github.com/869413421/ai-moive-studio",
-      "install": "",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game",
-      "subCategoryId": "game",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "general"
-      ],
-      "searchText": "ai-moive-studio 自然语言驱动的无限画布工作流 agent，让 ai 视频创作成为可编辑的工作流。 869413421/ai-moive-studio game-dev general"
-    },
-    {
-      "name": "ai-game-devtools",
-      "source": "claude",
-      "sourceAgent": "claude",
-      "repo": "Yuan-ManX/ai-game-devtools",
-      "stars": 1239,
-      "desc": "Your AI Game Dev Hub - ultimate resource hub for AI-powered game development",
-      "url": "https://github.com/Yuan-ManX/ai-game-devtools",
-      "install": "$skill-installer ai-game-devtools",
-      "functionCategory": "game-dev",
-      "topCategoryId": "game",
-      "subCategoryId": "dev",
-      "categoryPath": "game-dev",
-      "supportedAgents": [
-        "claude"
-      ],
-      "searchText": "ai-game-devtools your ai game dev hub - ultimate resource hub for ai-powered game development yuan-manx/ai-game-devtools $skill-installer ai-game-devtools game-dev claude"
     },
     {
       "name": "sidefxlabs",

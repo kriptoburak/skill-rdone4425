@@ -55,6 +55,20 @@ const LEGACY_CATEGORY_HIERARCHY = {
   general: { groupId: "general", subcategoryId: "general" },
   security: { groupId: "security", subcategoryId: "general" },
   "testing-qa": { groupId: "testing", subcategoryId: "qa" },
+  // ponytail: 9 new categories from P4
+  audio: { groupId: "media-creation", subcategoryId: "audio" },
+  "3d": { groupId: "design", subcategoryId: "3d" },
+  ecommerce: { groupId: "business", subcategoryId: "ecommerce" },
+  video: { groupId: "media-creation", subcategoryId: "video" },
+  "video-multimedia": { groupId: "media-creation", subcategoryId: "video" },
+  "game-dev": { groupId: "media-creation", subcategoryId: "game" },
+  "finance-crypto": { groupId: "business", subcategoryId: "finance" },
+  finance: { groupId: "business", subcategoryId: "finance" },
+  education: { groupId: "business", subcategoryId: "education" },
+  healthcare: { groupId: "lifestyle", subcategoryId: "health" },
+  "health-medical": { groupId: "lifestyle", subcategoryId: "health" },
+  social: { groupId: "business", subcategoryId: "social" },
+  "social-media": { groupId: "business", subcategoryId: "social" },
 };
 
 function parseArgs(argv) {
